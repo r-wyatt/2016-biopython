@@ -7,6 +7,7 @@ from Bio import Seq
 from Bio.Blast import NCBIXML
 import os.path
 import csv
+import re
 # Testing gi = '225543094'
 
 #-----------------------------------------------------------------------------
@@ -14,11 +15,11 @@ import csv
 #-----------------------------------------------------------------------------
 
 def search_a_database(species, seqQuery, out):
-	#print("\n\nNot an operational search just yet, but good job anyway")
+	print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for gi"+seqQuery)
-
+'''
 	# NCBI query
-	'''
+	
 	eQ = species + '\[Organism\]'
 	gi = int(seqQuery)
 	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
@@ -29,9 +30,9 @@ def search_a_database(species, seqQuery, out):
 	save_file.write(result.read())
 	save_file.close()
 	result.close()
-	'''
+'''	
 #-----------------------------------------------------------------------------
-# Search database repeatedly (input csv with {species, gi} in each row)
+# Search database repeatedly (input is csv with {species, gi} in each row)
 #-----------------------------------------------------------------------------
 def parse_a_set(queryList):
 	print("Made it to parse a set")
@@ -41,9 +42,11 @@ def parse_a_set(queryList):
 		filenames = csv.writer(csvfile)
 		for i in range(0,count-1):
 			if queryList[i] != None:
-				query = queryList[i][1]
-				species = queryList[i][0]
-				out = "results\\BLAST_" + str(query) + str(species)+".xml"
+				query = str(queryList[i][1])
+				species = str(queryList[i][0])
+				matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
+				shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
+				out = "results\\BLAST_" + shortSpecies + "_" + query + ".xml"
 				search_a_database(species,query,out)
 				filenames.writerow((species, out))
 			else:
