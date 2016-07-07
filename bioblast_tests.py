@@ -6,6 +6,7 @@ from Bio import SeqIO
 from Bio import Seq
 from Bio.Blast import NCBIXML
 import os.path
+import time
 import csv
 import re
 # Testing gi = '225543094'
@@ -30,6 +31,7 @@ def search_a_database(species, seqQuery, out):
 	save_file.write(result.read())
 	save_file.close()
 	result.close()
+	time.sleep(60)
 '''	
 #-----------------------------------------------------------------------------
 # Search database repeatedly (input is csv with {species, gi} in each row)
