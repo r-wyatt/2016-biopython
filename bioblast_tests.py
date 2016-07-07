@@ -31,7 +31,7 @@ def search_a_database(species, seqQuery, out):
 	save_file.write(result.read())
 	save_file.close()
 	result.close()
-	time.sleep(60)
+	time.sleep(120) # Pause 2min between database queries
 '''	
 #-----------------------------------------------------------------------------
 # Search database repeatedly (input is csv with {species, gi} in each row)
