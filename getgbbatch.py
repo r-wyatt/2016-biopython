@@ -1,16 +1,17 @@
+#-----------------------------------------------------------------------------
+# Set-up section
+#-----------------------------------------------------------------------------
 from Bio import Entrez
 import time
 import sys
 import csv
 Entrez.email ="someemail@gmail.com"
 
-## We instead upload the list of ID beforehand 
-gis=[166706892,431822405,431822402]
+#-----------------------------------------------------------------------------
+# Dummy data to work with in testing
+#-----------------------------------------------------------------------------
 acc = "XP_001345507"
-db = "protein"
-
 accList = ["AAQ07962", "XP_009303831", "XP_009290029", "NP_919397"]
-print accList
 
 with open("test.txt","w") as testFile:
 	writer = csv.writer(testFile)
@@ -18,13 +19,27 @@ with open("test.txt","w") as testFile:
 		writer.writerow([each])
 testFile.close()
 
-def fetch_data(datatype, filename, db=db, ids=accList):
+#-----------------------------------------------------------------------------
+# Read data from a csv file into a list
+#-----------------------------------------------------------------------------
+def csv_to_list(filename)
 	with open(filename,"r") as read:
 		reader = csv.reader(read)
 		tempList = list(reader)
 	inputList = []
 	for i in range(0,(len(tempList))):
 		inputList.append(tempList[i][0])
+	return inputList
+
+#-----------------------------------------------------------------------------
+# Fetch data can take either the list of accessions or name of csv (one entry per line)
+#-----------------------------------------------------------------------------
+db = "protein"
+def fetch_data(datatype, input, db=db, ids=accList):
+	if isinstance(input, str):
+		inputList = csv_to_list(input)
+	else
+		inputList = input
 	temp = sys.stdout
 	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
 	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
