@@ -9,7 +9,6 @@ import re
 import csv
 import sys
 
-
 dummyList = [("cp102", "Mmus"),("spd901", "Hsap"),("cp102", "Mmus"),("cp984", "Mmus")]
 
 print dummyList
