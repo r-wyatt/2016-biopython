@@ -22,7 +22,7 @@ testFile.close()
 #-----------------------------------------------------------------------------
 # Read data from a csv file into a list
 #-----------------------------------------------------------------------------
-def csv_to_list(filename)
+def csv_to_list(filename):
 	with open(filename,"r") as read:
 		reader = csv.reader(read)
 		tempList = list(reader)
@@ -38,7 +38,7 @@ db = "protein"
 def fetch_data(datatype, input, db=db, ids=accList):
 	if isinstance(input, str):
 		inputList = csv_to_list(input)
-	else
+	else:
 		inputList = input
 	temp = sys.stdout
 	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
