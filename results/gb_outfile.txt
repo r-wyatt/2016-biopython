@@ -1,9 +1,88 @@
-LOCUS       XP_001345507             461 aa            linear   VRT 24-JUN-2016
-DEFINITION  PREDICTED: collagenase 3 [Danio rerio].
-ACCESSION   XP_001345507
-VERSION     XP_001345507.1  GI:125838084
+LOCUS       AAQ07962                 475 aa            linear   VRT 01-MAY-2004
+DEFINITION  matrix metalloproteinase 13 [Danio rerio].
+ACCESSION   AAQ07962
+VERSION     AAQ07962.1  GI:33324363
+DBSOURCE    accession AF506756.1
+KEYWORDS    .
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (residues 1 to 475)
+  AUTHORS   Bai,S. and Sarras,M.P. Jr.
+  TITLE     Cloning and Functional Analysis of Zebrafish MMP13
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 475)
+  AUTHORS   Bai,S. and Sarras,M.P. Jr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2002) Anatomy & Cell Biology, University of
+            Kansas Medical Center, 3901 Rainbow Boulevard, Kansas City, KS
+            66160, USA
+FEATURES             Location/Qualifiers
+     source          1..475
+                     /organism="Danio rerio"
+                     /db_xref="taxon:7955"
+                     /dev_stage="24 hours post-fertilization embryo"
+     Protein         1..475
+                     /product="matrix metalloproteinase 13"
+                     /name="ZFMMP13"
+     Region          28..90
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+     Region          111..267
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+     Region          111..267
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(163,175,182..188,197,222..223,232,242..244)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(222..223,226,232)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          285..474
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(295,297,339,341,387,389,436,438)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..475
+                     /gene="mmp13"
+                     /coded_by="AF506756.1:13..1440"
+ORIGIN      
+        1 mktcfrlcvf itllfsghss piappaggdq dtlaenyltr lyglpkpaqn pspsggekrs
+       61 sdvslrlkem qqffklkvsg kldqetlevm kkprcgvpdi kaystfagdy kwkkhqltyr
+      121 ignytpdmsv aevddsiska lkvwadvtpl rftriysgta dimisfatgd hrdgypfdgp
+      181 ngflahafpp fegiggdahf dddetfsyrs pqyynlflva ahefghslgl ehsqdpgalm
+      241 yptyvyrdvd rfvlprddvn giqslygpnt dvntddskpt ppvtpntcdp nlvldavtml
+      301 rgeimffkns ffwrsypqsa dveqqliksf wpeapdnida afesvmqdkv flikgekvwa
+      361 lygydmvqgy pkslsmfrlp knvrkidavl ykedsnsilf fannqvysyn egirqmdkgf
+      421 pkpveevfpg mtgkvtaafq yrglnylfsg skmlefgsnn rlfrvlnnny flpck
+//
+
+LOCUS       XP_009303831             476 aa            linear   VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase 13a isoform X1 [Danio rerio].
+ACCESSION   XP_009303831
+VERSION     XP_009303831.1  GI:688575181
 DBLINK      BioProject: PRJNA13922
-DBSOURCE    REFSEQ: accession XM_001345471.6
+DBSOURCE    REFSEQ: accession XM_009305556.2
 KEYWORDS    RefSeq.
 SOURCE      Danio rerio (zebrafish)
   ORGANISM  Danio rerio
@@ -12,8 +91,8 @@ SOURCE      Danio rerio (zebrafish)
             Cypriniformes; Cyprinidae; Danio.
 COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
             analysis. This record is derived from a genomic sequence
-            (NC_007126.6) annotated using gene prediction method: Gnomon,
-            supported by EST evidence.
+            (NC_007121.6) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
             Also see:
                 Documentation of NCBI's Annotation Process
             
@@ -29,23 +108,23 @@ COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
             ##Genome-Annotation-Data-END##
             COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
-     source          1..461
+     source          1..476
                      /organism="Danio rerio"
                      /strain="Tuebingen"
                      /db_xref="taxon:7955"
-                     /chromosome="15"
-     Protein         1..461
-                     /product="collagenase 3"
-                     /calculated_mol_wt=52522
-     Region          29..82
+                     /chromosome="10"
+     Protein         1..476
+                     /product="matrix metalloproteinase 13a isoform X1"
+                     /calculated_mol_wt=54033
+     Region          28..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
                      /db_xref="CDD:250643"
-     Region          103..256
+     Region          112..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
                      /db_xref="CDD:249842"
-     Region          103..256
+     Region          112..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
                      metalloproteinase (MMP) sub-family. MMPs are responsible
@@ -53,14 +132,14 @@ FEATURES             Location/Qualifiers
                      extracellular matrix and cell surface molecules, playing
                      crucial roles in morphogenesis, cell fate...; cd04278"
                      /db_xref="CDD:239805"
-     Site            order(155,167,174..180,189,213..214,223,233..235)
+     Site            order(164,176,183..189,198,223..224,233,243..245)
                      /site_type="other"
                      /note="TIMP-binding surface"
                      /db_xref="CDD:239805"
-     Site            order(213..214,217,223)
+     Site            order(223..224,227,233)
                      /site_type="active"
                      /db_xref="CDD:239805"
-     Region          271..461
+     Region          286..475
                      /region_name="HX"
                      /note="Hemopexin-like repeats.; Hemopexin is a
                      heme-binding protein that transports heme to the liver.
@@ -69,24 +148,287 @@ FEATURES             Location/Qualifiers
                      repeats of some matrixins bind tissue inhibitor of...;
                      cd00094"
                      /db_xref="CDD:238046"
-     Site            order(281,283,325,327,373,375,422,424)
+     Site            order(296,298,340,342,388,390,437,439)
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     CDS             1..461
-                     /gene="mmp13b"
-                     /coded_by="XM_001345471.6:71..1456"
-                     /db_xref="GeneID:100006896"
-                     /db_xref="ZFIN:ZDB-GENE-030131-6152"
+     CDS             1..476
+                     /gene="mmp13a"
+                     /gene_synonym="cb1034; mmp13"
+                     /coded_by="XM_009305556.2:37..1467"
+                     /db_xref="GeneID:387293"
+                     /db_xref="ZFIN:ZDB-GENE-031202-2"
 ORIGIN      
-        1 melktvlllv iaayssakpi steekdkavl akkylqrfyg mpaglqrpgk ssdlmqqkir
-       61 emqeffklev tgklddktve lmemarcgvp dvaeynhfpr dlkwkttnvt frilnytpdl
-      121 kkkvvdravr kalnvwskvt plrftktfdg tadimisfgt kehgdfnpfd gpegllahay
-      181 ppgigiggdt hfdedetwte dyhafnlflv aahefghalg mahssdpgsl mypvysyakg
-      241 fplseddieg iqslygenpd hekfkpkpia pekcdpelsf daitelrget iifkdrfywr
-      301 lhpnmpepeq tlikntwpei pnkvdaayen perdvviifs gikmwalngy tlvdgypkyi
-      361 hklglpktvr kidaavnird tgktllfvde eywsfdeqtg tmdtgyprsi eddfpgigde
-      421 vdaaayhygy lnlyhehtqf eysysarkvv rimransiln c
+        1 mktcfrlcvf vtllfsghsn piaplaggdq dtlaenyltr lyglpkqpaq spsssggekr
+       61 ssdmslrlke mqqffklkvt gkldqetlev mkkprcgvpd ikaystfpgd ykwkkhqlty
+      121 rienytldms vaevddsisr alkvwadvtp lrftriysgt adimiffatg dhgdgypfdg
+      181 pngflahayp pyegvggdah fdddetfsyr spqyytlfsv aahefghslg lghsrdpgal
+      241 myptyvyrdm drfilprddv ngiqslygpn tdvntddskp tppvtpntcd pnlvldavtm
+      301 lrgeimffkn sffwrsypqs pdvelqliqs fwpeipdnid aafesviqdk vflikgekvw
+      361 alygydivqg ypkslsmfrl rknvkkidav lykedsntil ffannqvysy nermkkmdkg
+      421 fpkpvqkvfp gmtgkvtaaf qyrgfnylfs gskmlefgsn nkllrvlnnn yflpck
+//
+
+LOCUS       XP_009290029             490 aa            linear   VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrilysin-like [Danio rerio].
+ACCESSION   XP_009290029
+VERSION     XP_009290029.1  GI:688588298
+DBLINK      BioProject: PRJNA13922
+DBSOURCE    REFSEQ: accession XM_009291754.2
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007126.6) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..490
+                     /organism="Danio rerio"
+                     /strain="Tuebingen"
+                     /db_xref="taxon:7955"
+                     /chromosome="15"
+     Protein         1..490
+                     /product="matrilysin-like"
+                     /calculated_mol_wt=55358
+     Region          45..95
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+     Region          115..269
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+     Region          115..269
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(167,179,186..192,201,225..226,235,245..247)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(225..226,229,235)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          304..490
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(311,313,355,357,402,404,451,453)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..490
+                     /gene="mmp20b"
+                     /coded_by="XM_009291754.2:33..1505"
+                     /db_xref="GeneID:100537445"
+                     /db_xref="ZFIN:ZDB-GENE-100603-3"
+ORIGIN      
+        1 mqvllclvca fdlfgqhysl plplgddgmv hptkpaqndl slatkylqqf ysfqadsagr
+       61 krrsrpsfss klknmqgffg lngtgtlnad tlavmrtprc gvsdvedysh rrgnrwkkni
+      121 itygvgrytn dlpvnavddl issaldvwak aspltflrsy shqadimvef vgkehgdffp
+      181 fdgpdgtlah afgpgegigg dvhfdeaevw tagyngfnly vvaahefgha lglkhsqlpe
+      241 svmyptykrr kthnllssed iinintlygp rdkrpypssr fswsnpstpw ysgsyfpvsf
+      301 kdtcnphlkf davttvgdai fffrdnymwi khndqkdike gpisnfmpki dchidaaywv
+      361 pqrstaylfn gttfwtvkgs qvkgraknis slgfpswvqq vdaavhihkt vhtlfftqhq
+      421 ywrynehnkn mtdsiprnis ddfpeisgpi saaiykdgyl hffigsdvyk ydikqkeiig
+      481 tdkttswlgc
+//
+
+LOCUS       NP_919397                574 aa            linear   VRT 26-JUN-2016
+DEFINITION  matrix metalloproteinase-14 precursor [Danio rerio].
+ACCESSION   NP_919397
+VERSION     NP_919397.1  GI:35903119
+DBSOURCE    REFSEQ: accession NM_194416.1
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (residues 1 to 574)
+  AUTHORS   Dohn MR, Mundell NA, Sawyer LM, Dunlap JA and Jessen JR.
+  TITLE     Planar cell polarity proteins differentially regulate extracellular
+            matrix organization and assembly during zebrafish gastrulation
+  JOURNAL   Dev. Biol. 383 (1), 39-51 (2013)
+   PUBMED   24021482
+REFERENCE   2  (residues 1 to 574)
+  AUTHORS   Jiang L, Zhang J, Wang JJ, Wang L, Zhang L, Li G, Yang X, Ma X, Sun
+            X, Cai J, Zhang J, Huang X, Yu M, Wang X, Liu F, Wu CI, He C, Zhang
+            B, Ci W and Liu J.
+  TITLE     Sperm, but not oocyte, DNA methylome is inherited by zebrafish
+            early embryos
+  JOURNAL   Cell 153 (4), 773-784 (2013)
+   PUBMED   23663777
+REFERENCE   3  (residues 1 to 574)
+  AUTHORS   Ho NY, Yang L, Legradi J, Armant O, Takamiya M, Rastegar S and
+            Strahle U.
+  TITLE     Gene responses in the central nervous system of zebrafish embryos
+            exposed to the neurotoxicant methyl mercury
+  JOURNAL   Environ. Sci. Technol. 47 (7), 3316-3325 (2013)
+   PUBMED   23458150
+REFERENCE   4  (residues 1 to 574)
+  AUTHORS   Janssens E, Gaublomme D, De Groef L, Darras VM, Arckens L, Delorme
+            N, Claes F, Van Hove I and Moons L.
+  TITLE     Matrix metalloproteinase 14 in the zebrafish: an eye on retinal and
+            retinotectal development
+  JOURNAL   PLoS ONE 8 (1), E52915 (2013)
+   PUBMED   23326364
+  REMARK    GeneRIF: Data indicate Mmp14a-dependent retinal defects lead to
+            microphthalmia; Mmp14b, on the contrary, does not appear to alter
+            retinal neurogenesis.
+REFERENCE   5  (residues 1 to 574)
+  AUTHORS   Seiler C, Davuluri G, Abrams J, Byfield FJ, Janmey PA and Pack M.
+  TITLE     Smooth muscle tension induces invasive remodeling of the zebrafish
+            intestine
+  JOURNAL   PLoS Biol. 10 (9), E1001386 (2012)
+   PUBMED   22973180
+REFERENCE   6  (residues 1 to 574)
+  AUTHORS   Lien CL, Schebesta M, Makino S, Weber GJ and Keating MT.
+  TITLE     Gene expression analysis of zebrafish heart regeneration
+  JOURNAL   PLoS Biol. 4 (8), E260 (2006)
+   PUBMED   16869712
+REFERENCE   7  (residues 1 to 574)
+  AUTHORS   van der Meer DL, van den Thillart GE, Witte F, de Bakker MA, Besser
+            J, Richardson MK, Spaink HP, Leito JT and Bagowski CP.
+  TITLE     Gene expression profiling of the long-term adaptive response to
+            hypoxia in the gills of adult zebrafish
+  JOURNAL   Am. J. Physiol. Regul. Integr. Comp. Physiol. 289 (5), R1512-R1519
+            (2005)
+   PUBMED   15994372
+REFERENCE   8  (residues 1 to 574)
+  AUTHORS   Bai S, Thummel R, Godwin AR, Nagase H, Itoh Y, Li L, Evans R,
+            McDermott J, Seiki M and Sarras MP Jr.
+  TITLE     Matrix metalloproteinase expression and function during fin
+            regeneration in zebrafish: analysis of MT1-MMP, MMP2 and TIMP2
+  JOURNAL   Matrix Biol. 24 (4), 247-260 (2005)
+   PUBMED   15935631
+REFERENCE   9  (residues 1 to 574)
+  AUTHORS   Wallace KN, Dolan AC, Seiler C, Smith EM, Yusuff S, Chaille-Arnold
+            L, Judson B, Sierk R, Yengo C, Sweeney HL and Pack M.
+  TITLE     Mutation of smooth muscle myosin causes epithelial invasion and
+            cystic expansion of the zebrafish intestine
+  JOURNAL   Dev. Cell 8 (5), 717-726 (2005)
+   PUBMED   15866162
+REFERENCE   10 (residues 1 to 574)
+  AUTHORS   Zhang J, Bai S, Zhang X, Nagase H and Sarras MP Jr.
+  TITLE     The expression of novel membrane-type matrix metalloproteinase
+            isoforms is required for normal development of zebrafish embryos
+  JOURNAL   Matrix Biol. 22 (3), 279-293 (2003)
+   PUBMED   12853038
+  REMARK    GeneRIF: MT-MMPalpha and beta were expressed through at least the
+            first 72 h of development and this expression was targeted to the
+            cell surface
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AY324196.1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY324196.1, BC131864.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMN01765705 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..574
+                     /organism="Danio rerio"
+                     /db_xref="taxon:7955"
+                     /chromosome="7"
+                     /map="7"
+     Protein         1..574
+                     /product="matrix metalloproteinase-14 precursor"
+                     /EC_number="3.4.24.80"
+                     /note="matrix metalloproteinase 14 (membrane-inserted)
+                     alpha; MT-MMPalpha; zMT-MMPalpha; zMT-MMP-alpha; matrix
+                     metalloproteinase 14a (membrane-inserted)"
+                     /calculated_mol_wt=62735
+     sig_peptide     1..17
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+                     /calculated_mol_wt=1888
+     Region          34..86
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+     Region          116..282
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+     Region          116..282
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(176,188,195..201,210,237..238,247,257..259)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(237..238,241,247)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          308..500
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(316,318,361,363,408,410,456,458)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     Region          499..574
+                     /region_name="DUF3377"
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:256677"
+     CDS             1..574
+                     /gene="mmp14a"
+                     /gene_synonym="cb386; sb:cb386; wu:fb72b09"
+                     /coded_by="NM_194416.1:309..2033"
+                     /db_xref="GeneID:373882"
+                     /db_xref="ZFIN:ZDB-GENE-030901-1"
+ORIGIN      
+        1 mlpklqtlpr llplalasvf lvqsgtsdke vrpeawlqqy gylppgdvra qairspksin
+       61 saisamqkfy gltvtgtmdp atlsamqrpr cgvpdkfgse lksnlrkkry vaqgskwdkr
+      121 evtfsiqnyt pkvgerathe aikkafrvwe avtplkfrei pysqingkve kfadimlffa
+      181 egfhgdstpf dgeggflaha yfpghgiggd thfdeaepwt tgnvdkggnd vflvavhelg
+      241 halglehsgd psaimapfyq wmdtenfvlp eddrrgiqqi ygagsedkpq ppaprpptrt
+      301 pdrpsfgpdi ceghfdtiaf lrgemfvfke kwfwrvrdgk pqqgypmpig hfwkglppsi
+      361 naayerndgk fvffkgdkyw vfneakmeeg ypktfkelgt glprdkldaa ifytptgnty
+      421 ffrgtkyyrf neesrsvdsd ypkdigvwqg vpdnvkgafm sedganayfy kankywkfnn
+      481 qqlkvepgfp ksvltnwmgc eaeepkrrag tdeevliiev dgseggamgg aaaiviplfl
+      541 lacvlvtlga llffrrygtp rrllychrsl ldkv
 //
 
 

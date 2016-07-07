@@ -7,15 +7,32 @@ Entrez.email ="someemail@gmail.com"
 ## We instead upload the list of ID beforehand 
 gis=[166706892,431822405,431822402]
 acc = "XP_001345507"
-db = "nuccore"
+db = "protein"
 
-def fetch_data(datatype, db=db, ids=acc):
+accList = ["AAQ07962", "XP_009303831", "XP_009290029", "NP_919397"]
+print accList
+
+with open("test.txt","w") as testFile:
+	writer = csv.writer(testFile)
+	for each in accList:
+		writer.writerow([each])
+testFile.close()
+
+def fetch_data(datatype, filename, db=db, ids=accList):
+	with open(filename,"r") as read:
+		reader = csv.reader(read)
+		tempList = list(reader)
+	inputList = []
+	for i in range(0,(len(tempList))):
+		inputList.append(tempList[i][0])
 	temp = sys.stdout
 	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
-	handle = Entrez.efetch(db=db, rettype=datatype, id=acc)
+	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
 	print handle.read()
 
-fetch_data("gb", ids=sys.argv[1])
+fetch_data("gb", "test.txt")
+
+
 '''
 with open("genbankFile.csv",'a') as csvoutfile:
 	output = csv.writer(csvoutfile)
