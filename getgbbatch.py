@@ -20,7 +20,7 @@ with open("test.txt","w") as testFile:
 testFile.close()
 
 #-----------------------------------------------------------------------------
-# Read data from a csv file into a list
+# Read data from a csv file into a list (required for fetch_data())
 #-----------------------------------------------------------------------------
 def csv_to_list(filename):
 	with open(filename,"r") as read:
