@@ -7,6 +7,7 @@ from Bio import Seq
 from Bio import Entrez
 from Bio.Blast import NCBIXML
 import os.path
+import time
 import csv
 import sys
 import re
