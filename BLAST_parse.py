@@ -20,12 +20,8 @@ def filter_species(listOfTuples, shortSpecies):
 	for each in listOfTuples:
 		if each[1] == shortSpecies:
 			filtered.append(each)
-	output = filter_duplicates(filtered)
+	output = list(set(filtered))
 	return output
-
-def filter_duplicates(list):
-	noDups = list(set(list))
-	return noDups
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -58,10 +54,10 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 					species = str(mdata.group(3)[:3])
 					shortSpecies = (genus + species)
 					hits.append((acc, shortSpecies))
-		print ".\n.\n.\n."
-	spec = input[15:19]
+		#print ".\n.\n.\n."
+	spec = input[14:18]
 	print "\n\n\nFiltering for: " + spec + "\n\n\n"
-	filteredHits = filter_results(hits,spec)
+	filteredHits = filter_species(hits,spec)
 	# Saving results
 	with open(outfile1,'a') as csvfile:
 		blasthits = csv.writer(csvfile)
@@ -73,21 +69,24 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 # Parse a series of files
 #-----------------------------------------------------------------------------
 def parse_files():
-		with open("results\\filenames.txt",'r') as csvfile:
+		with open("results\\filenames.csv",'r') as csvfile:
 			reader = csv.reader(csvfile)
 			files = list(reader)
 			for filename in files:
-				get_ids(filename)
+				get_ids(filename[1])
 		csvfile.close()
-		with open(outfile1,'r') as csvfile2:
-			read = csv.read(csvfile2)
-			accs = list(read)
-			filt = filter_duplicates(accs)
+		with open("outfile.csv",'r') as csvfile2:
+			read = csv.reader(csvfile2)
+			bam = list(read)
+			cord =[]
+			for i in range(0,len(bam)):
+				cord.append(bam[i][0])
+			accs = list(set(cord))
 		csvfile2.close()
-		with open("results\\accessionmaster.csv","r") as csvfile3:
-			write = csv.write(csvfile3, "w")
-			for each in filt:
-				write.writerow([filt])
+		with open("results\\accessionmaster.csv","w") as csvfile3:
+			write = csv.writer(csvfile3)
+			for each in accs:
+				write.writerow([accs])
 		
 
 #-----------------------------------------------------------------------------

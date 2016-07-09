@@ -40,7 +40,7 @@ def parse_a_set(queryList):
 	print("Made it to parse a set")
 	print(queryList)
 	count = len(queryList)	
-	with open("results\\filenames.txt",'a') as csvfile:
+	with open("results\\filenames.csv",'a') as csvfile:
 		filenames = csv.writer(csvfile)
 		for i in range(0,count-1):
 			if queryList[i] != None:
