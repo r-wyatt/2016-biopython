@@ -13,16 +13,19 @@ dummyList = [("cp102", "Mmus"),("spd901", "Hsap"),("cp102", "Mmus"),("cp984", "M
 
 print dummyList
 #-----------------------------------------------------------------------------
-# Actually run the shit
+# Filter accession list
 #-----------------------------------------------------------------------------
-def filter_results(listOfTuples, shortSpecies):
-	noDups = list(set(listOfTuples))
-
+def filter_species(listOfTuples, shortSpecies):
 	filtered = []
-	for each in noDups:
+	for each in listOfTuples:
 		if each[1] == shortSpecies:
 			filtered.append(each)
-	return filtered
+	output = filter_duplicates(filtered)
+	return output
+
+def filter_duplicates(list):
+	noDups = list(set(list))
+	return noDups
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -60,11 +63,32 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 	print "\n\n\nFiltering for: " + spec + "\n\n\n"
 	filteredHits = filter_results(hits,spec)
 	# Saving results
-	with open(outfile1,'wb') as csvfile:
+	with open(outfile1,'a') as csvfile:
 		blasthits = csv.writer(csvfile)
 		for each in filteredHits:
 			blasthits.writerow([each[0]])		
 	csvfile.close()
+
+#-----------------------------------------------------------------------------
+# Parse a series of files
+#-----------------------------------------------------------------------------
+def parse_files():
+		with open("results\\filenames.txt",'r') as csvfile:
+			reader = csv.reader(csvfile)
+			files = list(reader)
+			for filename in files:
+				get_ids(filename)
+		csvfile.close()
+		with open(outfile1,'r') as csvfile2:
+			read = csv.read(csvfile2)
+			accs = list(read)
+			filt = filter_duplicates(accs)
+		csvfile2.close()
+		with open("results\\accessionmaster.csv","r") as csvfile3:
+			write = csv.write(csvfile3, "w")
+			for each in filt:
+				write.writerow([filt])
+		
 
 #-----------------------------------------------------------------------------
 # Actually run the shit
@@ -72,7 +96,9 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 # When running this script from the console, one argument is required: the name
 # of the BLAST search output file
 
-get_ids(sys.argv[1])
+parse_files()
+
+#get_ids(sys.argv[1])
 	
 
 
