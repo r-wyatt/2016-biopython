@@ -11,7 +11,6 @@ import sys
 
 dummyList = [("cp102", "Mmus"),("spd901", "Hsap"),("cp102", "Mmus"),("cp984", "Mmus")]
 
-print dummyList
 #-----------------------------------------------------------------------------
 # Filter accession list
 #-----------------------------------------------------------------------------
@@ -42,8 +41,8 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 	for alignment in record.alignments:
 		for hsp in alignment.hsps:
 			if hsp.expect < eValueThresh:
-				stamp = '\n[[ * * * * Record No.' + str(n) + ' * * * * ]]'
-				print stamp
+				#stamp = '\n[[ * * * * Record No.' + str(n) + ' * * * * ]]'
+				#print stamp
 				n += 1
 				title = alignment.title
 				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|(.*?)\|.*?\[([A-Z])\S* ([A-Z|a-z]{3}).*\].*?', title)
@@ -59,20 +58,26 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 	print "\n\n\nFiltering for: " + spec + "\n\n\n"
 	filteredHits = filter_species(hits,spec)
 	# Saving results
-	with open(outfile1,'a') as csvfile:
+	with open("outfile.csv",'a') as csvfile:
 		blasthits = csv.writer(csvfile)
+		accessionCounter = 1
 		for each in filteredHits:
-			blasthits.writerow([each[0]])		
+			blasthits.writerow([each[0]])
+			print "Printed filtered accession " + str(accessionCounter)
+			accessionCounter += 1
 	csvfile.close()
 
 #-----------------------------------------------------------------------------
 # Parse a series of files
 #-----------------------------------------------------------------------------
 def parse_files():
+		fileCounter = 1
 		with open("results\\filenames.csv",'r') as csvfile:
 			reader = csv.reader(csvfile)
 			files = list(reader)
 			for filename in files:
+				print "* * * * * Processing file " +str(fileCounter) + " * * * * *"
+				fileCounter += 1 
 				get_ids(filename[1])
 		csvfile.close()
 		with open("outfile.csv",'r') as csvfile2:
@@ -83,18 +88,15 @@ def parse_files():
 				cord.append(bam[i][0])
 			accs = list(set(cord))
 		csvfile2.close()
-		with open("results\\accessionmaster.csv","w") as csvfile3:
-			write = csv.writer(csvfile3)
-			for each in accs:
-				write.writerow([accs])
-		
 
 #-----------------------------------------------------------------------------
 # Actually run the shit
 #-----------------------------------------------------------------------------
-# When running this script from the console, one argument is required: the name
-# of the BLAST search output file
+# This bit clears output files so they are clean on initializing this program
 
+with open("outfile.csv","w") as csvfile:
+	csvfile.truncate()
+	
 parse_files()
 
 #get_ids(sys.argv[1])
