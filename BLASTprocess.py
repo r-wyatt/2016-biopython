@@ -64,7 +64,6 @@ def filter_species(listOfTuples, shortSpecies):
 
 def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 	eValueThresh = 0.01
-	n = 1
 	result = open(input) # mode omitted defaults to read only
 	blast_record = NCBIXML.parse(result)
 	blast_records = list(blast_record)
@@ -73,9 +72,6 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 	for alignment in record.alignments:
 		for hsp in alignment.hsps:
 			if hsp.expect < eValueThresh:
-				#stamp = '\n[[ * * * * Record No.' + str(n) + ' * * * * ]]'
-				#print stamp
-				n += 1
 				title = alignment.title
 				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|(.*?)\|.*?\[([A-Z])\S* ([A-Z|a-z]{3}).*\].*?', title)
 				if mdata is not None:
@@ -85,31 +81,23 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 					species = str(mdata.group(3)[:3])
 					shortSpecies = (genus + species)
 					hits.append((acc, shortSpecies))
-		#print ".\n.\n.\n."
 	spec = input[14:18]
-	#print "\n\n\nFiltering for: " + spec + "\n\n\n"
 	filteredHits = filter_species(hits,spec)
 	# Saving results
 	with open("outfile.csv",'a') as csvfile:
 		blasthits = csv.writer(csvfile)
-		accessionCounter = 1
 		for each in filteredHits:
 			blasthits.writerow([each[0]])
-			#print "Printed filtered accession " + str(accessionCounter)
-			accessionCounter += 1
 	csvfile.close()
 
 #-----------------------------------------------------------------------------
 # Parse a series of files
 #-----------------------------------------------------------------------------
 def parse_files():
-		fileCounter = 1
 		with open("results\\filenames.csv",'r') as csvfile:
 			reader = csv.reader(csvfile)
 			files = list(reader)
 			for filename in files:
-				#print "\n\n* * * * * Processing file " +str(fileCounter) + " * * * * *"
-				fileCounter += 1 
 				get_ids(filename[1])
 		csvfile.close()
 		with open("outfile.csv",'r') as csvfile2:
@@ -123,7 +111,15 @@ def parse_files():
 		return bam
 
 #-----------------------------------------------------------------------------
-# Run the shit
+# Takes a string and finds the species if in format [Genus species]
+#-----------------------------------------------------------------------------
+def find_species(desc):
+	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', desc)
+	name = mobj.group(1) + mobj.group(2)
+	return name.title()
+	
+#-----------------------------------------------------------------------------
+# Run parser and data fetch
 #-----------------------------------------------------------------------------
 # This bit clears output files so they are clean on initializing this program
 with open("outfile.csv","w") as csvfile:
@@ -131,3 +127,21 @@ with open("outfile.csv","w") as csvfile:
 	
 parse_files()
 fetch_data("gb", "outfile.csv")
+
+#-----------------------------------------------------------------------------
+# Reformat genbank file to FASTA
+#-----------------------------------------------------------------------------
+gbk_filename = "results\\gb_outfile.txt"
+faa_filename = "results\\fasta_outfile.txt"
+input_handle  = open(gbk_filename, "r")
+output_handle = open(faa_filename, "w")
+
+for seq_record in SeqIO.parse(input_handle, "genbank") :
+	print "Dealing with GenBank record %s" % seq_record.id
+	output_handle.write(">%s %s\n%s\n" % (
+												find_species(seq_record.description),
+												seq_record.id,
+												seq_record.seq))	
+
+output_handle.close()
+input_handle.close()
