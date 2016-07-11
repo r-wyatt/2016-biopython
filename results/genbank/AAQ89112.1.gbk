@@ -1,0 +1,89 @@
+LOCUS       AAQ89112                 513 aa                     PRI 03-OCT-2003
+DEFINITION  MMP27 [Homo sapiens].
+ACCESSION   AAQ89112
+VERSION     AAQ89112.1  GI:37182623
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 513)
+  AUTHORS   Clark,H.F., Gurney,A.L., Abaya,E., Baker,K., Baldwin,D., Brush,J.,
+            Chen,J., Chow,B., Chui,C., Crowley,C., Currell,B., Deuel,B.,
+            Dowd,P., Eaton,D., Foster,J., Grimaldi,C., Gu,Q., Hass,P.E.,
+            Heldens,S., Huang,A., Kim,H.S., Klimowski,L., Jin,Y., Johnson,S.,
+            Lee,J., Lewis,L., Liao,D., Mark,M., Robbie,E., Sanchez,C.,
+            Schoenfeld,J., Seshagiri,S., Simmons,L., Singh,J., Smith,V.,
+            Stinson,J., Vagts,A., Vandlen,R., Watanabe,C., Wieand,D., Woods,K.,
+            Xie,M.H., Yansura,D., Yi,S., Yu,G., Yuan,J., Zhang,M., Zhang,Z.,
+            Goddard,A., Wood,W.I., Godowski,P. and Gray,A.
+  TITLE     The secreted protein discovery initiative (SPDI), a large-scale
+            effort to identify novel human secreted and transmembrane proteins:
+            a bioinformatics assessment
+  JOURNAL   Genome Res. 13 (10), 2265-2270 (2003)
+   PUBMED   12975309
+  REMARK    Erratum:[Genome Res. 2003 Dec;13(12):2759]
+REFERENCE   2  (residues 1 to 513)
+  AUTHORS   Clark,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2003) Department of Bioinformatics, Genentech,
+            Inc., 1 DNA Way, South San Francisco, CA 94080, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..513
+                     /db_xref="taxon:9606"
+                     /clone="DNA96871"
+                     /organism="Homo sapiens"
+     Protein         1..513
+                     /product="MMP27"
+     Region          26..86
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          106..261
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          106..261
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(157,170,177..183,192,216..217,226,236..238)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(216..217,220,226)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     Region          276..465
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(286,288,330,332,377,379,426,428)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..513
+                     /note="PRO5992"
+                     /locus_tag="UNQ2503"
+                     /coded_by="AY358752.1:24..1565"
+ORIGIN
+        1 mkrllllflf fitfssafpl vrmteneenm qlaqaylnqf ysleiegnhl vqsknrslid
+       61 dkiremqaff gltvtgklds ntleimktpr cgvpdvgqyg ytlpgwrkyn ltyriinytp
+      121 dmaraavdea iqeglevwsk vtplkftkis kgiadimiaf rtrvhgrcpr yfdgplgvlg
+      181 hafppgpglg gdthfdeden wtkdgagfnl flvaahefgh alglshsndq talmfpnyvs
+      241 ldprkyplsq ddingiqsiy gglpkvpakp keptiphacd pdltfdaitt frrevmffkg
+      301 rhlwriyydi tdvefelias fwpslpadlq aayenprdki lvfkdenfwm irgyavlpdy
+      361 pksihtlgfp grvkkidaav cdkttrktyf fvgiwcwrfd emtqtmdkgf pqrvvkhfpg
+      421 isirvdaafq ykgffffsrg skqfeynikt knitrimrtn twfqckepkn ssfgfdinke
+      481 kahsggikil yhkslslfif givhllknts iyq
+//

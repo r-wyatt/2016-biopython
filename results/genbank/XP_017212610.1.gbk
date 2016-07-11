@@ -1,0 +1,55 @@
+LOCUS       XP_017212610             655 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-15 isoform X1 [Danio rerio].
+ACCESSION   XP_017212610
+VERSION     XP_017212610.1  GI:1040695662
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007118.6) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..655
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="7"
+                     /db_xref="taxon:7955"
+     Protein         1..655
+                     /product="matrix metalloproteinase-15 isoform X1"
+                     /calculated_mol_wt="75572"
+     CDS             1..655
+                     /coded_by="XM_017357121.1:787..2754"
+                     /gene="mmp15b"
+                     /db_xref="GeneID:100332426"
+                     /db_xref="ZFIN:ZDB-GENE-070817-6"
+ORIGIN
+        1 mmavlwddpf tllwrrtlvf slllllmgar tfgdetfsge swlrmygylp qasrqmstmr
+       61 saqilsnais dmqrfyglei tgemdpgtie amkrprcgvp dkfgaqiktn vrrkryaltg
+      121 hkwdkthitf siqnytpkig eynsyeairr afrvwekvtp ltfdeipfhe vkygrrkepd
+      181 imiffasgfh gdsspfdgeg gflahayfpg pgmggdthfd sdepwtigsq nlqgndlflv
+      241 avhelghalg lehsnnplai mapfyqwmdt enfelpeddl rgvqqiygpp sssptqalpt
+      301 vtprrpahpd prapnppksp pgapprrpdk prttdrpdhy gpnicegnfd tvtmlrgemf
+      361 vfkgrwfwrv rrnrvldnyp mpighfwrgl pgdidaayer hdgrfvffkg sqywlfrean
+      421 lesgypqelm dygrdipydk idtaiwweps gftyffkgdw ywrfneqdra adqdypkpis
+      481 vwgtsvpssp kgaflsddga ytyfykgaky wkfdnhrmts epgypksilr dfmgcnvdld
+      541 pdrdtdvdqg rkwpdrppfn pdagrdkdkd kdkdkerdnt ndadskeete ektnevdvvl
+      601 kidetertmn iimvtvplvl vlcilgliya iintlqrkga pkylvycrrs fqdwv
+//

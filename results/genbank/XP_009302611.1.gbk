@@ -1,0 +1,82 @@
+LOCUS       XP_009302611             371 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X1 [Danio rerio].
+ACCESSION   XP_009302611
+VERSION     XP_009302611.1  GI:688569606
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007119.6) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="8"
+                     /db_xref="taxon:7955"
+     Protein         1..371
+                     /product="matrix metalloproteinase-23 isoform X1"
+                     /calculated_mol_wt="42592"
+     Region          68..235
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          68..235
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(122,140,147..153,159,192..193,202,212..214)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(192..193,196,202)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     Region          236..270
+                     /note="ShK toxin domain; smart00254"
+                     /db_xref="CDD:214586"
+                     /region_name="ShKT"
+     Region          292..369
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+                     /region_name="IG_like"
+     Region          292..369
+                     /note="Immunoglobulin domain; pfam13895"
+                     /db_xref="CDD:258162"
+                     /region_name="Ig_2"
+     CDS             1..371
+                     /coded_by="XM_009304336.1:244..1359"
+                     /gene="mmp23ba"
+                     /db_xref="GeneID:101882601"
+                     /db_xref="ZFIN:ZDB-GENE-030131-9548"
+ORIGIN
+        1 mlrgtgrfsg lllfalllle taavparrpe eealmsgvlm igihkdarsh vlhlsrnkry
+       61 tltpeklkwd nfkmtyklls fprnllnatd trrgiskafs mwsdvspfsf revpsdqead
+      121 ikigfysvnh tdclhshlhh cfdgitgela haffpqtgei hfdddeywil gnmrfswnkg
+      181 vwltdlvhva aheighvlgl mhsqnpkalm hlnatltgrk litqdevwgl hrlygcldrf
+      241 ficpswarkg ycdskrklmq khcpsscdfc yefpfptarp ttapprtkhk fvvegknltf
+      301 rcgkkiaakk gkiywykdge llefshpgyi slkddhitiv anainegtyt civkkknkvl
+      361 ttyswrvrvr f
+//

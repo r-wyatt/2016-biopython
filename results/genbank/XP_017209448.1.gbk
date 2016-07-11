@@ -1,0 +1,61 @@
+LOCUS       XP_017209448             600 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-16 [Danio rerio].
+ACCESSION   XP_017209448
+VERSION     XP_017209448.1  GI:1040681210
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007135.6) and transcript sequence (GDQH01018385.1) annotated
+            using gene prediction method: Gnomon, supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            assembly gap :: added 739 transcript bases to patch genome assembly
+            gap
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..600
+                     /db_xref="taxon:7955"
+                     /organism="Danio rerio"
+                     /chromosome="24"
+     Protein         1..600
+                     /product="matrix metalloproteinase-16"
+                     /calculated_mol_wt="68955"
+     CDS             1..600
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: added 739 bases not found in
+                     genome assembly"
+                     /coded_by="XM_017353959.1:418..2220"
+                     /gene="mmp16a"
+                     /db_xref="GeneID:564419"
+                     /db_xref="ZFIN:ZDB-GENE-070820-1"
+ORIGIN
+        1 mvlltlhnrr glnclcaqfl lwilcavdge eqqfsvedwl qtygylpptd prmsilrseq
+       61 tmqsaiaamq rlyglkvtge ldkntidwmk kprcgvpdqf draskfsvrk rryaltgqkw
+      121 lhrhitysik nftpkvgaee thnairrafd vwqnvtplrf eavpyseler skkdvditii
+      181 fasgfhgdss pfdgeggfla hayfpgpgig gdthfdsdep wtlgnpnhdg ndlflvavhe
+      241 lghalglehs ndptaimapf yqymdtenfr lphddlqgiq kiygppdklp qptrpsptvp
+      301 parshppvdp rkndrqtrpp riptgdkpth pnakpdicdg gfntlailrr emfvfkdhwf
+      361 wrvrdnavmp gypmlinvfw rglppkidav yenskgkfvf fkgkqfwvfk dtmllpgypq
+      421 ditmfgngmp aqsiemavww edvaktyffk gdrywryned mrtmdpgypk sitvwkgvpd
+      481 spqgafvdka ngftyfykgk eywkfnnhrl rvepgyprsi lkdfmgcdlv pidpdlhate
+      541 dknevikldn etstvkavai vipcvlalcl lvliytvfqf krkgtprhil ycrrsmqewv
+//

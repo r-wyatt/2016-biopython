@@ -1,0 +1,93 @@
+LOCUS       AAH13118                 232 aa                     PRI 25-AUG-2005
+DEFINITION  MMP1 protein, partial [Homo sapiens].
+ACCESSION   AAH13118
+VERSION     AAH13118.1  GI:15341877
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 232)
+  AUTHORS   Strausberg,R.L., Feingold,E.A., Grouse,L.H., Derge,J.G.,
+            Klausner,R.D., Collins,F.S., Wagner,L., Shenmen,C.M., Schuler,G.D.,
+            Altschul,S.F., Zeeberg,B., Buetow,K.H., Schaefer,C.F., Bhat,N.K.,
+            Hopkins,R.F., Jordan,H., Moore,T., Max,S.I., Wang,J., Hsieh,F.,
+            Diatchenko,L., Marusina,K., Farmer,A.A., Rubin,G.M., Hong,L.,
+            Stapleton,M., Soares,M.B., Bonaldo,M.F., Casavant,T.L.,
+            Scheetz,T.E., Brownstein,M.J., Usdin,T.B., Toshiyuki,S.,
+            Carninci,P., Prange,C., Raha,S.S., Loquellano,N.A., Peters,G.J.,
+            Abramson,R.D., Mullahy,S.J., Bosak,S.A., McEwan,P.J., McKernan,K.J.,
+            Malek,J.A., Gunaratne,P.H., Richards,S., Worley,K.C., Hale,S.,
+            Garcia,A.M., Gay,L.J., Hulyk,S.W., Villalon,D.K., Muzny,D.M.,
+            Sodergren,E.J., Lu,X., Gibbs,R.A., Fahey,J., Helton,E., Ketteman,M.,
+            Madan,A., Rodrigues,S., Sanchez,A., Whiting,M., Madan,A.,
+            Young,A.C., Shevchenko,Y., Bouffard,G.G., Blakesley,R.W.,
+            Touchman,J.W., Green,E.D., Dickson,M.C., Rodriguez,A.C.,
+            Grimwood,J., Schmutz,J., Myers,R.M., Butterfield,Y.S.,
+            Krzywinski,M.I., Skalska,U., Smailus,D.E., Schnerch,A., Schein,J.E.,
+            Jones,S.J. and Marra,M.A.
+  CONSRTM   Mammalian Gene Collection Program Team
+  TITLE     Generation and initial analysis of more than 15,000 full-length
+            human and mouse cDNA sequences
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (26), 16899-16903 (2002)
+   PUBMED   12477932
+REFERENCE   2  (residues 1 to 232)
+  CONSRTM   NIH MGC Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-AUG-2001) National Institutes of Health, Mammalian
+            Gene Collection (MGC), Bethesda, MD 20892-2590, USA
+  REMARK    NIH-MGC Project URL: http://mgc.nci.nih.gov
+COMMENT     Contact: MGC help desk
+            Email: cgapbs-r@mail.nih.gov
+            Tissue Procurement: DCTD/DTP
+            cDNA Library Preparation: Life Technologies, Inc.
+            cDNA Library Arrayed by: The I.M.A.G.E. Consortium (LLNL)
+            DNA Sequencing by: Baylor College of Medicine Human Genome
+            Sequencing Center
+            Center code: BCM-HGSC
+            Web site: http://www.hgsc.bcm.tmc.edu/cdna/
+            Contact: amg@bcm.tmc.edu
+            Gunaratne, P.H., Garcia, A.M., Lu, X., Hulyk, S.W., Loulseged, H.,
+            Kowis, C.R., Sneed, A.J., Martin, R.G., Muzny, D.M., Nanavati,
+            A.N., Gibbs, R.A.
+            Clone distribution: MGC clone distribution information can be found
+            through the I.M.A.G.E. Consortium/LLNL at: http://image.llnl.gov
+            Series: IRAK Plate: 21 Row: h Column: 10.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..232
+                     /lab_host="DH10B"
+                     /clone="IMAGE:3863095"
+                     /note="Vector: pCMV-SPORT6"
+                     /db_xref="taxon:9606"
+                     /tissue_type="Ovary, adenocarcinoma"
+                     /organism="Homo sapiens"
+                     /clone_lib="NIH_MGC_66"
+     Protein         <1..232
+                     /product="MMP1 protein"
+     Region          38..229
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(48,50,92,94,141,143,190,192)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..232
+                     /coded_by="BC013118.1:<1..701"
+                     /gene="MMP1"
+                     /db_xref="GeneID:4312"
+                     /db_xref="MIM:120353"
+                     /gene_synonym="CLGN"
+                     /codon_start=3
+ORIGIN
+        1 psytfsgdvq laqddidgiq aiygrsqnpv qpigpqtpka cdskltfdai ttirgevmff
+       61 kdrfymrtnp fypevelnfi svfwpqlpng leaayefadr devrffkgnk ywavqgqnvl
+      121 hgypkdiyss fgfprtvkhi daalseentg ktyffvanky wrydeykrsm dpgypkmiah
+      181 dfpgighkvd avfmkdgffy ffhgtrqykf dpktkriltl qkanswfncr kn
+//

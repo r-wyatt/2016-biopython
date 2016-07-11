@@ -1,0 +1,147 @@
+LOCUS       EAW67035                 471 aa                     PRI 23-MAR-2015
+DEFINITION  matrix metallopeptidase 13 (collagenase 3), isoform CRA_b [Homo
+            sapiens].
+ACCESSION   EAW67035
+VERSION     EAW67035.1  GI:119587439
+DBLINK      BioProject:PRJNA1431 BioSample:SAMN02981219
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 471)
+  AUTHORS   Venter,J.C., Adams,M.D., Myers,E.W., Li,P.W., Mural,R.J.,
+            Sutton,G.G., Smith,H.O., Yandell,M., Evans,C.A., Holt,R.A.,
+            Gocayne,J.D., Amanatides,P., Ballew,R.M., Huson,D.H., Wortman,J.R.,
+            Zhang,Q., Kodira,C.D., Zheng,X.H., Chen,L., Skupski,M.,
+            Subramanian,G., Thomas,P.D., Zhang,J., Gabor Miklos,G.L., Nelson,C.,
+            Broder,S., Clark,A.G., Nadeau,J., McKusick,V.A., Zinder,N.,
+            Levine,A.J., Roberts,R.J., Simon,M., Slayman,C., Hunkapiller,M.,
+            Bolanos,R., Delcher,A., Dew,I., Fasulo,D., Flanigan,M., Florea,L.,
+            Halpern,A., Hannenhalli,S., Kravitz,S., Levy,S., Mobarry,C.,
+            Reinert,K., Remington,K., Abu-Threideh,J., Beasley,E., Biddick,K.,
+            Bonazzi,V., Brandon,R., Cargill,M., Chandramouliswaran,I.,
+            Charlab,R., Chaturvedi,K., Deng,Z., Di Francesco,V., Dunn,P.,
+            Eilbeck,K., Evangelista,C., Gabrielian,A.E., Gan,W., Ge,W., Gong,F.,
+            Gu,Z., Guan,P., Heiman,T.J., Higgins,M.E., Ji,R.R., Ke,Z.,
+            Ketchum,K.A., Lai,Z., Lei,Y., Li,Z., Li,J., Liang,Y., Lin,X., Lu,F.,
+            Merkulov,G.V., Milshina,N., Moore,H.M., Naik,A.K., Narayan,V.A.,
+            Neelam,B., Nusskern,D., Rusch,D.B., Salzberg,S., Shao,W., Shue,B.,
+            Sun,J., Wang,Z., Wang,A., Wang,X., Wang,J., Wei,M., Wides,R.,
+            Xiao,C., Yan,C., Yao,A., Ye,J., Zhan,M., Zhang,W., Zhang,H.,
+            Zhao,Q., Zheng,L., Zhong,F., Zhong,W., Zhu,S., Zhao,S., Gilbert,D.,
+            Baumhueter,S., Spier,G., Carter,C., Cravchik,A., Woodage,T., Ali,F.,
+            An,H., Awe,A., Baldwin,D., Baden,H., Barnstead,M., Barrow,I.,
+            Beeson,K., Busam,D., Carver,A., Center,A., Cheng,M.L., Curry,L.,
+            Danaher,S., Davenport,L., Desilets,R., Dietz,S., Dodson,K., Doup,L.,
+            Ferriera,S., Garg,N., Gluecksmann,A., Hart,B., Haynes,J., Haynes,C.,
+            Heiner,C., Hladun,S., Hostin,D., Houck,J., Howland,T., Ibegwam,C.,
+            Johnson,J., Kalush,F., Kline,L., Koduru,S., Love,A., Mann,F.,
+            May,D., McCawley,S., McIntosh,T., McMullen,I., Moy,M., Moy,L.,
+            Murphy,B., Nelson,K., Pfannkoch,C., Pratts,E., Puri,V., Qureshi,H.,
+            Reardon,M., Rodriguez,R., Rogers,Y.H., Romblad,D., Ruhfel,B.,
+            Scott,R., Sitter,C., Smallwood,M., Stewart,E., Strong,R., Suh,E.,
+            Thomas,R., Tint,N.N., Tse,S., Vech,C., Wang,G., Wetter,J.,
+            Williams,S., Williams,M., Windsor,S., Winn-Deen,E., Wolfe,K.,
+            Zaveri,J., Zaveri,K., Abril,J.F., Guigo,R., Campbell,M.J.,
+            Sjolander,K.V., Karlak,B., Kejariwal,A., Mi,H., Lazareva,B.,
+            Hatton,T., Narechania,A., Diemer,K., Muruganujan,A., Guo,N.,
+            Sato,S., Bafna,V., Istrail,S., Lippert,R., Schwartz,R., Walenz,B.,
+            Yooseph,S., Allen,D., Basu,A., Baxendale,J., Blick,L., Caminha,M.,
+            Carnes-Stine,J., Caulk,P., Chiang,Y.H., Coyne,M., Dahlke,C.,
+            Mays,A., Dombroski,M., Donnelly,M., Ely,D., Esparham,S., Fosler,C.,
+            Gire,H., Glanowski,S., Glasser,K., Glodek,A., Gorokhov,M.,
+            Graham,K., Gropman,B., Harris,M., Heil,J., Henderson,S., Hoover,J.,
+            Jennings,D., Jordan,C., Jordan,J., Kasha,J., Kagan,L., Kraft,C.,
+            Levitsky,A., Lewis,M., Liu,X., Lopez,J., Ma,D., Majoros,W.,
+            McDaniel,J., Murphy,S., Newman,M., Nguyen,T., Nguyen,N., Nodell,M.,
+            Pan,S., Peck,J., Peterson,M., Rowe,W., Sanders,R., Scott,J.,
+            Simpson,M., Smith,T., Sprague,A., Stockwell,T., Turner,R.,
+            Venter,E., Wang,M., Wen,M., Wu,D., Wu,M., Xia,A., Zandieh,A. and
+            Zhu,X.
+  TITLE     The sequence of the human genome
+  JOURNAL   Science 291 (5507), 1304-1351 (2001)
+   PUBMED   11181995
+REFERENCE   2  (residues 1 to 471)
+  AUTHORS   Mural,R.J., Istrail,S., Sutton,G., Florea,L., Halpern,A.L.,
+            Mobarry,C.M., Lippert,R., Walenz,B., Shatkay,H., Dew,I.,
+            Miller,J.R., Flanigan,M.J., Edwards,N.J., Bolanos,R., Fasulo,D.,
+            Halldorsson,B.V., Hannenhalli,S., Turner,R., Yooseph,S., Lu,F.,
+            Nusskern,D.R., Shue,B.C., Zheng,X.H., Zhong,F., Delcher,A.L.,
+            Huson,D.H., Kravitz,S.A., Mouchard,L., Reinert,K., Remington,K.A.,
+            Clark,A.G., Waterman,M.S., Eichler,E.E., Adams,M.D.,
+            Hunkapiller,M.W., Myers,E.W. and Venter,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2005) Celera Genomics, 45 W. Gude Dr., Rockville,
+            MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..471
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="11"
+     Protein         1..471
+                     /product="matrix metallopeptidase 13 (collagenase 3),
+                     isoform CRA_b"
+     Region          32..91
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          112..267
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          112..267
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(164,176,183..189,198,222..223,232,242..244)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(222..223,226,232)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     Region          281..471
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(291,293,335,337,383,385,432,434)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..471
+                     /note="gene_id=hCG39650.2 transcript_id=hCT30902.2
+                     protein_id=hCP51158.2 isoform=CRA_b"
+                     /coded_by="complement(join(CH471065.1:12845475..12845575,
+                     CH471065.1:12846854..12846957,
+                     CH471065.1:12849100..12849259,
+                     CH471065.1:12850234..12850367,
+                     CH471065.1:12851319..12851436,
+                     CH471065.1:12853221..12853382,
+                     CH471065.1:12855365..12855490,
+                     CH471065.1:12855667..12855815,
+                     CH471065.1:12856461..12856702,
+                     CH471065.1:12856795..12856914))"
+                     /locus_tag="hCG_39650"
+                     /gene="MMP13"
+                     /db_xref="GeneID:4322"
+ORIGIN
+        1 mhpgvlaafl flswthcral plpsggdedd lseedlqfae rylrsyyhpt nlagilkena
+       61 assmterlre mqsffglevt gklddntldv mkkprcgvpd vgeynvfprt lkwskmnlty
+      121 rivnytpdmt hsevekafkk afkvwsdvtp lnftrlhdgi adimisfgik ehgdfypfdg
+      181 psgllahafp pgpnyggdah fdddetwtss skgynlflva ahefghslgl dhskdpgalm
+      241 fpiytytgks hfmlpdddvq giqslygpgd edpnpkhpkt pdkcdpslsl daitslrget
+      301 mifkdrffwr lhpqqvdael fltksfwpel pnridaayeh pshdlififr grkfwalngy
+      361 dilegypkki selglpkevk kisaavhfed tgktllfsgn qvwryddtnh imdkdyprli
+      421 eedfpgigdk vdavyekngy iyffngpiqf eysiwsnriv rvmpansilw c
+//

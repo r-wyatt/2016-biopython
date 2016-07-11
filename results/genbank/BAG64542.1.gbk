@@ -1,0 +1,93 @@
+LOCUS       BAG64542                 305 aa                     PRI 31-JUL-2008
+DEFINITION  unnamed protein product [Homo sapiens].
+ACCESSION   BAG64542
+VERSION     BAG64542.1  GI:194382744
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Wakamatsu,A., Yamamoto,J., Kimura,K., Ishii,S., Watanabe,K.,
+            Sugiyama,A., Murakawa,K., Kaida,T., Tsuchiya,K., Fukuzumi,Y.,
+            Kumagai,A., Oishi,Y., Yamamoto,S., Ono,Y., Komori,Y., Yamazaki,M.,
+            Kisu,Y., Nishikawa,T., Sugano,S., Nomura,N. and Isogai,T.
+  TITLE     NEDO human cDNA sequencing project focused on splicing variants
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 305)
+  AUTHORS   Isogai,T. and Yamamoto,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2007) Contact:Takao Isogai Reverse Proteomics
+            Research Institute; 1-9-11 Kaji-cho, Chiyoda-ku, Tokyo 101-0044,
+            Japan E-mail :flj-cdna@nifty.com
+COMMENT     Human cDNA sequencing project focused on splicing variants of mRNA
+            in NEDO functional analysis of protein and research application
+            project supported by Ministry of Economy, Trade and Industry,
+            Japan; cDNA selection for complete cds sequencing: Reverse
+            Proteomics Research Institute (REPRORI), Hitachi, Ltd., Japan
+            (Hitachi) and Japan Biological Informatics Consortium, Japan
+            (JBIC); cDNA complete cds sequencing: JBIC; cDNA library
+            construction: Helix Research Institute supported by Japan Key
+            Technology Center, Japan (HRI); cDNA 5'- & 3'-end sequencing:
+            Research Association for Biotechnology, Japan, Biotechnology
+            Center, National Institute of Technology and Evaluation, Japan and
+            HRI; cDNA mapping to human genome: Central Research Laboratory,
+            Hitachi; evaluation and annotation: REPRORI.
+FEATURES             Location/Qualifiers
+     source          1..305
+                     /clone="THYMU3029920"
+                     /note="cloning vector: pME18SFL3"
+                     /db_xref="taxon:9606"
+                     /tissue_type="thymus"
+                     /organism="Homo sapiens"
+                     /clone_lib="THYMU3"
+     Protein         1..305
+                     /name="unnamed protein product"
+     Region          <1..21
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          42..197
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          42..197
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(94,106,113..119,128,152..153,162,172..174)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(152..153,156,162)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     Region          211..>281
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cl02471"
+                     /db_xref="CDD:271582"
+                     /region_name="HX"
+     Site            order(221,223,265,267)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..305
+                     /note="highly similar to Neutrophil collagenase precursor
+                     (EC 3.4.24.34)"
+                     /coded_by="AK303511.1:243..1160"
+ORIGIN
+        1 mqrffglnvt gkpneetldm mekprcgvpd sggfmltpgn pkwertnlty rirnytpqls
+       61 eaeveraikd afelwsvasp liftrisqge adiniafyqr dhgdnspfdg pngilahafq
+      121 pgqgiggdah fdaeetwtnt sanynlflva ahefghslgl ahssdpgalm ypnyafrets
+      181 nyslpqddid giqaiyglss npiqptgpst pkpcdpsltf daittlrgei lffkdryfwr
+      241 rhpqlqrvem nfislfwpsl ptgiqaayed fdrdliflfk dmitkdnsws qvipkayqvp
+      301 frnre
+//

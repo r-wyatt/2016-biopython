@@ -1,0 +1,58 @@
+LOCUS       XP_016883087             614 aa                     PRI 06-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-24 isoform X3 [Homo sapiens].
+ACCESSION   XP_016883087
+VERSION     XP_016883087.1  GI:1034620029
+DBLINK      BioProject:PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000020.11) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 108
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..614
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="20"
+     Protein         1..614
+                     /product="matrix metalloproteinase-24 isoform X3"
+                     /calculated_mol_wt="71367"
+     CDS             1..614
+                     /coded_by="XM_017027598.1:68..1912"
+                     /gene="MMP24"
+                     /gene_synonym="MMP-24; MMP25; MT-MMP 5; MT-MMP5; MT5-MMP;
+                     MT5MMP; MTMMP5"
+                     /db_xref="GeneID:10893"
+                     /db_xref="HGNC:HGNC:7172"
+                     /db_xref="HPRD:05338"
+                     /db_xref="MIM:604871"
+ORIGIN
+        1 mhimsnyciq hcpghwmikl qplpsrmlks qhfgrrrrrr rrrrllsrvf qnwlksygyl
+       61 lpydsrasal hsakalqsav stmqqfygip vtgvldqtti ewmkkprcgv pdhphlsrrr
+      121 rnkryaltgq kwrqkhitys ihnytpkvge ldtrkairqa fdvwqkvtpl tfeevpyhei
+      181 ksdrkeadim iffasgfhgd sspfdgeggf lahayfpgpg iggdthfdsd epwtlgnanh
+      241 dgndlflvav helghalgle hssdpsaima pfyqymethn fklpqddlqg iqkiygppae
+      301 pleptrplpt lpvrrihsps erkherqprp prpplgdrps tpgtkpnicd gnfntvalfr
+      361 gemfvfkdrw fwrlrnnrvq egypmqieqf wkglparida ayeradgrfv ffkgdkywvf
+      421 kevtvepgyp hslgelgscl pregidtalr wepvgktyff kgerywryse erratdpgyp
+      481 kpitvwkgip qapqgafisk egyytyfykg rdywkfdnqk lsvepgyprn ilrdwmgcnq
+      541 keverrkerr lpqddvdimv tindvpgsvn avavvipcil slcilvlvyt ifqfknktgp
+      601 qpvtyykrpv qewv
+//

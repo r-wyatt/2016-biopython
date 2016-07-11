@@ -1,0 +1,96 @@
+LOCUS       XP_011526802             556 aa                     PRI 06-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-24 isoform X2 [Homo sapiens].
+ACCESSION   XP_011526802
+VERSION     XP_011526802.1  GI:768015642
+DBLINK      BioProject:PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000020.11) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 108
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..556
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="20"
+     Protein         1..556
+                     /product="matrix metalloproteinase-24 isoform X2"
+                     /calculated_mol_wt="62861"
+     Region          82..134
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          162..327
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          162..327
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(221,233,240..246,255,282..283,292,302..304)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(282..283,286,292)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     Region          377..>479
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cl02471"
+                     /db_xref="CDD:271582"
+                     /region_name="HX"
+     Site            order(385,387,430,432)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     Region          484..556
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:256677"
+                     /region_name="DUF3377"
+     CDS             1..556
+                     /coded_by="XM_011528500.2:1..1671"
+                     /gene="MMP24"
+                     /gene_synonym="MMP-24; MMP25; MT-MMP 5; MT-MMP5; MT5-MMP;
+                     MT5MMP; MTMMP5"
+                     /db_xref="GeneID:10893"
+                     /db_xref="HGNC:HGNC:7172"
+                     /db_xref="HPRD:05338"
+                     /db_xref="MIM:604871"
+ORIGIN
+        1 mprsrggraa pgpppppppp gqaprwsrwr vpgrllllll palcclpgaa raaaaaagag
+       61 nraavavava radeaeapfa gqnwlksygy llpydsrasa lhsakalqsa vstmqqfygi
+      121 pvtgvldqtt iewmkkprcg vpdhphlsrr rrnkryaltg qkwrqkhity sihnytpkvg
+      181 eldtrkairq afdvwqkvtp ltfeevpyhe iksdrkeadi miffasgfhg dsspfdgegg
+      241 flahayfpgp giggdthfds depwtlgnan hdgndlflva vhelghalgl ehssdpsaim
+      301 apfyqymeth nfklpqddlq giqkiygppa epleptrplp tlpvrrihsp serkherqpr
+      361 pprpplgdrp stpgtkpnic dgnfntvalf rgemfvfkdr wfwrlrnnrv qegypmqieq
+      421 fwkglparid aayeradgrf vffkdytyfy kgrdywkfdn qklsvepgyp rnilrdwmgc
+      481 nqkeverrke rrlpqddvdi mvtindvpgs vnavavvipc ilslcilvlv ytifqfknkt
+      541 gpqpvtyykr pvqewv
+//

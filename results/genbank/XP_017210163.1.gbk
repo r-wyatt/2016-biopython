@@ -1,0 +1,55 @@
+LOCUS       XP_017210163             534 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-25 [Danio rerio].
+ACCESSION   XP_017210163
+VERSION     XP_017210163.1  GI:1040683781
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007114.6) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            ab initio :: 1% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..534
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="3"
+                     /db_xref="taxon:7955"
+     Protein         1..534
+                     /product="matrix metalloproteinase-25"
+                     /calculated_mol_wt="60247"
+     CDS             1..534
+                     /coded_by="XM_017354674.1:161..1765"
+                     /gene="mmp25a"
+                     /db_xref="GeneID:100001739"
+                     /db_xref="ZFIN:ZDB-GENE-070820-22"
+ORIGIN
+        1 mqrfagieet gnldqktlem mgrprcslpd tisfeellkr nrrgknkvmm kkkrytlpkm
+       61 rwdktditws mqdfpppsvs palnpglvrl ilgnalrvws entplrfhys pdepspqtdi
+      121 tvtftsgyhe dgypfdgkgg alahaffpgk gdlagdthfd aeeswsygdw ssdsdlftva
+      181 vhdfghalgl fhssssdsim kpyyfgpvge mnsysltavd rlgiqalygt licikllyvi
+      241 hvsvisvrhv pefiqyialc chnrfdsnii yrpkcfslfl sppdsadrcq ggydavanir
+      301 aeifffrgqh fwrvdhsgsl lsstpalihs fwiglppdta rvdaayerrd ghivffignq
+      361 ywvfrntmal pgyprrlsdw glhtaagqla esveavfvwp hngktyvfss glywrfdeag
+      421 gerkmeegyp kpaaiwgmps hpddiiafld getyffkdsn ywilqrggld lesaspksia
+      481 tdwmkcdrhv saptpeiprd rncscvqnva avmrslsvii yltniicilv vtvf
+//

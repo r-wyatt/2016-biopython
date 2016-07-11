@@ -1,0 +1,45 @@
+LOCUS       XP_017213574             173 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: stromelysin-1-like [Danio rerio].
+ACCESSION   XP_017213574
+VERSION     XP_017213574.1  GI:1040657245
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007121.6) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..173
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /db_xref="taxon:7955"
+     Protein         1..173
+                     /product="stromelysin-1-like"
+                     /calculated_mol_wt="19476"
+     CDS             1..173
+                     /coded_by="XM_017358085.1:569..1090"
+                     /gene="LOC108191504"
+                     /db_xref="GeneID:108191504"
+ORIGIN
+        1 mkmvfsnvst sdsvferihv cflktlsqcg qkaetesyct lplysrallw siiqcslsgs
+       61 qywemlsslk vkegfprnis dfgfpssvks idavlsfret hltdffigge cwrfnedagq
+      121 mmegfpkpia lewpgikspv davvahdgpq qleftppirr vtqrlpantw lrc
+//

@@ -1,0 +1,140 @@
+LOCUS       XP_006530814             704 aa                     ROD 22-JUN-2016
+DEFINITION  PREDICTED: 72 kDa type IV collagenase isoform X1 [Mus musculus].
+ACCESSION   XP_006530814
+VERSION     XP_006530814.1  GI:568956296
+DBLINK      BioProject:PRJNA169
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000074.6) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mus musculus Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /strain="C57BL/6J"
+                     /organism="Mus musculus"
+                     /chromosome="8"
+                     /db_xref="taxon:10090"
+     Protein         1..704
+                     /product="72 kDa type IV collagenase isoform X1"
+                     /calculated_mol_wt="78788"
+     Region          52..97
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          118..>218
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          118..>216
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(170,182,189..195,204)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Region          227..274
+                     /note="Fibronectin Type II domain: FN2 is one of three
+                     types of internal repeats which combine to form larger
+                     domains within fibronectin. Fibronectin, a plasma protein
+                     that binds cell surfaces and various compounds including
+                     collagen, fibrin, heparin, DNA, and...; cd00062"
+                     /db_xref="CDD:238019"
+                     /region_name="FN2"
+     Site            order(237,239,244,258,265,271,273)
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+                     /site_type="other"
+     Region          327..374
+                     /note="Fibronectin Type II domain: FN2 is one of three
+                     types of internal repeats which combine to form larger
+                     domains within fibronectin. Fibronectin, a plasma protein
+                     that binds cell surfaces and various compounds including
+                     collagen, fibrin, heparin, DNA, and...; cd00062"
+                     /db_xref="CDD:238019"
+                     /region_name="FN2"
+     Site            order(337,339,344,358,365,371,373)
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+                     /site_type="other"
+     Region          385..432
+                     /note="Fibronectin Type II domain: FN2 is one of three
+                     types of internal repeats which combine to form larger
+                     domains within fibronectin. Fibronectin, a plasma protein
+                     that binds cell surfaces and various compounds including
+                     collagen, fibrin, heparin, DNA, and...; cd00062"
+                     /db_xref="CDD:238019"
+                     /region_name="FN2"
+     Site            order(395,397,402,416,423,429,431)
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+                     /site_type="other"
+     Region          <408..489
+                     /note="Zinc-dependent metalloprotease; smart00235"
+                     /db_xref="CDD:214576"
+                     /region_name="ZnMc"
+     Region          <429..488
+                     /note="Zinc-dependent metalloprotease. This super-family of
+                     metalloproteases contains two major branches, the
+                     astacin-like proteases and the adamalysin/reprolysin-like
+                     proteases. Both branches have wide phylogenetic
+                     distribution, and contain sub-families, which...; cl00064"
+                     /db_xref="CDD:275466"
+                     /region_name="ZnMc"
+     Site            order(445..446,449,455)
+                     /db_xref="CDD:238124"
+                     /site_type="active"
+     Region          510..704
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(520,522,565,567,613,615,662,664)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..704
+                     /coded_by="XM_006530751.2:335..2449"
+                     /gene="Mmp2"
+                     /gene_synonym="Clg4a; GelA; MMP-2"
+                     /db_xref="GeneID:17390"
+                     /db_xref="MGI:MGI:97009"
+ORIGIN
+        1 mearvawgal agplrvlcvl ccllgraiaa pspiikfpgd vapktdkela vqylntfygc
+       61 pkescnlfvl kdtlkkmqkf fglpqtgdld qntietmrkp rcgnpdvany nffprkpkwd
+      121 knqityriig ytpdldpetv ddafaralkv wsdvtplrfs rihdgeadim infgrwehgd
+      181 gypfdgkdgl lahafapgtg vggdshfddd elwtlgegqv vrvkygnadg eyckfpflfn
+      241 greyssctdt grsdgflwcs ttynfekdgk ygfcphedpt hglthgradl lhhrllssal
+      301 fmllsrklnf vvrlklltit lftmggnadg qpckfpfrfq gtsynsctte grtdgyrwcg
+      361 ttedydrdkk ygfcpetams tvggnsegap cvfpftflgn kyesctsagr ndgkvwcatt
+      421 tnydddrkwg fcpdqgyslf lvaahefgha mglehsqdpg almapiytyt knfrlshddi
+      481 kgiqelygps pdadtdtgtg ptptlgpvtp eickqdivfd giaqirgeif ffkdrfiwrt
+      541 vtprdkptgp llvatfwpel pekidavyea pqeekavffa gneywvysas tlergypkpl
+      601 tslglppdvq qvdaafnwsk nkktyifagd kfwrynevkk kmdpgfpkli adswnaipdn
+      661 ldavvdlqgg ghsyffkgay ylklenqslk svkfgsiksd wlgc
+//

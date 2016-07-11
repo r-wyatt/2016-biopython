@@ -1,0 +1,50 @@
+LOCUS       XP_017206678             409 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-20 [Danio rerio].
+ACCESSION   XP_017206678
+VERSION     XP_017206678.1  GI:1040664668
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007126.6) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..409
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="15"
+                     /db_xref="taxon:7955"
+     Protein         1..409
+                     /product="matrix metalloproteinase-20"
+                     /calculated_mol_wt="46767"
+     CDS             1..409
+                     /coded_by="XM_017351189.1:26..1255"
+                     /gene="mmp20a"
+                     /db_xref="GeneID:100329766"
+                     /db_xref="ZFIN:ZDB-GENE-100603-2"
+ORIGIN
+        1 mkdkiramqh ffdlketafl dhktlngmke arcgvpdven fsfypgrpkw ksniityria
+       61 rftpdlrpee venslhlalk iwsdaaplkf vqikegradi tfsfnskahg dffpfdgpgg
+      121 vlahafepge glggdvhfdd deiwtvgrgr pgynlftvaa helghslgls hskdptalmy
+      181 pkykfinaat yklprddtlg iqalygkktr qqelvipnkc dvisfdavtv lekeiiffkn
+      241 symwmrtnwr sywnrlkegp qsvflpsips pidaaydips qrvayvftgp kywvvqkles
+      301 ksyyygsiye fgfpeivrqi daavhvsegg ktyfftgdyy fsydekrnvm drgfprkint
+      361 gwpgivgkvd aafelngrvh lfcrsksfif shqkrllhtm ntnawlgcs
+//

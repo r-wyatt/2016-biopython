@@ -1,0 +1,52 @@
+LOCUS       XP_016873609             512 aa                     PRI 06-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X1 [Homo sapiens].
+ACCESSION   XP_016873609
+VERSION     XP_016873609.1  GI:1034574907
+DBLINK      BioProject:PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000011.10) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 108
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..512
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="11"
+     Protein         1..512
+                     /product="matrix metalloproteinase-27 isoform X1"
+                     /calculated_mol_wt="58838"
+     CDS             1..512
+                     /coded_by="XM_017018120.1:72..1610"
+                     /gene="MMP27"
+                     /gene_synonym="MMP-27"
+                     /db_xref="GeneID:64066"
+                     /db_xref="HGNC:HGNC:14250"
+ORIGIN
+        1 mkrllllflf fitfssafpl vrmteneenm qlaqaylnqf ysleiegnhl vqsknrslid
+       61 dkiremqaff gltvtgklds ntleimktpr cgvpdvgqyg ytlpgwrkyn ltyriinytp
+      121 dmaraavdea iqeglevwsk vtplkftkis kgiadimiaf rtrvhgrcpr yfdgplgvlg
+      181 hafppgpglg gdthfdeden wtkdgagfnl flvaahefgh alglshsndq talmfpnyvs
+      241 ldprkyplsq ddingiqsiy glpkepakpk eptiphacdp dltfdaittf rrevmffkgr
+      301 hlwriyydit dvefeliasf wpslpadlqa ayenprdkil vfkdenfwmi rgyavlpdyp
+      361 ksihtlgfpg rvkkidaavc dkttrktyff vgiwcwrfde mtqtmdkgfp qrvvkhfpgi
+      421 sirvdaafqy kgffffsrgs kqfeydiktk nitrimrtnt wfqckepkns sfgfdinkek
+      481 ahsggikily hkslslfifg ivhllkntsi yq
+//

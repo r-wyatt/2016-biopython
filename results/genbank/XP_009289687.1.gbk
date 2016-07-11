@@ -1,0 +1,60 @@
+LOCUS       XP_009289687             251 aa                     VRT 24-JUN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X3 [Danio rerio].
+ACCESSION   XP_009289687
+VERSION     XP_009289687.1  GI:688586770
+DBLINK      BioProject:PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_007126.6) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..251
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="15"
+                     /db_xref="taxon:7955"
+     Protein         1..251
+                     /product="matrix metalloproteinase-28 isoform X3"
+                     /calculated_mol_wt="28827"
+     Region          52..240
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(60,62,104,106,149,151,197,199)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..251
+                     /coded_by="XM_009291412.2:35..790"
+                     /gene="mmp28"
+                     /db_xref="GeneID:100005670"
+                     /db_xref="ZFIN:ZDB-GENE-100226-1"
+ORIGIN
+        1 meeealkinp nnvdefckpp gdtvqqlvgr alrwtmqdwq isqdpressl tpnychgffd
+       61 aittdengav lvfqgyrfws vsngsvsdpc llqtrwpqls vtieaaafnp ldrklyffkg
+      121 rrmwrysgsn ldpgfpkrss alglpkhvdc affyqplgql vlfkgsrylv lnprslsmel
+      181 yyprplrdwk gvprevngal trpdgmlyff keqqywrldi gklritaagr wadslqwigc
+      241 qktpslldne l
+//

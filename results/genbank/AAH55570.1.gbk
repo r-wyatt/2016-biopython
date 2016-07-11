@@ -1,0 +1,98 @@
+LOCUS       AAH55570                 463 aa                     VRT 09-JUN-2008
+DEFINITION  Vtnb protein, partial [Danio rerio].
+ACCESSION   AAH55570
+VERSION     AAH55570.1  GI:33416383
+KEYWORDS    .
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+REFERENCE   1  (residues 1 to 463)
+  AUTHORS   Strausberg,R.L., Feingold,E.A., Grouse,L.H., Derge,J.G.,
+            Klausner,R.D., Collins,F.S., Wagner,L., Shenmen,C.M., Schuler,G.D.,
+            Altschul,S.F., Zeeberg,B., Buetow,K.H., Schaefer,C.F., Bhat,N.K.,
+            Hopkins,R.F., Jordan,H., Moore,T., Max,S.I., Wang,J., Hsieh,F.,
+            Diatchenko,L., Marusina,K., Farmer,A.A., Rubin,G.M., Hong,L.,
+            Stapleton,M., Soares,M.B., Bonaldo,M.F., Casavant,T.L.,
+            Scheetz,T.E., Brownstein,M.J., Usdin,T.B., Toshiyuki,S.,
+            Carninci,P., Prange,C., Raha,S.S., Loquellano,N.A., Peters,G.J.,
+            Abramson,R.D., Mullahy,S.J., Bosak,S.A., McEwan,P.J., McKernan,K.J.,
+            Malek,J.A., Gunaratne,P.H., Richards,S., Worley,K.C., Hale,S.,
+            Garcia,A.M., Gay,L.J., Hulyk,S.W., Villalon,D.K., Muzny,D.M.,
+            Sodergren,E.J., Lu,X., Gibbs,R.A., Fahey,J., Helton,E., Ketteman,M.,
+            Madan,A., Rodrigues,S., Sanchez,A., Whiting,M., Madan,A.,
+            Young,A.C., Shevchenko,Y., Bouffard,G.G., Blakesley,R.W.,
+            Touchman,J.W., Green,E.D., Dickson,M.C., Rodriguez,A.C.,
+            Grimwood,J., Schmutz,J., Myers,R.M., Butterfield,Y.S.,
+            Krzywinski,M.I., Skalska,U., Smailus,D.E., Schnerch,A., Schein,J.E.,
+            Jones,S.J. and Marra,M.A.
+  CONSRTM   Mammalian Gene Collection Program Team
+  TITLE     Generation and initial analysis of more than 15,000 full-length
+            human and mouse cDNA sequences
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (26), 16899-16903 (2002)
+   PUBMED   12477932
+REFERENCE   2  (residues 1 to 463)
+  CONSRTM   NIH MGC Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2003) National Institutes of Health, Mammalian
+            Gene Collection (MGC), Bethesda, MD 20892-2590, USA
+  REMARK    NIH-MGC Project URL: http://mgc.nci.nih.gov
+COMMENT     Contact: MGC help desk
+            Email: cgapbs-r@mail.nih.gov
+            Tissue Procurement: Dr. Sumio Sugano
+            cDNA Library Preparation: Dr. Sumio Sugano
+            cDNA Library Arrayed by: The I.M.A.G.E. Consortium (LLNL)
+            DNA Sequencing by: Sequencing Group at the Stanford Human Genome
+            Center, Stanford University School of Medicine, Stanford, CA  94305
+            Web site:       http://www-shgc.stanford.edu
+            Contact:  (Dickson, Mark) mcd@paxil.stanford.edu
+            Dickson, M., Schmutz, J., Grimwood, J., Rodriquez, A., and Myers,
+            R. M.
+            Clone distribution: MGC clone distribution information can be found
+            through the I.M.A.G.E. Consortium/LLNL at: http://image.llnl.gov
+            Series: IRAK Plate: 122 Row: f Column: 8.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /lab_host="DH10B"
+                     /clone="IMAGE:5409846"
+                     /note="Vector: pME18S-FL3"
+                     /db_xref="taxon:7955"
+                     /tissue_type="Whole body, adult male"
+                     /organism="Danio rerio"
+                     /clone_lib="Sugano SJD adult male"
+     Protein         <1..463
+                     /product="vtnb protein"
+     Region          31..69
+                     /note="Somatomedin B domain; pfam01033"
+                     /db_xref="CDD:250310"
+                     /region_name="Somatomedin_B"
+     Region          126..454
+                     /note="Hemopexin-like repeats.; Hemopexin is a heme-binding
+                     protein that transports heme to the liver. Hemopexin-like
+                     repeats occur in vitronectin and some matrix
+                     metalloproteinases family (matrixins). The HX repeats of
+                     some matrixins bind tissue inhibitor of...; cd00094"
+                     /db_xref="CDD:238046"
+                     /region_name="HX"
+     Site            order(132,134,177,179,225,227,317,319)
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+                     /site_type="metal-binding"
+     CDS             1..463
+                     /coded_by="BC055570.1:<1..1392"
+                     /gene="vtnb"
+                     /gene_synonym="vtn"
+                     /db_xref="GeneID:403026"
+                     /db_xref="ZFIN:ZDB-GENE-041116-1"
+ORIGIN
+        1 leqikhsllt vplnmklail lslflatcfa aeetcegrcr sgfdptkkcq cdrmckyygs
+       61 ccedfdttcr tkiargdmfd lpevnvttsv tpteetnltv ttalptttaa pyvsptappd
+      121 pdavtcsrrt fdafmqlkng sifafrgdyf felddrsvmp gypklikdvw gingpidaaf
+      181 trincqgkty ifkgnkywrf dgdvldedyp rdiavgfeki pddvdaafai papghhgrek
+      241 vyffkgdqyy qyefkhqpsh eecdrmtkss psvaftrytd lycdfdifdl lfqgaqghhk
+      301 gprfiskdwi gikppvdaam vgrlyvnssp spspstslsr gqntrrrlrg skarvsrslf
+      361 wedfgldyee ryfgtekqgk kqkkgrgrrp slfdmsydpm dyvdvevvqe katpvqnvyf
+      421 fkkdkyyrvd lqtkridrvt ppyprsigky wlgckekdls ekr
+//

@@ -1,0 +1,104 @@
+LOCUS       EDL24941                 264 aa                     ROD 23-MAR-2015
+DEFINITION  matrix metallopeptidase 7 [Mus musculus].
+ACCESSION   EDL24941
+VERSION     EDL24941.1  GI:148692994
+DBLINK      BioProject:PRJNA11785 BioSample:SAMN03004379
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 264)
+  AUTHORS   Mural,R.J., Adams,M.D., Myers,E.W., Smith,H.O., Miklos,G.L.,
+            Wides,R., Halpern,A., Li,P.W., Sutton,G.G., Nadeau,J.,
+            Salzberg,S.L., Holt,R.A., Kodira,C.D., Lu,F., Chen,L., Deng,Z.,
+            Evangelista,C.C., Gan,W., Heiman,T.J., Li,J., Li,Z., Merkulov,G.V.,
+            Milshina,N.V., Naik,A.K., Qi,R., Shue,B.C., Wang,A., Wang,J.,
+            Wang,X., Yan,X., Ye,J., Yooseph,S., Zhao,Q., Zheng,L., Zhu,S.C.,
+            Biddick,K., Bolanos,R., Delcher,A.L., Dew,I.M., Fasulo,D.,
+            Flanigan,M.J., Huson,D.H., Kravitz,S.A., Miller,J.R., Mobarry,C.M.,
+            Reinert,K., Remington,K.A., Zhang,Q., Zheng,X.H., Nusskern,D.R.,
+            Lai,Z., Lei,Y., Zhong,W., Yao,A., Guan,P., Ji,R.R., Gu,Z.,
+            Wang,Z.Y., Zhong,F., Xiao,C., Chiang,C.C., Yandell,M., Wortman,J.R.,
+            Amanatides,P.G., Hladun,S.L., Pratts,E.C., Johnson,J.E.,
+            Dodson,K.L., Woodford,K.J., Evans,C.A., Gropman,B., Rusch,D.B.,
+            Venter,E., Wang,M., Smith,T.J., Houck,J.T., Tompkins,D.E.,
+            Haynes,C., Jacob,D., Chin,S.H., Allen,D.R., Dahlke,C.E., Sanders,R.,
+            Li,K., Liu,X., Levitsky,A.A., Majoros,W.H., Chen,Q., Xia,A.C.,
+            Lopez,J.R., Donnelly,M.T., Newman,M.H., Glodek,A., Kraft,C.L.,
+            Nodell,M., Ali,F., An,H.J., Baldwin-Pitts,D., Beeson,K.Y., Cai,S.,
+            Carnes,M., Carver,A., Caulk,P.M., Center,A., Chen,Y.H., Cheng,M.L.,
+            Coyne,M.D., Crowder,M., Danaher,S., Davenport,L.B., Desilets,R.,
+            Dietz,S.M., Doup,L., Dullaghan,P., Ferriera,S., Fosler,C.R.,
+            Gire,H.C., Gluecksmann,A., Gocayne,J.D., Gray,J., Hart,B.,
+            Haynes,J., Hoover,J., Howland,T., Ibegwam,C., Jalali,M., Johns,D.,
+            Kline,L., Ma,D.S., MacCawley,S., Magoon,A., Mann,F., May,D.,
+            McIntosh,T.C., Mehta,S., Moy,L., Moy,M.C., Murphy,B.J., Murphy,S.D.,
+            Nelson,K.A., Nuri,Z., Parker,K.A., Prudhomme,A.C., Puri,V.N.,
+            Qureshi,H., Raley,J.C., Reardon,M.S., Regier,M.A., Rogers,Y.H.,
+            Romblad,D.L., Schutz,J., Scott,J.L., Scott,R., Sitter,C.D.,
+            Smallwood,M., Sprague,A.C., Stewart,E., Strong,R.V., Suh,E.,
+            Sylvester,K., Thomas,R., Tint,N.N., Tsonis,C., Wang,G., Wang,G.,
+            Williams,M.S., Williams,S.M., Windsor,S.M., Wolfe,K., Wu,M.M.,
+            Zaveri,J., Chaturvedi,K., Gabrielian,A.E., Ke,Z., Sun,J.,
+            Subramanian,G., Venter,J.C., Pfannkoch,C.M., Barnstead,M. and
+            Stephenson,L.D.
+  TITLE     A comparison of whole-genome shotgun-derived mouse chromosome 16 and
+            the human genome
+  JOURNAL   Science 296 (5573), 1661-1671 (2002)
+   PUBMED   12040188
+REFERENCE   2  (residues 1 to 264)
+  AUTHORS   Mural,R.J., Adams,M.D., Myers,E.W., Smith,H.O. and Venter,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2005) Celera Genomics, 45 W. Gude Dr., Rockville,
+            MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..264
+                     /strain="mixed"
+                     /organism="Mus musculus"
+                     /chromosome="9"
+                     /db_xref="taxon:10090"
+     Protein         1..264
+                     /product="matrix metallopeptidase 7"
+     Region          31..82
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:250643"
+                     /region_name="PG_binding_1"
+     Region          103..259
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:249842"
+                     /region_name="Peptidase_M10"
+     Region          103..259
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+                     /region_name="ZnMc_MMP"
+     Site            order(155,167,174..180,189,214..215,224,234..236)
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+                     /site_type="other"
+     Site            order(214..215,218,224)
+                     /db_xref="CDD:239805"
+                     /site_type="active"
+     CDS             1..264
+                     /note="gene_id=mCG9895.1 transcript_id=mCT10039.0
+                     protein_id=mCP10749.1"
+                     /coded_by="join(CH466522.1:1541932..1542039,
+                     CH466522.1:1544953..1545179,CH466522.1:1545265..1545413,
+                     CH466522.1:1545844..1545972,CH466522.1:1547481..1547642,
+                     CH466522.1:1549231..1549250)"
+                     /locus_tag="mCG_9895"
+                     /gene="Mmp7"
+                     /db_xref="GeneID:17393"
+ORIGIN
+        1 mqltlfcfvc llpghlalpl sqeagdvsah qweqaqnylr kfyphdsktk kvnslvdnlk
+       61 emqkffglpm tgklspyime imqkprcgvp dvaeyslmpn spkwhsrivt yrivsytsdl
+      121 privvdqivk kalrmwsmqi plnfkrvswg tadiiigfar rdhgdsfpfd gpgntlghaf
+      181 apgpglggda hfdkdeywtd gedagvnflf aathefghsl glshssvpgt vmyptyqrdy
+      241 sedfsltkdd iagiqklygk rntl
+//
