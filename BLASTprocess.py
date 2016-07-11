@@ -14,20 +14,85 @@ import re
 Entrez.email ="r.a.wyatt@unb.ca"
 
 #-----------------------------------------------------------------------------
+# Basic Functionality (searching database given gi and species query)
+#-----------------------------------------------------------------------------
+
+def search_a_database(species, seqQuery, out):
+	print("\n\nNot an operational search just yet, but good job anyway")
+	print("\n\nSearching: "+species+" for gi"+seqQuery)
+'''
+	# NCBI query
+	
+	eQ = species + '\[Organism\]'
+	gi = int(seqQuery)
+	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
+	print("Saving file as: " + out)
+
+	# Save file
+	save_file = open(out, "w")
+	save_file.write(result.read())
+	save_file.close()
+	result.close()
+	time.sleep(120) # Pause 2min between database queries
+'''	
+#-----------------------------------------------------------------------------
+# Search database repeatedly (input is csv with {species, gi} in each row)
+#-----------------------------------------------------------------------------
+def parse_a_set(queryList):
+	count = len(queryList)	
+	with open("results\\filenames.csv",'a') as csvfile:
+		filenames = csv.writer(csvfile)
+		for i in range(0,count-1):
+			if queryList[i] != None:
+				query = str(queryList[i][1])
+				species = str(queryList[i][0])
+				matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
+				shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
+				out = "results\\BLAST_" + shortSpecies + "_" + query + ".xml"
+				search_a_database(species,query,out)
+				filenames.writerow((species, out))
+	csvfile.close()	
+
+#-----------------------------------------------------------------------------
+# Flow control
+#-----------------------------------------------------------------------------	
+def decide_what_to_do():
+	decision = raw_input("Run a blast search (r), a series of blast searches (s) or quit (q)? ")
+	if decision == "s":
+		indexfile = raw_input("Enter name of csv file with species and gi numbers: ")
+		if os.path.isfile(indexfile):
+			with open(indexfile,'rb') as directions:
+				index = csv.reader(directions)
+				setDirections = []
+				for row in index:
+					setDirections.append(row)
+				parse_a_set(setDirections)
+		else:
+			print("\n\nThis file doesn't exist")
+			decide_what_to_do()
+	elif decision == "r":
+		species = raw_input("Please enter the species query to limit results: ")
+		seqQuery = raw_input("Please enter the protein gi number to use as sequence query: ")
+		search_a_database(species, seqQuery)
+	elif decision == "q":
+		print("\n\nThanks for playing!")
+	else:
+		print("\n\nNot a valid selection.\n\n")
+		decide_what_to_do()
+
+#-----------------------------------------------------------------------------
 # Read data from a csv file into a list 
 #-----------------------------------------------------------------------------
 # required for fetch_data()
 
 def csv_to_list(filename):
-	print "Ran csv_to_list"
 	with open(filename,"r") as read:
 		reader = csv.reader(read)
 		tempList = list(reader)
 	inputList = []
 	for i in range(0,(len(tempList))):
 		inputList.append(tempList[i][0])
-	
-	print inputList
+
 	return inputList
 
 #-----------------------------------------------------------------------------
@@ -39,9 +104,12 @@ def fetch_data(datatype, input):
 	else:
 		inputList = input
 	temp = sys.stdout
+	save_stdout = sys.stdout 
 	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
 	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
 	print handle.read()
+	sys.stdout = save_stdout
+	
 
 #-----------------------------------------------------------------------------
 # Filter accession list
@@ -117,11 +185,17 @@ def find_species(desc):
 	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', desc)
 	name = mobj.group(1) + mobj.group(2)
 	return name.title()
-	
+
+#-----------------------------------------------------------------------------
+# Run BLAST searches
+#-----------------------------------------------------------------------------
+decide_what_to_do()
+
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
 # This bit clears output files so they are clean on initializing this program
+print "\n\nFetching genbank data and saving..."
 with open("outfile.csv","w") as csvfile:
 	csvfile.truncate()
 	
@@ -131,13 +205,14 @@ fetch_data("gb", "outfile.csv")
 #-----------------------------------------------------------------------------
 # Reformat genbank file to FASTA
 #-----------------------------------------------------------------------------
+print "\n\nFormatting genbank data to FASTA..."
 gbk_filename = "results\\gb_outfile.txt"
 faa_filename = "results\\fasta_outfile.txt"
 input_handle  = open(gbk_filename, "r")
 output_handle = open(faa_filename, "w")
 
 for seq_record in SeqIO.parse(input_handle, "genbank") :
-	print "Dealing with GenBank record %s" % seq_record.id
+	#print "Dealing with GenBank record %s" % seq_record.id
 	output_handle.write(">%s %s\n%s\n" % (
 												find_species(seq_record.description),
 												seq_record.id,
@@ -145,3 +220,5 @@ for seq_record in SeqIO.parse(input_handle, "genbank") :
 
 output_handle.close()
 input_handle.close()
+
+print "\n\n* * Run Success * *"
