@@ -25113,3 +25113,397 @@ ORIGIN
 //
 
 
+Dealing with GenBank record EDL24934.1
+Mmus
+Dealing with GenBank record BAE42564.1
+Mmus
+Dealing with GenBank record EDL24936.1
+Mmus
+Dealing with GenBank record EDL22252.1
+Mmus
+Dealing with GenBank record BAE42201.1
+Mmus
+Dealing with GenBank record BAE42011.1
+Mmus
+Dealing with GenBank record EDL05586.1
+Mmus
+Dealing with GenBank record BAE42486.1
+Mmus
+Dealing with GenBank record CAA09055.1
+Mmus
+Dealing with GenBank record XP_017168649.1
+Mmus
+Dealing with GenBank record BAE42294.1
+Mmus
+Dealing with GenBank record AAI37922.1
+Mmus
+Dealing with GenBank record AAG17704.1
+Mmus
+Dealing with GenBank record EDL06144.1
+Mmus
+Dealing with GenBank record EDL31871.1
+Mmus
+Dealing with GenBank record BAE30809.1
+Mmus
+Dealing with GenBank record BAE33104.1
+Mmus
+Dealing with GenBank record BAE32010.1
+Mmus
+Dealing with GenBank record NP_001306915.1
+Mmus
+Dealing with GenBank record AAI19058.1
+Mmus
+Dealing with GenBank record NP_001307005.1
+Mmus
+Dealing with GenBank record EDL24938.1
+Mmus
+Dealing with GenBank record AAA39526.1
+Mmus
+Dealing with GenBank record BAC40836.1
+Mmus
+Dealing with GenBank record NP_001297646.1
+Mmus
+Dealing with GenBank record AAB51753.1
+Mmus
+Dealing with GenBank record AAH76638.1
+Mmus
+Dealing with GenBank record EDL24932.1
+Mmus
+Dealing with GenBank record EDL19513.1
+Mmus
+Dealing with GenBank record BAE33072.1
+Mmus
+Dealing with GenBank record AAH52854.1
+Mmus
+Dealing with GenBank record EDL24941.1
+Mmus
+Dealing with GenBank record CAB92315.1
+Mmus
+Dealing with GenBank record AAH47278.1
+Mmus
+Dealing with GenBank record BAE41762.1
+Mmus
+Dealing with GenBank record XP_017169314.1
+Mmus
+Dealing with GenBank record EDL24937.1
+Mmus
+Dealing with GenBank record EDL00990.1
+Mmus
+Dealing with GenBank record BAE33455.1
+Mmus
+Dealing with GenBank record XP_017172955.1
+Mmus
+Dealing with GenBank record BAC40911.1
+Mmus
+Dealing with GenBank record AAA99983.1
+Mmus
+Dealing with GenBank record BAC40913.1
+Mmus
+Dealing with GenBank record AAI17757.1
+Mmus
+Dealing with GenBank record AAI45049.1
+Mmus
+Dealing with GenBank record NP_034938.3
+Mmus
+Dealing with GenBank record BAA82966.1
+Mmus
+Dealing with GenBank record BAA78420.1
+Mmus
+Dealing with GenBank record AAC12707.1
+Mmus
+Dealing with GenBank record AAI12380.1
+Mmus
+Dealing with GenBank record BAE33060.1
+Mmus
+Dealing with GenBank record EDL15708.1
+Mmus
+Dealing with GenBank record XP_006530814.1
+Mmus
+Dealing with GenBank record EDL05587.1
+Mmus
+Dealing with GenBank record BAC40832.1
+Mmus
+Dealing with GenBank record BAC40846.1
+Mmus
+Dealing with GenBank record XP_006509922.1
+Mmus
+Dealing with GenBank record AAH19135.2
+Mmus
+Dealing with GenBank record BAE42198.1
+Mmus
+Dealing with GenBank record BAE41743.1
+Mmus
+Dealing with GenBank record CAA47029.1
+Mmus
+Dealing with GenBank record EDL24935.1
+Mmus
+Dealing with GenBank record EDL11169.1
+Mmus
+Dealing with GenBank record BAC40862.1
+Mmus
+Dealing with GenBank record BAE33415.1
+Mmus
+Dealing with GenBank record EDL24933.1
+Mmus
+Dealing with GenBank record BAE28570.1
+Mmus
+Dealing with GenBank record EDL11170.1
+Mmus
+Dealing with GenBank record CAJ18584.1
+Mmus
+Dealing with GenBank record EDL36348.1
+Mmus
+Dealing with GenBank record BAE41839.1
+Mmus
+Dealing with GenBank record EDL15706.1
+Mmus
+Dealing with GenBank record BAA82708.2
+Mmus
+Dealing with GenBank record AAB86602.1
+Mmus
+Dealing with GenBank record CAC18879.1
+Mmus
+Dealing with GenBank record AAI52337.1
+Mmus
+Dealing with GenBank record EDL31870.1
+Mmus
+Dealing with GenBank record EDL11089.1
+Mmus
+Dealing with GenBank record BAC40889.1
+Mmus
+Dealing with GenBank record BAE37413.1
+Mmus
+Dealing with GenBank record CAA58520.2
+Mmus
+Dealing with GenBank record EDL36349.1
+Mmus
+Dealing with GenBank record XP_011541251.1
+Hsap
+Dealing with GenBank record AAI07491.1
+Hsap
+Dealing with GenBank record AAH13118.1
+Hsap
+Dealing with GenBank record CAA73317.1
+Hsap
+Dealing with GenBank record BAG60077.1
+Hsap
+Dealing with GenBank record AAH67523.1
+Hsap
+Dealing with GenBank record BAG36115.1
+Hsap
+Dealing with GenBank record BAG36676.1
+Hsap
+Dealing with GenBank record EAW82966.1
+Hsap
+Dealing with GenBank record XP_011541138.1
+Hsap
+Dealing with GenBank record CAA62432.1
+Hsap
+Dealing with GenBank record BAG64542.1
+Hsap
+Dealing with GenBank record BAG62888.1
+Hsap
+Dealing with GenBank record BAF85348.1
+Hsap
+Dealing with GenBank record EAW67031.1
+Hsap
+Dealing with GenBank record BAD96776.1
+Hsap
+Dealing with GenBank record XP_011541136.1
+Hsap
+Dealing with GenBank record EAW59603.1
+Hsap
+Dealing with GenBank record AAH03635.1
+Hsap
+Dealing with GenBank record BAG64444.1
+Hsap
+Dealing with GenBank record BAF84014.1
+Hsap
+Dealing with GenBank record AAQ89112.1
+Hsap
+Dealing with GenBank record BAG36675.1
+Hsap
+Dealing with GenBank record BAD96754.1
+Hsap
+Dealing with GenBank record NP_004762.2
+Hsap
+Dealing with GenBank record NP_071405.2
+Hsap
+Dealing with GenBank record AAP78940.1
+Hsap
+Dealing with GenBank record ABC17785.1
+Hsap
+Dealing with GenBank record EAW76222.1
+Hsap
+Dealing with GenBank record BAD97001.1
+Hsap
+Dealing with GenBank record EAW67034.1
+Hsap
+Dealing with GenBank record XP_016883087.1
+Hsap
+Dealing with GenBank record EAW67035.1
+Hsap
+Dealing with GenBank record BAD96756.1
+Hsap
+Dealing with GenBank record BAD96755.1
+Hsap
+Dealing with GenBank record BAA23742.1
+Hsap
+Dealing with GenBank record NP_005931.2
+Hsap
+Dealing with GenBank record EAW67024.1
+Hsap
+Dealing with GenBank record BAF84900.1
+Hsap
+Dealing with GenBank record EAW66237.1
+Hsap
+Dealing with GenBank record AAI43774.1
+Hsap
+Dealing with GenBank record AAH74988.1
+Hsap
+Dealing with GenBank record BAD96321.1
+Hsap
+Dealing with GenBank record AAP78939.1
+Hsap
+Dealing with GenBank record EAW67026.1
+Hsap
+Dealing with GenBank record XP_016873260.1
+Hsap
+Dealing with GenBank record AAZ38714.1
+Hsap
+Dealing with GenBank record XP_016873609.1
+Hsap
+Dealing with GenBank record AAH57788.1
+Hsap
+Dealing with GenBank record AAA35699.1
+Hsap
+Dealing with GenBank record AAH47614.1
+Hsap
+Dealing with GenBank record BAG35540.1
+Hsap
+Dealing with GenBank record BAA82967.1
+Hsap
+Dealing with GenBank record XP_011541252.1
+Hsap
+Dealing with GenBank record BAA05519.1
+Hsap
+Dealing with GenBank record BAD96700.1
+Hsap
+Dealing with GenBank record XP_011541250.1
+Hsap
+Dealing with GenBank record AAV38949.1
+Hsap
+Dealing with GenBank record EAW67027.1
+Hsap
+Dealing with GenBank record BAG37740.1
+Hsap
+Dealing with GenBank record XP_011526802.1
+Hsap
+Dealing with GenBank record BAD96468.1
+Hsap
+Dealing with GenBank record CCK73138.1
+Hsap
+Dealing with GenBank record AAA58658.1
+Hsap
+Dealing with GenBank record EAW67023.1
+Hsap
+Dealing with GenBank record CAA28858.1
+Hsap
+Dealing with GenBank record XP_009303831.1
+Drer
+Dealing with GenBank record XP_700781.6
+Drer
+Dealing with GenBank record AAI31865.1
+Drer
+Dealing with GenBank record XP_001924042.4
+Drer
+Dealing with GenBank record AAQ07962.1
+Drer
+Dealing with GenBank record AAI59193.1
+Drer
+Dealing with GenBank record NP_001315259.1
+Drer
+Dealing with GenBank record XP_005171367.1
+Drer
+Dealing with GenBank record AAP74482.1
+Drer
+Dealing with GenBank record XP_002664536.2
+Drer
+Dealing with GenBank record XP_009295076.1
+Drer
+Dealing with GenBank record XP_009302611.1
+Drer
+Dealing with GenBank record XP_017213634.1
+Drer
+Dealing with GenBank record XP_017212610.1
+Drer
+Dealing with GenBank record AAI29281.1
+Drer
+Dealing with GenBank record AAH65591.1
+Drer
+Dealing with GenBank record XP_017206678.1
+Drer
+Dealing with GenBank record XP_017209448.1
+Drer
+Dealing with GenBank record XP_698601.6
+Drer
+Dealing with GenBank record AEG20934.1
+Drer
+Dealing with GenBank record AAI62135.1
+Drer
+Dealing with GenBank record AAH49472.1
+Drer
+Dealing with GenBank record NP_001132933.1
+Drer
+Dealing with GenBank record XP_017210163.1
+Drer
+Dealing with GenBank record XP_001337581.3
+Drer
+Dealing with GenBank record AAI50466.1
+Drer
+Dealing with GenBank record XP_694153.4
+Drer
+Dealing with GenBank record XP_002663942.1
+Drer
+Dealing with GenBank record XP_009304055.1
+Drer
+Dealing with GenBank record ALF36875.1
+Drer
+Dealing with GenBank record AAP74484.1
+Drer
+Dealing with GenBank record AAI60656.1
+Drer
+Dealing with GenBank record AAH93333.1
+Drer
+Dealing with GenBank record XP_009289686.1
+Drer
+Dealing with GenBank record AAI64476.1
+Drer
+Dealing with GenBank record AAH76545.1
+Drer
+Dealing with GenBank record XP_017213574.1
+Drer
+Dealing with GenBank record AAH55570.1
+Drer
+Dealing with GenBank record XP_009302613.1
+Drer
+Dealing with GenBank record XP_017209345.1
+Drer
+Dealing with GenBank record AAH95724.1
+Drer
+Dealing with GenBank record XP_009301842.1
+Drer
+Dealing with GenBank record AAI15114.1
+Drer
+Dealing with GenBank record NP_001277408.1
+Drer
+Dealing with GenBank record XP_009290029.1
+Drer
+Dealing with GenBank record XP_699803.4
+Drer
+Dealing with GenBank record XP_692205.6
+Drer
+Dealing with GenBank record XP_001345507.1
+Drer
+Dealing with GenBank record XP_009289687.1
+Drer
