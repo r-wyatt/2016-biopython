@@ -11,84 +11,123 @@ import time
 import csv
 import sys
 import re
+Entrez.email ="r.a.wyatt@unb.ca"
+
+#-----------------------------------------------------------------------------
+# Read data from a csv file into a list 
+#-----------------------------------------------------------------------------
+# required for fetch_data()
+
+def csv_to_list(filename):
+	print "Ran csv_to_list"
+	with open(filename,"r") as read:
+		reader = csv.reader(read)
+		tempList = list(reader)
+	inputList = []
+	for i in range(0,(len(tempList))):
+		inputList.append(tempList[i][0])
 	
-#-----------------------------------------------------------------------------
-# Basic Functionality (searching database given gi and species query)
-#-----------------------------------------------------------------------------
-
-def search_a_database(species, seqQuery, out):
-	print("\n\nNot an operational search just yet, but good job anyway")
-	print("\n\nSearching: "+species+" for gi"+seqQuery)
-'''
-	# NCBI query
-	
-	eQ = species + '\[Organism\]'
-	gi = int(seqQuery)
-	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
-	print("Saving file as: " + out)
-
-	# Save file
-	save_file = open(out, "w")
-	save_file.write(result.read())
-	save_file.close()
-	result.close()
-	time.sleep(120) # Pause 2min between database queries
-'''	
-
+	print inputList
+	return inputList
 
 #-----------------------------------------------------------------------------
-# Search database repeatedly (input is csv with {species, gi} in each row)
+# Fetch data can take either the list of accessions or name of csv (one entry per line)
 #-----------------------------------------------------------------------------
-def parse_a_set(queryList):
-	print("Made it to parse a set")
-	print(queryList)
-	count = len(queryList)	
-	with open("results\\filenames.txt",'a') as csvfile:
-		filenames = csv.writer(csvfile)
-		for i in range(0,count-1):
-			if queryList[i] != None:
-				query = str(queryList[i][1])
-				species = str(queryList[i][0])
-				matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
-				shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
-				out = "results\\BLAST_" + shortSpecies + "_" + query + ".xml"
-				search_a_database(species,query,out)
-				filenames.writerow((species, out))
-			else:
-				print("That's all folks!")
-	csvfile.close()	
-
-#-----------------------------------------------------------------------------
-# Flow control
-#-----------------------------------------------------------------------------	
-def decide_what_to_do():
-	decision = raw_input("Run a blast search (r), a series of blast searches (s) or quit (q)? ")
-	if decision == "s":
-		indexfile = raw_input("Enter name of csv file with species and gi numbers: ")
-		if os.path.isfile(indexfile):
-			with open(indexfile,'rb') as directions:
-				index = csv.reader(directions)
-				setDirections = []
-				for row in index:
-					setDirections.append(row)
-					print(setDirections)
-				parse_a_set(setDirections)
-				
-		else:
-			print("\n\nThis file doesn't exist")
-			decide_what_to_do()
-	elif decision == "r":
-		species = raw_input("Please enter the species query to limit results: ")
-		seqQuery = raw_input("Please enter the protein gi number to use as sequence query: ")
-		search_a_database(species, seqQuery)
-	elif decision == "q":
-		print("\n\nThanks for playing!")
+def fetch_data(datatype, input):
+	if isinstance(input, str):
+		inputList = csv_to_list(input)
 	else:
-		print("\n\nNot a valid selection.\n\n")
-		decide_what_to_do()
+		inputList = input
+	temp = sys.stdout
+	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
+	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
+	print handle.read()
 
-		
 #-----------------------------------------------------------------------------
-# Actually run the shit
+# Filter accession list
 #-----------------------------------------------------------------------------
-decide_what_to_do()
+def filter_species(listOfTuples, shortSpecies):
+	filtered = []
+	for each in listOfTuples:
+		if each[1] == shortSpecies:
+			filtered.append(each)
+	output = list(set(filtered))
+	return output
+
+#-----------------------------------------------------------------------------
+# Given input file, give a csv of IDs
+#-----------------------------------------------------------------------------
+# First argument is the path to the XML file from a remote BLAST search, second
+# is an e value threshold below which results from the BLAST search will be discarded,
+# third is the name of the file to write the accessions to, and fourth is the name of the
+# file to send the file names of processed BLAST searches to.
+
+def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
+	eValueThresh = 0.01
+	n = 1
+	result = open(input) # mode omitted defaults to read only
+	blast_record = NCBIXML.parse(result)
+	blast_records = list(blast_record)
+	record = blast_records[0]
+	hits = []
+	for alignment in record.alignments:
+		for hsp in alignment.hsps:
+			if hsp.expect < eValueThresh:
+				#stamp = '\n[[ * * * * Record No.' + str(n) + ' * * * * ]]'
+				#print stamp
+				n += 1
+				title = alignment.title
+				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|(.*?)\|.*?\[([A-Z])\S* ([A-Z|a-z]{3}).*\].*?', title)
+				if mdata is not None:
+					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(1))
+					acc = str(accession.group(1))
+					genus = str(mdata.group(2)[0])
+					species = str(mdata.group(3)[:3])
+					shortSpecies = (genus + species)
+					hits.append((acc, shortSpecies))
+		#print ".\n.\n.\n."
+	spec = input[14:18]
+	#print "\n\n\nFiltering for: " + spec + "\n\n\n"
+	filteredHits = filter_species(hits,spec)
+	# Saving results
+	with open("outfile.csv",'a') as csvfile:
+		blasthits = csv.writer(csvfile)
+		accessionCounter = 1
+		for each in filteredHits:
+			blasthits.writerow([each[0]])
+			#print "Printed filtered accession " + str(accessionCounter)
+			accessionCounter += 1
+	csvfile.close()
+
+#-----------------------------------------------------------------------------
+# Parse a series of files
+#-----------------------------------------------------------------------------
+def parse_files():
+		fileCounter = 1
+		with open("results\\filenames.csv",'r') as csvfile:
+			reader = csv.reader(csvfile)
+			files = list(reader)
+			for filename in files:
+				#print "\n\n* * * * * Processing file " +str(fileCounter) + " * * * * *"
+				fileCounter += 1 
+				get_ids(filename[1])
+		csvfile.close()
+		with open("outfile.csv",'r') as csvfile2:
+			read = csv.reader(csvfile2)
+			bam = list(read)
+			cord =[]
+			for i in range(0,len(bam)):
+				cord.append(bam[i][0])
+			accs = list(set(cord))
+		csvfile2.close()
+		return bam
+
+#-----------------------------------------------------------------------------
+# Run the shit
+#-----------------------------------------------------------------------------
+# This bit clears output files so they are clean on initializing this program
+with open("outfile.csv","w") as csvfile:
+	csvfile.truncate()
+	
+parse_files()
+fetch_data("gb", "outfile.csv")

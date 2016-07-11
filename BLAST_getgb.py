@@ -10,6 +10,7 @@ Entrez.email ="someemail@gmail.com"
 #-----------------------------------------------------------------------------
 # Dummy data to work with in testing
 #-----------------------------------------------------------------------------
+'''
 acc = "XP_001345507"
 accList = ["AAQ07962", "XP_009303831", "XP_009290029", "NP_919397"]
 
@@ -18,7 +19,7 @@ with open("test.txt","w") as testFile:
 	for each in accList:
 		writer.writerow([each])
 testFile.close()
-
+'''
 #-----------------------------------------------------------------------------
 # Read data from a csv file into a list (required for fetch_data())
 #-----------------------------------------------------------------------------
@@ -35,7 +36,7 @@ def csv_to_list(filename):
 # Fetch data can take either the list of accessions or name of csv (one entry per line)
 #-----------------------------------------------------------------------------
 db = "protein"
-def fetch_data(datatype, input, db=db, ids=accList):
+def fetch_data(datatype, input, db=db):
 	if isinstance(input, str):
 		inputList = csv_to_list(input)
 	else:
