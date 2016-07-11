@@ -17,13 +17,13 @@ Entrez.email ="r.a.wyatt@unb.ca"
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
 def search_NCBI(species, seqQuery, out):
-	print("\n\nNot an operational search just yet, but good job anyway")
+	#print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for gi"+seqQuery)
-'''
+
 	# NCBI query
 	
 	eQ = species + '\[Organism\]'
-	gi = int(seqQuery)
+	gi = seqQuery
 	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
 	print("Saving file as: " + out)
 
@@ -33,7 +33,7 @@ def search_NCBI(species, seqQuery, out):
 	save_file.close()
 	result.close()
 	time.sleep(120) # Pause 2min between database queries
-'''	
+
 #-----------------------------------------------------------------------------
 # BLAST controller
 #-----------------------------------------------------------------------------	
@@ -62,7 +62,7 @@ def run_blasts():
 						species = str(setDirections[i][0])
 						matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
 						shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
-						out = "results\\BLAST_" + shortSpecies + "_" + query + ".xml"
+						out = "results\\BLAST\\" + shortSpecies + "_" + query + ".xml"
 						search_NCBI(species,query,out)
 						filenames.writerow((species, out))
 			csvfile.close()	
@@ -138,7 +138,8 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 					species = str(mdata.group(3)[:3])
 					shortSpecies = (genus + species)
 					hits.append((acc, shortSpecies))
-	spec = input[14:18]
+	spec = input[0:4]
+	print "filtering for: " + spec
 	filteredHits = filter_species(hits,spec)
 	# Saving results
 	with open("outfile.csv",'a') as csvfile:
@@ -184,7 +185,8 @@ run_blasts()
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
-# This bit initializes output files 
+# This bit initializes output files/deletes old files
+
 bin = open("outfile.csv","w")
 bin.close()
 
