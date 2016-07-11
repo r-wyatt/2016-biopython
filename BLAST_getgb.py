@@ -45,7 +45,7 @@ def fetch_data(datatype, input, db=db, ids=accList):
 	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
 	print handle.read()
 
-fetch_data("gb", "test.txt")
+fetch_data("gb", "outfile.csv")
 
 
 '''
