@@ -55,7 +55,7 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 					hits.append((acc, shortSpecies))
 		#print ".\n.\n.\n."
 	spec = input[14:18]
-	print "\n\n\nFiltering for: " + spec + "\n\n\n"
+	#print "\n\n\nFiltering for: " + spec + "\n\n\n"
 	filteredHits = filter_species(hits,spec)
 	# Saving results
 	with open("outfile.csv",'a') as csvfile:
@@ -63,7 +63,7 @@ def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
 		accessionCounter = 1
 		for each in filteredHits:
 			blasthits.writerow([each[0]])
-			print "Printed filtered accession " + str(accessionCounter)
+			#print "Printed filtered accession " + str(accessionCounter)
 			accessionCounter += 1
 	csvfile.close()
 
@@ -76,7 +76,7 @@ def parse_files():
 			reader = csv.reader(csvfile)
 			files = list(reader)
 			for filename in files:
-				print "* * * * * Processing file " +str(fileCounter) + " * * * * *"
+				#print "\n\n* * * * * Processing file " +str(fileCounter) + " * * * * *"
 				fileCounter += 1 
 				get_ids(filename[1])
 		csvfile.close()
