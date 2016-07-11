@@ -16,13 +16,13 @@ import re
 #-----------------------------------------------------------------------------
 
 def search_a_database(species, seqQuery, out):
-	print("\n\nNot an operational search just yet, but good job anyway")
+	#print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for gi"+seqQuery)
-'''
+
 	# NCBI query
 	
 	eQ = species + '\[Organism\]'
-	gi = int(seqQuery)
+	gi = seqQuery
 	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
 	print("Saving file as: " + out)
 
@@ -32,7 +32,7 @@ def search_a_database(species, seqQuery, out):
 	save_file.close()
 	result.close()
 	time.sleep(120) # Pause 2min between database queries
-'''	
+
 #-----------------------------------------------------------------------------
 # Search database repeatedly (input is csv with {species, gi} in each row)
 #-----------------------------------------------------------------------------
@@ -77,7 +77,7 @@ def decide_what_to_do():
 	elif decision == "r":
 		species = raw_input("Please enter the species query to limit results: ")
 		seqQuery = raw_input("Please enter the protein gi number to use as sequence query: ")
-		search_a_database(species, seqQuery)
+		search_a_database(species, seqQuery,"singlesearch.txt")
 	elif decision == "q":
 		print("\n\nThanks for playing!")
 	else:
