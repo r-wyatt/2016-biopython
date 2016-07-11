@@ -1,3 +1,0 @@
-Mus musculus,results\BLAST_Mmus_225543094.xml
-Homo sapiens,results\BLAST_Hsap_225543094.xml
-Danio rerio,results\BLAST_Drer_225543094.xml
