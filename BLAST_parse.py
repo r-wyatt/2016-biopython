@@ -88,6 +88,7 @@ def parse_files():
 				cord.append(bam[i][0])
 			accs = list(set(cord))
 		csvfile2.close()
+		return bam
 
 #-----------------------------------------------------------------------------
 # Actually run the shit
@@ -98,8 +99,6 @@ with open("outfile.csv","w") as csvfile:
 	csvfile.truncate()
 	
 parse_files()
-
-#get_ids(sys.argv[1])
 	
 
 
