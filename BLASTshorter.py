@@ -25,6 +25,7 @@ from Bio import Seq
 from Bio import Entrez
 from Bio.Blast import NCBIXML
 import os.path
+import errno
 import time
 import csv
 import sys
@@ -84,6 +85,8 @@ def run_blasts():
 						species = str(setDirections[i][0])
 						matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
 						shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
+						if not os.path.exists("results\\BLAST\\"):
+							mkdir_p("results\\BLAST\\")
 						out = "results\\BLAST\\" + shortSpecies + "_" + query + ".xml"
 						search_NCBI(species,query,out)
 						filenames.writerow((species, out))
@@ -208,7 +211,9 @@ run_blasts()
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
 # This bit initializes output files/deletes old files
-
+if not os.path.exists("results\\"):
+	mkdir_p("results\\")
+	
 bin = open("outfile.csv","w")
 bin.close()
 
@@ -221,6 +226,7 @@ os.remove("outfile.csv")
 # Reformat genbank file to FASTA
 #-----------------------------------------------------------------------------
 print "\n\nFormatting genbank data to FASTA..."
+
 gbk_filename = "results\\gb_outfile.txt"
 faa_filename = "results\\fasta_outfile.txt"
 input_handle  = open(gbk_filename, "r")
