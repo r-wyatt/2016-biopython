@@ -1,4 +1,22 @@
 #-----------------------------------------------------------------------------
+# Automated BLAST searching
+#-----------------------------------------------------------------------------
+''' Script to run a series of BLAST searches
+Written by R. A. Wyatt in July, 2016 with the help of many forum questions
+and answers. Especially those on stackoverflow.
+
+This script requires version 2.5 of python (syntax breaks with 3.5, sadly). 
+It takes an input file with directions for what BLAST searches to accomplish.
+
+Input file must have the following format:
+Genus species,queryAccession
+Genus species,queryAccession
+Genus species,queryAccession
+
+Where each line is a separate BLAST instruction. This can be edited in excel and saved
+as a .csv if need be.
+'''
+#-----------------------------------------------------------------------------
 # Set-up section
 #-----------------------------------------------------------------------------
 from Bio.Blast import NCBIWWW
@@ -11,14 +29,25 @@ import time
 import csv
 import sys
 import re
-Entrez.email ="r.a.wyatt@unb.ca"
+Entrez.email ="someemail@gmail.com"
 
+#-----------------------------------------------------------------------------
+# Set-up section
+#-----------------------------------------------------------------------------
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:  # Python >2.5
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
 #-----------------------------------------------------------------------------
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
 def search_NCBI(species, seqQuery, out):
 	#print("\n\nNot an operational search just yet, but good job anyway")
-	print("\n\nSearching: "+species+" for gi"+seqQuery)
+	print("\n\nSearching: "+species+" for "+seqQuery)
 
 	# NCBI query
 	
@@ -37,14 +66,7 @@ def search_NCBI(species, seqQuery, out):
 #-----------------------------------------------------------------------------
 # BLAST controller
 #-----------------------------------------------------------------------------	
-''' Input file must have the following format:
-Genus species,queryAccession
-Genus species,queryAccession
-Genus species,queryAccession
 
-Where each line is a separate BLAST instruction. This can be edited in excel and saved
-as a .csv if need be.
-'''
 def run_blasts():
 	indexfile = raw_input("Enter name of csv file with species and gi numbers: ")
 	if os.path.isfile(indexfile):
