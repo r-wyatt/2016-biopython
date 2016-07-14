@@ -24,6 +24,8 @@ from Bio import SeqIO
 from Bio import Seq
 from Bio import Entrez
 from Bio.Blast import NCBIXML
+from os import listdir
+from os.path import isfile
 import os.path
 import errno
 import time
@@ -32,8 +34,12 @@ import sys
 import re
 Entrez.email ="someemail@gmail.com"
 
+#=============================================================================
+#-------- Utility Functions --------------------------------------------------
+#=============================================================================
+
 #-----------------------------------------------------------------------------
-# Set-up section
+# Directory check utility
 #-----------------------------------------------------------------------------
 def mkdir_p(path):
     try:
@@ -43,13 +49,58 @@ def mkdir_p(path):
             pass
         else:
             raise
+
+#-----------------------------------------------------------------------------
+# Takes a string and finds the species if in format [Genus species]
+#-----------------------------------------------------------------------------
+def find_species(desc):
+	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', desc)
+	name = mobj.group(1) + mobj.group(2)
+	return name.title()
+#-----------------------------------------------------------------------------
+# Strip filename of extension
+#-----------------------------------------------------------------------------
+def record_name(filename):
+	rnam = re.match(r'(\S*).[A-Z|a-z]{3}',filename)
+	return rnam.group(1)
+#-----------------------------------------------------------------------------
+# Read data from a csv file into a list 
+#-----------------------------------------------------------------------------
+# required for fetch_data()
+
+def csv_to_list(filename):
+	with open(filename,"r") as read:
+		reader = csv.reader(read)
+		tempList = list(reader)
+		print tempList
+	inputList = []
+	for i in range(0,(len(tempList))):
+		inputList.append(tempList[i][0])
+
+	return inputList
+	
+#-----------------------------------------------------------------------------
+# Filter accession list
+#-----------------------------------------------------------------------------
+def filter_species(listOfTuples, shortSpecies):
+	filtered = []
+	for each in listOfTuples:
+		if each[1] == shortSpecies:
+			filtered.append(each)
+	output = list(set(filtered))
+	return output
+	
+#=============================================================================
+#-------- Basic Functionality ------------------------------------------------
+#=============================================================================
+
 #-----------------------------------------------------------------------------
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
 def search_NCBI(species, seqQuery, out):
-	#print("\n\nNot an operational search just yet, but good job anyway")
+	print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for "+seqQuery)
-
+	'''
 	# NCBI query
 	
 	eQ = species + '\[Organism\]'
@@ -63,11 +114,65 @@ def search_NCBI(species, seqQuery, out):
 	save_file.close()
 	result.close()
 	time.sleep(120) # Pause 2min between database queries
+'''
+
+#-----------------------------------------------------------------------------
+# Given input file, give a csv of IDs
+#-----------------------------------------------------------------------------
+# First argument is the path to the XML file from a remote BLAST search, second
+# is an e value threshold below which results from the BLAST search will be discarded,
+# third is the name of the file to write the accessions to, and fourth is the name of the
+# file to send the file names of processed BLAST searches to.
+
+def get_ids(filename, ethresh = 0.01):
+	eValueThresh = ethresh
+	result = open("results\\BLAST\\"+filename) # mode omitted defaults to read only
+	blast_record = NCBIXML.parse(result)
+	blast_records = list(blast_record)
+	record = blast_records[0]
+	hits = []
+	for alignment in record.alignments:
+		for hsp in alignment.hsps:
+			if hsp.expect < eValueThresh:
+				title = alignment.title
+				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|(.*?)\|.*?\[([A-Z])\S* ([A-Z|a-z]{3}).*\].*?', title)
+				if mdata is not None:
+					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(1))
+					acc = str(accession.group(1))
+					genus = str(mdata.group(2)[0])
+					species = str(mdata.group(3)[:3])
+					shortSpecies = (genus + species)
+					hits.append((acc, shortSpecies))
+	spec = filename[0:4]
+	print "filtering for: " + spec
+	filteredHits = filter_species(hits,spec)
+	# Saving results
+	# Save as separate files for each species~!
+	name = record_name(filename)
+	with open("results\\accs\\"+name+".csv",'w') as csvfile:
+		blasthits = csv.writer(csvfile)
+		for each in filteredHits:
+			blasthits.writerow([each[0]])
+	csvfile.close()
+
+#-----------------------------------------------------------------------------
+# Fetch data can take either the list of accessions or name of csv (one entry per line)
+#-----------------------------------------------------------------------------
+def fetch_data(datatype, rname):
+	accs = csv_to_list("results\\accs\\"+rname+".csv")
+	save_stdout = sys.stdout 
+	sys.stdout = open("results\\fasta\\"+rname+".txt", "w")
+	handle = Entrez.efetch(db="protein", id=accs, rettype=datatype, retmode="text")
+	print handle.read()
+	sys.stdout = save_stdout
+	
+#=============================================================================
+#-------- Flow Control -------------------------------------------------------
+#=============================================================================
 
 #-----------------------------------------------------------------------------
 # BLAST controller
 #-----------------------------------------------------------------------------	
-
 def run_blasts():
 	indexfile = raw_input("Enter name of csv file with species and gi numbers: ")
 	if os.path.isfile(indexfile):
@@ -93,114 +198,17 @@ def run_blasts():
 			csvfile.close()	
 	else:
 		print("\n\nThis file doesn't exist")
-		run_blasts()
-
+		run_blasts()	
+		
 #-----------------------------------------------------------------------------
-# Read data from a csv file into a list 
+# Parse a series of xml BLAST output files to return accession lists
 #-----------------------------------------------------------------------------
-# required for fetch_data()
-
-def csv_to_list(filename):
-	with open(filename,"r") as read:
-		reader = csv.reader(read)
-		tempList = list(reader)
-	inputList = []
-	for i in range(0,(len(tempList))):
-		inputList.append(tempList[i][0])
-
-	return inputList
-
-#-----------------------------------------------------------------------------
-# Fetch data can take either the list of accessions or name of csv (one entry per line)
-#-----------------------------------------------------------------------------
-def fetch_data(datatype, input):
-	if isinstance(input, str):
-		inputList = csv_to_list(input)
-	else:
-		inputList = input
-	temp = sys.stdout
-	save_stdout = sys.stdout 
-	sys.stdout = open("results\\" + datatype + "_outfile.txt", "w")
-	handle = Entrez.efetch(db="protein", id=inputList, rettype=datatype, retmode="text")
-	print handle.read()
-	sys.stdout = save_stdout
-	
-#-----------------------------------------------------------------------------
-# Filter accession list
-#-----------------------------------------------------------------------------
-def filter_species(listOfTuples, shortSpecies):
-	filtered = []
-	for each in listOfTuples:
-		if each[1] == shortSpecies:
-			filtered.append(each)
-	output = list(set(filtered))
-	return output
-
-#-----------------------------------------------------------------------------
-# Given input file, give a csv of IDs
-#-----------------------------------------------------------------------------
-# First argument is the path to the XML file from a remote BLAST search, second
-# is an e value threshold below which results from the BLAST search will be discarded,
-# third is the name of the file to write the accessions to, and fourth is the name of the
-# file to send the file names of processed BLAST searches to.
-
-def get_ids(input, ethresh = 0.01, outfile1 = "outfile.csv"):
-	eValueThresh = 0.01
-	result = open(input) # mode omitted defaults to read only
-	blast_record = NCBIXML.parse(result)
-	blast_records = list(blast_record)
-	record = blast_records[0]
-	hits = []
-	for alignment in record.alignments:
-		for hsp in alignment.hsps:
-			if hsp.expect < eValueThresh:
-				title = alignment.title
-				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|(.*?)\|.*?\[([A-Z])\S* ([A-Z|a-z]{3}).*\].*?', title)
-				if mdata is not None:
-					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(1))
-					acc = str(accession.group(1))
-					genus = str(mdata.group(2)[0])
-					species = str(mdata.group(3)[:3])
-					shortSpecies = (genus + species)
-					hits.append((acc, shortSpecies))
-	spec = input[0:4]
-	print "filtering for: " + spec
-	filteredHits = filter_species(hits,spec)
-	# Saving results
-	with open("outfile.csv",'a') as csvfile:
-		blasthits = csv.writer(csvfile)
-		for each in filteredHits:
-			blasthits.writerow([each[0]])
-	csvfile.close()
-
-#-----------------------------------------------------------------------------
-# Parse a series of files
-#-----------------------------------------------------------------------------
-def parse_files():
-		with open("results\\filenames.csv",'r') as csvfile:
-			reader = csv.reader(csvfile)
-			files = list(reader)
-			for filename in files:
-				get_ids(filename[1])
-		csvfile.close()
-		with open("outfile.csv",'r') as csvfile2:
-			read = csv.reader(csvfile2)
-			bam = list(read)
-			cord =[]
-			for i in range(0,len(bam)):
-				cord.append(bam[i][0])
-			accs = list(set(cord))
-		csvfile2.close()
-		return bam
-		os.remove("results\\filenames.csv")
-
-#-----------------------------------------------------------------------------
-# Takes a string and finds the species if in format [Genus species]
-#-----------------------------------------------------------------------------
-def find_species(desc):
-	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', desc)
-	name = mobj.group(1) + mobj.group(2)
-	return name.title()
+def parse_files(dir):
+	files = [f for f in listdir(dir) if isfile(dir+f)]
+	for file in files:
+		get_ids(file)
+		masterName = record_name(file)
+		fetch_data("gb",masterName)
 
 #-----------------------------------------------------------------------------
 # Run BLAST searches
@@ -210,17 +218,12 @@ run_blasts()
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
-# This bit initializes output files/deletes old files
-if not os.path.exists("results\\"):
-	mkdir_p("results\\")
-	
+
 bin = open("outfile.csv","w")
 bin.close()
 
 print "\n\nFetching genbank data and saving..."	
-parse_files()
-fetch_data("gb", "outfile.csv")
-os.remove("outfile.csv")
+parse_files("results\\BLAST\\")
 
 #-----------------------------------------------------------------------------
 # Reformat genbank file to FASTA
