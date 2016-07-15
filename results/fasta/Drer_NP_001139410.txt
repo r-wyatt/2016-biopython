@@ -1929,11 +1929,11 @@ FEATURES             Location/Qualifiers
      Region          29..81
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          111..277
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          111..277
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1962,10 +1962,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          <563..621
+     Region          563..621
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..621
                      /gene="mmp14b"
                      /gene_synonym="MT-MMPbeta"

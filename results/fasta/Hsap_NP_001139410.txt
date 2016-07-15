@@ -5992,11 +5992,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6028,7 +6028,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /coded_by="AK312657.1:234..1982"
                      /note="highly similar to Homo sapiens matrix
@@ -6792,11 +6792,11 @@ FEATURES             Location/Qualifiers
      Region          32..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
