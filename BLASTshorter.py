@@ -26,6 +26,7 @@ from Bio import Entrez
 from Bio.Blast import NCBIXML
 from os import listdir
 from os.path import isfile
+from shutil import rmtree
 import os.path
 import errno
 import time
@@ -39,7 +40,7 @@ Entrez.email ="someemail@gmail.com"
 #=============================================================================
 
 #-----------------------------------------------------------------------------
-# Directory check utility
+# Directory utilities
 #-----------------------------------------------------------------------------
 def mkdir_p(path):
     try:
@@ -50,6 +51,16 @@ def mkdir_p(path):
         else:
             raise
 
+def rmdir_p(path):
+	if os.path.isdir(path):
+		rmtree(path)
+
+def cleanup():
+	directories = ['results\\BLAST','results\\accs','results\\fasta']
+
+	for folder in directories:
+		rmdir_p(folder)
+		mkdir_p(folder)
 #-----------------------------------------------------------------------------
 # Takes a string and finds the species if in format [Genus species]
 #-----------------------------------------------------------------------------
@@ -98,9 +109,9 @@ def filter_species(listOfTuples, shortSpecies):
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
 def search_NCBI(species, seqQuery, out):
-	print("\n\nNot an operational search just yet, but good job anyway")
+	#print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for "+seqQuery)
-	'''
+	
 	# NCBI query
 	
 	eQ = species + '\[Organism\]'
@@ -114,7 +125,7 @@ def search_NCBI(species, seqQuery, out):
 	save_file.close()
 	result.close()
 	time.sleep(120) # Pause 2min between database queries
-'''
+
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -213,6 +224,7 @@ def parse_files(dir):
 #-----------------------------------------------------------------------------
 # Run BLAST searches
 #-----------------------------------------------------------------------------
+cleanup()
 run_blasts()
 
 #-----------------------------------------------------------------------------
