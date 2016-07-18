@@ -29,6 +29,7 @@ from os.path import isfile
 from shutil import rmtree
 import os.path
 import errno
+import glob
 import time
 import csv
 import sys
@@ -56,7 +57,7 @@ def rmdir_p(path):
 		rmtree(path)
 
 def cleanup(dir):
-	directories = [dir,dir+'\\BLAST',dir+'\\accs',dir+'\\fasta']
+	directories = [dir,dir+'\\BLAST',dir+'\\accs',dir+'\\gb',dir+'\\fasta']
 
 	for folder in directories:
 		rmdir_p(folder)
@@ -83,7 +84,6 @@ def csv_to_list(filename):
 	with open(filename,"r") as read:
 		reader = csv.reader(read)
 		tempList = list(reader)
-		print tempList
 	inputList = []
 	for i in range(0,(len(tempList))):
 		inputList.append(tempList[i][0])
@@ -105,11 +105,20 @@ def filter_species(listOfTuples, shortSpecies):
 # Consolidate species files
 #-----------------------------------------------------------------------------
 def consolidate_species(dir):
-	files = [f for f in listdir(dir) if isfile(dir+f)]
-# TODO unfinished script here
-
-
-
+	wdir = dir + "\\gb\\"
+	ids = []
+	files = [f for f in listdir(wdir) if isfile(wdir+f)]
+	for file in files:
+		ids.append(file[0:4])
+	specs = list(set(ids))
+	for spec in specs:
+		read_files = glob.glob(wdir+spec+"*")
+		with open(wdir+"master"+spec+".txt", "wb") as outfile:
+			for f in read_files:
+				with open(f, "rb") as infile:
+					outfile.write(infile.read())
+				infile.close()
+		outfile.close()
 
 #=============================================================================
 #-------- Basic Functionality ------------------------------------------------
@@ -123,7 +132,7 @@ def search_NCBI(species, seqQuery, out):
 	print("\n\nSearching: "+species+" for "+seqQuery)
 	
 	# NCBI query
-	'''
+'''
 	eQ = species + '\[Organism\]'
 	gi = seqQuery
 	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
@@ -182,7 +191,8 @@ def get_ids(filename, dir, ethresh = 0.01):
 def fetch_data(datatype, rname, dir):
 	accs = csv_to_list(dir+"\\accs\\"+rname+".csv")
 	save_stdout = sys.stdout 
-	sys.stdout = open(dir+"\\fasta\\"+rname+".txt", "w")
+	# Save concatenated genbank records
+	sys.stdout = open(dir+"\\gb\\"+rname+".txt", "w")
 	handle = Entrez.efetch(db="protein", id=accs, rettype=datatype, retmode="text")
 	print handle.read()
 	sys.stdout = save_stdout
@@ -203,20 +213,16 @@ def run_blasts(dir):
 			for row in index:
 				setDirections.append(row)
 			count = len(setDirections)	
-			with open(dir+"\\filenames.csv",'w') as csvfile:
-				filenames = csv.writer(csvfile)
-				for i in range(0,count-1):
-					if setDirections[i] != None:
-						query = str(setDirections[i][1])
-						species = str(setDirections[i][0])
-						matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
-						shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
-						if not os.path.exists(dir+"\BLAST\\"):
-							mkdir_p(dir+"\\BLAST\\")
-						out = dir+"\\BLAST\\" + shortSpecies + "_" + query + ".xml"
-						search_NCBI(species,query,out)
-						filenames.writerow((species, out))
-			csvfile.close()	
+			for i in range(0,count-1):
+				if setDirections[i] != None:
+					query = str(setDirections[i][1])
+					species = str(setDirections[i][0])
+					matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
+					shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
+					if not os.path.exists(dir+"\BLAST\\"):
+						mkdir_p(dir+"\\BLAST\\")
+					out = dir+"\\BLAST\\" + shortSpecies + "_" + query + ".xml"
+					search_NCBI(species,query,out)
 	else:
 		print("\n\nThis file doesn't exist")
 		run_blasts()	
@@ -225,44 +231,51 @@ def run_blasts(dir):
 # Parse a series of xml BLAST output files to return accession lists
 #-----------------------------------------------------------------------------
 def parse_files(dir):
-	files = [f for f in listdir(dir) if isfile(dir+f)]
+	wdir = dir + "\\BLAST\\"
+	files = [f for f in listdir(wdir) if isfile(wdir+f)]
 	for file in files:
-		get_ids(file)
+		get_ids(file,dir)
 		masterName = record_name(file)
-		fetch_data("gb",masterName)
+		fetch_data("gb",masterName,dir)
 
 #-----------------------------------------------------------------------------
 # Run BLAST searches
 #-----------------------------------------------------------------------------
 directoryName = raw_input("Enter directory name to write results to: ")
 print "\n\n Clearing/creating new directory..."
-cleanup(directoryName)
+#cleanup(directoryName)
 run_blasts(directoryName)
 
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
 print "\n\nFetching genbank data and saving..."	
-parse_files(directoryName+"\\BLAST\\")
+parse_files(directoryName)
+
+consolidate_species(directoryName)
 
 #-----------------------------------------------------------------------------
 # Reformat genbank file to FASTA
 #-----------------------------------------------------------------------------
+'''
 print "\n\nFormatting genbank data to FASTA..."
 
 gbk_filename = directoryName+"\\gb_outfile.txt"
 faa_filename = directoryName+"\\fasta_outfile.txt"
-input_handle  = open(gbk_filename, "r")
-output_handle = open(faa_filename, "w")
 
-for seq_record in SeqIO.parse(input_handle, "genbank") :
-	#print "Dealing with GenBank record %s" % seq_record.id
-	output_handle.write(">%s %s\n%s\n" % (
-												find_species(seq_record.description),
-												seq_record.id,
-												seq_record.seq))	
+def process_gbk(dir):
+	input_handle  = open(gbk_filename, "r")
+	output_handle = open(faa_filename, "w")
+	for seq_record in SeqIO.parse(input_handle, "genbank") :
+		#print "Dealing with GenBank record %s" % seq_record.id
+		output_handle.write(">%s %s\n%s\n" % (
+													find_species(seq_record.description),
+													seq_record.id,
+													seq_record.seq))	
 
-output_handle.close()
-input_handle.close()
+	output_handle.close()
+	input_handle.close()
 
 print "\n\n* * Run Success * *"
+
+'''
