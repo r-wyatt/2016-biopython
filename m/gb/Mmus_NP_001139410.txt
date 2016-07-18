@@ -8486,14 +8486,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..339
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..266
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..266
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -11259,11 +11259,11 @@ FEATURES             Location/Qualifiers
      Region          <1..21
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          42..197
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          42..197
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix

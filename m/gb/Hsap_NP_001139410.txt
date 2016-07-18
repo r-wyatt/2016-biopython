@@ -460,11 +460,11 @@ FEATURES             Location/Qualifiers
      Region          <1..21
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          42..195
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          42..195
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1241,11 +1241,11 @@ FEATURES             Location/Qualifiers
      Region          <1..21
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          42..197
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          42..197
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1269,11 +1269,7 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cl02471"
-                     /db_xref="CDD:271582"
-     Site            order(221,223,265,267)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
+                     /db_xref="CDD:295316"
      CDS             1..305
                      /coded_by="AK303511.1:243..1160"
                      /note="highly similar to Neutrophil collagenase precursor
@@ -1338,11 +1334,11 @@ FEATURES             Location/Qualifiers
      Region          27..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          108..190
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..190
                      /region_name="ZnMc"
                      /note="Zinc-dependent metalloprotease. This super-family
@@ -1350,7 +1346,7 @@ FEATURES             Location/Qualifiers
                      astacin-like proteases and the adamalysin/reprolysin-like
                      proteases. Both branches have wide phylogenetic
                      distribution, and contain sub-families, which...; cl00064"
-                     /db_xref="CDD:275466"
+                     /db_xref="CDD:294052"
      Site            order(147..148,151,157)
                      /site_type="active"
                      /db_xref="CDD:238124"
@@ -2131,11 +2127,11 @@ FEATURES             Location/Qualifiers
      Region          8..63
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          84..239
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          84..239
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2746,10 +2742,10 @@ FEATURES             Location/Qualifiers
      proprotein      23..483
                      /product="matrix metalloproteinase-20 proprotein"
                      /calculated_mol_wt=52096
-     Region          39..95
+     Region          35..95
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          98..105
                      /region_name="Cysteine switch (By similarity)"
                      /inference="non-experimental evidence, no additional
@@ -2761,7 +2757,7 @@ FEATURES             Location/Qualifiers
      Region          116..271
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          116..271
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4107,14 +4103,14 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:9606"
      Protein         1..607
                      /product="membrane-type matrix metalloproteinase 3"
-     Region          43..96
+     Region          42..96
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          126..291
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          126..291
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4143,10 +4139,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          534..607
+     Region          537..607
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..607
                      /coded_by="AB009303.1:113..1936"
                      /note="MT-MMP-3"

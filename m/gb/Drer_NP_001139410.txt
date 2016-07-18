@@ -2065,11 +2065,11 @@ FEATURES             Location/Qualifiers
      Region          28..90
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          111..>165
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          111..>165
                      /region_name="ZnMc"
                      /note="Zinc-dependent metalloprotease. This super-family
@@ -2077,7 +2077,7 @@ FEATURES             Location/Qualifiers
                      astacin-like proteases and the adamalysin/reprolysin-like
                      proteases. Both branches have wide phylogenetic
                      distribution, and contain sub-families, which...; cl00064"
-                     /db_xref="CDD:275466"
+                     /db_xref="CDD:294052"
      CDS             1..167
                      /gene="mmp13"
                      /gene_synonym="cb1034"
