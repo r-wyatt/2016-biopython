@@ -27,10 +27,13 @@ def trim_align(alignpath,out):
 #-----------------------------------------------------------------------------
 # USE MUSCLE!!! Put code in here:
 #-----------------------------------------------------------------------------
+fileName = raw_input("Enter path to fasta file: ")
+
 out_file = "results\\opuntia_aln.fasta"
 in_file = "results\\opuntia.fasta"
 muscle_cline = MuscleCommandline(input=in_file,out=out_file)
 
+directoryName = raw_input("Enter directory name to write results to: ")
 
 trim_align(out_file,"results\\trim_opuntia.aln")
 
