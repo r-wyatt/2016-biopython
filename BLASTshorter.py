@@ -117,7 +117,7 @@ def consolidate_species(dir):
 	for spec in specs:
 		read_files = glob.glob(wdir+spec+"*")
 		name = spec+".txt"
-		with open(os.path.join(wdir,"master",name), "wb") as outfile:
+		with open(os.path.join(wdir,"master"+name), "wb") as outfile:
 			for f in read_files:
 				with open(f, "rb") as infile:
 					outfile.write(infile.read())
