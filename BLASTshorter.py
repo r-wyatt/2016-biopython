@@ -1,3 +1,4 @@
+#!/usr/bin/env
 #-----------------------------------------------------------------------------
 # Automated BLAST searching
 #-----------------------------------------------------------------------------
@@ -107,7 +108,7 @@ def filter_species(listOfTuples, shortSpecies):
 # Consolidate species files
 #-----------------------------------------------------------------------------
 def consolidate_species(dir):
-	wdir = os.path.join(dir, "gb")
+	wdir = os.path.join(dir, "gb","")
 	ids = []
 	files = [f for f in listdir(wdir) if isfile(wdir+f)]
 	for file in files:
@@ -115,7 +116,8 @@ def consolidate_species(dir):
 	specs = list(set(ids))
 	for spec in specs:
 		read_files = glob.glob(wdir+spec+"*")
-		with open(wdir+"master"+spec+".txt", "wb") as outfile: # Change to write to upper level?
+		name = spec+".txt"
+		with open(os.path.join(wdir,"master",name), "wb") as outfile:
 			for f in read_files:
 				with open(f, "rb") as infile:
 					outfile.write(infile.read())
@@ -123,11 +125,10 @@ def consolidate_species(dir):
 		outfile.close()
 		
 def merge_all_fasta(dir):
-	wdir = os.path.join(dir + "fasta")
+	wdir = os.path.join(dir,"fasta")
 	files = [f for f in listdir(wdir) if isfile(wdir+f)]
 	for file in files:
-		print file
-		with open(os.path.join(dir,"master"+".txt"), "a") as outfile:
+		with open(os.path.join(dir,"master.txt"), "a") as outfile:
 			for f in read_files:
 				with open(f, "r") as infile:
 					outfile.write(infile.read())
@@ -142,9 +143,8 @@ def merge_all_fasta(dir):
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
 def search_NCBI(species, seqQuery, out):
-	#print("\n\nNot an operational search just yet, but good job anyway")
+	print("\n\nNot an operational search just yet, but good job anyway")
 	print("\n\nSearching: "+species+" for "+seqQuery)
-	
 	# NCBI query
 
 	eQ = species + '\[Organism\]'
@@ -158,7 +158,6 @@ def search_NCBI(species, seqQuery, out):
 	save_file.close()
 	result.close()
 	time.sleep(120) # Pause 2min between database queries
-
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -192,8 +191,7 @@ def get_ids(filename, dir, ethresh = 0.01):
 	filteredHits = filter_species(hits,spec)
 	# Saving results
 	# Save as separate files for each species~!
-	name = record_name(filename)
-	with open(os.path.join(dir,"accs",name+".csv"),'w') as csvfile:
+	with open(os.path.join(dir,"accs",record_name(filename)+".csv"),'w') as csvfile:
 		blasthits = csv.writer(csvfile)
 		for each in filteredHits:
 			blasthits.writerow([each[0]])
@@ -206,7 +204,7 @@ def fetch_data(datatype, rname, dir):
 	accs = csv_to_list(os.path.join(dir,"accs",rname+".csv"))
 	save_stdout = sys.stdout 
 	# Save concatenated genbank records
-	sys.stdout = open(os.path.join(dir,"gb",+rname+".txt"), "w")
+	sys.stdout = open(os.path.join(dir,"gb",rname+".txt"), "w")
 	handle = Entrez.efetch(db="protein", id=accs, rettype=datatype, retmode="text")
 	print handle.read()
 	sys.stdout = save_stdout
@@ -216,13 +214,16 @@ def fetch_data(datatype, rname, dir):
 #-----------------------------------------------------------------------------
 def process_gbk(dir):
 	print "\n\nFormatting genbank data to FASTA..."
-	wdir = os.path.join(dir,"gb")
-	read_files = glob.glob(wdir+"master"+"*")
+	wdir = os.path.join(dir,"gb","")
+	rm = r'master([A-Z|a-z]{4}).*'
+	read_files = [f for f in listdir(wdir) if isfile(wdir+f) and re.match(rm,f) != None] 
 	for file in read_files:
-		mobj = re.match(r'\S*master([A-Z|a-z]{4})\S*',file)
+		print file
+		mobj = re.match(rm,file)
 		spec = mobj.group(1)
-		input_handle = open(file,"r")
-		output_handle = open(os.path.join(dir,"fasta","master"+spec+".txt"),"w")
+		input_handle = open(os.path.join(wdir,file),"r")
+		print os.path.join(dir,"fasta","master"+spec+".txt")
+		output_handle = open(os.path.join(dir,spec+"master_fasta.txt"),"w")
 		for seq_record in SeqIO.parse(input_handle, "genbank"):
 			#print "Dealing with GenBank record %s" % seq_record.id
 			output_handle.write(">%s %s\n%s\n" % (
@@ -231,7 +232,7 @@ def process_gbk(dir):
 														seq_record.seq))	
 		output_handle.close()
 		input_handle.close()
-	
+
 #=============================================================================
 #-------- Flow Control -------------------------------------------------------
 #=============================================================================
@@ -254,7 +255,8 @@ def run_blasts(dir):
 					species = str(setDirections[i][0])
 					matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
 					shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
-					out = os.path.join(dir,"BLAST", + shortSpecies + "_" + query + ".xml")
+					name = shortSpecies+"_"+query+".xml"
+					out = os.path.join(dir,"BLAST", name)
 					search_NCBI(species,query,out)
 	else:
 		print("\n\nThis file doesn't exist")
@@ -264,7 +266,7 @@ def run_blasts(dir):
 # Parse a series of xml BLAST output files to return accession lists
 #-----------------------------------------------------------------------------
 def parse_files(dir):
-	wdir = os.path.join(dir,"BLAST")
+	wdir = os.path.join(dir,"BLAST","")
 	files = [f for f in listdir(wdir) if isfile(wdir+f)]
 	for file in files:
 		get_ids(file,dir)
