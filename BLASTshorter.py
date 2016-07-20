@@ -39,7 +39,7 @@ import time
 import csv
 import sys
 import re
-Entrez.email ="someemail@gmail.com"
+Entrez.email = raw_input("Enter email: ")
 
 #=============================================================================
 #-------- Utility Functions --------------------------------------------------
@@ -142,22 +142,23 @@ def merge_all_fasta(dir):
 #-----------------------------------------------------------------------------
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
-def search_NCBI(species, seqQuery, out):
-	print("\n\nNot an operational search just yet, but good job anyway")
+def search_NCBI(species, seqQuery, out):	
 	print("\n\nSearching: "+species+" for "+seqQuery)
 	# NCBI query
+	if sys.argv[3] != "Mock":
+		eQ = species + '\[Organism\]'
+		gi = seqQuery
+		result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
 
-	eQ = species + '\[Organism\]'
-	gi = seqQuery
-	result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
-	print("Saving file as: " + out)
-
-	# Save file
-	save_file = open(out, "w")
-	save_file.write(result.read())
-	save_file.close()
-	result.close()
-	time.sleep(120) # Pause 2min between database queries
+		# Save file
+		save_file = open(out, "w")
+		save_file.write(result.read())
+		save_file.close()
+		result.close()
+		time.sleep(120) # Pause 2min between database queries
+		print("Saving file as: " + out)
+	else:
+		print("\n\nMock Search")
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -187,7 +188,6 @@ def get_ids(filename, dir, ethresh = 0.01):
 					shortSpecies = (genus + species)
 					hits.append((acc, shortSpecies))
 	spec = filename[0:4]
-	print "filtering for: " + spec
 	filteredHits = filter_species(hits,spec)
 	# Saving results
 	# Save as separate files for each species~!
@@ -218,12 +218,10 @@ def process_gbk(dir):
 	rm = r'master([A-Z|a-z]{4}).*'
 	read_files = [f for f in listdir(wdir) if isfile(wdir+f) and re.match(rm,f) != None] 
 	for file in read_files:
-		print file
 		mobj = re.match(rm,file)
 		spec = mobj.group(1)
 		input_handle = open(os.path.join(wdir,file),"r")
-		print os.path.join(dir,"fasta","master"+spec+".txt")
-		output_handle = open(os.path.join(dir,spec+"master_fasta.txt"),"w")
+		output_handle = open(os.path.join(dir,"fasta",spec+".txt"),"w")
 		for seq_record in SeqIO.parse(input_handle, "genbank"):
 			#print "Dealing with GenBank record %s" % seq_record.id
 			output_handle.write(">%s %s\n%s\n" % (
@@ -241,7 +239,7 @@ def process_gbk(dir):
 # BLAST controller
 #-----------------------------------------------------------------------------	
 def run_blasts(dir):
-	indexfile = raw_input("Enter name of csv file with species and gi numbers: ")
+	indexfile = sys.argv[1]
 	if os.path.isfile(indexfile):
 		with open(indexfile,'rb') as directions:
 			index = csv.reader(directions)
@@ -259,8 +257,7 @@ def run_blasts(dir):
 					out = os.path.join(dir,"BLAST", name)
 					search_NCBI(species,query,out)
 	else:
-		print("\n\nThis file doesn't exist")
-		run_blasts()	
+		print("\n\nInput file doesn't exist\n\n")
 		
 #-----------------------------------------------------------------------------
 # Parse a series of xml BLAST output files to return accession lists
@@ -276,20 +273,21 @@ def parse_files(dir):
 #-----------------------------------------------------------------------------
 # Run BLAST searches
 #-----------------------------------------------------------------------------
-directoryName = raw_input("Enter directory name to write results to: ")
 print "\n\n Clearing/creating new directory...\n\n"
-init(directoryName)
+init(sys.argv[2])
 
-run_blasts(directoryName)
+run_blasts(sys.argv[2])
 
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
 print "\n\nFetching genbank data and saving..."	
-parse_files(directoryName)
+parse_files(sys.argv[2])
 
-consolidate_species(directoryName)
+consolidate_species(sys.argv[2])
 
-process_gbk(directoryName)
+process_gbk(sys.argv[2])
+
+merge_all_fasta(sys.argv[2])
 
 print "\n\n* * Run Success * *"
