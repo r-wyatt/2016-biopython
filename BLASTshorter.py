@@ -62,7 +62,6 @@ def init(dir):
 	lst = ["BLAST","accs","gb","fasta"]
 	for string in lst:
 		directories.append(os.path.join(dir,string))
-	print directories
 	for folder in directories:
 		mkdir_p(folder)
 
@@ -145,7 +144,11 @@ def merge_all_fasta(dir):
 def search_NCBI(species, seqQuery, out):	
 	print("\n\nSearching: "+species+" for "+seqQuery)
 	# NCBI query
-	if sys.argv[3] != "Mock":
+	run = True
+	if len(sys.argv) > 3:
+		if sys.argv[3] == "Mock":
+			run = False
+	if run == True:
 		eQ = species + '\[Organism\]'
 		gi = seqQuery
 		result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
