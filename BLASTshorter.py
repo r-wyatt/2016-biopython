@@ -7,9 +7,9 @@ Written by R. A. Wyatt in July, 2016 with the help of many forum questions
 and answers. Especially those on stackoverflow.
 
 This script requires version 2.5 of python (syntax breaks with 3.5, sadly). 
-It takes an input file with directions for what BLAST searches to accomplish.
+It takes an index file with directions for what BLAST searches to accomplish.
 
-Input file must have the following format:
+Index file must have the following format:
 Genus species,queryAccession
 Genus species,queryAccession
 Genus species,queryAccession
@@ -17,9 +17,14 @@ Genus species,queryAccession
 Where each line is a separate BLAST instruction. This can be edited in excel and saved
 as a .csv if need be.
 
-This code breaks if the save directory you specify already exists. If you want to uoverwrite
+This code breaks if the save directory you specify already exists. If you want to overwrite
 a directory, you need to delete it before running this code. I tried, but failed, as windows
 throws access denied errors.
+
+Command to use the script:
+
+BLASTshorter.py   path_to_index_file   output_directory_path
+
 '''
 #-----------------------------------------------------------------------------
 # Set-up section
