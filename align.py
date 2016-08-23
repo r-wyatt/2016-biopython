@@ -15,7 +15,10 @@ import subprocess
 import os.path
 import sys
 import os
-
+'''
+To use this command, on the command line enter:
+python align.py
+'''
 #-----------------------------------------------------------------------------
 # Function to use trimal to trim alignment
 #-----------------------------------------------------------------------------
@@ -28,15 +31,15 @@ def trim_align(alignpath,out):
 #-----------------------------------------------------------------------------
 # USE MUSCLE!!! Put code in here:
 #-----------------------------------------------------------------------------
-fileName = raw_input("Enter path to fasta file: ")
+dir = raw_input("Enter directory master name: ")
 
-out_file = os.path.join("results","opuntia_aln.fasta")
-in_file = os.path.join("results","opuntia.fasta")
+out_file = os.path.join(dir,"fasta","mast.txt")
+in_file = os.path.join(dir,"opuntia.fasta")
 muscle_cline = MuscleCommandline(input=in_file,out=out_file)
 
 directoryName = raw_input("Enter directory name to write results to: ")
 
-trim_align(out_file,os.path.join("results","trim_opuntia.aln")
+trim_align(out_file,os.path.join("results","outfile.aln")
 
 
 

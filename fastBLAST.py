@@ -17,13 +17,18 @@ Genus species,queryAccession
 Where each line is a separate BLAST instruction. This can be edited in excel and saved
 as a .csv if need be.
 
-This code breaks if the save directory you specify already exists. If you want to overwrite
+This code stumbles if the save directory you specify already exists (it will add to directory,
+and not overwrite existing entries, possibly duplicating searches). If you want to overwrite
 a directory, you need to delete it before running this code. I tried, but failed, as windows
 throws access denied errors.
 
 Command to use the script:
 
-BLASTshorter.py   path_to_index_file   output_directory_path
+fastBLAST.py   path_to_index_file   output_directory_path
+
+For troubleshooting purposes (only relevant to me) there is an optional 'mock' argument 
+at the end which will have the script run without doing the actual BLAST searches (that's
+what takes the longest time).
 
 '''
 #-----------------------------------------------------------------------------
@@ -115,29 +120,29 @@ def consolidate_species(dir):
 	wdir = os.path.join(dir, "gb","")
 	ids = []
 	files = [f for f in listdir(wdir) if isfile(wdir+f)]
-	for file in files:
+	for file in files: # List of files in gb directory
 		ids.append(file[0:4])
-	specs = list(set(ids))
-	for spec in specs:
-		read_files = glob.glob(wdir+spec+"*")
-		name = spec+".txt"
-		with open(os.path.join(wdir,"master"+name), "wb") as outfile:
-			for f in read_files:
-				with open(f, "rb") as infile:
-					outfile.write(infile.read())
+	specs = list(set(ids)) # Makes nonredundant species list
+	for spec in specs: 
+		read_files = glob.glob(wdir+spec+"*") # Makes list of filenames for each species
+		name = spec+".txt" # Output filename for species summary
+		with open(os.path.join(wdir,"master"+name), "w") as outfile: # Open master species file
+			for f in read_files:  # Open each file of species in turn
+				with open(f, "r") as infile: 
+					outfile.write(infile.read()) # Write to master what's read from each species file
 				infile.close()
 		outfile.close()
 		
 def merge_all_fasta(dir):
-	wdir = os.path.join(dir,"fasta")
-	files = [f for f in listdir(wdir) if isfile(wdir+f)]
-	for file in files:
-		with open(os.path.join(dir,"master.txt"), "a") as outfile:
-			for f in read_files:
-				with open(f, "r") as infile:
+	wdir = os.path.join(dir,"fasta","")
+	files = glob.glob(os.path.join(wdir,"*")) # Makes list of filenames for each species
+	with open(os.path.join(dir,"master.txt"), "w") as outfile:
+		for file in files:
+			for f in files:
+				with open(os.path.join(dir,"fasta",f), "r") as infile:
 					outfile.write(infile.read())
 				infile.close()
-		outfile.close()
+	outfile.close()
 
 #=============================================================================
 #-------- Basic Functionality ------------------------------------------------
@@ -150,9 +155,8 @@ def search_NCBI(species, seqQuery, out):
 	print("\n\nSearching: "+species+" for "+seqQuery)
 	# NCBI query
 	run = True
-	if len(sys.argv) > 3:
-		if sys.argv[3] == "Mock":
-			run = False
+	if len(sys.argv) > 3 and sys.argv[3] == "mock":
+		run = False
 	if run == True:
 		eQ = species + '\[Organism\]'
 		gi = seqQuery
@@ -178,7 +182,7 @@ def search_NCBI(species, seqQuery, out):
 
 def get_ids(filename, dir, ethresh = 0.01):
 	eValueThresh = ethresh
-	result = open(os.path.join(dir,"BLAST",filename)) # mode omitted defaults to read only
+	result = open(os.path.join(dir,"BLAST",filename),"r") # mode omitted defaults to read only
 	blast_record = NCBIXML.parse(result)
 	blast_records = list(blast_record)
 	record = blast_records[0]
@@ -249,7 +253,7 @@ def process_gbk(dir):
 def run_blasts(dir):
 	indexfile = sys.argv[1]
 	if os.path.isfile(indexfile):
-		with open(indexfile,'rb') as directions:
+		with open(indexfile,'r') as directions:
 			index = csv.reader(directions)
 			setDirections = []
 			for row in index:
@@ -282,7 +286,8 @@ def parse_files(dir):
 # Run BLAST searches
 #-----------------------------------------------------------------------------
 print "\n\n Clearing/creating new directory...\n\n"
-init(sys.argv[2])
+if os.path.exists(sys.argv[2]) != True:
+	init(sys.argv[2])
 
 run_blasts(sys.argv[2])
 
@@ -298,4 +303,4 @@ process_gbk(sys.argv[2])
 
 merge_all_fasta(sys.argv[2])
 
-print "\n\n* * Run Success * *"
+print "\n\n * * Run Finished * *"
