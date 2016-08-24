@@ -20,6 +20,8 @@ To use this command, on the command line enter:
 python align.py directoryName
 
 Note that muscle and trimAlign must be installed and added to path. If script doesn't work, test that they are accessible from the command line.
+
+*** add citations for MUSCLE and TrimAl ***
 '''
 #-----------------------------------------------------------------------------
 # MUSCLE through command line call
