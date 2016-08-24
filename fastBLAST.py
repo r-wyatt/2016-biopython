@@ -135,13 +135,13 @@ def consolidate_species(dir):
 		
 def merge_all_fasta(dir):
 	wdir = os.path.join(dir,"fasta","")
-	files = glob.glob(os.path.join(wdir,"*")) # Makes list of filenames for each species
+	files = glob.glob(os.path.join(wdir,"*")) # Makes list of filenames
+	print files
 	with open(os.path.join(dir,"master.txt"), "w") as outfile:
 		for file in files:
-			for f in files:
-				with open(os.path.join(dir,"fasta",f), "r") as infile:
-					outfile.write(infile.read())
-				infile.close()
+			with open(file, "r") as infile:
+				outfile.write(infile.read())
+			infile.close()
 	outfile.close()
 
 #=============================================================================
@@ -151,6 +151,8 @@ def merge_all_fasta(dir):
 #-----------------------------------------------------------------------------
 # Basic BLAST Functionality (searching database given gi and species query)
 #-----------------------------------------------------------------------------
+# Species in the form of full scientific name (Genus species), seqQuery as an accession
+# and out as the name of the file to save to (speciesCode_accession).
 def search_NCBI(species, seqQuery, out):	
 	print("\n\nSearching: "+species+" for "+seqQuery)
 	# NCBI query
@@ -232,16 +234,17 @@ def process_gbk(dir):
 	for file in read_files:
 		mobj = re.match(rm,file)
 		spec = mobj.group(1)
-		input_handle = open(os.path.join(wdir,file),"r")
-		output_handle = open(os.path.join(dir,"fasta",spec+".txt"),"w")
-		for seq_record in SeqIO.parse(input_handle, "genbank"):
-			#print "Dealing with GenBank record %s" % seq_record.id
-			output_handle.write(">%s %s\n%s\n" % (
-														find_species(seq_record.description),
-														seq_record.id,
-														seq_record.seq))	
-		output_handle.close()
-		input_handle.close()
+		if spec != "mast":
+			input_handle = open(os.path.join(wdir,file),"r")
+			output_handle = open(os.path.join(dir,"fasta",spec+".txt"),"w")
+			for seq_record in SeqIO.parse(input_handle, "genbank"):
+				#print "Dealing with GenBank record %s" % seq_record.id
+				output_handle.write(">%s %s\n%s\n" % (
+															find_species(seq_record.description),
+															seq_record.id,
+															seq_record.seq))	
+			output_handle.close()
+			input_handle.close()
 
 #=============================================================================
 #-------- Flow Control -------------------------------------------------------
