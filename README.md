@@ -1,28 +1,10 @@
 # Phylogenetic Tree Building from BLAST to TreeVIEW
 ## BLAST searching
+The process for building a tree. Note there's an optional third argument, mock, to sidestep the BLAST searches, which take long and have a delay built into them. Here it is, needs to be executed from the directory where fastBLAST.py occurs, and directory name is the path to a directory that will be created by fastBLAST:
+> python fastBLAST.py queryList.csv directoryName
 
-The code under the name fastBLAST.py (not known for its fast-ness but its direct data manipulation) uses the following function to search a series fo BLASTs (defined in a user input .csv file)
+From here we need to take the result in directoryName\master.txt and run it through alignment and trimming algorithm. To do this use the following command (also from the main scripts directory as fastBLAST.py):
+> python align.py directoryName
 
-``` python
-def search_NCBI(species, seqQuery, out):	
-	print("\n\nSearching: "+species+" for "+seqQuery)
-	# NCBI query
-	run = True
-	if len(sys.argv) > 3:
-		if sys.argv[3] == "mock":
-			run = False
-	if run == True:
-		eQ = species + '\[Organism\]'
-		gi = seqQuery
-		result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
 
-		# Save file
-		save_file = open(out, "w")
-		save_file.write(result.read())
-		save_file.close()
-		result.close()
-		time.sleep(120) # Pause 2min between database queries
-		print("Saving file as: " + out)
-	else:
-		print("\n\nMock Search")
-```
+
