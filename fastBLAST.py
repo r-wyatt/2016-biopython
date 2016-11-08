@@ -6,7 +6,7 @@
 Written by R. A. Wyatt in July, 2016 with the help of many forum questions
 and answers. Especially those on stackoverflow.
 
-This script requires version 2.5 of python (syntax breaks with 3.5, sadly). 
+This script requires version 2 of python (syntax breaks with 3, sadly). 
 It takes an index file with directions for what BLAST searches to accomplish.
 
 Index file must have the following format:

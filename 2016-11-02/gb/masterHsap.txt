@@ -1,7 +1,7 @@
 LOCUS       XP_011541251             459 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X3 [Homo sapiens].
 ACCESSION   XP_011541251
-VERSION     XP_011541251.1  GI:767970483
+VERSION     XP_011541251.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011542949.2
 KEYWORDS    RefSeq.
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
      Region          26..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          106..>208
                      /region_name="ZnMc"
                      /note="Zinc-dependent metalloprotease. This super-family
@@ -46,11 +46,11 @@ FEATURES             Location/Qualifiers
                      astacin-like proteases and the adamalysin/reprolysin-like
                      proteases. Both branches have wide phylogenetic
                      distribution, and contain sub-families, which...; cl00064"
-                     /db_xref="CDD:275466"
-     Region          106..>205
+                     /db_xref="CDD:294052"
+     Region          106..>207
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          222..411
                      /region_name="HX"
                      /note="Hemopexin-like repeats.; Hemopexin is a
@@ -85,7 +85,7 @@ LOCUS       AAI07491                 477 aa            linear   PRI 21-JUL-2006
 DEFINITION  Matrix metallopeptidase 3 (stromelysin 1, progelatinase) [Homo
             sapiens].
 ACCESSION   AAI07491
-VERSION     AAI07491.1  GI:77567902
+VERSION     AAI07491.1
 DBSOURCE    accession BC107490.1
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -161,11 +161,11 @@ FEATURES             Location/Qualifiers
      Region          25..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          108..264
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..264
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -216,7 +216,7 @@ ORIGIN
 LOCUS       AAH13118                 232 aa            linear   PRI 25-AUG-2005
 DEFINITION  MMP1 protein, partial [Homo sapiens].
 ACCESSION   AAH13118
-VERSION     AAH13118.1  GI:15341877
+VERSION     AAH13118.1
 DBSOURCE    accession BC013118.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -313,7 +313,7 @@ ORIGIN
 LOCUS       CAA73317                 483 aa            linear   PRI 18-APR-2005
 DEFINITION  enamelysin [Homo sapiens].
 ACCESSION   CAA73317
-VERSION     CAA73317.1  GI:3005946
+VERSION     CAA73317.1
 DBSOURCE    embl accession Y12779.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -344,14 +344,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RT-PCR"
      Protein         1..483
                      /product="enamelysin"
-     Region          39..95
+     Region          35..95
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          116..271
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          116..271
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -412,7 +412,7 @@ ORIGIN
 LOCUS       BAG60077                 403 aa            linear   PRI 31-JUL-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG60077
-VERSION     BAG60077.1  GI:194387426
+VERSION     BAG60077.1
 DBSOURCE    accession AK297723.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -510,7 +510,7 @@ ORIGIN
 LOCUS       AAH67523                 471 aa            linear   PRI 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 13 (collagenase 3) [Homo sapiens].
 ACCESSION   AAH67523
-VERSION     AAH67523.1  GI:45768662
+VERSION     AAH67523.1
 DBSOURCE    accession BC067523.1
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -634,7 +634,7 @@ ORIGIN
 LOCUS       BAG36115                 477 aa            linear   PRI 24-MAY-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG36115
-VERSION     BAG36115.1  GI:189053854
+VERSION     BAG36115.1
 DBSOURCE    accession AK313310.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -735,7 +735,7 @@ ORIGIN
 LOCUS       BAG36676                 476 aa            linear   PRI 24-MAY-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG36676
-VERSION     BAG36676.1  GI:189054156
+VERSION     BAG36676.1
 DBSOURCE    accession AK313960.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -785,11 +785,11 @@ FEATURES             Location/Qualifiers
      Region          33..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..263
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..263
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -836,7 +836,7 @@ ORIGIN
 LOCUS       XP_011541138             377 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: neutrophil collagenase isoform X3 [Homo sapiens].
 ACCESSION   XP_011541138
-VERSION     XP_011541138.1  GI:767970183
+VERSION     XP_011541138.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011542836.2
 KEYWORDS    RefSeq.
@@ -874,11 +874,11 @@ FEATURES             Location/Qualifiers
      Region          45..95
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          116..271
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          116..271
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -902,11 +902,7 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cl02471"
-                     /db_xref="CDD:271582"
-     Site            order(295,297,339,341)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
+                     /db_xref="CDD:295316"
      CDS             1..377
                      /gene="MMP8"
                      /gene_synonym="CLG1; HNC; MMP-8; PMNL-CL"
@@ -928,7 +924,7 @@ ORIGIN
 LOCUS       CAA62432                 582 aa            linear   PRI 21-OCT-2008
 DEFINITION  MT-MMP protein [Homo sapiens].
 ACCESSION   CAA62432
-VERSION     CAA62432.1  GI:1495995
+VERSION     CAA62432.1
 DBSOURCE    embl accession X90925.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -961,11 +957,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -997,7 +993,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /coded_by="X90925.1:113..1861"
                      /db_xref="GDB:375731"
@@ -1034,7 +1030,7 @@ ORIGIN
 LOCUS       BAG64542                 305 aa            linear   PRI 31-JUL-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG64542
-VERSION     BAG64542.1  GI:194382744
+VERSION     BAG64542.1
 DBSOURCE    accession AK303511.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -1126,7 +1122,7 @@ ORIGIN
 LOCUS       BAG62888                 398 aa            linear   PRI 31-JUL-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG62888
-VERSION     BAG62888.1  GI:194376258
+VERSION     BAG62888.1
 DBSOURCE    accession AK301340.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -1220,7 +1216,7 @@ ORIGIN
 LOCUS       BAF85348                 467 aa            linear   PRI 09-JAN-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAF85348
-VERSION     BAF85348.1  GI:158258755
+VERSION     BAF85348.1
 DBSOURCE    accession AK292659.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -1267,11 +1263,11 @@ FEATURES             Location/Qualifiers
      Region          29..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1319,7 +1315,7 @@ LOCUS       EAW67031                 469 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 1 (interstitial collagenase) [Homo
             sapiens].
 ACCESSION   EAW67031
-VERSION     EAW67031.1  GI:119587435
+VERSION     EAW67031.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -1407,11 +1403,11 @@ FEATURES             Location/Qualifiers
      Region          27..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          108..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1471,7 +1467,7 @@ LOCUS       BAD96776                 405 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 1 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96776
-VERSION     BAD96776.1  GI:62897673
+VERSION     BAD96776.1
 DBSOURCE    accession AK223056.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -1525,11 +1521,11 @@ FEATURES             Location/Qualifiers
      Region          <1..23
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          44..197
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          44..197
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1577,7 +1573,7 @@ ORIGIN
 LOCUS       XP_011541136             476 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: neutrophil collagenase isoform X1 [Homo sapiens].
 ACCESSION   XP_011541136
-VERSION     XP_011541136.1  GI:767970179
+VERSION     XP_011541136.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011542834.2
 KEYWORDS    RefSeq.
@@ -1615,11 +1611,11 @@ FEATURES             Location/Qualifiers
      Region          45..95
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          116..271
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          116..271
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1671,7 +1667,7 @@ LOCUS       EAW59603                 488 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 11 (stromelysin 3), isoform CRA_a [Homo
             sapiens].
 ACCESSION   EAW59603
-VERSION     EAW59603.1  GI:119580007
+VERSION     EAW59603.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471095.1
@@ -1814,7 +1810,7 @@ ORIGIN
 LOCUS       AAH03635                 267 aa            linear   PRI 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 7 (matrilysin, uterine) [Homo sapiens].
 ACCESSION   AAH03635
-VERSION     AAH03635.1  GI:13177712
+VERSION     AAH03635.1
 DBSOURCE    accession BC003635.2
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -1920,7 +1916,7 @@ ORIGIN
 LOCUS       BAG64444                 426 aa            linear   PRI 31-JUL-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG64444
-VERSION     BAG64444.1  GI:194382548
+VERSION     BAG64444.1
 DBSOURCE    accession AK303388.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2018,7 +2014,7 @@ ORIGIN
 LOCUS       BAF84014                 582 aa            linear   PRI 09-JAN-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAF84014
-VERSION     BAF84014.1  GI:158256086
+VERSION     BAF84014.1
 DBSOURCE    accession AK291325.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2122,7 +2118,7 @@ ORIGIN
 LOCUS       AAQ89112                 513 aa            linear   PRI 03-OCT-2003
 DEFINITION  MMP27 [Homo sapiens].
 ACCESSION   AAQ89112
-VERSION     AAQ89112.1  GI:37182623
+VERSION     AAQ89112.1
 DBSOURCE    accession AY358752.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2214,7 +2210,7 @@ ORIGIN
 LOCUS       BAG36675                 470 aa            linear   PRI 24-MAY-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG36675
-VERSION     BAG36675.1  GI:189054155
+VERSION     BAG36675.1
 DBSOURCE    accession AK313959.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2264,11 +2260,11 @@ FEATURES             Location/Qualifiers
      Region          28..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          109..263
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          109..263
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2316,7 +2312,7 @@ LOCUS       BAD96754                 390 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 1 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96754
-VERSION     BAD96754.1  GI:62897629
+VERSION     BAD96754.1
 DBSOURCE    accession AK223034.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2370,7 +2366,7 @@ FEATURES             Location/Qualifiers
      Region          29..182
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          29..182
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2415,10 +2411,10 @@ ORIGIN
       361 hgtrqykfdp ktkriltlqk answfncrkn
 //
 
-LOCUS       NP_004762                483 aa            linear   PRI 15-MAR-2015
+LOCUS       NP_004762                483 aa            linear   PRI 06-OCT-2016
 DEFINITION  matrix metalloproteinase-20 preproprotein [Homo sapiens].
 ACCESSION   NP_004762
-VERSION     NP_004762.2  GI:45359865
+VERSION     NP_004762.2
 DBSOURCE    REFSEQ: accession NM_004771.3
 KEYWORDS    RefSeq.
 SOURCE      Homo sapiens (human)
@@ -2427,6 +2423,47 @@ SOURCE      Homo sapiens (human)
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Hominidae; Homo.
 REFERENCE   1  (residues 1 to 483)
+  AUTHORS   Akagi-Kurashige Y, Yamashiro K, Gotoh N, Miyake M, Morooka S,
+            Yoshikawa M, Nakata I, Kumagai K, Tsujikawa A, Yamada R, Matsuda F,
+            Saito M, Iida T, Sugahara M, Kurimoto Y, Cheng CY, Khor CC, Wong TY
+            and Yoshimura N.
+  CONSRTM   Nagahama Cohort Research Group
+  TITLE     MMP20 and ARMS2/HTRA1 Are Associated with Neovascular Lesion Size
+            in Age-Related Macular Degeneration
+  JOURNAL   Ophthalmology 122 (11), 2295-2302 (2015)
+   PUBMED   26337002
+  REMARK    GeneRIF: The growth of choroidal neovascularization in AMD would be
+            affected by 2 genes: MMP20, a newly confirmed gene expressed in the
+            retina, and ARMS2/HTRA1, a well-known susceptibility gene for AMD.
+REFERENCE   2  (residues 1 to 483)
+  AUTHORS   Guimaraes DM, Antunes DM, Saturno JL, Massuda F, Paiva KB and Nunes
+            FD.
+  TITLE     Immunohistochemical expression of WNT5A and MMPs in odontogenic
+            epithelial tumors and cysts
+  JOURNAL   Acta Histochem. 117 (8), 667-674 (2015)
+   PUBMED   26558991
+  REMARK    GeneRIF: The expression of MMP20 was lower in calcifying cystic
+            odontogenic tumor when compared to all tumors and cysts.
+REFERENCE   3  (residues 1 to 483)
+  AUTHORS   Seymen F, Park JC, Lee KE, Lee HK, Lee DS, Koruyucu M, Gencay K,
+            Bayram M, Tuna EB, Lee ZH, Kim YJ and Kim JW.
+  TITLE     Novel MMP20 and KLK4 Mutations in Amelogenesis Imperfecta
+  JOURNAL   J. Dent. Res. 94 (8), 1063-1069 (2015)
+   PUBMED   26124219
+  REMARK    GeneRIF: Novel homozygous mutation MMP20 (c.1054G>A, p.Glu352Lys)
+            genes were identified in amelogenesis imperfect consanguinity.
+            Mutant MMP20 was expressed at a normal level but secreted only
+            minimally with proteolytic function.
+REFERENCE   4  (residues 1 to 483)
+  AUTHORS   Koli K, Saxena G and Ogbureke KU.
+  TITLE     Expression of Matrix Metalloproteinase (MMP)-20 and Potential
+            Interaction with Dentin Sialophosphoprotein (DSPP) in Human Major
+            Salivary Glands
+  JOURNAL   J. Histochem. Cytochem. 63 (7), 524-533 (2015)
+   PUBMED   25805840
+  REMARK    GeneRIF: expression of MMP-20 and co-expression and potential
+            interaction with DSPP in human major salivary gland tissues
+REFERENCE   5  (residues 1 to 483)
   AUTHORS   Han SS, Lee H, Oh YJ, Lee JP, Kim S, Ha J, Kim SJ, Park MH, Kim YS
             and Kim DK.
   TITLE     Identification of the effects of aging-related gene-matrix
@@ -2435,75 +2472,6 @@ REFERENCE   1  (residues 1 to 483)
    PUBMED   23953525
   REMARK    GeneRIF: Polymorphisms of MMP7 and MMP20 genes may be surrogate
             markers to predict long-term outcomes after kidney transplantation.
-REFERENCE   2  (residues 1 to 483)
-  AUTHORS   Gasse B, Karayigit E, Mathieu E, Jung S, Garret A, Huckert M,
-            Morkmued S, Schneider C, Vidal L, Hemmerle J, Sire JY and
-            Bloch-Zupan A.
-  TITLE     Homozygous and compound heterozygous MMP20 mutations in
-            amelogenesis imperfecta
-  JOURNAL   J. Dent. Res. 92 (7), 598-603 (2013)
-   PUBMED   23625376
-  REMARK    GeneRIF: mineralized content slightly decreased; magnesium
-            substituting for calcium in crystal. anomalies affected enamel with
-            minimal interrod enamel; apatite crystals perpendicular to enamel
-            prisms, suggesting possible new role for MMP20 in enamel formation.
-REFERENCE   3  (residues 1 to 483)
-  AUTHORS   Eeles RA, Olama AA, Benlloch S, Saunders EJ, Leongamornlert DA,
-            Tymrakiewicz M, Ghoussaini M, Luccarini C, Dennis J,
-            Jugurnauth-Little S, Dadaev T, Neal DE, Hamdy FC, Donovan JL, Muir
-            K, Giles GG, Severi G, Wiklund F, Gronberg H, Haiman CA, Schumacher
-            F, Henderson BE, Le Marchand L, Lindstrom S, Kraft P, Hunter DJ,
-            Gapstur S, Chanock SJ, Berndt SI, Albanes D, Andriole G, Schleutker
-            J, Weischer M, Canzian F, Riboli E, Key TJ, Travis RC, Campa D,
-            Ingles SA, John EM, Hayes RB, Pharoah PD, Pashayan N, Khaw KT,
-            Stanford JL, Ostrander EA, Signorello LB, Thibodeau SN, Schaid D,
-            Maier C, Vogel W, Kibel AS, Cybulski C, Lubinski J, Cannon-Albright
-            L, Brenner H, Park JY, Kaneva R, Batra J, Spurdle AB, Clements JA,
-            Teixeira MR, Dicks E, Lee A, Dunning AM, Baynes C, Conroy D,
-            Maranian MJ, Ahmed S, Govindasami K, Guy M, Wilkinson RA, Sawyer
-            EJ, Morgan A, Dearnaley DP, Horwich A, Huddart RA, Khoo VS, Parker
-            CC, Van As NJ, Woodhouse CJ, Thompson A, Dudderidge T, Ogden C,
-            Cooper CS, Lophatananon A, Cox A, Southey MC, Hopper JL, English
-            DR, Aly M, Adolfsson J, Xu J, Zheng SL, Yeager M, Kaaks R, Diver
-            WR, Gaudet MM, Stern MC, Corral R, Joshi AD, Shahabi A, Wahlfors T,
-            Tammela TL, Auvinen A, Virtamo J, Klarskov P, Nordestgaard BG,
-            Roder MA, Nielsen SF, Bojesen SE, Siddiq A, Fitzgerald LM, Kolb S,
-            Kwon EM, Karyadi DM, Blot WJ, Zheng W, Cai Q, McDonnell SK,
-            Rinckleb AE, Drake B, Colditz G, Wokolorczyk D, Stephenson RA,
-            Teerlink C, Muller H, Rothenbacher D, Sellers TA, Lin HY, Slavov C,
-            Mitev V, Lose F, Srinivasan S, Maia S, Paulo P, Lange E, Cooney KA,
-            Antoniou AC, Vincent D, Bacot F, Tessier DC, Kote-Jarai Z and
-            Easton DF.
-  CONSRTM   COGS-Cancer Research UK GWAS-ELLIPSE (part of GAME-ON) Initiative;
-            Australian Prostate Cancer Bioresource; UK Genetic Prostate Cancer
-            Study Collaborators/British Association of Urological Surgeons'
-            Section of Oncology; UK ProtecT (Prostate testing for cancer and
-            Treatment) Study Collaborators; PRACTICAL (Prostate Cancer
-            Association Group to Investigate Cancer-Associated Alterations in
-            the Genome) Consortium
-  TITLE     Identification of 23 new prostate cancer susceptibility loci using
-            the iCOGS custom genotyping array
-  JOURNAL   Nat. Genet. 45 (4), 385-391 (2013)
-   PUBMED   23535732
-REFERENCE   4  (residues 1 to 483)
-  AUTHORS   Wang SK, Hu Y, Simmer JP, Seymen F, Estrella NM, Pal S, Reid BM,
-            Yildirim M, Bayram M, Bartlett JD and Hu JC.
-  TITLE     Novel KLK4 and MMP20 mutations discovered by whole-exome sequencing
-  JOURNAL   J. Dent. Res. 92 (3), 266-271 (2013)
-   PUBMED   23355523
-  REMARK    GeneRIF: amelogenesis imperfecta-causing mutations were identified
-            in three of the probands: 2)a novel missense transition mutation in
-            both MMP20 alleles (g.15390A>G; c.611A>G; p.His204Arg) that
-            substituted arginine for histidine.
-REFERENCE   5  (residues 1 to 483)
-  AUTHORS   Tannure PN, Kuchler EC, Lips A, Costa Mde C, Luiz RR, Granjeiro JM
-            and Vieira AR.
-  TITLE     Genetic variation in MMP20 contributes to higher caries experience
-  JOURNAL   J Dent 40 (5), 381-386 (2012)
-   PUBMED   22330321
-  REMARK    GeneRIF: Variation in MMP20 may be associated with caries
-            experience mainly in Caucasian subjects with poor oral health
-            habits.
 REFERENCE   6  (residues 1 to 483)
   AUTHORS   Stracke JO, Fosang AJ, Last K, Mercuri FA, Pendas AM, Llano E,
             Perris R, Di Cesare PE, Murphy G and Knauper V.
@@ -2571,7 +2539,7 @@ FEATURES             Location/Qualifiers
                      /organism="Homo sapiens"
                      /db_xref="taxon:9606"
                      /chromosome="11"
-                     /map="11q22.3"
+                     /map="11q22.2"
      Protein         1..483
                      /product="matrix metalloproteinase-20 preproprotein"
                      /note="matrix metalloproteinase 20 (enamelysin); enamel
@@ -2587,9 +2555,9 @@ FEATURES             Location/Qualifiers
                      /note="Putative peptidoglycan binding domain; pfam01471"
                      /db_xref="CDD:279773"
      Region          98..105
-                     /region_name="Cysteine switch (By similarity)"
-                     /inference="non-experimental evidence, no additional
-                     details recorded"
+                     /region_name="Cysteine switch. {ECO:0000250}"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
                      /note="propagated from UniProtKB/Swiss-Prot (O60882.3)"
      mat_peptide     108..483
                      /product="matrix metalloproteinase-20"
@@ -2666,10 +2634,10 @@ ORIGIN
       481 igc
 //
 
-LOCUS       NP_071405                513 aa            linear   PRI 24-DEC-2015
+LOCUS       NP_071405                513 aa            linear   PRI 06-OCT-2016
 DEFINITION  matrix metalloproteinase-27 precursor [Homo sapiens].
 ACCESSION   NP_071405
-VERSION     NP_071405.2  GI:73808268
+VERSION     NP_071405.2
 DBSOURCE    REFSEQ: accession NM_022122.2
 KEYWORDS    RefSeq.
 SOURCE      Homo sapiens (human)
@@ -2800,11 +2768,11 @@ FEATURES             Location/Qualifiers
                      /organism="Homo sapiens"
                      /db_xref="taxon:9606"
                      /chromosome="11"
-                     /map="11q24"
+                     /map="11q22.2"
      Protein         1..513
                      /product="matrix metalloproteinase-27 precursor"
-                     /note="matrix metalloproteinase 27; matrix metalloprotease
-                     27; matrix metalloproteinase-27"
+                     /note="matrix metalloprotease 27; matrix
+                     metalloproteinase-27"
                      /calculated_mol_wt=56997
      sig_peptide     1..17
                      /inference="COORDINATES: ab initio prediction:SignalP:4.0"
@@ -2812,7 +2780,7 @@ FEATURES             Location/Qualifiers
      Region          26..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          89..96
                      /region_name="Cysteine switch. {ECO:0000250}"
                      /experiment="experimental evidence, no additional details
@@ -2821,7 +2789,7 @@ FEATURES             Location/Qualifiers
      Region          106..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          106..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2898,7 +2866,7 @@ ORIGIN
 LOCUS       AAP78940                 383 aa            linear   PRI 02-JUL-2003
 DEFINITION  collagenase-3 deletion variant COL3-DEL [Homo sapiens].
 ACCESSION   AAP78940
-VERSION     AAP78940.1  GI:32306839
+VERSION     AAP78940.1
 DBSOURCE    accession AY256444.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -2975,7 +2943,7 @@ ORIGIN
 LOCUS       ABC17785                 593 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 24 variant, partial [Homo sapiens].
 ACCESSION   ABC17785
-VERSION     ABC17785.1  GI:83375894
+VERSION     ABC17785.1
 DBSOURCE    accession DQ300264.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -3005,11 +2973,11 @@ FEATURES             Location/Qualifiers
      Region          30..82
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          110..275
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          110..275
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3038,10 +3006,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          521..593
+     Region          523..593
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..593
                      /coded_by="DQ300264.1:<1..>1779"
 ORIGIN      
@@ -3060,7 +3028,7 @@ ORIGIN
 LOCUS       EAW76222                 532 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 24 (membrane-inserted) [Homo sapiens].
 ACCESSION   EAW76222
-VERSION     EAW76222.1  GI:119596628
+VERSION     EAW76222.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471077.2
@@ -3223,7 +3191,7 @@ LOCUS       BAD97001                 469 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 1 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD97001
-VERSION     BAD97001.1  GI:62898123
+VERSION     BAD97001.1
 DBSOURCE    accession AK223281.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -3276,11 +3244,11 @@ FEATURES             Location/Qualifiers
      Region          27..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          108..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3329,7 +3297,7 @@ LOCUS       EAW67034                 489 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 13 (collagenase 3), isoform CRA_a [Homo
             sapiens].
 ACCESSION   EAW67034
-VERSION     EAW67034.1  GI:119587438
+VERSION     EAW67034.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -3417,11 +3385,11 @@ FEATURES             Location/Qualifiers
      Region          32..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3452,8 +3420,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="CDD:238046"
      Region          443..>478
                      /region_name="GVQW"
-                     /note="Putative binding domain; pfam13900"
-                     /db_xref="CDD:258167"
+                     /note="Putative domain of unknown function; pfam13900"
+                     /db_xref="CDD:290611"
      CDS             1..489
                      /gene="MMP13"
                      /locus_tag="hCG_39650"
@@ -3486,7 +3454,7 @@ ORIGIN
 LOCUS       XP_016883087             614 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-24 isoform X3 [Homo sapiens].
 ACCESSION   XP_016883087
-VERSION     XP_016883087.1  GI:1034620029
+VERSION     XP_016883087.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_017027598.1
 KEYWORDS    RefSeq.
@@ -3548,7 +3516,7 @@ LOCUS       EAW67035                 471 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 13 (collagenase 3), isoform CRA_b [Homo
             sapiens].
 ACCESSION   EAW67035
-VERSION     EAW67035.1  GI:119587439
+VERSION     EAW67035.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -3700,7 +3668,7 @@ LOCUS       BAD96756                 338 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 1 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96756
-VERSION     BAD96756.1  GI:62897633
+VERSION     BAD96756.1
 DBSOURCE    accession AK223036.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -3754,7 +3722,7 @@ FEATURES             Location/Qualifiers
      Region          1..130
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          2..130
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3801,7 +3769,7 @@ LOCUS       BAD96755                 469 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 1 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96755
-VERSION     BAD96755.1  GI:62897631
+VERSION     BAD96755.1
 DBSOURCE    accession AK223035.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -3855,11 +3823,11 @@ FEATURES             Location/Qualifiers
      Region          27..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          108..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3907,7 +3875,7 @@ ORIGIN
 LOCUS       BAA23742                 607 aa            linear   PRI 05-DEC-1997
 DEFINITION  membrane-type matrix metalloproteinase 3 [Homo sapiens].
 ACCESSION   BAA23742
-VERSION     BAA23742.1  GI:2662306
+VERSION     BAA23742.1
 DBSOURCE    accession AB009303.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -3999,7 +3967,7 @@ ORIGIN
 LOCUS       NP_005931                488 aa            linear   PRI 18-OCT-2015
 DEFINITION  stromelysin-3 preproprotein [Homo sapiens].
 ACCESSION   NP_005931
-VERSION     NP_005931.2  GI:58331148
+VERSION     NP_005931.2
 DBSOURCE    REFSEQ: accession NM_005940.4
 KEYWORDS    RefSeq.
 SOURCE      Homo sapiens (human)
@@ -4222,7 +4190,7 @@ ORIGIN
 LOCUS       EAW67024                 483 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 20 (enamelysin) [Homo sapiens].
 ACCESSION   EAW67024
-VERSION     EAW67024.1  GI:119587428
+VERSION     EAW67024.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -4373,7 +4341,7 @@ ORIGIN
 LOCUS       BAF84900                 471 aa            linear   PRI 09-JAN-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAF84900
-VERSION     BAF84900.1  GI:158257854
+VERSION     BAF84900.1
 DBSOURCE    accession AK292211.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -4421,11 +4389,11 @@ FEATURES             Location/Qualifiers
      Region          32..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4473,7 +4441,7 @@ LOCUS       EAW66237                 582 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 14 (membrane-inserted), isoform CRA_b [Homo
             sapiens].
 ACCESSION   EAW66237
-VERSION     EAW66237.1  GI:119586641
+VERSION     EAW66237.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471078.2
@@ -4638,7 +4606,7 @@ ORIGIN
 LOCUS       AAI43774                 470 aa            linear   PRI 02-JAN-2009
 DEFINITION  Matrix metallopeptidase 12 (macrophage elastase) [Homo sapiens].
 ACCESSION   AAI43774
-VERSION     AAI43774.1  GI:219518916
+VERSION     AAI43774.1
 DBSOURCE    accession BC143773.1
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -4770,7 +4738,7 @@ ORIGIN
 LOCUS       AAH74988                 467 aa            linear   PRI 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 8 (neutrophil collagenase) [Homo sapiens].
 ACCESSION   AAH74988
-VERSION     AAH74988.1  GI:50960779
+VERSION     AAH74988.1
 DBSOURCE    accession BC074988.2
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -4902,7 +4870,7 @@ LOCUS       BAD96321                 476 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 10 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96321
-VERSION     BAD96321.1  GI:62896761
+VERSION     BAD96321.1
 DBSOURCE    accession AK222601.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -4957,11 +4925,11 @@ FEATURES             Location/Qualifiers
      Region          33..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..263
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..263
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -5009,7 +4977,7 @@ ORIGIN
 LOCUS       AAP78939                 489 aa            linear   PRI 02-JUL-2003
 DEFINITION  collagenase-3 splice variant COL3-9B-2 [Homo sapiens].
 ACCESSION   AAP78939
-VERSION     AAP78939.1  GI:32306837
+VERSION     AAP78939.1
 DBSOURCE    accession AY256443.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5096,7 +5064,7 @@ ORIGIN
 LOCUS       EAW67026                 513 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 27 [Homo sapiens].
 ACCESSION   EAW67026
-VERSION     EAW67026.1  GI:119587430
+VERSION     EAW67026.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -5247,7 +5215,7 @@ ORIGIN
 LOCUS       XP_016873260             444 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: neutrophil collagenase isoform X2 [Homo sapiens].
 ACCESSION   XP_016873260
-VERSION     XP_016873260.1  GI:1034573780
+VERSION     XP_016873260.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_017017771.1
 KEYWORDS    RefSeq.
@@ -5282,6 +5250,42 @@ FEATURES             Location/Qualifiers
      Protein         1..444
                      /product="neutrophil collagenase isoform X2"
                      /calculated_mol_wt=50722
+     Region          8..63
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          84..239
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          84..239
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(136,148,155..161,170,194..195,204,214..216)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(194..195,198,204)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          253..441
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(263,265,307,309,355,357,402,404)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
      CDS             1..444
                      /gene="MMP8"
                      /gene_synonym="CLG1; HNC; MMP-8; PMNL-CL"
@@ -5304,7 +5308,7 @@ ORIGIN
 LOCUS       AAZ38714                 467 aa            linear   PRI 07-AUG-2005
 DEFINITION  matrix metalloproteinase 8 (neutrophil collagenase) [Homo sapiens].
 ACCESSION   AAZ38714
-VERSION     AAZ38714.1  GI:71648770
+VERSION     AAZ38714.1
 DBSOURCE    accession DQ141306.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5386,7 +5390,7 @@ ORIGIN
 LOCUS       XP_016873609             512 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X1 [Homo sapiens].
 ACCESSION   XP_016873609
-VERSION     XP_016873609.1  GI:1034574907
+VERSION     XP_016873609.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_017018120.1
 KEYWORDS    RefSeq.
@@ -5441,7 +5445,7 @@ ORIGIN
 LOCUS       AAH57788                 488 aa            linear   PRI 17-JUL-2006
 DEFINITION  Matrix metallopeptidase 11 (stromelysin 3) [Homo sapiens].
 ACCESSION   AAH57788
-VERSION     AAH57788.1  GI:35505497
+VERSION     AAH57788.1
 DBSOURCE    accession BC057788.1
 KEYWORDS    MGC.
 SOURCE      Homo sapiens (human)
@@ -5564,7 +5568,7 @@ ORIGIN
 LOCUS       AAA35699                 469 aa            linear   PRI 27-APR-1993
 DEFINITION  skin collagenase precursor [Homo sapiens].
 ACCESSION   AAA35699
-VERSION     AAA35699.1  GI:180665
+VERSION     AAA35699.1
 DBSOURCE    locus HUMCN2 accession M13509.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5593,13 +5597,13 @@ FEATURES             Location/Qualifiers
      Region          27..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      mat_peptide     101..469
                      /product="skin collagenase"
      Region          108..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -5644,7 +5648,7 @@ ORIGIN
 LOCUS       AAH47614                 626 aa            linear   PRI 25-AUG-2005
 DEFINITION  MMP24 protein, partial [Homo sapiens].
 ACCESSION   AAH47614
-VERSION     AAH47614.1  GI:29126959
+VERSION     AAH47614.1
 DBSOURCE    accession BC047614.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5712,11 +5716,11 @@ FEATURES             Location/Qualifiers
      Region          63..115
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          143..308
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          143..308
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -5745,10 +5749,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          554..626
+     Region          556..626
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..626
                      /gene="MMP24"
                      /gene_synonym="MMP25"
@@ -5774,7 +5778,7 @@ ORIGIN
 LOCUS       BAG35540                 582 aa            linear   PRI 24-MAY-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG35540
-VERSION     BAG35540.1  GI:189069202
+VERSION     BAG35540.1
 DBSOURCE    accession AK312657.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5881,7 +5885,7 @@ ORIGIN
 LOCUS       BAA82967                 645 aa            linear   PRI 20-SEP-2008
 DEFINITION  membrane-type-5 matrix metalloproteinase [Homo sapiens].
 ACCESSION   BAA82967
-VERSION     BAA82967.1  GI:5689367
+VERSION     BAA82967.1
 DBSOURCE    accession AB021227.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -5972,7 +5976,7 @@ ORIGIN
 LOCUS       XP_011541252             408 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X4 [Homo sapiens].
 ACCESSION   XP_011541252
-VERSION     XP_011541252.1  GI:767970485
+VERSION     XP_011541252.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011542950.2
 KEYWORDS    RefSeq.
@@ -6010,7 +6014,7 @@ FEATURES             Location/Qualifiers
      Region          9..156
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          9..156
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6058,7 +6062,7 @@ ORIGIN
 LOCUS       BAA05519                 582 aa            linear   PRI 11-FEB-2003
 DEFINITION  membrane-type matrix metalloproteinase [Homo sapiens].
 ACCESSION   BAA05519
-VERSION     BAA05519.1  GI:793763
+VERSION     BAA05519.1
 DBSOURCE    locus HUMMTMMP accession D26512.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6158,7 +6162,7 @@ LOCUS       BAD96700                 267 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 7 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96700
-VERSION     BAD96700.1  GI:62897521
+VERSION     BAD96700.1
 DBSOURCE    accession AK222980.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6211,11 +6215,11 @@ FEATURES             Location/Qualifiers
      Region          31..82
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          103..259
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          103..259
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6247,7 +6251,7 @@ ORIGIN
 LOCUS       XP_011541250             470 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X2 [Homo sapiens].
 ACCESSION   XP_011541250
-VERSION     XP_011541250.1  GI:767970481
+VERSION     XP_011541250.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011542948.2
 KEYWORDS    RefSeq.
@@ -6285,11 +6289,11 @@ FEATURES             Location/Qualifiers
      Region          26..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          106..218
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          106..218
                      /region_name="ZnMc"
                      /note="Zinc-dependent metalloprotease. This super-family
@@ -6297,7 +6301,7 @@ FEATURES             Location/Qualifiers
                      astacin-like proteases and the adamalysin/reprolysin-like
                      proteases. Both branches have wide phylogenetic
                      distribution, and contain sub-families, which...; cl00064"
-                     /db_xref="CDD:275466"
+                     /db_xref="CDD:294052"
      Site            order(173..174,177,183)
                      /site_type="active"
                      /db_xref="CDD:238124"
@@ -6335,7 +6339,7 @@ LOCUS       AAV38949                 469 aa            linear   PRI 28-OCT-2004
 DEFINITION  matrix metalloproteinase 1 (interstitial collagenase) [Homo
             sapiens].
 ACCESSION   AAV38949
-VERSION     AAV38949.1  GI:54697154
+VERSION     AAV38949.1
 DBSOURCE    accession BT020147.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6423,7 +6427,7 @@ ORIGIN
 LOCUS       EAW67027                 467 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 8 (neutrophil collagenase) [Homo sapiens].
 ACCESSION   EAW67027
-VERSION     EAW67027.1  GI:119587431
+VERSION     EAW67027.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -6511,11 +6515,11 @@ FEATURES             Location/Qualifiers
      Region          29..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6574,7 +6578,7 @@ ORIGIN
 LOCUS       BAG37740                 471 aa            linear   PRI 24-MAY-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   BAG37740
-VERSION     BAG37740.1  GI:189067481
+VERSION     BAG37740.1
 DBSOURCE    accession AK315341.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6675,7 +6679,7 @@ ORIGIN
 LOCUS       XP_011526802             556 aa            linear   PRI 06-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-24 isoform X2 [Homo sapiens].
 ACCESSION   XP_011526802
-VERSION     XP_011526802.1  GI:768015642
+VERSION     XP_011526802.1
 DBLINK      BioProject: PRJNA168
 DBSOURCE    REFSEQ: accession XM_011528500.2
 KEYWORDS    RefSeq.
@@ -6713,11 +6717,11 @@ FEATURES             Location/Qualifiers
      Region          82..134
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          162..327
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          162..327
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6741,15 +6745,11 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cl02471"
-                     /db_xref="CDD:271582"
-     Site            order(385,387,430,432)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
-     Region          484..556
+                     /db_xref="CDD:295316"
+     Region          486..556
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..556
                      /gene="MMP24"
                      /gene_synonym="MMP-24; MMP25; MT-MMP 5; MT-MMP5; MT5-MMP;
@@ -6776,7 +6776,7 @@ LOCUS       BAD96468                 471 aa            linear   PRI 26-JUL-2016
 DEFINITION  matrix metalloproteinase 13 preproprotein variant, partial [Homo
             sapiens].
 ACCESSION   BAD96468
-VERSION     BAD96468.1  GI:62897055
+VERSION     BAD96468.1
 DBSOURCE    accession AK222748.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6829,11 +6829,11 @@ FEATURES             Location/Qualifiers
      Region          32..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6881,7 +6881,7 @@ ORIGIN
 LOCUS       CCK73138                 582 aa            linear   PRI 10-OCT-2012
 DEFINITION  matrix metalloproteinase 14 (membrane-inserted) [Homo sapiens].
 ACCESSION   CCK73138
-VERSION     CCK73138.1  GI:408684256
+VERSION     CCK73138.1
 DBSOURCE    embl accession HE978355.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -6969,7 +6969,7 @@ ORIGIN
 LOCUS       AAA58658                 470 aa            linear   PRI 31-DEC-1994
 DEFINITION  metalloproteinase [Homo sapiens].
 ACCESSION   AAA58658
-VERSION     AAA58658.1  GI:435970
+VERSION     AAA58658.1
 DBSOURCE    locus HUMHME accession L23808.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)
@@ -7045,7 +7045,7 @@ ORIGIN
 LOCUS       EAW67023                 267 aa            linear   PRI 23-MAR-2015
 DEFINITION  matrix metallopeptidase 7 (matrilysin, uterine) [Homo sapiens].
 ACCESSION   EAW67023
-VERSION     EAW67023.1  GI:119587427
+VERSION     EAW67023.1
 DBLINK      BioProject: PRJNA1431
             BioSample: SAMN02981219
 DBSOURCE    accession CH471065.1
@@ -7132,11 +7132,11 @@ FEATURES             Location/Qualifiers
      Region          31..82
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          103..259
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          103..259
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -7175,7 +7175,7 @@ ORIGIN
 LOCUS       CAA28858                 469 aa            linear   PRI 07-OCT-2008
 DEFINITION  unnamed protein product [Homo sapiens].
 ACCESSION   CAA28858
-VERSION     CAA28858.1  GI:38267
+VERSION     CAA28858.1
 DBSOURCE    embl accession X05231.1
 KEYWORDS    .
 SOURCE      Homo sapiens (human)

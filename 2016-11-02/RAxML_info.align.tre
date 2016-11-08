@@ -1,0 +1,16 @@
+Sequence names of taxon 6 and 7 are identical, they are both called DXP_009302
+Sequence names of taxon 15 and 16 are identical, they are both called DXP_009289
+Sequence names of taxon 17 and 41 are identical, they are both called DXP_017213
+Sequence names of taxon 79 and 80 are identical, they are both called DXP_017209
+Sequence names of taxon 148 and 151 are identical, they are both called HXP_011541
+Sequence names of taxon 148 and 152 are identical, they are both called HXP_011541
+Sequence names of taxon 148 and 187 are identical, they are both called HXP_011541
+Sequence names of taxon 148 and 189 are identical, they are both called HXP_011541
+Sequence names of taxon 151 and 152 are identical, they are both called HXP_011541
+Sequence names of taxon 151 and 187 are identical, they are both called HXP_011541
+Sequence names of taxon 151 and 189 are identical, they are both called HXP_011541
+Sequence names of taxon 152 and 187 are identical, they are both called HXP_011541
+Sequence names of taxon 152 and 189 are identical, they are both called HXP_011541
+Sequence names of taxon 154 and 195 are identical, they are both called HXP_016873
+Sequence names of taxon 187 and 189 are identical, they are both called HXP_011541
+ERROR: Found 15 taxa that had equal names in the alignment, exiting...

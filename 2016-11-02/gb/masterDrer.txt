@@ -1,7 +1,7 @@
 LOCUS       XP_009303831             476 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase 13a isoform X1 [Danio rerio].
 ACCESSION   XP_009303831
-VERSION     XP_009303831.1  GI:688575181
+VERSION     XP_009303831.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009305556.2
 KEYWORDS    RefSeq.
@@ -40,11 +40,11 @@ FEATURES             Location/Qualifiers
      Region          28..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -93,7 +93,7 @@ ORIGIN
 LOCUS       XP_700781                613 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-16 isoform X2 [Danio rerio].
 ACCESSION   XP_700781
-VERSION     XP_700781.6  GI:528470125
+VERSION     XP_700781.6
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_695689.8
 KEYWORDS    RefSeq.
@@ -133,11 +133,11 @@ FEATURES             Location/Qualifiers
      Region          39..92
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          121..286
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          121..286
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -166,10 +166,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          541..613
+     Region          544..613
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..613
                      /gene="mmp16b"
                      /coded_by="XM_695689.8:338..2179"
@@ -193,7 +193,7 @@ LOCUS       AAI31865                 574 aa            linear   VRT 30-JAN-2007
 DEFINITION  Matrix metalloproteinase 14 (membrane-inserted) alpha [Danio
             rerio].
 ACCESSION   AAI31865
-VERSION     AAI31865.1  GI:124297207
+VERSION     AAI31865.1
 DBSOURCE    accession BC131864.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -326,7 +326,7 @@ ORIGIN
 LOCUS       XP_001924042             651 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-15 [Danio rerio].
 ACCESSION   XP_001924042
-VERSION     XP_001924042.4  GI:528521488
+VERSION     XP_001924042.4
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_001924007.6
 KEYWORDS    RefSeq.
@@ -364,14 +364,14 @@ FEATURES             Location/Qualifiers
      Protein         1..651
                      /product="matrix metalloproteinase-15"
                      /calculated_mol_wt=74616
-     Region          35..88
+     Region          34..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..283
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..283
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -400,10 +400,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          <619..651
+     Region          589..651
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..651
                      /gene="mmp15a"
                      /coded_by="XM_001924007.6:424..2379"
@@ -426,7 +426,7 @@ ORIGIN
 LOCUS       AAQ07962                 475 aa            linear   VRT 01-MAY-2004
 DEFINITION  matrix metalloproteinase 13 [Danio rerio].
 ACCESSION   AAQ07962
-VERSION     AAQ07962.1  GI:33324363
+VERSION     AAQ07962.1
 DBSOURCE    accession AF506756.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -505,7 +505,7 @@ ORIGIN
 LOCUS       AAI59193                 476 aa            linear   VRT 10-JUN-2008
 DEFINITION  Mmp13 protein [Danio rerio].
 ACCESSION   AAI59193
-VERSION     AAI59193.1  GI:166797027
+VERSION     AAI59193.1
 DBSOURCE    accession BC159192.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -572,14 +572,14 @@ FEATURES             Location/Qualifiers
                      /note="Vector: pME18S-FL3"
      Protein         1..476
                      /product="mmp13 protein"
-     Region          33..91
+     Region          <68..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -625,80 +625,10 @@ ORIGIN
       421 fpkpvqkvfp gmtgkvtaaf qyrgfnylfs gskmlefgsn nkllrvlnnn yflpck
 //
 
-LOCUS       NP_001315259             711 aa            linear   VRT 26-JUN-2016
-DEFINITION  proteoglycan 4 precursor [Danio rerio].
-ACCESSION   NP_001315259 XP_005160747
-VERSION     NP_001315259.1  GI:1036114099
-DBSOURCE    REFSEQ: accession NM_001328330.1
-KEYWORDS    RefSeq.
-SOURCE      Danio rerio (zebrafish)
-  ORGANISM  Danio rerio
-            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
-            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
-            Cypriniformes; Cyprinidae; Danio.
-REFERENCE   1  (residues 1 to 711)
-  AUTHORS   Song HD, Sun XJ, Deng M, Zhang GW, Zhou Y, Wu XY, Sheng Y, Chen Y,
-            Ruan Z, Jiang CL, Fan HY, Zon LI, Kanki JP, Liu TX, Look AT and
-            Chen Z.
-  TITLE     Hematopoietic gene expression profile in zebrafish kidney marrow
-  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (46), 16240-16245 (2004)
-   PUBMED   15520368
-COMMENT     VALIDATED REFSEQ: This record has undergone validation or
-            preliminary review. The reference sequence was derived from
-            EB918079.1, EH497845.1, BX323056.5 and EH524122.1.
-            On Jun 13, 2016 this sequence version replaced gi:528511717.
-            
-            Sequence Note: This RefSeq record was created from transcript and
-            genomic sequence data to make the sequence consistent with the
-            reference genome assembly. The genomic coordinates used for the
-            transcript record were based on transcript alignments.
-            
-            ##RefSeq-Attributes-START##
-            inferred exon combination :: based on alignments, homology
-            ##RefSeq-Attributes-END##
-            
-            ##Evidence-Data-START##
-            RNAseq introns :: single sample supports all introns SAMN01765705,
-                              SAMN02418766 [ECO:0000348]
-            ##Evidence-Data-END##
-FEATURES             Location/Qualifiers
-     source          1..711
-                     /organism="Danio rerio"
-                     /db_xref="taxon:7955"
-                     /chromosome="20"
-                     /map="20"
-     Protein         1..711
-                     /product="proteoglycan 4 precursor"
-                     /note="proteoglycan 4"
-                     /calculated_mol_wt=75454
-     sig_peptide     1..18
-                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
-                     /calculated_mol_wt=2017
-     CDS             1..711
-                     /gene="prg4b"
-                     /gene_synonym="prg4; si:dkey-97o5.3; zgc:122988"
-                     /coded_by="NM_001328330.1:240..2375"
-                     /db_xref="GeneID:553377"
-                     /db_xref="ZFIN:ZDB-GENE-041014-324"
-ORIGIN      
-        1 matylsvlll fvwvstsssn prscggrcge gyyrgsfcqc dydclglnec cadfqdlcts
-       61 kdsckgrcge pfnrgnpchc didcvsynqc cpdyesmcli eessneemtn legtgdeftv
-      121 peyeteptps egrdvpaeil pegpytgsdi eekqkenstf hpenetsspa pstptadvss
-      181 ifpadenhid fttqqpseel tasstlqpqe nssialtegp tsvtpvddsp eedpkkqtit
-      241 vdptspvpae dptspglaed ptspgpaedp ispvpaedpt spgpaedpis pvpaedptsp
-      301 vpaedpispv paedptspvp aedptstvap edpnnqtpae nptspaatad ptdqnpaedp
-      361 rnpapaedsr kpaptedpts maptegstsa aptenlttap tegatpvprk tpapmkptkk
-      421 ptqpskenid ksevkespkd pvvispirvt ekplkpssdl ngrtdildyq sddydsnlcs
-      481 grpvsglttl rngtivvfrg hyfwtldkqr npdppqlitq vwgipspidt vytrcncqgk
-      541 tyffkgknyw rfengamdpg fpkpisegfg qighitaals ipeyrsrkes viffkrggma
-      601 qkytyqvtpn cgrrpkipvi tvrmrtrrqt aaalgqvini srtwrgfptm vtssvsvpsr
-      661 vkegykyyvf sqrnyysmkm erdkpvilkp vtgpkenpat sffkckdtqk i
-//
-
 LOCUS       XP_005171367             621 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-14 isoform X1 [Danio rerio].
 ACCESSION   XP_005171367
-VERSION     XP_005171367.1  GI:528471499
+VERSION     XP_005171367.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_005171310.3
 KEYWORDS    RefSeq.
@@ -737,11 +667,11 @@ FEATURES             Location/Qualifiers
      Region          29..81
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          111..277
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          111..277
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -770,10 +700,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          <563..621
+     Region          563..621
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..621
                      /gene="mmp14b"
                      /gene_synonym="MT-MMPbeta"
@@ -797,7 +727,7 @@ ORIGIN
 LOCUS       AAP74482                 657 aa            linear   VRT 25-JUN-2003
 DEFINITION  matrix metalloproteinase 2 [Danio rerio].
 ACCESSION   AAP74482
-VERSION     AAP74482.1  GI:32251074
+VERSION     AAP74482.1
 DBSOURCE    accession AY324195.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -905,7 +835,7 @@ ORIGIN
 LOCUS       XP_002664536             613 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-17 [Danio rerio].
 ACCESSION   XP_002664536
-VERSION     XP_002664536.2  GI:528500738
+VERSION     XP_002664536.2
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_002664490.4
 KEYWORDS    RefSeq.
@@ -943,14 +873,14 @@ FEATURES             Location/Qualifiers
      Protein         1..613
                      /product="matrix metalloproteinase-17"
                      /calculated_mol_wt=68830
-     Region          58..108
+     Region          55..108
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          145..308
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          145..308
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -975,10 +905,6 @@ FEATURES             Location/Qualifiers
                      repeats of some matrixins bind tissue inhibitor of...;
                      cd00094"
                      /db_xref="CDD:238046"
-     Site            order(357,359,405,407,487,489)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
      CDS             1..613
                      /gene="mmp17b"
                      /coded_by="XM_002664490.4:242..2083"
@@ -1001,7 +927,7 @@ ORIGIN
 LOCUS       XP_009295076             618 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-16 isoform X1 [Danio rerio].
 ACCESSION   XP_009295076
-VERSION     XP_009295076.1  GI:688535681
+VERSION     XP_009295076.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009296801.2
 KEYWORDS    RefSeq.
@@ -1039,11 +965,11 @@ FEATURES             Location/Qualifiers
      Region          39..92
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          121..291
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          121..291
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1072,10 +998,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          546..618
+     Region          549..618
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..618
                      /gene="mmp16b"
                      /coded_by="XM_009296801.2:338..2194"
@@ -1098,7 +1024,7 @@ ORIGIN
 LOCUS       XP_009302611             371 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X1 [Danio rerio].
 ACCESSION   XP_009302611
-VERSION     XP_009302611.1  GI:688569606
+VERSION     XP_009302611.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009304336.1
 KEYWORDS    RefSeq.
@@ -1137,7 +1063,7 @@ FEATURES             Location/Qualifiers
      Region          68..235
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          68..235
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1161,10 +1087,6 @@ FEATURES             Location/Qualifiers
                      /region_name="IG_like"
                      /note="Immunoglobulin like; smart00410"
                      /db_xref="CDD:214653"
-     Region          292..369
-                     /region_name="Ig_2"
-                     /note="Immunoglobulin domain; pfam13895"
-                     /db_xref="CDD:258162"
      CDS             1..371
                      /gene="mmp23ba"
                      /coded_by="XM_009304336.1:244..1359"
@@ -1183,7 +1105,7 @@ ORIGIN
 LOCUS       XP_017213634             278 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-18-like [Danio rerio].
 ACCESSION   XP_017213634
-VERSION     XP_017213634.1  GI:1040657491
+VERSION     XP_017213634.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017358145.1
 KEYWORDS    RefSeq; includes ab initio.
@@ -1237,7 +1159,7 @@ ORIGIN
 LOCUS       XP_017212610             655 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-15 isoform X1 [Danio rerio].
 ACCESSION   XP_017212610
-VERSION     XP_017212610.1  GI:1040695662
+VERSION     XP_017212610.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017357121.1
 KEYWORDS    RefSeq.
@@ -1335,7 +1257,7 @@ ORIGIN
 LOCUS       AAI29281                 475 aa            linear   VRT 26-JUN-2007
 DEFINITION  Zgc:136396 protein [Danio rerio].
 ACCESSION   AAI29281
-VERSION     AAI29281.1  GI:125858765
+VERSION     AAI29281.1
 DBSOURCE    accession BC129280.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -1405,11 +1327,11 @@ FEATURES             Location/Qualifiers
      Region          26..85
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          106..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          106..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1457,7 +1379,7 @@ ORIGIN
 LOCUS       AAH65591                 386 aa            linear   VRT 18-MAY-2004
 DEFINITION  Mmp13 protein [Danio rerio].
 ACCESSION   AAH65591
-VERSION     AAH65591.1  GI:41350992
+VERSION     AAH65591.1
 DBSOURCE    accession BC065591.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -1583,7 +1505,7 @@ ORIGIN
 LOCUS       XP_017206678             409 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-20 [Danio rerio].
 ACCESSION   XP_017206678
-VERSION     XP_017206678.1  GI:1040664668
+VERSION     XP_017206678.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017351189.1
 KEYWORDS    RefSeq.
@@ -1636,7 +1558,7 @@ ORIGIN
 LOCUS       XP_017209448             600 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-16 [Danio rerio].
 ACCESSION   XP_017209448
-VERSION     XP_017209448.1  GI:1040681210
+VERSION     XP_017209448.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017353959.1
 KEYWORDS    RefSeq; corrected model.
@@ -1701,7 +1623,7 @@ ORIGIN
 LOCUS       XP_698601                597 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-17 [Danio rerio].
 ACCESSION   XP_698601
-VERSION     XP_698601.6  GI:528513405
+VERSION     XP_698601.6
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_693509.8
 KEYWORDS    RefSeq.
@@ -1742,11 +1664,11 @@ FEATURES             Location/Qualifiers
      Region          49..99
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          128..292
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          128..292
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1796,7 +1718,7 @@ ORIGIN
 LOCUS       AEG20934                 310 aa            linear   VRT 25-JUL-2016
 DEFINITION  mmp9, partial [Danio rerio].
 ACCESSION   AEG20934
-VERSION     AEG20934.1  GI:333830582
+VERSION     AEG20934.1
 DBSOURCE    accession HM239640.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -1867,7 +1789,7 @@ ORIGIN
 LOCUS       AAI62135                 621 aa            linear   VRT 12-JUN-2008
 DEFINITION  Matrix metalloproteinase 14 (membrane-inserted) beta [Danio rerio].
 ACCESSION   AAI62135
-VERSION     AAI62135.1  GI:190339264
+VERSION     AAI62135.1
 DBSOURCE    accession BC162135.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -2005,7 +1927,7 @@ ORIGIN
 LOCUS       AAH49472                 167 aa            linear   VRT 15-JUL-2006
 DEFINITION  Matrix metalloproteinase 13 [Danio rerio].
 ACCESSION   AAH49472
-VERSION     AAH49472.1  GI:29436812
+VERSION     AAH49472.1
 DBSOURCE    accession BC049472.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -2109,7 +2031,7 @@ ORIGIN
 LOCUS       NP_001132933             449 aa            linear   VRT 26-JUN-2016
 DEFINITION  vitronectin b precursor [Danio rerio].
 ACCESSION   NP_001132933 XP_684632
-VERSION     NP_001132933.1  GI:213021169
+VERSION     NP_001132933.1
 DBSOURCE    REFSEQ: accession NM_001139461.1
 KEYWORDS    RefSeq.
 SOURCE      Danio rerio (zebrafish)
@@ -2187,10 +2109,10 @@ FEATURES             Location/Qualifiers
      sig_peptide     1..16
                      /inference="COORDINATES: ab initio prediction:SignalP:4.0"
                      /calculated_mol_wt=1755
-     Region          17..55
+     Region          19..56
                      /region_name="Somatomedin_B"
                      /note="Somatomedin B domain; pfam01033"
-                     /db_xref="CDD:250310"
+                     /db_xref="CDD:279385"
      Region          112..440
                      /region_name="HX"
                      /note="Hemopexin-like repeats.; Hemopexin is a
@@ -2224,7 +2146,7 @@ ORIGIN
 LOCUS       XP_017210163             534 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-25 [Danio rerio].
 ACCESSION   XP_017210163
-VERSION     XP_017210163.1  GI:1040683781
+VERSION     XP_017210163.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017354674.1
 KEYWORDS    RefSeq; includes ab initio.
@@ -2283,7 +2205,7 @@ ORIGIN
 LOCUS       XP_001337581             501 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X1 [Danio rerio].
 ACCESSION   XP_001337581
-VERSION     XP_001337581.3  GI:292621203
+VERSION     XP_001337581.3
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_001337545.6
 KEYWORDS    RefSeq.
@@ -2324,11 +2246,11 @@ FEATURES             Location/Qualifiers
      Region          21..70
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          113..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          113..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2377,7 +2299,7 @@ ORIGIN
 LOCUS       AAI50466                 469 aa            linear   VRT 23-JUL-2016
 DEFINITION  Vtnb protein, partial [Danio rerio].
 ACCESSION   AAI50466
-VERSION     AAI50466.1  GI:152012650
+VERSION     AAI50466.1
 DBSOURCE    accession BC150465.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -2444,10 +2366,10 @@ FEATURES             Location/Qualifiers
                      /note="Vector: pME18S-FL3"
      Protein         <1..>469
                      /product="vtnb protein"
-     Region          34..72
+     Region          36..73
                      /region_name="Somatomedin_B"
                      /note="Somatomedin B domain; pfam01033"
-                     /db_xref="CDD:250310"
+                     /db_xref="CDD:279385"
      Region          129..457
                      /region_name="HX"
                      /note="Hemopexin-like repeats.; Hemopexin is a
@@ -2482,7 +2404,7 @@ ORIGIN
 LOCUS       XP_694153                506 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: stromelysin-3 [Danio rerio].
 ACCESSION   XP_694153
-VERSION     XP_694153.4  GI:528513609
+VERSION     XP_694153.4
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_689061.8
 KEYWORDS    RefSeq.
@@ -2523,7 +2445,7 @@ FEATURES             Location/Qualifiers
      Region          118..272
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..272
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2572,7 +2494,7 @@ ORIGIN
 LOCUS       XP_002663942             573 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-25-like [Danio rerio].
 ACCESSION   XP_002663942
-VERSION     XP_002663942.1  GI:292619299
+VERSION     XP_002663942.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_002663896.4
 KEYWORDS    RefSeq.
@@ -2665,7 +2587,7 @@ ORIGIN
 LOCUS       XP_009304055             417 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-19 [Danio rerio].
 ACCESSION   XP_009304055
-VERSION     XP_009304055.1  GI:688576060
+VERSION     XP_009304055.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009305780.1
 KEYWORDS    RefSeq; includes ab initio.
@@ -2754,7 +2676,7 @@ ORIGIN
 LOCUS       ALF36875                 599 aa            linear   VRT 29-SEP-2015
 DEFINITION  matrix metallopeptidase 21 [Danio rerio].
 ACCESSION   ALF36875
-VERSION     ALF36875.1  GI:929996753
+VERSION     ALF36875.1
 DBSOURCE    accession KT207790.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -2832,7 +2754,7 @@ ORIGIN
 LOCUS       AAP74484                 621 aa            linear   VRT 25-JUN-2003
 DEFINITION  membrane-type matrix metalloproteinase 1 beta [Danio rerio].
 ACCESSION   AAP74484
-VERSION     AAP74484.1  GI:32251078
+VERSION     AAP74484.1
 DBSOURCE    accession AY324197.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -2919,7 +2841,7 @@ ORIGIN
 LOCUS       AAI60656                 680 aa            linear   VRT 06-MAR-2008
 DEFINITION  Matrix metalloproteinase 9 [Danio rerio].
 ACCESSION   AAI60656
-VERSION     AAI60656.1  GI:169642693
+VERSION     AAI60656.1
 DBSOURCE    accession BC160656.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -3078,7 +3000,7 @@ ORIGIN
 LOCUS       AAH93333                 479 aa            linear   VRT 27-MAY-2005
 DEFINITION  LOC553390 protein, partial [Danio rerio].
 ACCESSION   AAH93333
-VERSION     AAH93333.1  GI:62202816
+VERSION     AAH93333.1
 DBSOURCE    accession BC093333.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -3148,11 +3070,11 @@ FEATURES             Location/Qualifiers
      Region          30..89
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          110..265
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          110..265
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3200,7 +3122,7 @@ ORIGIN
 LOCUS       XP_009289686             411 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X2 [Danio rerio].
 ACCESSION   XP_009289686
-VERSION     XP_009289686.1  GI:688586768
+VERSION     XP_009289686.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009291411.2
 KEYWORDS    RefSeq.
@@ -3239,7 +3161,7 @@ FEATURES             Location/Qualifiers
      Region          23..177
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          23..177
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3286,7 +3208,7 @@ ORIGIN
 LOCUS       AAI64476                 377 aa            linear   VRT 23-AUG-2008
 DEFINITION  Mmp23al protein [Danio rerio].
 ACCESSION   AAI64476
-VERSION     AAI64476.1  GI:182890478
+VERSION     AAI64476.1
 DBSOURCE    accession BC164476.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -3349,7 +3271,7 @@ FEATURES             Location/Qualifiers
      Region          67..234
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          67..234
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3368,11 +3290,11 @@ FEATURES             Location/Qualifiers
      Region          234..269
                      /region_name="ShK"
                      /note="ShK domain-like; pfam01549"
-                     /db_xref="CDD:250700"
+                     /db_xref="CDD:279838"
      Region          287..358
                      /region_name="Ig"
                      /note="Immunoglobulin domain; cl11960"
-                     /db_xref="CDD:276006"
+                     /db_xref="CDD:299845"
      CDS             1..377
                      /gene="mmp23al"
                      /gene_synonym="zgc:110623"
@@ -3392,7 +3314,7 @@ ORIGIN
 LOCUS       AAH76545                 657 aa            linear   VRT 15-JUL-2006
 DEFINITION  Matrix metalloproteinase 2 [Danio rerio].
 ACCESSION   AAH76545
-VERSION     AAH76545.1  GI:49900524
+VERSION     AAH76545.1
 DBSOURCE    accession BC076545.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -3552,7 +3474,7 @@ ORIGIN
 LOCUS       XP_017213574             173 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: stromelysin-1-like [Danio rerio].
 ACCESSION   XP_017213574
-VERSION     XP_017213574.1  GI:1040657245
+VERSION     XP_017213574.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017358085.1
 KEYWORDS    RefSeq.
@@ -3600,7 +3522,7 @@ ORIGIN
 LOCUS       AAH55570                 463 aa            linear   VRT 25-JUL-2016
 DEFINITION  Vtnb protein, partial [Danio rerio].
 ACCESSION   AAH55570
-VERSION     AAH55570.1  GI:33416383
+VERSION     AAH55570.1
 DBSOURCE    accession BC055570.1
 KEYWORDS    .
 SOURCE      Danio rerio (zebrafish)
@@ -3702,7 +3624,7 @@ ORIGIN
 LOCUS       XP_009302613             320 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X2 [Danio rerio].
 ACCESSION   XP_009302613
-VERSION     XP_009302613.1  GI:688569615
+VERSION     XP_009302613.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009304338.2
 KEYWORDS    RefSeq.
@@ -3741,7 +3663,7 @@ FEATURES             Location/Qualifiers
      Region          68..235
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          68..235
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3778,7 +3700,7 @@ ORIGIN
 LOCUS       XP_017209345             377 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-16-like [Danio rerio].
 ACCESSION   XP_017209345
-VERSION     XP_017209345.1  GI:1040680647
+VERSION     XP_017209345.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_017353856.1
 KEYWORDS    RefSeq; corrected model; includes ab initio.
@@ -3840,7 +3762,7 @@ ORIGIN
 LOCUS       AAH95724                 514 aa            linear   VRT 09-JUN-2008
 DEFINITION  Vitronectin a [Danio rerio].
 ACCESSION   AAH95724
-VERSION     AAH95724.1  GI:63101398
+VERSION     AAH95724.1
 DBSOURCE    accession BC095724.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -3907,10 +3829,10 @@ FEATURES             Location/Qualifiers
                      /note="Vector: pME18S-FL3"
      Protein         1..514
                      /product="vitronectin a"
-     Region          17..60
+     Region          19..56
                      /region_name="Somatomedin_B"
                      /note="Somatomedin B domain; pfam01033"
-                     /db_xref="CDD:250310"
+                     /db_xref="CDD:279385"
      Region          151..>299
                      /region_name="HX"
                      /note="Hemopexin-like repeats.; Hemopexin is a
@@ -3919,10 +3841,6 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cd00094"
-                     /db_xref="CDD:238046"
-     Site            order(159,161,204,206,252,254)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
      Region          <469..504
                      /region_name="HX"
@@ -3949,7 +3867,7 @@ ORIGIN
 LOCUS       XP_009301842             611 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-15 isoform X2 [Danio rerio].
 ACCESSION   XP_009301842
-VERSION     XP_009301842.1  GI:688565961
+VERSION     XP_009301842.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009303567.2
 KEYWORDS    RefSeq.
@@ -3988,11 +3906,11 @@ FEATURES             Location/Qualifiers
      Region          <2..48
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          78..244
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          78..244
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4021,10 +3939,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          <552..611
+     Region          552..611
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..611
                      /gene="mmp15b"
                      /coded_by="XM_009303567.2:73..1908"
@@ -4047,7 +3965,7 @@ ORIGIN
 LOCUS       AAI15114                 475 aa            linear   VRT 19-JUN-2006
 DEFINITION  Zgc:136396 [Danio rerio].
 ACCESSION   AAI15114
-VERSION     AAI15114.1  GI:92096319
+VERSION     AAI15114.1
 DBSOURCE    accession BC115113.1
 KEYWORDS    MGC.
 SOURCE      Danio rerio (zebrafish)
@@ -4118,11 +4036,11 @@ FEATURES             Location/Qualifiers
      Region          26..85
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          106..261
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          106..261
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4170,7 +4088,7 @@ ORIGIN
 LOCUS       NP_001277408             476 aa            linear   VRT 26-JUN-2016
 DEFINITION  matrix metalloproteinase 13a precursor [Danio rerio].
 ACCESSION   NP_001277408 XP_005169256
-VERSION     NP_001277408.1  GI:594190967
+VERSION     NP_001277408.1
 DBSOURCE    REFSEQ: accession NM_001290479.1
 KEYWORDS    RefSeq.
 SOURCE      Danio rerio (zebrafish)
@@ -4290,11 +4208,11 @@ FEATURES             Location/Qualifiers
      Region          28..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4343,7 +4261,7 @@ ORIGIN
 LOCUS       XP_009290029             490 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrilysin-like [Danio rerio].
 ACCESSION   XP_009290029
-VERSION     XP_009290029.1  GI:688588298
+VERSION     XP_009290029.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009291754.2
 KEYWORDS    RefSeq.
@@ -4381,11 +4299,11 @@ FEATURES             Location/Qualifiers
      Region          45..95
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          115..269
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          115..269
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4434,7 +4352,7 @@ ORIGIN
 LOCUS       XP_699803                606 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-24 [Danio rerio].
 ACCESSION   XP_699803
-VERSION     XP_699803.4  GI:528483402
+VERSION     XP_699803.4
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_694711.6
 KEYWORDS    RefSeq.
@@ -4474,11 +4392,11 @@ FEATURES             Location/Qualifiers
      Region          41..94
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          122..287
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          122..287
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4507,10 +4425,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          533..606
+     Region          536..606
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..606
                      /gene="mmp24"
                      /coded_by="XM_694711.6:242..2062"
@@ -4533,7 +4451,7 @@ ORIGIN
 LOCUS       XP_692205                483 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: stromelysin-3 [Danio rerio].
 ACCESSION   XP_692205
-VERSION     XP_692205.6  GI:528488085
+VERSION     XP_692205.6
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_687113.8
 KEYWORDS    RefSeq.
@@ -4574,7 +4492,7 @@ FEATURES             Location/Qualifiers
      Region          113..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          113..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4623,7 +4541,7 @@ ORIGIN
 LOCUS       XP_001345507             461 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: collagenase 3 [Danio rerio].
 ACCESSION   XP_001345507
-VERSION     XP_001345507.1  GI:125838084
+VERSION     XP_001345507.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_001345471.6
 KEYWORDS    RefSeq.
@@ -4662,11 +4580,11 @@ FEATURES             Location/Qualifiers
      Region          29..82
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          103..256
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          103..256
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4714,7 +4632,7 @@ ORIGIN
 LOCUS       XP_009289687             251 aa            linear   VRT 24-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X3 [Danio rerio].
 ACCESSION   XP_009289687
-VERSION     XP_009289687.1  GI:688586770
+VERSION     XP_009289687.1
 DBLINK      BioProject: PRJNA13922
 DBSOURCE    REFSEQ: accession XM_009291412.2
 KEYWORDS    RefSeq.

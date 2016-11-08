@@ -1,4 +1,4 @@
->Drer AAH95724.1
+>DAAH95724.1
 ------------------------------------------------------------
 -MRVFLLLLVLLSFADA----------------------------AEESCIER---CENG
 FDATKSCQCD---------------------------------------SMCTYYKSCCT
@@ -21,7 +21,7 @@ VYNILRRSQPL----------QSVYFFKGDKYYR-VNLQTKRVDYANPPYPR--------
 PIGK-YWLGCK------------------------------DTSGAEKR-----------
 ------------------------------------------------------------
 ----------------------------
->Drer AAH55570.1
+>DAAH55570.1
 -----------------------------------------------LEQIKHSLLTVPL
 NMKLAILLSLFLATCFAAEETCEGR-------------------------------CRSG
 FDPTKKCQCD---------------------------------------RMCKYYG-SCC
@@ -44,7 +44,7 @@ KGPRFISKDWIGIKPP---VDAA-----------------MVGR----LYVNSSPS----
 SIGK-YWLGCK-------------------------------------------------
 ------------------------------------------------------------
 --------------------EKDLSEKR
->Drer NP_001132933.1
+>DNP_001132933.1
 ------------------------------------------------------------
 -MKLAILLSLFLATCFA----------------------------AEETCEGR---CRSG
 FDPTKKCQCD---------------------------------------RMCKYYGSCCE
@@ -67,7 +67,7 @@ KGPRFISKDWIGIKPP---VDAA-----------------MVGR----LYVNSSPS----
 SIGK-YWLGCK------------------------------EKDLSEKR-----------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI50466.1
+>DAAI50466.1
 --------------------------------------------LLFLEQIKHSLLTVPL
 NMKLAILLSLFLATCFA----------------------------AEETCEGR---CRSG
 FDPTKKCQCD---------------------------------------RMCKYYG-SCC
@@ -90,7 +90,7 @@ KGPRFISKDWIGIKPP---VDAA-----------------MVGR----LYVNSSPS----
 SIGK-YWLGCK------------------------------EKDLSEKKKKK--------
 ------------------------------------------------------------
 ----------------------------
->Drer NP_001315259.1
+>DNP_001315259.1
 ----------------------------------------------------------MA
 TYLSVLLLFVWVSTSSSNPRSCGGRC-------------------GEGYYRGSFCQCDYD
 CLGLNECCADFQDLCTSKDSCKGRCGEPFNRGNPCHCDIDCVSYNQCCPDYESMCLIEES
@@ -113,7 +113,7 @@ DPPQLITQVW-GIPSP---IDTV-----YTRCNCQGKTYFFKGKNYW-RFENGAMD----
 NPAT-SFFKCK------------------------------DTQKI--------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI64476.1
+>DAAI64476.1
 ---------------------------------------------------------MFW
 VCSCALVLMVLDSIAVAVP----------------------------------AW-----
 ---------------TEHTVG---------------------SFQLRKPCAQKLSSVD--
@@ -136,7 +136,7 @@ LCYEPLDAVSTPTPPP---ENVK-----IKIVP-RGKVVGFRC-----GTKSTRVP----
 -NNS--------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_009302611.1
+>DXP_009302611.1
 -------------------------------------------------------MLRGT
 GRFSGLLLFALLLLETAA------------------------------------------
 -VPARRPEEE-----------------------------------------ALMSGVLMI
@@ -159,7 +159,7 @@ HCPSSCDFCYE-----------------FPFPTARPTTAPPRTKHKF-VVEGKNLT----
 RVRV-RF-----------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_009302613.1
+>DXP_009302613.1
 -------------------------------------------------------MLRGT
 GRFSGLLLFALLLLETAA------------------------------------------
 -VPARRPEEE-----------------------------------------ALMSGVLMI
@@ -182,7 +182,7 @@ C-------------------------------------------------AGIKT-----
 -----TFL----------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer ALF36875.1
+>DALF36875.1
 -------------------------------------------------------MLTVI
 RRIFIIQTFIFITAEKIFHSRDHSDVLNNIHQAEL----------ITDTDTAQRFLSKYG
 FIKAAGSEES-QLSESSGDLDFSLSLDLHEGGTTSGSSSSDLQFVSALRDFQRLSDLPVT
@@ -205,7 +205,7 @@ RSLDAAYFSYTH---------NTVFLLKGSLFWRVLSGKE---RRRRAFLPMNGLLAHR-
 RVHE-QWFDIC------------------------------DVHSSSLRTTRRR------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_002664536.2
+>DXP_002664536.2
 ---------------------------------------------------------MML
 MFWTAVVFCLWGSAVDVFGEANEDALPTSLMNMVTSTILPTAIPTEDESGKLVDWLTKYG
 YLPPPDPSTG-----QLQAWT---------------------AVTQAVKKMQSFAGLDET
@@ -228,7 +228,7 @@ VRVVPIQRLWSALPPSLPPLRAV-----LERHT-DHAIIFISGSQVW-LFKDLSLQ----
 LSAS-DWLDCP------------------------------QDSSYSSADISLISQFGQQ
 ELHEQKKQTIINQIRHSEINKP------QHWDCPCQNTAGTQRGHVLLLAFLLLLTVTC-
 ----------------------------
->Mmus AAI45049.1
+>MAAI45049.1
 --------------------------------------------------------MVAG
 VSLLLRALPLLLWGCQDAQPTQHGL--------------------PELRQEAEAFLEKYG
 YLSEQGSKAP--------ASA---------------------QFRNAIREFQWISQLPLS
@@ -251,7 +251,7 @@ SEPRPLQKRWPGLPPG---IEAA-----AVSLE-DGDFYFFKGNRCW-RFQGTKSV----
 ATEL-SWMGCW-------------------------------------------------
 ----------------------------------NANSGGALF-----------------
 ----------------------------
->Mmus AAI37922.1
+>MAAI37922.1
 --------------------------------------------------------MVAG
 VSLLLRALPLLLWGCQDAQPTQHGL--------------------PELRQEAEAFLEKYG
 YLSEQGSKAP--------ASA---------------------QFRNAIREFQWISQLPLS
@@ -274,7 +274,7 @@ EAWDPHNSQSRRPE-------------------------TRGP-----------------
 ATEL-SWMGCW-------------------------------------------------
 ----------------------------------NANSGGALF-----------------
 ----------------------------
->Mmus EDL15708.1
+>MEDL15708.1
 -----------------------GPWGPGGSARGPRRTGIRGSRAQLTTTPQQLAAMVAG
 VSLLLRALPLLLWGCQDAQPTQHGL--------------------PELRQEAEAFLEKYG
 YLSEQGSKAP--------ASA---------------------QFRNAIREFQWISQLPLS
@@ -297,7 +297,7 @@ SEPRPLQKRWPGLPPG---IEAA-----AVSLE-DGDFYFFKGNRCW-RFQGTKSV----
 ATEL-SWMGCW-------------------------------------------------
 ----------------------------------NANSGGALF-----------------
 ----------------------------
->Mmus EDL15706.1
+>MEDL15706.1
 -----------------------GPWGPGGSARGPRRTGIRGSRAQLTTTPQQLAAMVAG
 VSLLLRALPLLLWGCQDAQPTQHGL--------------------PELRQEAEAFLEKYG
 YLSEQGSKAP--------ASA---------------------QFRNAIREFQWISQLPLS
@@ -320,7 +320,7 @@ EAWDPHNSQSRRPE-------------------------TRGP-----------------
 ATEL-SWMGCW-------------------------------------------------
 ----------------------------------NANSGGALF-----------------
 ----------------------------
->Drer XP_001337581.3
+>DXP_001337581.3
 ------------------------------------------------------------
 ---MMFLLLLCVQTSCSSPISSPAQ----------------------------GFLEQYG
 YLYKDNETYR-----TA-------------------------EVKTAIREFQWLSWLPVT
@@ -343,7 +343,7 @@ LRWTMQDWQISQDP----------------------RESSLTP-----------------
 ADSL-QWIGCQ-------------------------------------------------
 -----------------------------------------------KTPSLLDNEL---
 ----------------------------
->Drer XP_009289686.1
+>DXP_009289686.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -366,7 +366,7 @@ LRWTMQDWQISQDP--R--------------------ESSLTP-----------------
 ADSL-QWIGCQ-------------------------------------------------
 -----------------------------------------------KTPSLLDNEL---
 ----------------------------
->Drer XP_009289687.1
+>DXP_009289687.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------MEEEALK-----------
@@ -389,7 +389,7 @@ ALR-WTM------------------------Q----------------------------
 ADSL-QWIGCQ-------------------------------------------------
 -----------------------------------------------KTPSLLDNEL---
 ----------------------------
->Drer XP_017213574.1
+>DXP_017213574.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -412,7 +412,7 @@ ADSL-QWIGCQ-------------------------------------------------
 ---N-TWLRC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW59603.1
+>HEAW59603.1
 ------------------------------------------------MAPAAWLRSAAA
 RALLPPMLLLLLQPP--------------------------------------PLLAR--
 ALPPDVHHLH-A---ERRGPQ---------------------PWHAALPSSPAPAPATQE
@@ -435,7 +435,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GHIWFFQGAQYW-VYDGEKPV----
 LVGP-DFFGCA------------------------------EPANTFL------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAH57788.1
+>HAAH57788.1
 ------------------------------------------------MAPAAWLRSAAA
 RALLPPMLLLLLQPP--------------------------------------PLLAR--
 ALPPDAHHLH-A---ERRGPQ---------------------PWHAALPSSPAPAPATQE
@@ -458,7 +458,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GHIWFFQGAQYW-VYDGEKPV----
 LVGP-DFFGCA------------------------------EPANTFL------------
 ------------------------------------------------------------
 ----------------------------
->Hsap NP_005931.2
+>HNP_005931.2
 ------------------------------------------------MAPAAWLRSAAA
 RALLPPMLLLLL---QPPPLLAR-------------------------------------
 ALPPDAHHLH-A---ERRGPQ---------------------PWHAALPSSPAPAPATQE
@@ -481,7 +481,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GHIWFFQGAQYW-VYDGEKPV----
 LVGP-DFFGCA------------------------------EPANTFL------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL31871.1
+>MEDL31871.1
 -----------------------------------------------MARAACLLRAISR
 VLLLPLPLLLLLLLLLPSPLMARAR-----------------------------------
 --PPESHRHH--------------------------------PVKKGPRLLHAALPNTLT
@@ -504,7 +504,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GQIWFFQGAQYW-VYDGEKPV----
 QPRR-QLLPPR-------------------------------------------------
 -----------------------------------DTEPQRPHIPHSLAPGHFFLGPSS-
 ----------------------------
->Mmus XP_017169314.1
+>MXP_017169314.1
 ------------------------------------------------------------
 ----MCILEMSQA--------------------------------GGERESHR-----HH
 PVKKGPRLLH-A------------------------------ALPNTLTSVPASHWVPSP
@@ -527,7 +527,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GQIWFFQGAQYW-VYDGEKPV----
 PVGP-DFFDCA------------------------------EPANTFR------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAH52854.1
+>MAAH52854.1
 -----------------------------------------------MARAACLLRAISR
 VLLLPLPLLLLLLLLLPSPLMARAR-----------------------------------
 --PPESHRHH--------------------------------PVKKGPRLLHAALPNTLT
@@ -550,7 +550,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GQIWFFQGAQYW-VYDGEKPV----
 PVGP-DFFDCA------------------------------EPANTFR------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL31870.1
+>MEDL31870.1
 -----------------------------------------------MARAACLLRAISR
 VLLLPLPLLLLLLLLLPSPLMARAR-----------------------------------
 --PPESHRHH--------------------------------PVKKGPRLLHAALPNTLT
@@ -573,7 +573,7 @@ GYPALASRHWQGLPSP---VDAA-----FEDAQ--GQIWFFQGAQYW-VYDGEKPV----
 PVGP-DFFDCA------------------------------EPANTFR------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_694153.4
+>DXP_694153.4
 ----------------------------------------------------------MR
 SAQLLSALFYCIACIHSLPVPDGN---------------------SHRYRPAADWPQKTH
 HHGL--------------------------------------KKRGRLHHVQDTLNEDFS
@@ -596,7 +596,7 @@ GYPALASRHWRGIPDN---IDAA-----FEDMS--GNIWFFQGQNYW-VFDAERQI----
 YIGV-DFFGCS-------------------------------------------------
 ------------------------------------------------------------
 -AALYR----------------------
->Drer XP_692205.6
+>DXP_692205.6
 --------------------------------------------------------MRVS
 GLLACAFALHVLLTARCLPLHGGQGLA------------------KHKESPGLSYIPHLH
 SEKRRGRVPH-----PQDT-----------------------FKPPAWPKEEPHINTPL-
@@ -619,7 +619,7 @@ GYPALASRHWSGIPQK---IDAA-----YEDKK--GNIWFFEGSNYW-VFDAEHRI----
 YIGA-DFFGCNMP-----------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_017210163.1
+>DXP_017210163.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQRFAGIEET
@@ -642,7 +642,7 @@ STPALIHSFWIGLPPDTARVDAA-----YERRD--GHIVFFIGNQYW-VFRNTMAL----
 SIAT-DWMKCD-----------------------------RHVSAPTPEIPRDRN-----
 -------------------------------CSCVQNVAAVMRSLSVIIYLTNIICILVV
 TVF-------------------------
->Drer XP_002663942.1
+>DXP_002663942.1
 ----------------------------------------------------MSFSGYLG
 LVYLTCPMLVFFSAVHSAPV-------------------------KDQYSRGVDWLSRYG
 YLPPLDPRTG-----QLQSKD---------------------GIERAIREMQRFAGLKET
@@ -665,7 +665,7 @@ FQPAHIKNFWMGLPPTTNKVDAV-----YERKV-DNAIIFFIGSQYW-VFKNTEVL----
 STAV-DWMMCQ------------------------------QETTKA-------------
 --PESPRRREG-----------------VNCYCDNSAGLQMSVSAWLLLITALLHIGFNS
 Q---------------------------
->Mmus EDL22252.1
+>MEDL22252.1
 -----------------------------------------------------LRLPAFG
 LPLLALLLVPLLPVRAQNPD-------------------------AKVVSMGVEWLTRYG
 YLPPADPVHA-----QMQSLE---------------------KLQDAIKVMQRFAGLPET
@@ -688,7 +688,7 @@ PRPAGLHRFWEGLPTHVKVIQAA-----YARPL-DGRIILFSGPQFW-VFQERQLE----
 PIGP-KWLDCP------------------------------APNSDPRVTSPPKTTSKT-
 ----------------------------RSCDCHCELNQASEQLSPLLLPLLPLVAGEVF
 SY--------------------------
->Mmus AAI12380.1
+>MAAI12380.1
 MCFPGSQISPARLYYLVSAPWICTGSLTSSRLPRRRESGPLRVPPRSVQAERILRLPAFG
 LPLLALLLVPLLPVRAQNPD-------------------------AKVVSMGVEWLTRYG
 YLPPADPVHA-----QMQSLE---------------------KLQDAIKVMQRFAGLPET
@@ -711,7 +711,7 @@ PRPAGLHRFWEGLPTHVKVIQAA-----YARPL-DGRIILFSGPQFW-VFQERQLE----
 PIGP-KWLDCP------------------------------APNSDPRVT----------
 --SPPKTTSKT-----------------RSCDCHCELNQASEQLSPLLLPLLPLVAGEVF
 SY--------------------------
->Mmus XP_017172955.1
+>MXP_017172955.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------MQSLE---------------------KLQDAIKVMQRFAGLPET
@@ -734,7 +734,7 @@ PRPAGLHRFWEGLPTHVKVIQAA-----YARPL-DGRIILFSGPQFW-VFQERQLE----
 PIGP-KWLDCP------------------------------APNSDPRVTSPPKTTSKT-
 ----------------------------RSCDCHCELNQASEQLSPLLLPLLPLVAGEVF
 SY--------------------------
->Drer XP_698601.6
+>DXP_698601.6
 ----------------------------------------------MKSLRKWNSARTIW
 IIYPEMILFPVLWFLSQTRAAPSIT--------------------AEQMDMGVDWLSKFG
 YLPPSDPVNG-----QLQTKE---------------------ALTKAIKAMQRFGGLEET
@@ -757,7 +757,7 @@ LRPAQIHRFWRGLPANLDSVDAV-----YERPG-DHKIVFFKGGKYW-VFKDNNVE----
 PIGK-DWLVCT----------------------------EMQSDSPEMQNNSNTRLHGQH
 HADHAENG--------------------YEVCSCTSDSASPLGTRLTLSPAWVFAPLLTL
 ALALSSAPL-------------------
->Mmus BAA82708.2
+>MBAA82708.2
 -----------------------------------------MGRRPRGPGSPRGPGPPRP
 GPGLPPLLLVLALAAHGGCAAPAPR--------------------AEDLSLGVEWLSRFG
 YLPPADPASG-----QLQTQE---------------------ELSKAITAMQQFGGLETT
@@ -780,7 +780,7 @@ LQPAQMHRFWRGLPLHLDSVDAV-----YERTS-DHKIVFFKGDRYW-VFKDNNVE----
 STAR-DWLVCG------------------------------EPLADAEDVGPGPQGR---
 ----------------------------SGAQDGLAVCSCTSDAHRLALPSLLLLTPLLW
 GL--------------------------
->Mmus EDL19513.1
+>MEDL19513.1
 -----------------------------------------MGRRPRGPGSPRGPGPPRP
 GPGLPPLLLVLALAAHGGCAAPAPR--------------------AEDLSLGVEWLSRFG
 YLPPADPASG-----QLQTQE---------------------ELSKAITAMQQFGGLETT
@@ -803,7 +803,7 @@ LQPAQMHRFWRGLPLHLDSVDAV-----YERTS-DHKIVFFKGDRYW-VFKDNNVE----
 STAR-DWLVCG------------------------------EPLADAEDVGPGPQGR---
 ----------------------------SGAQDGLAVCSCTSDAHRLALPSLLLLTPLLW
 GL--------------------------
->Mmus CAB92315.1
+>MCAB92315.1
 -----------------------------------------MGRRPRGPGSPRGPGPPRP
 GPGLPPLLLVLALAAHGGCAAPAPR--------------------GEDLSLGVEWLSRFG
 YLPPADPASG-----QLQTQE---------------------ELSKAITAMQQFGGLETT
@@ -826,7 +826,7 @@ LQPAQMHRFWRGLPLHLDSVDAV-----YERTS-DHKIVFFKGDRYW-VFKDNNVE----
 STAR-DWLVCG------------------------------EPLADAEDVGPGPQGR---
 ----------------------------SGAQDGLAVCSCTSDAHRLALPSLLLLTPLLW
 GL--------------------------
->Drer XP_009290029.1
+>DXP_009290029.1
 ------------------------------------------------------------
 MQVLLCLVCAFDLFGQHYSLPLPLGDDGMVHPTKPA---------QNDLSLATKYLQQFY
 SFQADSAGR------KRRSRP---------------------SFSSKLKNMQGFFGLNGT
@@ -849,7 +849,7 @@ IKEGPISNFMPKIDCH---IDAA-----YWVPQ-RSTAYLFNGTTFW-TVKGSQVK----
 ---T-SWLGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_017206678.1
+>DXP_017206678.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------------------------------MKDKIRAMQHFFDLKET
@@ -872,7 +872,7 @@ LKEGPQSVFLPSIPSP---IDAA-----YDIPS-QRVAYVFTGPKYW-VVQKLESK----
 N----AWLGCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI29281.1
+>DAAI29281.1
 ----------------------------------------------------------MA
 HWPAALILVVSLTLCNGAPTTTPS---------------------TEDREIAEAYLSQFY
 RDSKAAKTLG-----RMFVSN----------------------LENELKAMQSFFGLEVT
@@ -895,7 +895,7 @@ LTLLEIKTTWPSIDS----VDAA-----YELKD-KGTSFLFKGQQFW-AVKGTTIL----
 ---Y-GWLDCY-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAH93333.1
+>DAAH93333.1
 ------------------------------------------------------RGLKMA
 HWPAALILVVSLTLCNGAPTTTPS---------------------TEDREIAEAYLSQFY
 RDSKAAKTLG-----RMFVSN----------------------LENELKAMQSFFGLEVT
@@ -918,7 +918,7 @@ LTLLEIKTTWPSIDS----VDAA-----YEFQD-KGTNFLFKGQQFW-AVKGNTIL----
 ---Y-GWLDCY-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI15114.1
+>DAAI15114.1
 ----------------------------------------------------------MA
 HWPAALILVVSLTLCNGAPTTTPS---------------------TEDREIAEAYLSQFY
 RDSKAAKTLG------RMFVS---------------------NLENELKAMQSFFGLEVT
@@ -941,7 +941,7 @@ LTLLEIKTTWPSIDS----VDAA-----YEFQD-KGTNFLFKGQQFW-AVKGNTIL----
 ---Y-GWLDCY-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_017213634.1
+>DXP_017213634.1
 ------------------------------------------------------------
 ----MVVYKASPALVFTAPLRPAGLSR------------------DGHLELAEVYLVKFY
 NHKPENGRRR-----RTAGLD---------------------PFQAKLREMQHFFGLEES
@@ -964,7 +964,7 @@ LH--------SVLQLSYQDVKDIKEMYGMPI-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_009304055.1
+>DXP_009304055.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------MITCR---TTRVSGLPVT
@@ -987,7 +987,7 @@ NSPVKINLLWKGLPGN---LNAA---V-YSSRT--NKTYFFKGEKVW-RYTNYRLD----
 SKRV-RWMRCN-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG35540.1
+>HBAG35540.1
 ----------------------------------------------------MSPAPRPP
 RCLLLPLLTLGTALASLGSA-------------------------QSSSFSPEAWLLQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1010,7 +1010,7 @@ GYPTPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Hsap CCK73138.1
+>HCCK73138.1
 ----------------------------------------------------MSPAPRPP
 RCLLLPLLRLGTALASLGSA-------------------------QSSSFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1033,7 +1033,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Hsap EAW66237.1
+>HEAW66237.1
 ----------------------------------------------------MSPAPRPP
 RCLLLPLLTLGTALASLGSA-------------------------QSSSFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1056,7 +1056,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Hsap BAA05519.1
+>HBAA05519.1
 ----------------------------------------------------MSPAPRPS
 RCLLLPLLTLGTALASLGSA-------------------------QSSSFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1079,7 +1079,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Hsap CAA62432.1
+>HCAA62432.1
 ----------------------------------------------------MSPAPRPS
 RCLLLPLLTLGTALASLGSA-------------------------QSSSFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1102,7 +1102,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 PALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Hsap BAF84014.1
+>HBAF84014.1
 ----------------------------------------------------MSPAPRPS
 RCLLLPLLTLGTALASLGSA-------------------------QSSSFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1125,7 +1125,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGGGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPRRLLYCQRSLLDKV
->Mmus CAA58520.2
+>MCAA58520.2
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1148,7 +1148,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GTFVFFKGDKHW-VCVEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus AAB86602.1
+>MAAB86602.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1171,7 +1171,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEEXE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus AAB51753.1
+>MAAB51753.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1194,7 +1194,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGRRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus AAH76638.1
+>MAAH76638.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1217,7 +1217,7 @@ GFPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus BAE33060.1
+>MBAE33060.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1240,7 +1240,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus BAE37413.1
+>MBAE37413.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1263,7 +1263,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus EDL36349.1
+>MEDL36349.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1286,7 +1286,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Mmus EDL36348.1
+>MEDL36348.1
 ----------------------------------------------------MSPAPRPS
 RSLLLPLLTLGTALASLGWA-------------------------QGSNFSPEAWLQQYG
 YLPPGDLRTH-----TQRSPQ---------------------SLSAAIAAMQKFYGLQVT
@@ -1309,7 +1309,7 @@ GYPMPIGQFWRGLPAS---INTA-----YERKD--GKFVFFKGDKHW-VFDEASLE----
 SALR-DWMGCP------------------------------SGGRPDEGTEEETE-----
 ----------------------------VIIIEVDEEGSGAVSAAAVVLPVLLLLLVLAV
 GLAVFF-FRRHGTPKRLLYCQRSLLDKV
->Drer AAI31865.1
+>DAAI31865.1
 -----------------------------------------------------MLPKLQT
 LPRLLPLALASVFLVQSGT--------------------------SDKEVRPEAWLQQYG
 YLPPGDVRAQ-----AIRSPK---------------------SINSAISAMQKFYGLTVT
@@ -1332,7 +1332,7 @@ GYPMPIGHFWKGLPPS---INAA-----YERND--GKFVFFKGDKYW-VFNEAKME----
 SVLT-NWMGCE-------------------------------AEEPKRRAGTDEEV----
 ----------------------------LIIEVDGSEGGAMGGAAAIVIPLFLLACVLVT
 LGALLF-FRRYGTPRRLLYCHRSLLDKV
->Drer XP_005171367.1
+>DXP_005171367.1
 -----------------------------------------------------------M
 IWSGFTRLLLLIFVCAHRSS-------------------------SKQDMKPEAWLQQYG
 YLPPGDLRTH-----TARSPQ---------------------SVPSAIAAMQRFYGLTVT
@@ -1355,7 +1355,7 @@ NYPMPIGHFWRGLPTD---INAA-----YERED--GKFVFFKGDRHW-VFTESNLE----
 SALK-DWMGCPNEDSNTGGGGSDRDRERERERERERERERERAREREREQDRTNEVDKTE
 EEGKKEETE-------------------VLIIEVEDAPSSRGGAAAVVVPLMLLVCVIFT
 LGALLF-FRRYGTPRRLLYCQRSLLDKV
->Drer AAP74484.1
+>DAAP74484.1
 -----------------------------------------------------------M
 IWSGFTRLLLLIFVCAHRSS-------------------------SKQDMKPEAWLQQYG
 YLPPGDLRTH-----TARSPQ---------------------SVPSAIAAMQRFYGLTVT
@@ -1378,7 +1378,7 @@ NYPMPIGHFWRGLPTD---INAA-----YERED--GKFVFFKGDRHW-VFTESNLE----
 SALK-DWMGCPNEDSNTGGGGSDRDRERERERERERERERERAREREREQDRTNEVDKTE
 EEGKKEETE-------------------VLIIEVEDAPSSRGGAAAVVVPLMLLVCVIFT
 LGALLF-FRRYGTPRRLLYCQRSLLDKV
->Drer AAI62135.1
+>DAAI62135.1
 -----------------------------------------------------------M
 IWSGFTRLLLLIFVCAHGSS-------------------------SKQDMKPEAWLQQYG
 YLPPGDLRTH-----TARSPQ---------------------SVPSAIAAMQRFYGLTVT
@@ -1401,7 +1401,7 @@ NYPMPIGHFWRGLPTD---INAA-----YERED--GKFVFFKGDRHW-VFTESNLE----
 SALK-DWMGCPNEDSNTGGGGSDRDRERERERERERERERERAREREREQDRTNEVDKTE
 EEGKKEETE-------------------VLIIEVEDAPSSRGGAAAVVVPLMLLVCVIFT
 LGALLF-FRRYGTPRRLLYCQRSLLDKV
->Drer XP_699803.4
+>DXP_699803.4
 ---------------------------------------------MAGVGARGRKTGLPG
 FCWKTCYFHILFWVVSVCG--------------------------EERTFIVETWLKNYG
 YLLPHDIRTS-----DLRSEK---------------------AMQSAVAAMQRFYGIPVT
@@ -1424,7 +1424,7 @@ GYPMLIDHFWKGLPHR---IDAA-----YERSD--GKFVFFKGDKYW-IFKEVTAE----
 SILK-DWMGCD----------------------------QSEVEKNKDRHLPHDD-----
 ----------------------------VDIMVAINDVPSTVNAIAVVIPCILSLCILVL
 VYTIFQ-FKNKNVQQHVTYYKHPVQEWV
->Hsap ABC17785.1
+>HABC17785.1
 -------------------------------------------------------MPRSR
 GGRAAPGPRRAVARADE----------------------------AEAPFAGQNWLKSYG
 YLLPYDSRAS-----ALHSAK---------------------ALQSAVSTMQQFYGIPVT
@@ -1447,7 +1447,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Hsap XP_016883087.1
+>HXP_016883087.1
 --------------------------------------------MHIMSNYCIQHCPGHW
 MIKLQPLPSRMLKSQHFGRRRRRRRRR------------------RLLSRVFQNWLKSYG
 YLLPYDSRAS-----ALHSAK---------------------ALQSAVSTMQQFYGIPVT
@@ -1470,7 +1470,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Hsap EAW76222.1
+>HEAW76222.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQQFYGIPVT
@@ -1493,7 +1493,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Hsap XP_011526802.1
+>HXP_011526802.1
 -------------------------------MPRSRGGRAAPGPPPPPPPPGQAPRWSRW
 RVPGRLLLLLLPALCCLPGAARAAAAAAGAGNRAAVAVAVARADEAEAPFAGQNWLKSYG
 YLLPYDSRAS-----ALHSAK---------------------ALQSAVSTMQQFYGIPVT
@@ -1516,7 +1516,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKD-----------------
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Hsap AAH47614.1
+>HAAH47614.1
 --------------------------------------------------PGQAPRWSRW
 RVPGRLLLLLLPALCCLPGAARAAAAAAGAGNRAAVAVAVARADEAEAPFAGQNWLKSYG
 YLLPYDSRAS-----ALHSAK---------------------ALQSAVSTMQQFYGIPVT
@@ -1539,7 +1539,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Hsap BAA82967.1
+>HBAA82967.1
 -------------------------------MPRSRGGRAAPGPPPPPPPPGQAPRWSRW
 RVPGRLLLLLLPALCCLPGAARAAAAAAGAGNRAAVAVAVARADEAEAPFAGQNWLKSYG
 YLLPYDSRAS-----ALHSAK---------------------ALQSAVSTMQQFYGIPVT
@@ -1562,7 +1562,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCN----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTINDVPGSVNAVAVVIPCILSLCILVL
 VYTIFQ-FKNKTGPQPVTYYKRPVQEWV
->Mmus CAA09055.1
+>MCAA09055.1
 -------------------------------------------MPRSRGAALRRARPRAG
 ALAGPGAAALLPALCCLAAAAGAGSR-------------------PGRPFAGQNWLKSYG
 YLLPYESRAS-----ALHSGK---------------------ALQSAVSTMQQFYGIPVT
@@ -1585,7 +1585,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCK----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTIDDVPGSVNAVAVVVPCTLSLCLRVL
 LYTIFQ-FKNKAGPQPVTYYKRPVQEWV
->Mmus BAA82966.1
+>MBAA82966.1
 -------------------------------------MPRSRGGRAAPGQASRWSGWRAP
 GRLLPLLPALCCLAAAAGAGKPTG---------------------ADAPFAGQNWLKSYG
 YLLPYESRAS-----ALHSGK---------------------ALQSAVSTMQQFYGIPVT
@@ -1608,7 +1608,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCK----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTIDDVPGSVNAVAVVVPCTLSLCLLVL
 LYTIFQ-FKNKAGPQPVTYYKRPVQEWV
->Mmus EDL06144.1
+>MEDL06144.1
 ------------------------------------------------------------
 ----------------------------------------------DAPFAGQNWLKSYG
 YLLPYESRAS-----ALHSGK---------------------ALQSAVSTMQQFYGIPVT
@@ -1631,7 +1631,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCK----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTIDDVPGSVNAVAVVVPCTLSLCLLVL
 LYTIFQ-FKNKAGPQPVTYYKRPVQEWV
->Mmus NP_034938.3
+>MNP_034938.3
 --------------------------------------MPRSRGGRAAPGQASRWSGWRA
 PGRLLPLLPALCCLAAAAGAGKPAG--------------------ADAPFAGQNWLKSYG
 YLLPYESRAS-----ALHSGK---------------------ALQSAVSTMQQFYGIPVT
@@ -1654,7 +1654,7 @@ GYPMQIEQFWKGLPAR---IDAA-----YERAD--GRFVFFKGDKYW-VFKEVTVE----
 NILR-DWMGCK----------------------------QKEVERRKERRLPQDD-----
 ----------------------------VDIMVTIDDVPGSVNAVAVVVPCTLSLCLLVL
 LYTIFQ-FKNKAGPQPVTYYKRPVQEWV
->Drer XP_700781.6
+>DXP_700781.6
 -----------------------------------------------------MNVTLLK
 RRRLDCVYALLFWLHNAMWMCRSAA--------------------EEHQFSVEVWLQKYG
 YLHPTPPNMA-----AQRSAQ---------------------TMHSAIAAMQHKYGLNIT
@@ -1677,7 +1677,7 @@ GYPMQISYFWRGLPPK---IDAV-----YENSE--GKFVFFKGNRFW-VFKDTTLQ----
 SILR-DFMGCD-----------------------------GLPTDPDWDWSPPQEEEPPQ
 FDDDN-----------------------VDIVLKLESSGGAEKAVAIAIPCVLALCMMVL
 LYTVFR-FKRKDTQRHILYCKRSMQEWV
->Drer XP_009295076.1
+>DXP_009295076.1
 -----------------------------------------------------MNVTLLK
 RRRLDCVYALLFWLHNAMWMCRSAA--------------------EEHQFSVEVWLQKYG
 YLHPTPPNMA-----AQRSAQ---------------------TMHSAIAAMQHKYGLNIT
@@ -1700,7 +1700,7 @@ GYPMQISYFWRGLPPK---IDAV-----YENSE--GKFVFFKGNRFW-VFKDTTLQ----
 SILR-DFMGCD-----------------------------GLPTDPDWDWSPPQEEEPPQ
 FDDDN-----------------------VDIVLKLESSGGAEKAVAIAIPCVLALCMMVL
 LYTVFR-FKRKDTQRHILYCKRSMQEWV
->Hsap BAA23742.1
+>HBAA23742.1
 --------------------------------------------MILLTFSTGRRLDFVH
 HSGVFFLQTLLWILCATVCG-------------------------TEQYFNVEVWLQKYG
 YLPPTDPRMS-----VLRSAE---------------------TMQSALAAMQQFYGINMT
@@ -1723,7 +1723,7 @@ GYPMQITYFWRGLPPS---IDAV-----YENSD--GNFVFFKGNKYW-VFKDTTLQ----
 SILK-DFMGCD-----------------------------GPTDRVKEGHSPPDD-----
 ----------------------------VDIVIKLDNTASTVKAIAIVIPCILALCLLVL
 VYTVFQ-FKRKGTPRHILYCKRSMQEWV
->Mmus EDL05586.1
+>MEDL05586.1
 ------------------------------------EARLRVFRETGSGHSERGRKRRGA
 RPSVEAQFTMILLAFSSGRRLDFVHRSGVFFLQTLLWILCATVCGTEQYFNVEVWLQKYG
 YLPPTDPRMS-----VLRSAE---------------------TMQSALAAMQQFYGINMT
@@ -1746,7 +1746,7 @@ GYPMQITYFWRGLPPS---IDAV-----YENSD--GNFVFFKAS--W-------------
 ---------C--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAG17704.1
+>MAAG17704.1
 --------------------------------------------MILLAFSSGRRLDFVH
 RSVVFFLQTLLWILCATVCG-------------------------TEQYFNVEVWLQKYG
 YLPPTDPRMS-----VLRSAE---------------------TMQSALAAMQQFYGINMT
@@ -1769,7 +1769,7 @@ GYPMQITYFWRGLPPS---IDAV-----YENSD--GNFVFFKGNKYW-VFKDTTLQ----
 SILK-DFMGCD------------------------------GPTDRDKEGLSPPDD----
 ----------------------------VDIVIKLDNTASTVKAIAIVIPCILALCLLVL
 VYTVFQ-FKRKGTPRHILYCKRSMQEWV
->Mmus BAA78420.1
+>MBAA78420.1
 --------------------------------------------MILLAFSSGRRLDFVH
 HSGVFFLQTLLWILCATVCG-------------------------TEQYFNVEVWLQKYG
 YLPPTDPRMS-----VLRSAE---------------------TMQSALAAMQQFYGINMT
@@ -1792,7 +1792,7 @@ GYPMQITYFWRGLPPS---IDAV-----YENSD--GNFVFFKGNKYW-VFKDTTLQ----
 SILK-DFMGCD------------------------------GPTDRDKEGLSPPDD----
 ----------------------------VDIVIKLDNTASTVKAIAIVIPCILALCLLVL
 VYTVFQ-FKRKGTPRHILYCKRSMQEWV
->Mmus EDL05587.1
+>MEDL05587.1
 --------------------------------------------MILLAFSSGRRLDFVH
 RSGVFFLQTLLWILCATVCG-------------------------TEQYFNVEVWLQKYG
 YLPPTDPRMS-----VLRSAE---------------------TMQSALAAMQQFYGINMT
@@ -1815,7 +1815,7 @@ GYPMQITYFWRGLPPS---IDAV-----YENSD--GNFVFFKGNKYW-VFKDTTLQ----
 SILK-DFMGCD------------------------------GPTDRDKEGLSPPDD----
 ----------------------------VDIVIKLDNTASTVKAIAIVIPCILALCLLVL
 VYTVFQ-FKRKGTPRHILYCKRSMQEWV
->Drer XP_017209448.1
+>DXP_017209448.1
 --------------------------------------------------MVLLTLHNRR
 GLNCLCAQFLLWILCAVDG--------------------------EEQQFSVEDWLQTYG
 YLPPTDPRMS-----ILRSEQ---------------------TMQSAIAAMQRLYGLKVT
@@ -1838,7 +1838,7 @@ GYPMLINVFWRGLPPK---IDAV-----YENSK--GKFVFFKGKQFW-VFKDTMLL----
 SILK-DFMGCD-----------------------------LVPIDPDLHATEDKNE----
 -------------------------------VIKLDNETSTVKAVAIVIPCVLALCLLVL
 IYTVFQ-FKRKGTPRHILYCRRSMQEWV
->Drer XP_017209345.1
+>DXP_017209345.1
 --------------------------------------------------MVLLTLHNRR
 GLNCLCAQFLLWILCAVDG--------------------------EEQQFSVEDWLQTYG
 YLPPTDPRMS-----ILRSEQ---------------------TMQSAIAAMQRLYGLKVT
@@ -1861,7 +1861,7 @@ PRKNDRQTRPPRIP--T-------------------GDKPTHP-----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_001924042.4
+>DXP_001924042.4
 -----------------------------------------------------MSVCRSQ
 SLRAVSVIFILLFVNIAETSA------------------------EDEDFNAESWLRTYG
 YLSQASRQMS-----TMQSSQ---------------------ILSSAIRDMQRFYGLQET
@@ -1884,7 +1884,7 @@ NYPMPISFFWMGLPED---IDAA-----YERHD--GKFVFFKGSKYW-LFREADVE----
 SILN-DFMGCR-----------------------------VHFDVEPEIYPDHQSPDMTD
 NNPDPEDYKNGVDEEDPEDDDVDEKKEVDVILRVNDNDKHIMTLILVIVPLVLVLCILGV
 IYVIITTLQRKETPKVLVHCKRSLQQWV
->Drer XP_017212610.1
+>DXP_017212610.1
 ------------------------------------------------MMAVLWDDPFTL
 LWRRTLVFSLLLLLMGARTF-------------------------GDETFSGESWLRMYG
 YLPQASRQMS-----TMRSAQ---------------------ILSNAISDMQRFYGLEIT
@@ -1907,7 +1907,7 @@ NYPMPIGHFWRGLPGD---IDAA-----YERHD--GRFVFFKGSQYW-LFREANLE----
 SILR-DFMGCNVDLDPDRDTDVDQGRKWPDRPPFNPDAGRDKDKDKDKDKERDNTNDADS
 KEETEEKTNE------------------VDVVLKIDETERTMNIIMVTVPLVLVLCILGL
 IYAIINTLQRKGAPKYLVYCRRSFQDWV
->Drer XP_009301842.1
+>DXP_009301842.1
 ------------------------------------------------------------
 ---------------------------------------------------------MYG
 YLPQASRQMS-----TMRSAQ---------------------ILSNAISDMQRFYGLEIT
@@ -1930,7 +1930,7 @@ NYPMPIGHFWRGLPGD---IDAA-----YERHD--GRFVFFKGSQYW-LFREANLE----
 SILR-DFMGCNVDLDPDRDTDVDQGRKWPDRPPFNPDAGRDKDKDKDKDKERDNTNDADS
 KEETEEKTNE------------------VDVVLKIDETERTMNIIMVTVPLVLVLCILGL
 IYAIINTLQRKGAPKYLVYCRRSFQDWV
->Mmus AAH47278.1
+>MAAH47278.1
 ----------------------------------------MGSDRSALGRPGCTGSCLSS
 RASLLPLLLVLLDCLGHGTASK-----------------------DAEVYAAENWLRLYG
 YLPQPSRHMS-----TMRSAQ---------------------ILASALAEMQSFYGIPVT
@@ -1953,7 +1953,7 @@ NYPMPIGHFWRGLPGN---ISAA-----YERQD--GHFVFFKGNRYW-LFREANLE----
 SILR-DFMGCQ----------------EHVEPRSRWPDVARPPFNPNGGAEPEADGDSKE
 ENAGDKDEG-------------------SRVVVQMEEVVRTVNVVMVLVPLLLLLCILGL
 AFALVQ-MQRKGAPRMLLYCKRSLQEWV
->Mmus EDL11170.1
+>MEDL11170.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1976,7 +1976,7 @@ NYPMPIGHFWRGLPGN---ISAA-----YERQD--GHFVFFKGNRYW-LFREANLE----
 SILR-DFMGCQ----------------EHVEPRSRWPDVARPPFNPNGGAEPEADGDSKE
 ENAGDKDEG-------------------SRVVVQMEEVVRTVNVVMVLVPLLLLLCILGL
 AFALVQ-MQRKGAPRMLLYCKRSLQEWV
->Mmus EDL11169.1
+>MEDL11169.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1999,7 +1999,7 @@ NYPMPIGHFWRGLPGN---ISAA-----YERQD--GHFVFFKGNRYW-LFREANLE----
 SILR-DFMGCQ----------------EHVEPRSRWPDVARPPFNPNGGAEPEADGDSKE
 ENAGDKDEG-------------------SRVVVQMEEVVRTVNVVMVLVPLLLLLCILGL
 AFALVQ-MQRKGAPRMLLYCKRSLQEWV
->Mmus AAI52337.1
+>MAAI52337.1
 ------------------------------------------------------MKVLPA
 SGLAVLVTALKFATADPNLLAATPRTF------------------RSNYHLAQAYLDKYY
 TKKGGPQAGE----MVARESN---------------------PMIRRIKELQIFFGLKVT
@@ -2022,7 +2022,7 @@ IRPSTITSSFPQLMSN---VDAA-----YEVAE-RGIAFFFKGPHYW-VTRGFHMQ----
 ---S-SWIGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW67024.1
+>HEAW67024.1
 -------------------------------------------------------MKVLP
 ASGLAVFLIMALTFSTAAPSLVAASPRTW----------------RNNYRLAQAYLDKYY
 TNKEGHQIGE----MVARGSN---------------------SMIRKIKELQAFFGLQVT
@@ -2045,7 +2045,7 @@ IRPSTITSSFPQLMSN---VDAA-----YEVAE-RGTAYFFKGPHYW-ITRGFQMQ----
 ---S-SWIGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap CAA73317.1
+>HCAA73317.1
 -------------------------------------------------------MKVLP
 ASGLAVFLIMALKFSTAAPSLVAASPRTW----------------RNNYRLAQAYLDKYY
 TNKEGHQIGE----MVARGSN---------------------SMIRKIKELQAFFGLQVT
@@ -2068,7 +2068,7 @@ IRPSTITSSFPQLMSN---VDAA-----YEVAE-RGTAYFFKGPHYW-ITRGFQMQ----
 ---S-SWIGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap NP_004762.2
+>HNP_004762.2
 -------------------------------------------------------MKVLP
 ASGLAVFLIMALKFSTAAPSLVAASPRTW----------------RNNYRLAQAYLDKYY
 TNKEGHQIGE----MVARGSN---------------------SMIRKIKELQAFFGLQVT
@@ -2091,7 +2091,7 @@ IRPSTITSSFPQLMSN---VDAA-----YEVAE-RGTAYFFKGPHYW-ITRGFQMQ----
 ---S-SWIGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAI43774.1
+>HAAI43774.1
 ------------------------------------------------------------
 -MKFLLILLLQATASGALPLNSSTSLE------------------KNNVLFGERYLEKFY
 GLEINKLPVT-K---MKYSGN---------------------LMKEKIQEMQHFLGLKVT
@@ -2114,7 +2114,7 @@ TSVNLISSLWPTLPSG---IEAA-----YEIEA-RNQVFLFKDDKYW-LISSLRPE----
 ---N-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG36675.1
+>HBAG36675.1
 ------------------------------------------------------------
 -MKFLLILLLQATASGALPLNSSTSLE------------------KNNVLFGERYLEKFY
 GLEINKLPVT-K---MKYSGN---------------------LMKEKIQEMQHFLGLKVT
@@ -2137,7 +2137,7 @@ TSVNLISSLWPTLPSG---IEAA-----YEIEA-RNQVFLFKDDKYW-LISNLRPE----
 ---N-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAA58658.1
+>HAAA58658.1
 ------------------------------------------------------------
 -MKFLLILLLQATASGALPLNSSTSLE------------------KNNVLFGERYLEKFY
 GLEINKLPVT----KMKYSGN---------------------LMKEKIQEMQHFLGLKVT
@@ -2160,7 +2160,7 @@ TSVNLISSLWPTLPSG---IEAA-----YEIEA-RNQVFLFKDDKYW-LISNLRPE----
 ---N-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40832.1
+>MBAC40832.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT----KTKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2183,7 +2183,7 @@ KEVCFSSLFFTNSS-----INVC-----HIARE---------------AKETLDVH----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAH19135.2
+>MAAH19135.2
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLEEKLQEMQQFFGLEAT
@@ -2206,7 +2206,7 @@ TNIISISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus CAJ18584.1
+>MCAJ18584.1
 ------------------------------------------------------------
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLEEKLQEMQQFFGLEAT
@@ -2229,7 +2229,7 @@ TNIISISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAA39526.1
+>MAAA39526.1
 ------------------------------------------------------------
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2252,7 +2252,7 @@ TNITSISSIWPSIPSA---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40836.1
+>MBAC40836.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT----KTKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2275,7 +2275,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE33415.1
+>MBAE33415.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT----KTKTNRN---------------------FLKEKLQEMQQFFGLEAN
@@ -2298,7 +2298,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40846.1
+>MBAC40846.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2321,7 +2321,7 @@ NP--------STFRLSADDIRNIQSLYGPPV-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE41839.1
+>MBAE41839.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQQFFGLEAT
@@ -2344,7 +2344,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus NP_001307005.1
+>MNP_001307005.1
 ------------------------------------------------------------
 -------------------------------------------------------MTK--
 ---------------TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2367,7 +2367,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40913.1
+>MBAC40913.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2390,7 +2390,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42486.1
+>MBAE42486.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2413,7 +2413,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42201.1
+>MBAE42201.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2436,7 +2436,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE41743.1
+>MBAE41743.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2459,7 +2459,7 @@ TNITSISSTWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE30809.1
+>MBAE30809.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLVAT
@@ -2482,7 +2482,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE33072.1
+>MBAE33072.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2505,7 +2505,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42198.1
+>MBAE42198.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2528,7 +2528,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42294.1
+>MBAE42294.1
 -------------------------------------------------MSCTLLKGVCT
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2551,7 +2551,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus XP_017168649.1
+>MXP_017168649.1
 ------------------------------------------------------------
 ---------------------------------------------MNDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2574,7 +2574,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24933.1
+>MEDL24933.1
 ------------------------------------------------------------
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2597,7 +2597,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40889.1
+>MBAC40889.1
 ------------------------------------------------------------
 MKFLMMIVFLQVSACGAAPM--------------------------NDSEFAEWYLSRFY
 DYGKDRIPMT-K---TKTNRN---------------------FLKEKLQEMQQFFGLEAT
@@ -2620,7 +2620,7 @@ TNITSISSIWPSIPSG---IQAA-----YEIES-RNQLFLFKDEKYW-LINNLVPE----
 ---T-SWFGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96700.1
+>HBAD96700.1
 ----------------------------------------------------------MR
 LTVLCAVCLLPGSLALPLPQEAGGMS-------------------ELQWEQAQDYLKRFY
 LYDSETKNAN--------------------------------SLEAKLKEMQKFFGLPIT
@@ -2643,7 +2643,7 @@ DP--------QNFKLSQDDIKGIQKLYGKRS-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAH03635.1
+>HAAH03635.1
 ----------------------------------------------------------MR
 LTVLCAVCLLPGSLALPLPQEAGGMS-------------------ELQWEQAQDYLKRFY
 LYDSETKNAN--------------------------------SLEAKLKEMQKFFGLPIT
@@ -2666,7 +2666,7 @@ DP--------QNFKLSQDDIKGIQKLYGKRS-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW67023.1
+>HEAW67023.1
 ----------------------------------------------------------MR
 LTVLCAVCLLPGSLALPLPQEAGGMS-------------------ELQWEQAQDYLKRFY
 LYDSETKNAN--------------------------------SLEAKLKEMQKFFGLPIT
@@ -2689,7 +2689,7 @@ DP--------QNFKLSQDDIKGIQKLYGKRS-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus NP_001306915.1
+>MNP_001306915.1
 ------------------------------------------------------------
 --------------------------------------------------MLSNYLRKFY
 PHDSKTKKVN--------------------------------SLVDNLKEMQKFFGLPMT
@@ -2712,7 +2712,7 @@ YS--------EDFSLTKDDIAGIQKLYG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAI19058.1
+>MAAI19058.1
 ---------------------------------------------------------MAA
 MQLTLFCFVCLLPGHLALPLSQEAGDVS-----------------AHQWEQAQNYLRKFY
 PHDSKTKKVN--------------------------------SLVDNLKEMQKFFGLPMT
@@ -2735,7 +2735,7 @@ YS--------EDFSLTKDDIAGIQKLYG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAA99983.1
+>MAAA99983.1
 ----------------------------------------------------MQLTLFCF
 VCLLPGHLALPLSQEAGDVS-------------------------AHQWEQAQNYLRKFY
 PHDSKTKKVN--------------------------------SLVDNLKEMQKFFGLPMT
@@ -2758,7 +2758,7 @@ YS--------EDFSLTKDDIAGIQKLYG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24941.1
+>MEDL24941.1
 ------------------------------------------------------------
 -MQLTLFCFVCLLPGHLALPLSQEAGDVS----------------AHQWEQAQNYLRKFY
 PHDSKTKKVN--------------------------------SLVDNLKEMQKFFGLPMT
@@ -2781,7 +2781,7 @@ YS--------EDFSLTKDDIAGIQKLYG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_001345507.1
+>DXP_001345507.1
 ------------------------------------------------------------
 MELKTVLLLVIAAYSSAKPISTEE---------------------KDKAVLAKKYLQRFY
 GMPAGLQRPG-------KSSD---------------------LMQQKIREMQEFFKLEVT
@@ -2804,7 +2804,7 @@ PEQTLIKNTWPEIPNK---VDAA-----YENPE-RDVVIIFSGIKMW-ALNGYTLV----
 ---N-SILNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE33104.1
+>MBAE33104.1
 ----------------------------------------------------------MH
 SAILATFFLLSWTPCWSLPLPYGDDDDDDLS--------------EEDLVFAEHYLKSYY
 H-PATLAGIL-----KKSTVT---------------------STVDRLREMQSFFGLEVT
@@ -2827,7 +2827,7 @@ AELFLTKSFWPDLPNH---VDAA-----YEHPS-RDLMFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE32010.1
+>MBAE32010.1
 ----------------------------------------------------------MH
 SAILATFFLLSWTPCWSLPLPYGDDDDDDLS--------------EEDLVFAEHYLKSYY
 H-PATLAGIL-----KKSTVT---------------------STVDRLREMQSFFGLEVT
@@ -2850,7 +2850,7 @@ AELFLTKSFWPELPNH---VDAA-----YEHPS-RDLMFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24932.1
+>MEDL24932.1
 ----------------------------------------------------------MH
 SAILATFFLLSWTPCWSLPLPYGDDDDDDLS--------------EEDLVFAEHYLKSYY
 H-PATLAGIL-----KKSTVT---------------------STVDRLREMQSFFGLEVT
@@ -2873,7 +2873,7 @@ AELFLTKSFWPELPNH---VDAA-----YEHPS-RDLMFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAF84900.1
+>HBAF84900.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -2896,7 +2896,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAH67523.1
+>HAAH67523.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -2919,7 +2919,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG37740.1
+>HBAG37740.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -2942,7 +2942,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96468.1
+>HBAD96468.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -2965,7 +2965,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW67035.1
+>HEAW67035.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -2988,7 +2988,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ---N-SILWC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAP78939.1
+>HAAP78939.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -3011,7 +3011,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 SCLS-LWSSWD-------------------------------------------------
 ------------------------------------------------------------
 -YRLYLFFQRTHTV--------------
->Hsap EAW67034.1
+>HEAW67034.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -3034,7 +3034,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 SCLS-LWSSWD-------------------------------------------------
 ------------------------------------------------------------
 -YRLYLFFQRTHTV--------------
->Hsap AAP78940.1
+>HAAP78940.1
 ----------------------------------------------------------MH
 PGVLAAFLFLSWTHCRALPLPSGGDEDDLS---------------EEDLQFAERYLRSYY
 H-PTNLAGIL-----KENAAS---------------------SMTERLREMQSFFGLEVT
@@ -3057,7 +3057,7 @@ AELFLTKSFWPELPNR---IDAA-----YEHPS-HDLIFIFRGRKFW-ALNGYDIL----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAP74482.1
+>DAAP74482.1
 ----------------------------------------------MLSVKFFRCRHIVL
 KVFLVQFLASLQTFAAPSPIIKFPGDDTA----------------HTDKEVALHYLNKFY
 GCPKDRCNLM--------------------------------VLKDTLKKMQKFFALPET
@@ -3080,7 +3080,7 @@ TGPMLVATFWSELPEK---IDAA-----YENPL-EERTVFFAGDEMW-VYSASTLE----
 ---KKDWLRC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAH76545.1
+>DAAH76545.1
 ----------------------------------------------MMSVKFFSCRHIVL
 KVFLVQFLASLQTFAAPSPIIKFPGDDTA----------------HTDKEVALHYLNKFY
 GCPKDRCNLM--------------------------------VLKDTLKKMQKFFALPET
@@ -3103,7 +3103,7 @@ TGPMLVATFWSELPEK---IDAA-----YENPL-EERTVFFAGDEMW-VYSASTLE----
 ---KKDWLRC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus XP_006530814.1
+>MXP_006530814.1
 ----------------------------------------------MEARVAWGALAGPL
 RVLCVLCCLLGRAIAAPSPIIKFPGDVAP----------------KTDKELAVQYLNTFY
 GCPKESCNLF--------------------------------VLKDTLKKMQKFFGLPQT
@@ -3126,7 +3126,7 @@ TGPLLVATFWPELPEK---IDAV-----YEAPQ-EEKAVFFAGNEYW-VYSASTLE----
 ---KSDWLGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL11089.1
+>MEDL11089.1
 ----------------------------------------------MEARVAWGALAGPL
 RVLCVLCCLLGRAIAAPSPIIKFPGDVAP----------------KTDKELAVQYLNTFY
 GCPKESCNLF--------------------------------VLKDTLKKMQKFFGLPQT
@@ -3149,7 +3149,7 @@ TGPLLVATFWPELPEK---IDAV-----YEAPQ-EEKAVFFAGNEYW-VYSASTLE----
 ---KSDWLGC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AEG20934.1
+>DAEG20934.1
 ------------------------------------------------------------
 --------------------------------------------------LADEYLKRYG
 YIDVLQRS-------GLQAVV---------------------SNTKALKKLQRQLGLEET
@@ -3172,7 +3172,7 @@ GLP------WCSTTAD------------YDKDK---KFGFCPSELLF-TFDGNSNE----
 EGEP-CHFPLR-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI60656.1
+>DAAI60656.1
 ------------------------------------------------MRLGVLAFLVLG
 TCSLRAWCLPLKSVFVTFPGDVIKN--------------------MTNTQLADEYLKRYG
 YVDVLQRS-------GLQAVI---------------------SNAKALKKLQRQLGLEET
@@ -3195,7 +3195,7 @@ KGPFMISAKWPALPAV---INSA-----FEDHL-TKKIYFFSERQFW-VYSGNDVL----
 ---Y-DLLKCSDIHSL--------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAH49472.1
+>DAAH49472.1
 ----------------------------------------------------------MK
 TCFRLCVFITLLFSGHSSPIAPPAG--------------------GDQDTLAENYLTRLY
 GLPKPAQNPS--PSGGEKRSS---------------------DVSLRLKEMQQFFKLKVS
@@ -3218,7 +3218,7 @@ ALKVWADVTP-----LRFT-RIY--------S-GTADIM---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAQ07962.1
+>DAAQ07962.1
 ----------------------------------------------------------MK
 TCFRLCVFITLLFSGHSSPIAPPAG--------------------GDQDTLAENYLTRLY
 GLPKPAQNPS--PSGGEKRSS---------------------DVSLRLKEMQQFFKLKVS
@@ -3241,7 +3241,7 @@ VEQQLIKSFWPEAPDN---IDAA-----FESVM-QDKVFLIKGEKVW-ALYGYDMV----
 ---N-YFLPCK-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAH65591.1
+>DAAH65591.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -3264,7 +3264,7 @@ VEQQLIKSFWPEAPDN---IDAA-----FESVM-QDKVFLIKGEKVW-ALYGYDMV----
 ---N-YFLPCK-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer NP_001277408.1
+>DNP_001277408.1
 ----------------------------------------------------------MK
 TCFRLCVFVTLLFSGHSNPIAPLAG--------------------GDQDTLAENYLTRLY
 GLPKQPAQSP-SSSGGEKRSS---------------------DMSLRLKEMQQFFKLKVT
@@ -3287,7 +3287,7 @@ VELQLIQSFWPEIPDN---IDAA-----FESVI-QDKVFLIKGEKVW-ALYGYDMV----
 ---N-YFLPCK-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer XP_009303831.1
+>DXP_009303831.1
 ----------------------------------------------------------MK
 TCFRLCVFVTLLFSGHSNPIAPLAG--------------------GDQDTLAENYLTRLY
 GLPKQPAQSP-SSSGGEKRSS---------------------DMSLRLKEMQQFFKLKVT
@@ -3310,7 +3310,7 @@ VELQLIQSFWPEIPDN---IDAA-----FESVI-QDKVFLIKGEKVW-ALYGYDIV----
 ---N-YFLPCK-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Drer AAI59193.1
+>DAAI59193.1
 ----------------------------------------------------------MK
 TCFRLCVFVTLLFSGHSNPIAPLAG--------------------GDQNTLAENYLTRLY
 GLPKQPAQSP-SSSGGEKRSS---------------------DVSLRLKEMQQFFKLKVS
@@ -3333,7 +3333,7 @@ VELQLIQSFWPEIPDN---IDAA-----FESVI-QDKVFLIKGEKVW-ALYGYDIV----
 ---N-YFLPCK-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24938.1
+>MEDL24938.1
 ------------------------------------------------------------
 MKCLLSLMVNFITLSAAFPPDRKDKN-------------------EENNQLAQAYLNQFY
 SLEIEGSHFV-----QSKNRS---------------------LFDGKLREMQAFFGLTVT
@@ -3356,7 +3356,7 @@ AEFEFIDSFWPSLPAD---LQAA-----YESPR--DELLVFKDENFW-VIRGYSVL----
 ---N-SWFLCN------------------------------EPLNASF------------
 ----------------------------NVSVKGKANSIGTVILHHKRLSLLTFSIVHVL
 TKTYN-----------------------
->Mmus NP_001297646.1
+>MNP_001297646.1
 ----------------------------------------------MPYKQKQALTEETG
 MKCLLSLMVNFITLSAAFPPDRKDKN-------------------EENNQLAQAYLNQFY
 SLEIEGSHFV-----QSKNRS---------------------LFDGKLREMQAFFGLTVT
@@ -3379,7 +3379,7 @@ AEFEFIDSFWPSLPAD---LQAA-----YESPR--DELLVFKDENFW-VIRGYSVL----
 ---N-SWFLCN------------------------------EPLNASF------------
 ----------------------------NVSVKGKANSIGTVILHHKRLSLLTFSIVHVL
 TKTYN-----------------------
->Mmus XP_006509922.1
+>MXP_006509922.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQAFFGLTVT
@@ -3402,7 +3402,7 @@ AEFEFIDSFWPSLPAD---LQAA-----YESPR--DELLVFKDENFW-VIRGYSVL----
 ---N-SWFLCN------------------------------EPLNAS-------------
 ----------------------------FNVSVKGKANSIGTVILHHKRLSLLTFSIVHV
 LTKTYN----------------------
->Hsap XP_011541252.1
+>HXP_011541252.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -3425,7 +3425,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap AAQ89112.1
+>HAAQ89112.1
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMTEN-------------------EENMQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3448,7 +3448,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap EAW67026.1
+>HEAW67026.1
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMMEN-------------------EENVQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3471,7 +3471,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap XP_011541250.1
+>HXP_011541250.1
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMTEN-------------------EENMQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3494,7 +3494,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap XP_011541251.1
+>HXP_011541251.1
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMTEN-------------------EENMQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3517,7 +3517,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap NP_071405.2
+>HNP_071405.2
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMTEN-------------------EENMQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3540,7 +3540,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Hsap XP_016873609.1
+>HXP_016873609.1
 ------------------------------------------------------------
 MKRLLLLFLFFITFSSAFPLVRMTEN-------------------EENMQLAQAYLNQFY
 SLEIEGNHLV-----QSKNRS---------------------LIDDKIREMQAFFGLTVT
@@ -3563,7 +3563,7 @@ VEFELIASFWPSLPAD---LQAA-----YENPR--DKILVFKDENFW-MIRGYAVL----
 ---N-TWFQCK------------------------------EPKNSSFG-----------
 ----------------------------FDINKEKAHSGGIKILYHKSLSLFIFGIVHLL
 KNTSIYQ---------------------
->Mmus EDL24936.1
+>MEDL24936.1
 ------------------------------------------------------------
 MEPLAILALLSLPICSAYPLHGAVTQG------------------HPSMDLAQQYLEKYY
 NFKKNEKQIF-----KRKDSS---------------------PVVKKIQEMQKFLGLEMT
@@ -3586,7 +3586,7 @@ PEFHLISAFWPTLPSD---LDAA-----YEAHN-TDSVLIFKGSQFW-AVRGNEVQ----
 ---N-SWLLC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus CAA47029.1
+>MCAA47029.1
 ------------------------------------------------------------
 MKGLPVLLWLCVVVCSSYPLHDSARDD------------------DAGMELLQKYLENYY
 GLAKDVKQFI-----KKKDSS---------------------LIVKKIQEMQKFLGLEMT
@@ -3609,7 +3609,7 @@ PEFYLISSFWPSLPSN---MDAA-----YEVTN-RDTVFIFKGNQFW-AIRGHEEL----
 ---N-SWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE28570.1
+>MBAE28570.1
 ----------------------------------------------------------MK
 MKGLPVLLWLCVVVCSSYPLHDSARDD------------------DAGMELLQKYLENYY
 GLAKDVKQFI-----KKKDSS---------------------LIVKKIQEMQKFLGLEMT
@@ -3632,7 +3632,7 @@ PEFYLISSFWPSLPSN---MDAA-----YEVTN-RDTVFIFKGNQFW-AIRGHEEL----
 ---N-SWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24935.1
+>MEDL24935.1
 ----------------------------------------------------------MK
 MKGLPVLLWLCVVVCSSYPLHDSARDD------------------DAGMELLQKYLENYY
 GLAKDVKQFI-----KKKDSS---------------------LIVKKIQEMQKFLGLEMT
@@ -3655,7 +3655,7 @@ PEFYLISSFWPSLPSN---MDAA-----YEVTN-RDTVFIFKGNQFW-AIRGHEEL----
 ---N-SWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAI07491.1
+>HAAI07491.1
 ------------------------------------------------------------
 MKSLPILLLLCVAVCSAYPLDGAARGE------------------DTSMNLVQKYLENYY
 DLEKDVKQFV-----RRKDSG---------------------PVVKKIREMQKFLGLEVT
@@ -3678,7 +3678,7 @@ PELHLISSFWPSLPSG---VDAA-----YEVTS-KDLVFIFKGNQFW-AIRGNEVR----
 ---N-SWLNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG36115.1
+>HBAG36115.1
 ------------------------------------------------------------
 MKSLPILLLLCVAVCSAYPLDGAARGE------------------DTSMNLVQKYLENYY
 DLKKDVKQFV-----RRKDSG---------------------PVVKKIREMQKFLGLEVT
@@ -3701,7 +3701,7 @@ PELHLISSFWPSLPSG---VDAA-----YEVTS-KDLVFIFKGNQFW-AIRGNEVR----
 ---N-SWLNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG36676.1
+>HBAG36676.1
 ------------------------------------------------------------
 MMHLAFLVLLCLPVCSAYPLSGAAKEE------------------DSNKDLAQQYLEKYY
 NLEKDVKQFR------RKDSN---------------------LIVKKIQGMQKFLGLEVT
@@ -3724,7 +3724,7 @@ PEFHLISAFWPSLPSY---LDAA-----YEVNS-RDTVFIFKGNEFW-AIRGNEVQ----
 ---N-SWLHC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96321.1
+>HBAD96321.1
 ------------------------------------------------------------
 MMHLAFLVLLCLPVCSAYPLSGAAKEE------------------DSNKDLAQQYLEKYY
 NLEKDVKQFR------KKDSN---------------------LIVKKIQGMQKFLGLEVT
@@ -3747,7 +3747,7 @@ PEFHLISAFWPSLPSY---LDAA-----YEVNS-RDTVFIFKGNEFW-AIRGNEVQ----
 ---N-SWLHC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL00990.1
+>MEDL00990.1
 ------------------------------------------------------------
 MPSLPLLLLLWAASSYSFPVFHNGD--------------------RQNVETVWKYLENYY
 NLGKNMQAK------NVNGKE---------------------MMAEKLRQMQQLFG----
@@ -3770,7 +3770,7 @@ PELNLIGILWPNLPVK---LDAA-----YEASM-IDQVRYFKGSKVW-AVQEQSVL----
 ---S-TWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAI17757.1
+>MAAI17757.1
 ------------------------------------------------------------
 MPSLPLLLLLWAASSYSFPVFHNGD--------------------RQNVETVWKYLENYY
 NLGKNMQAK------NVNGKE---------------------MMAEKLRQMQQLFGLKVT
@@ -3793,7 +3793,7 @@ PELNLIGILWPNLPVK---LDAA-----YEASM-IDQVRYFKGSKVW-AVQEQSVL----
 ---S-TWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24934.1
+>MEDL24934.1
 ------------------------------------------------------------
 MSSLPLLLLLWAASSYSFPVIQDGL--------------------QKNVKTVWKYLENYY
 NLGKNMQAKN------VNGKE---------------------VMAEKLRQMQQLFGLKVT
@@ -3816,7 +3816,7 @@ PLIDVIDLIWPNLPGK---FDAA-----YEVSG-VDELRFFKGSKVW-AVQEQNVL----
 ---N-TWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus CAC18879.1
+>MCAC18879.1
 ------------------------------------------------------------
 MPSLPLLLRLWAASSYSFPVIQDGL--------------------QKNVKTVWKYLENYY
 NLGKNMQAKN------VNGKE---------------------VMAEKLRQMQQLFGLKVT
@@ -3839,7 +3839,7 @@ PLIDVIDLTWPNLPGK---FDAA-----YEVSG-VDELRFFKGSKVW-AVQEQNVL----
 ---N-TWFNC--------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96776.1
+>HBAD96776.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------KQMQEFFGLKVT
@@ -3862,7 +3862,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap CAA28858.1
+>HCAA28858.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -3885,7 +3885,7 @@ VELNFTSVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAA35699.1
+>HAAA35699.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -3908,7 +3908,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96756.1
+>HBAD96756.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -3931,7 +3931,7 @@ VELNFISVFWPQLPNG---LEAA-----YESAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG62888.1
+>HBAG62888.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -3954,7 +3954,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD97001.1
+>HBAD97001.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -3977,7 +3977,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96755.1
+>HBAD96755.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -4000,7 +4000,7 @@ VELNFISVFWPQLPNG---LEAA-----YGFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG60077.1
+>HBAG60077.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQEFFGLKVT
@@ -4023,7 +4023,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW67031.1
+>HEAW67031.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGRQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -4046,7 +4046,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAD96754.1
+>HBAD96754.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -4069,7 +4069,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAV38949.1
+>HAAV38949.1
 ----------------------------------------------------------MH
 SFPPLLLLLFWGVVSHSFPATLETQ--------------------EQDVDLVQKYLEKYY
 NLKNDGMQVE-----KRRNSG---------------------PVVEKLKQMQEFFGLKVT
@@ -4092,7 +4092,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCRKN-----------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAH13118.1
+>HAAH13118.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -4115,7 +4115,7 @@ VELNFISVFWPQLPNG---LEAA-----YEFAD-RDEVRFFKGNKYW-AVQGQNVL----
 ---N-SWFNCR------------------------------KN-----------------
 ------------------------------------------------------------
 ----------------------------
->Mmus AAC12707.1
+>MAAC12707.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4138,7 +4138,7 @@ VDLNFISLFWPGLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40862.1
+>MBAC40862.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVSEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4161,7 +4161,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE41762.1
+>MBAE41762.1
 ---------------------------------------------------------MFR
 LKTLPLLVFLHTQLANAFPVPEHLG--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4184,7 +4184,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42011.1
+>MBAE42011.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4207,7 +4207,7 @@ VDLNFISLFWPFLPNG---LQAA-----YVDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE42564.1
+>MBAE42564.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4230,7 +4230,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAE33455.1
+>MBAE33455.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4253,7 +4253,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLR----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus BAC40911.1
+>MBAC40911.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------GKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4276,7 +4276,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Mmus EDL24937.1
+>MEDL24937.1
 ---------------------------------------------------------MFR
 LKTLPLLIFLHTQLANAFPVPEHLE--------------------EKNIKTAENYLRKFY
 NLPSNQFRSS-------RNAT---------------------MVAEKLKEMQRFFSLAET
@@ -4299,7 +4299,7 @@ VDLNFISLFWPFLPNG---LQAA-----YEDFD-RDLVFLFKGRQYW-ALSGYDLQ----
 ---N-LWLNCS-------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap XP_011541138.1
+>HXP_011541138.1
 -------------------------------------------------------MCRFP
 RPFLYLLKRKIQKLFSTRPSQKPTRCSHLI---------------LDFPASRIDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4322,7 +4322,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKD-----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG64542.1
+>HBAG64542.1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------MQRFFGLNVT
@@ -4345,7 +4345,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKD-----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap XP_011541136.1
+>HXP_011541136.1
 -------------------------------------------------------MCRFP
 RPFLYLLKRKIQKLFSTRPSQKPTRCSHLI---------------LDFPASRIDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4368,7 +4368,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ---N-KWLNCRYG-----------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAF85348.1
+>HBAF85348.1
 ---------------------------------------------------------MFS
 LKTLPFLLLLHVQISKAFPVSSK----------------------EKNTKIVQDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4391,7 +4391,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ---N-KWLNCR------------------------------YG-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAZ38714.1
+>HAAZ38714.1
 ---------------------------------------------------------MFS
 LKTLPFLLLLHVQISKAFPVSSK----------------------EKNTKIVQDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4414,7 +4414,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ---N-KWLNCRYG-----------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap AAH74988.1
+>HAAH74988.1
 ---------------------------------------------------------MFS
 LKTLPFLLLLHVQISKAFPVSSK----------------------EKNTKTVQDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4437,7 +4437,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ---N-KWLNCR------------------------------YG-----------------
 ------------------------------------------------------------
 ----------------------------
->Hsap EAW67027.1
+>HEAW67027.1
 ---------------------------------------------------------MFS
 LKTLPFLLLLHVQISKAFPVSSK----------------------EKNTKIVQDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4460,7 +4460,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ---N-KWLNCRYG-----------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap BAG64444.1
+>HBAG64444.1
 ------------------------------------------------------------
 --------------MQQIP----------------------------QEKSINDYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT
@@ -4483,7 +4483,7 @@ VEMNFISLFWPSLPTG---IQAA-----YEDFD-RDLIFLFKGNQYW-ALSGYDIL----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------
->Hsap XP_016873260.1
+>HXP_016873260.1
 ------------------------------------------------------------
 --------------MQQIPQEKSIN----------------------------DYLEKFY
 QLPSNQYQST-----RKNGTN---------------------VIVEKLKEMQRFFGLNVT

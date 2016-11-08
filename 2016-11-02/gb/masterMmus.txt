@@ -2,7 +2,7 @@ LOCUS       EDL24934                 463 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 1b (interstitial collagenase) [Mus
             musculus].
 ACCESSION   EDL24934
-VERSION     EDL24934.1  GI:148692987
+VERSION     EDL24934.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -69,11 +69,11 @@ FEATURES             Location/Qualifiers
      Region          28..84
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          105..259
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          105..259
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -128,7 +128,7 @@ ORIGIN
 LOCUS       BAE42564                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42564
-VERSION     BAE42564.1  GI:74147434
+VERSION     BAE42564.1
 DBSOURCE    accession AK171613.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -319,11 +319,11 @@ FEATURES             Location/Qualifiers
      Region          31..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -371,7 +371,7 @@ ORIGIN
 LOCUS       EDL24936                 476 aa            linear   ROD 26-JUL-2016
 DEFINITION  mCG9885 [Mus musculus].
 ACCESSION   EDL24936
-VERSION     EDL24936.1  GI:148692989
+VERSION     EDL24936.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -494,7 +494,7 @@ ORIGIN
 LOCUS       EDL22252                 562 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 25, partial [Mus musculus].
 ACCESSION   EDL22252
-VERSION     EDL22252.1  GI:148690305
+VERSION     EDL22252.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466606.1
@@ -560,11 +560,11 @@ FEATURES             Location/Qualifiers
      Region          36..87
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          117..281
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          117..281
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -621,7 +621,7 @@ ORIGIN
 LOCUS       BAE42201                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42201
-VERSION     BAE42201.1  GI:74222658
+VERSION     BAE42201.1
 DBSOURCE    accession AK171036.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -809,14 +809,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -864,7 +864,7 @@ ORIGIN
 LOCUS       BAE42011                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42011
-VERSION     BAE42011.1  GI:74218057
+VERSION     BAE42011.1
 DBSOURCE    accession AK170760.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -1055,11 +1055,11 @@ FEATURES             Location/Qualifiers
      Region          31..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1107,7 +1107,7 @@ ORIGIN
 LOCUS       EDL05586                 448 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 16, isoform CRA_b, partial [Mus musculus].
 ACCESSION   EDL05586
-VERSION     EDL05586.1  GI:148673639
+VERSION     EDL05586.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466538.2
@@ -1175,14 +1175,14 @@ FEATURES             Location/Qualifiers
                      /chromosome="4"
      Protein         <1..448
                      /product="matrix metallopeptidase 16, isoform CRA_b"
-     Region          76..129
+     Region          75..129
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          159..324
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          159..324
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1206,11 +1206,7 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cl02471"
-                     /db_xref="CDD:271582"
-     Site            order(381,383,426,428)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
+                     /db_xref="CDD:295316"
      CDS             1..448
                      /gene="Mmp16"
                      /locus_tag="mCG_121174"
@@ -1240,7 +1236,7 @@ ORIGIN
 LOCUS       BAE42486                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42486
-VERSION     BAE42486.1  GI:74142899
+VERSION     BAE42486.1
 DBSOURCE    accession AK171485.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -1428,14 +1424,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1483,7 +1479,7 @@ ORIGIN
 LOCUS       CAA09055                 614 aa            linear   ROD 21-OCT-2008
 DEFINITION  MT5-MMP protein [Mus musculus].
 ACCESSION   CAA09055
-VERSION     CAA09055.1  GI:4191265
+VERSION     CAA09055.1
 DBSOURCE    embl accession AJ010262.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -1515,11 +1511,11 @@ FEATURES             Location/Qualifiers
      Region          51..103
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          131..296
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          131..296
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -1548,10 +1544,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          542..614
+     Region          544..614
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..614
                      /gene="mmp21"
                      /standard_name="membrane-type matrix metalloproteinase 5"
@@ -1585,7 +1581,7 @@ ORIGIN
 LOCUS       XP_017168649             443 aa            linear   ROD 22-JUN-2016
 DEFINITION  PREDICTED: macrophage metalloelastase isoform X1 [Mus musculus].
 ACCESSION   XP_017168649
-VERSION     XP_017168649.1  GI:1039792191
+VERSION     XP_017168649.1
 DBLINK      BioProject: PRJNA169
 DBSOURCE    REFSEQ: accession XM_017313160.1
 KEYWORDS    RefSeq.
@@ -1641,7 +1637,7 @@ ORIGIN
 LOCUS       BAE42294                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42294
-VERSION     BAE42294.1  GI:74222891
+VERSION     BAE42294.1
 DBSOURCE    accession AK171176.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -1884,7 +1880,7 @@ ORIGIN
 LOCUS       AAI37922                 496 aa            linear   ROD 11-FEB-2009
 DEFINITION  Matrix metallopeptidase 28 (epilysin) [Mus musculus].
 ACCESSION   AAI37922
-VERSION     AAI37922.1  GI:223459846
+VERSION     AAI37922.1
 DBSOURCE    accession BC137921.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -2014,7 +2010,7 @@ ORIGIN
 LOCUS       AF282844_1               607 aa            linear   ROD 02-OCT-2000
 DEFINITION  matrix metalloproteinase 16 [Mus musculus].
 ACCESSION   AAG17704
-VERSION     AAG17704.1  GI:10444090
+VERSION     AAG17704.1
 DBSOURCE    accession AF282844.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -2106,7 +2102,7 @@ ORIGIN
 LOCUS       EDL06144                 570 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 24, partial [Mus musculus].
 ACCESSION   EDL06144
-VERSION     EDL06144.1  GI:148674197
+VERSION     EDL06144.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466551.1
@@ -2172,11 +2168,11 @@ FEATURES             Location/Qualifiers
      Region          7..59
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          87..252
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          87..252
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2205,10 +2201,10 @@ FEATURES             Location/Qualifiers
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
-     Region          498..570
+     Region          500..570
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..570
                      /gene="Mmp24"
                      /locus_tag="mCG_21078"
@@ -2236,7 +2232,7 @@ ORIGIN
 LOCUS       EDL31871                 516 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 11, isoform CRA_b [Mus musculus].
 ACCESSION   EDL31871
-VERSION     EDL31871.1  GI:148699924
+VERSION     EDL31871.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466553.2
@@ -2307,7 +2303,7 @@ FEATURES             Location/Qualifiers
      Region          108..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          108..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2366,7 +2362,7 @@ ORIGIN
 LOCUS       BAE30809                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE30809
-VERSION     BAE30809.1  GI:74207241
+VERSION     BAE30809.1
 DBSOURCE    accession AK151933.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -2555,14 +2551,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2610,7 +2606,7 @@ ORIGIN
 LOCUS       BAE33104                 472 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE33104
-VERSION     BAE33104.1  GI:74199114
+VERSION     BAE33104.1
 DBSOURCE    accession AK155188.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -2801,11 +2797,11 @@ FEATURES             Location/Qualifiers
      Region          33..92
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          113..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          113..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -2853,7 +2849,7 @@ ORIGIN
 LOCUS       BAE32010                 472 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE32010
-VERSION     BAE32010.1  GI:74151942
+VERSION     BAE32010.1
 DBSOURCE    accession AK153458.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -3045,11 +3041,11 @@ FEATURES             Location/Qualifiers
      Region          33..92
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          113..268
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          113..268
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3097,7 +3093,7 @@ ORIGIN
 LOCUS       NP_001306915             231 aa            linear   ROD 21-FEB-2016
 DEFINITION  matrilysin isoform 2 [Mus musculus].
 ACCESSION   NP_001306915
-VERSION     NP_001306915.1  GI:987996591
+VERSION     NP_001306915.1
 DBSOURCE    REFSEQ: accession NM_001319986.1
 KEYWORDS    RefSeq.
 SOURCE      Mus musculus (house mouse)
@@ -3259,7 +3255,7 @@ ORIGIN
 LOCUS       AAI19058                 267 aa            linear   ROD 01-SEP-2006
 DEFINITION  Matrix metallopeptidase 7 [Mus musculus].
 ACCESSION   AAI19058
-VERSION     AAI19058.1  GI:111599927
+VERSION     AAI19058.1
 DBSOURCE    accession BC119057.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -3335,11 +3331,11 @@ FEATURES             Location/Qualifiers
      Region          34..85
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          106..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          106..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3372,7 +3368,7 @@ ORIGIN
 LOCUS       NP_001307005             420 aa            linear   ROD 11-FEB-2016
 DEFINITION  macrophage metalloelastase isoform 2 [Mus musculus].
 ACCESSION   NP_001307005 XP_011240659
-VERSION     NP_001307005.1  GI:991820331
+VERSION     NP_001307005.1
 DBSOURCE    REFSEQ: accession NM_001320076.1
 KEYWORDS    RefSeq.
 SOURCE      Mus musculus (house mouse)
@@ -3504,14 +3500,14 @@ FEATURES             Location/Qualifiers
                      /note="matrix metalloproteinase 12; macrophage
                      metalloelastase; macrophage elastase"
                      /calculated_mol_wt=48778
-     Region          <9..38
+     Region          <11..38
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          59..214
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          59..214
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -3560,7 +3556,7 @@ ORIGIN
 LOCUS       EDL24938                 511 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 27 [Mus musculus].
 ACCESSION   EDL24938
-VERSION     EDL24938.1  GI:148692991
+VERSION     EDL24938.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -3686,7 +3682,7 @@ ORIGIN
 LOCUS       AAA39526                 462 aa            linear   ROD 27-APR-1993
 DEFINITION  metalloelastase [Mus musculus].
 ACCESSION   AAA39526
-VERSION     AAA39526.1  GI:199128
+VERSION     AAA39526.1
 DBSOURCE    locus MUSMETELAS accession M82831.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -3764,7 +3760,7 @@ ORIGIN
 LOCUS       BAC40836                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40836
-VERSION     BAC40836.1  GI:26354416
+VERSION     BAC40836.1
 DBSOURCE    accession AK089309.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -4013,7 +4009,7 @@ ORIGIN
 LOCUS       NP_001297646             525 aa            linear   ROD 19-FEB-2016
 DEFINITION  matrix metalloproteinase-27 [Mus musculus].
 ACCESSION   NP_001297646 XP_006509921
-VERSION     NP_001297646.1  GI:894216250
+VERSION     NP_001297646.1
 DBSOURCE    REFSEQ: accession NM_001310717.1
 KEYWORDS    RefSeq.
 SOURCE      Mus musculus (house mouse)
@@ -4068,11 +4064,11 @@ FEATURES             Location/Qualifiers
      Region          45..100
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          120..276
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          120..276
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4123,7 +4119,7 @@ ORIGIN
 LOCUS       AAB51753                 582 aa            linear   ROD 13-APR-1997
 DEFINITION  membrane-type matrix metalloproteinase 1 [Mus musculus].
 ACCESSION   AAB51753
-VERSION     AAB51753.1  GI:1935025
+VERSION     AAB51753.1
 DBSOURCE    locus MMU54984 accession U54984.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -4155,11 +4151,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4191,7 +4187,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /coded_by="U54984.1:247..1995"
 ORIGIN      
@@ -4210,7 +4206,7 @@ ORIGIN
 LOCUS       AAH76638                 582 aa            linear   ROD 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 14 (membrane-inserted) [Mus musculus].
 ACCESSION   AAH76638
-VERSION     AAH76638.1  GI:49904709
+VERSION     AAH76638.1
 DBSOURCE    accession BC076638.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -4341,7 +4337,7 @@ ORIGIN
 LOCUS       EDL24932                 472 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 13 [Mus musculus].
 ACCESSION   EDL24932
-VERSION     EDL24932.1  GI:148692985
+VERSION     EDL24932.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -4466,7 +4462,7 @@ ORIGIN
 LOCUS       EDL19513                 578 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 17 [Mus musculus].
 ACCESSION   EDL19513
-VERSION     EDL19513.1  GI:148687566
+VERSION     EDL19513.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466529.2
@@ -4602,7 +4598,7 @@ ORIGIN
 LOCUS       BAE33072                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE33072
-VERSION     BAE33072.1  GI:74196364
+VERSION     BAE33072.1
 DBSOURCE    accession AK155139.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -4790,14 +4786,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -4845,7 +4841,7 @@ ORIGIN
 LOCUS       AAH52854                 492 aa            linear   ROD 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 11 [Mus musculus].
 ACCESSION   AAH52854
-VERSION     AAH52854.1  GI:31217385
+VERSION     AAH52854.1
 DBSOURCE    accession BC052854.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -4975,7 +4971,7 @@ ORIGIN
 LOCUS       EDL24941                 264 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 7 [Mus musculus].
 ACCESSION   EDL24941
-VERSION     EDL24941.1  GI:148692994
+VERSION     EDL24941.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -5082,7 +5078,7 @@ ORIGIN
 LOCUS       CAB92315                 578 aa            linear   ROD 23-SEP-2008
 DEFINITION  membrane-type-4 matrix metalloproteinase [Mus musculus].
 ACCESSION   CAB92315
-VERSION     CAB92315.1  GI:8052272
+VERSION     CAB92315.1
 DBSOURCE    embl accession AJ010731.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -5185,7 +5181,7 @@ ORIGIN
 LOCUS       AAH47278                 657 aa            linear   ROD 15-JUL-2006
 DEFINITION  Matrix metallopeptidase 15 [Mus musculus].
 ACCESSION   AAH47278
-VERSION     AAH47278.1  GI:55777344
+VERSION     AAH47278.1
 DBSOURCE    accession BC047278.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -5323,7 +5319,7 @@ ORIGIN
 LOCUS       BAE41762                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE41762
-VERSION     BAE41762.1  GI:74213270
+VERSION     BAE41762.1
 DBSOURCE    accession AK170388.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -5514,11 +5510,11 @@ FEATURES             Location/Qualifiers
      Region          31..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -5566,7 +5562,7 @@ ORIGIN
 LOCUS       XP_017169314             465 aa            linear   ROD 22-JUN-2016
 DEFINITION  PREDICTED: stromelysin-3 isoform X1 [Mus musculus].
 ACCESSION   XP_017169314
-VERSION     XP_017169314.1  GI:1039732282
+VERSION     XP_017169314.1
 DBLINK      BioProject: PRJNA169
 DBSOURCE    REFSEQ: accession XM_017313825.1
 KEYWORDS    RefSeq.
@@ -5622,7 +5618,7 @@ ORIGIN
 LOCUS       EDL24937                 465 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 8 [Mus musculus].
 ACCESSION   EDL24937
-VERSION     EDL24937.1  GI:148692990
+VERSION     EDL24937.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -5748,7 +5744,7 @@ LOCUS       EDL00990                 421 aa            linear   ROD 23-MAR-2015
 DEFINITION  matrix metallopeptidase 1a (interstitial collagenase) [Mus
             musculus].
 ACCESSION   EDL00990
-VERSION     EDL00990.1  GI:148668674
+VERSION     EDL00990.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH467335.1
@@ -5823,7 +5819,7 @@ FEATURES             Location/Qualifiers
      Region          72..216
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Site            order(114,126,133..139,148,172..173,182,192..194)
                      /site_type="other"
                      /note="TIMP-binding surface"
@@ -5870,7 +5866,7 @@ ORIGIN
 LOCUS       BAE33455                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE33455
-VERSION     BAE33455.1  GI:74214893
+VERSION     BAE33455.1
 DBSOURCE    accession AK155832.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -6061,11 +6057,11 @@ FEATURES             Location/Qualifiers
      Region          31..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6113,7 +6109,7 @@ ORIGIN
 LOCUS       XP_017172955             509 aa            linear   ROD 22-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-25 isoform X1 [Mus musculus].
 ACCESSION   XP_017172955
-VERSION     XP_017172955.1  GI:1039753519
+VERSION     XP_017172955.1
 DBLINK      BioProject: PRJNA169
 DBSOURCE    REFSEQ: accession XM_017317466.1
 KEYWORDS    RefSeq.
@@ -6170,7 +6166,7 @@ ORIGIN
 LOCUS       BAC40911                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40911
-VERSION     BAC40911.1  GI:26354566
+VERSION     BAC40911.1
 DBSOURCE    accession AK089516.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -6367,11 +6363,11 @@ FEATURES             Location/Qualifiers
      Region          28..86
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          107..262
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          107..262
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6419,7 +6415,7 @@ ORIGIN
 LOCUS       AAA99983                 264 aa            linear   ROD 16-MAY-1996
 DEFINITION  matrilysin [Mus musculus].
 ACCESSION   AAA99983
-VERSION     AAA99983.1  GI:537929
+VERSION     AAA99983.1
 DBSOURCE    locus MUSMAT accession L36244.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -6448,11 +6444,11 @@ FEATURES             Location/Qualifiers
      Region          31..82
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          103..259
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          103..259
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6481,7 +6477,7 @@ ORIGIN
 LOCUS       BAC40913                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40913
-VERSION     BAC40913.1  GI:26354570
+VERSION     BAC40913.1
 DBSOURCE    accession AK089523.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -6675,14 +6671,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -6731,7 +6727,7 @@ LOCUS       AAI17757                 464 aa            linear   ROD 04-OCT-2006
 DEFINITION  Matrix metallopeptidase 1a (interstitial collagenase) [Mus
             musculus].
 ACCESSION   AAI17757
-VERSION     AAI17757.1  GI:109734590
+VERSION     AAI17757.1
 DBSOURCE    accession BC117756.2
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -6854,7 +6850,7 @@ ORIGIN
 LOCUS       AAI45049                 520 aa            linear   ROD 18-MAR-2009
 DEFINITION  Mmp28 protein [Mus musculus].
 ACCESSION   AAI45049
-VERSION     AAI45049.1  GI:219520252
+VERSION     AAI45049.1
 DBSOURCE    accession BC145048.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -6981,10 +6977,10 @@ ORIGIN
       481 rddhywhldq aklrvtssgr watelswmgc wnansggalf
 //
 
-LOCUS       NP_034938                618 aa            linear   ROD 18-FEB-2016
+LOCUS       NP_034938                618 aa            linear   ROD 01-SEP-2016
 DEFINITION  matrix metalloproteinase-24 preproprotein [Mus musculus].
 ACCESSION   NP_034938
-VERSION     NP_034938.3  GI:115495469
+VERSION     NP_034938.3
 DBSOURCE    REFSEQ: accession NM_010808.4
 KEYWORDS    RefSeq.
 SOURCE      Mus musculus (house mouse)
@@ -6993,13 +6989,39 @@ SOURCE      Mus musculus (house mouse)
             Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
             Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
 REFERENCE   1  (residues 1 to 618)
+  AUTHORS   Baranger K, Marchalant Y, Bonnet AE, Crouzin N, Carrete A, Paumier
+            JM, Py NA, Bernard A, Bauer C, Charrat E, Moschke K, Seiki M,
+            Vignes M, Lichtenthaler SF, Checler F, Khrestchatisky M and Rivera
+            S.
+  TITLE     MT5-MMP is a new pro-amyloidogenic proteinase that promotes amyloid
+            pathology and cognitive decline in a transgenic mouse model of
+            Alzheimer's disease
+  JOURNAL   Cell. Mol. Life Sci. 73 (1), 217-236 (2016)
+   PUBMED   26202697
+  REMARK    GeneRIF: MT5-MMP emerges as a new pro-amyloidogenic regulator of
+            APP metabolism, whose deficiency alleviates amyloid pathology,
+            neuroinflammation and cognitive decline.
+REFERENCE   2  (residues 1 to 618)
+  AUTHORS   Willem M, Tahirovic S, Busche MA, Ovsepian SV, Chafai M, Kootar S,
+            Hornburg D, Evans LD, Moore S, Daria A, Hampel H, Muller V, Giudici
+            C, Nuscher B, Wenninger-Weinzierl A, Kremmer E, Heneka MT, Thal DR,
+            Giedraitis V, Lannfelt L, Muller U, Livesey FJ, Meissner F, Herms
+            J, Konnerth A, Marie H and Haass C.
+  TITLE     eta-Secretase processing of APP inhibits neuronal activity in the
+            hippocampus
+  JOURNAL   Nature 526 (7573), 443-447 (2015)
+   PUBMED   26322584
+  REMARK    GeneRIF: APP carboxy-terminal fragment generation is mediated in
+            part by membrane-bound matrix metalloproteinases such as MT5-MMP,
+            referred to as eta-secretase activity
+REFERENCE   3  (residues 1 to 618)
   AUTHORS   Itoh Y.
   TITLE     Membrane-type matrix metalloproteinases: Their functions and
             regulations
   JOURNAL   Matrix Biol. 44-46, 207-223 (2015)
    PUBMED   25794647
   REMARK    Review article
-REFERENCE   2  (residues 1 to 618)
+REFERENCE   4  (residues 1 to 618)
   AUTHORS   Porlan E, Marti-Prado B, Morante-Redolat JM, Consiglio A, Delgado
             AC, Kypta R, Lopez-Otin C, Kirstein M and Farinas I.
   TITLE     MT5-MMP regulates adult neural stem cell functional quiescence
@@ -7009,31 +7031,13 @@ REFERENCE   2  (residues 1 to 618)
   REMARK    GeneRIF: identify MT5-MMP as a membrane-type metalloproteinase
             responsible for the shedding of the N-cadherin ectodomain in this
             niche
-REFERENCE   3  (residues 1 to 618)
+REFERENCE   5  (residues 1 to 618)
   AUTHORS   Mao Y, Reiprich S, Wegner M and Fritzsch B.
   TITLE     Targeted deletion of Sox10 by Wnt1-cre defects neuronal migration
             and projection in the mouse inner ear
   JOURNAL   PLoS ONE 9 (4), E94580 (2014)
    PUBMED   24718611
   REMARK    Publication Status: Online-Only
-REFERENCE   4  (residues 1 to 618)
-  AUTHORS   Tocchi A and Parks WC.
-  TITLE     Functional interactions between matrix metalloproteinases and
-            glycosaminoglycans
-  JOURNAL   FEBS J. 280 (10), 2332-2341 (2013)
-   PUBMED   23421805
-  REMARK    Review article
-REFERENCE   5  (residues 1 to 618)
-  AUTHORS   Folgueras AR, Valdes-Sanchez T, Llano E, Menendez L, Baamonde A,
-            Denlinger BL, Belmonte C, Juarez L, Lastra A, Garcia-Suarez O,
-            Astudillo A, Kirstein M, Pendas AM, Farinas I and Lopez-Otin C.
-  TITLE     Metalloproteinase MT5-MMP is an essential modulator of neuro-immune
-            interactions in thermal pain stimulation
-  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 106 (38), 16451-16456 (2009)
-   PUBMED   19805319
-  REMARK    GeneRIF: Findings demonstrate an essential role of MT5-MMP in the
-            development of dermal neuro-immune synapses and suggest that this
-            metalloproteinase may be a target for pain control.
 REFERENCE   6  (residues 1 to 618)
   AUTHORS   Johansson N, Ahonen M and Kahari VM.
   TITLE     Matrix metalloproteinases in tumor invasion
@@ -7112,14 +7116,14 @@ FEATURES             Location/Qualifiers
                      /product="matrix metalloproteinase-24 preproprotein"
                      /note="matrix metalloproteinase-24; membrane type 5-MMP;
                      matrix metalloproteinase-21; membrane-type matrix
-                     metalloproteinase 5; matrix metalloproteinase 24"
+                     metalloproteinase 5"
      sig_peptide     1..42
                      /inference="COORDINATES: ab initio prediction:SignalP:4.0"
                      /calculated_mol_wt=4272
      Region          55..107
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          110..117
                      /region_name="Cysteine switch. {ECO:0000250}"
                      /experiment="experimental evidence, no additional details
@@ -7141,7 +7145,7 @@ FEATURES             Location/Qualifiers
      Region          135..300
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          135..300
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -7190,10 +7194,10 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="propagated from UniProtKB/Swiss-Prot (Q9R0S2.2)"
-     Region          546..618
+     Region          548..618
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      Site            554..555
                      /site_type="cleavage"
                      /experiment="experimental evidence, no additional details
@@ -7234,7 +7238,7 @@ ORIGIN
 LOCUS       BAA82966                 618 aa            linear   ROD 16-OCT-1999
 DEFINITION  membrane-type-5 matrix metalloproteinase [Mus musculus].
 ACCESSION   BAA82966
-VERSION     BAA82966.1  GI:5689227
+VERSION     BAA82966.1
 DBSOURCE    accession AB021226.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -7326,7 +7330,7 @@ ORIGIN
 LOCUS       BAA78420                 607 aa            linear   ROD 03-JUN-1999
 DEFINITION  membrane-type-3 matrix metalloproteinase [Mus musculus].
 ACCESSION   BAA78420
-VERSION     BAA78420.1  GI:4996355
+VERSION     BAA78420.1
 DBSOURCE    accession AB021228.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -7414,7 +7418,7 @@ ORIGIN
 LOCUS       AAC12707                 465 aa            linear   ROD 06-APR-1998
 DEFINITION  neutrophil collagenase [Mus musculus].
 ACCESSION   AAC12707
-VERSION     AAC12707.1  GI:3025475
+VERSION     AAC12707.1
 DBSOURCE    locus MMU96696 accession U96696.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -7496,7 +7500,7 @@ ORIGIN
 LOCUS       AAI12380                 615 aa            linear   ROD 29-JUN-2006
 DEFINITION  Matrix metallopeptidase 25 [Mus musculus].
 ACCESSION   AAI12380
-VERSION     AAI12380.1  GI:109730167
+VERSION     AAI12380.1
 DBSOURCE    accession BC112379.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -7629,7 +7633,7 @@ ORIGIN
 LOCUS       BAE33060                 582 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE33060
-VERSION     BAE33060.1  GI:74196330
+VERSION     BAE33060.1
 DBSOURCE    accession AK155117.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -7820,11 +7824,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -7856,7 +7860,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /coded_by="AK155117.1:265..2013"
                      /note="matrix metalloproteinase 14 (membrane-inserted)
@@ -7880,7 +7884,7 @@ LOCUS       EDL15708                 553 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 28 (epilysin), isoform CRA_e, partial [Mus
             musculus].
 ACCESSION   EDL15708
-VERSION     EDL15708.1  GI:148683761
+VERSION     EDL15708.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466556.1
@@ -7947,11 +7951,11 @@ FEATURES             Location/Qualifiers
      Region          64..119
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          162..317
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          162..317
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -8007,7 +8011,7 @@ ORIGIN
 LOCUS       XP_006530814             704 aa            linear   ROD 22-JUN-2016
 DEFINITION  PREDICTED: 72 kDa type IV collagenase isoform X1 [Mus musculus].
 ACCESSION   XP_006530814
-VERSION     XP_006530814.1  GI:568956296
+VERSION     XP_006530814.1
 DBLINK      BioProject: PRJNA169
 DBSOURCE    REFSEQ: accession XM_006530751.2
 KEYWORDS    RefSeq.
@@ -8043,14 +8047,14 @@ FEATURES             Location/Qualifiers
      Protein         1..704
                      /product="72 kDa type IV collagenase isoform X1"
                      /calculated_mol_wt=78788
-     Region          52..97
+     Region          <70..97
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
-     Region          118..>218
+                     /db_xref="CDD:279773"
+     Region          118..>217
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..>216
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -8059,42 +8063,26 @@ FEATURES             Location/Qualifiers
                      extracellular matrix and cell surface molecules, playing
                      crucial roles in morphogenesis, cell fate...; cd04278"
                      /db_xref="CDD:239805"
-     Site            order(170,182,189..195,204)
-                     /site_type="other"
-                     /note="TIMP-binding surface"
-                     /db_xref="CDD:239805"
-     Region          227..274
+     Region          226..274
                      /region_name="FN2"
-                     /note="Fibronectin Type II domain: FN2 is one of three
-                     types of internal repeats which combine to form larger
-                     domains within fibronectin. Fibronectin, a plasma protein
-                     that binds cell surfaces and various compounds including
-                     collagen, fibrin, heparin, DNA, and...; cd00062"
-                     /db_xref="CDD:238019"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
      Site            order(237,239,244,258,265,271,273)
                      /site_type="other"
                      /note="putative gelatin-binding site"
                      /db_xref="CDD:238019"
-     Region          327..374
+     Region          326..374
                      /region_name="FN2"
-                     /note="Fibronectin Type II domain: FN2 is one of three
-                     types of internal repeats which combine to form larger
-                     domains within fibronectin. Fibronectin, a plasma protein
-                     that binds cell surfaces and various compounds including
-                     collagen, fibrin, heparin, DNA, and...; cd00062"
-                     /db_xref="CDD:238019"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
      Site            order(337,339,344,358,365,371,373)
                      /site_type="other"
                      /note="putative gelatin-binding site"
                      /db_xref="CDD:238019"
-     Region          385..432
+     Region          384..432
                      /region_name="FN2"
-                     /note="Fibronectin Type II domain: FN2 is one of three
-                     types of internal repeats which combine to form larger
-                     domains within fibronectin. Fibronectin, a plasma protein
-                     that binds cell surfaces and various compounds including
-                     collagen, fibrin, heparin, DNA, and...; cd00062"
-                     /db_xref="CDD:238019"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
      Site            order(395,397,402,416,423,429,431)
                      /site_type="other"
                      /note="putative gelatin-binding site"
@@ -8110,7 +8098,7 @@ FEATURES             Location/Qualifiers
                      astacin-like proteases and the adamalysin/reprolysin-like
                      proteases. Both branches have wide phylogenetic
                      distribution, and contain sub-families, which...; cl00064"
-                     /db_xref="CDD:275466"
+                     /db_xref="CDD:294052"
      Site            order(445..446,449,455)
                      /site_type="active"
                      /db_xref="CDD:238124"
@@ -8151,7 +8139,7 @@ ORIGIN
 LOCUS       EDL05587                 607 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 16, isoform CRA_a [Mus musculus].
 ACCESSION   EDL05587
-VERSION     EDL05587.1  GI:148673640
+VERSION     EDL05587.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466538.2
@@ -8292,7 +8280,7 @@ ORIGIN
 LOCUS       BAC40832                 339 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40832
-VERSION     BAC40832.1  GI:26354408
+VERSION     BAC40832.1
 DBSOURCE    accession AK089295.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -8526,7 +8514,7 @@ ORIGIN
 LOCUS       BAC40846                 319 aa            linear   ROD 24-JUL-2016
 DEFINITION  unnamed protein product, partial [Mus musculus].
 ACCESSION   BAC40846
-VERSION     BAC40846.1  GI:26354436
+VERSION     BAC40846.1
 DBSOURCE    accession AK089335.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -8760,7 +8748,7 @@ ORIGIN
 LOCUS       XP_006509922             446 aa            linear   ROD 22-JUN-2016
 DEFINITION  PREDICTED: matrix metalloproteinase-27 isoform X1 [Mus musculus].
 ACCESSION   XP_006509922
-VERSION     XP_006509922.1  GI:568958524
+VERSION     XP_006509922.1
 DBLINK      BioProject: PRJNA169
 DBSOURCE    REFSEQ: accession XM_006509859.3
 KEYWORDS    RefSeq.
@@ -8799,11 +8787,11 @@ FEATURES             Location/Qualifiers
      Region          <1..21
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          41..197
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          41..197
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -8852,7 +8840,7 @@ ORIGIN
 LOCUS       AAH19135                 473 aa            linear   ROD 12-OCT-2006
 DEFINITION  Matrix metallopeptidase 12 [Mus musculus].
 ACCESSION   AAH19135
-VERSION     AAH19135.2  GI:114325422
+VERSION     AAH19135.2
 DBSOURCE    accession BC019135.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -8930,14 +8918,14 @@ FEATURES             Location/Qualifiers
                      /note="Vector: pCMV-SPORT6"
      Protein         1..473
                      /product="matrix metallopeptidase 12"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -8962,10 +8950,6 @@ FEATURES             Location/Qualifiers
                      repeats of some matrixins bind tissue inhibitor of...;
                      cd00094"
                      /db_xref="CDD:238046"
-     Site            order(337,339,385,387,434,436)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
-                     /db_xref="CDD:238046"
      CDS             1..473
                      /gene="Mmp12"
                      /coded_by="BC019135.1:15..1436"
@@ -8985,7 +8969,7 @@ ORIGIN
 LOCUS       BAE42198                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE42198
-VERSION     BAE42198.1  GI:74222651
+VERSION     BAE42198.1
 DBSOURCE    accession AK171032.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -9173,14 +9157,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -9228,7 +9212,7 @@ ORIGIN
 LOCUS       BAE41743                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE41743
-VERSION     BAE41743.1  GI:74213223
+VERSION     BAE41743.1
 DBSOURCE    accession AK170360.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -9416,14 +9400,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -9471,7 +9455,7 @@ ORIGIN
 LOCUS       CAA47029                 477 aa            linear   ROD 18-APR-2005
 DEFINITION  stromelysin-i [Mus musculus].
 ACCESSION   CAA47029
-VERSION     CAA47029.1  GI:296168
+VERSION     CAA47029.1
 DBSOURCE    embl accession X66402.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -9570,7 +9554,7 @@ ORIGIN
 LOCUS       EDL24935                 479 aa            linear   ROD 26-JUL-2016
 DEFINITION  mCG9886 [Mus musculus].
 ACCESSION   EDL24935
-VERSION     EDL24935.1  GI:148692988
+VERSION     EDL24935.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -9693,7 +9677,7 @@ ORIGIN
 LOCUS       EDL11169                 501 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 15, isoform CRA_a [Mus musculus].
 ACCESSION   EDL11169
-VERSION     EDL11169.1  GI:148679222
+VERSION     EDL11169.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466525.1
@@ -9759,7 +9743,7 @@ FEATURES             Location/Qualifiers
      Region          2..144
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          2..144
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -9791,7 +9775,7 @@ FEATURES             Location/Qualifiers
      Region          <476..501
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..501
                      /gene="Mmp15"
                      /locus_tag="mCG_12284"
@@ -9820,7 +9804,7 @@ ORIGIN
 LOCUS       BAC40862                 465 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40862
-VERSION     BAC40862.1  GI:26354468
+VERSION     BAC40862.1
 DBSOURCE    accession AK089381.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -10069,7 +10053,7 @@ ORIGIN
 LOCUS       BAE33415                 473 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE33415
-VERSION     BAE33415.1  GI:74212952
+VERSION     BAE33415.1
 DBSOURCE    accession AK155748.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -10257,14 +10241,14 @@ FEATURES             Location/Qualifiers
                      /clone_lib="RIKEN full-length enriched mouse cDNA library"
      Protein         1..473
                      /name="unnamed protein product"
-     Region          30..91
+     Region          31..91
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          112..267
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          112..267
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -10312,7 +10296,7 @@ ORIGIN
 LOCUS       EDL24933                 462 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 12 [Mus musculus].
 ACCESSION   EDL24933
-VERSION     EDL24933.1  GI:148692986
+VERSION     EDL24933.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466522.1
@@ -10437,7 +10421,7 @@ ORIGIN
 LOCUS       BAE28570                 479 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE28570
-VERSION     BAE28570.1  GI:74138140
+VERSION     BAE28570.1
 DBSOURCE    accession AK148467.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -10623,14 +10607,14 @@ FEATURES             Location/Qualifiers
                      /dev_stage="adult"
      Protein         1..479
                      /name="unnamed protein product"
-     Region          34..89
+     Region          30..89
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          110..266
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          110..266
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -10678,7 +10662,7 @@ ORIGIN
 LOCUS       EDL11170                 517 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 15, isoform CRA_b, partial [Mus musculus].
 ACCESSION   EDL11170
-VERSION     EDL11170.1  GI:148679223
+VERSION     EDL11170.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466525.1
@@ -10744,7 +10728,7 @@ FEATURES             Location/Qualifiers
      Region          18..160
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          18..160
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -10776,7 +10760,7 @@ FEATURES             Location/Qualifiers
      Region          <492..517
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..517
                      /gene="Mmp15"
                      /locus_tag="mCG_12284"
@@ -10806,7 +10790,7 @@ ORIGIN
 LOCUS       CAJ18584                 462 aa            linear   ROD 24-SEP-2008
 DEFINITION  Mmp12 [Mus musculus].
 ACCESSION   CAJ18584
-VERSION     CAJ18584.1  GI:71060081
+VERSION     CAJ18584.1
 DBSOURCE    embl accession CT010377.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -10865,14 +10849,14 @@ FEATURES             Location/Qualifiers
                      /note="Vector: pDONR201, Site_1: attP1; Site_2: attP2"
      Protein         1..462
                      /name="Mmp12"
-     Region          19..80
+     Region          20..80
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          101..256
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          101..256
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -10896,10 +10880,6 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cd00094"
-                     /db_xref="CDD:238046"
-     Site            order(326,328,374,376,423,425)
-                     /site_type="metal-binding"
-                     /note="Metal binding sites [ion binding]"
                      /db_xref="CDD:238046"
      CDS             1..462
                      /gene="Mmp12"
@@ -10931,7 +10911,7 @@ LOCUS       EDL36348                 582 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 14 (membrane-inserted), isoform CRA_a [Mus
             musculus].
 ACCESSION   EDL36348
-VERSION     EDL36348.1  GI:148704401
+VERSION     EDL36348.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466535.2
@@ -11068,7 +11048,7 @@ ORIGIN
 LOCUS       BAE41839                 403 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE41839
-VERSION     BAE41839.1  GI:74215233
+VERSION     BAE41839.1
 DBSOURCE    accession AK170500.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -11311,7 +11291,7 @@ LOCUS       EDL15706                 529 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 28 (epilysin), isoform CRA_c, partial [Mus
             musculus].
 ACCESSION   EDL15706
-VERSION     EDL15706.1  GI:148683759
+VERSION     EDL15706.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466556.1
@@ -11378,11 +11358,11 @@ FEATURES             Location/Qualifiers
      Region          64..119
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          162..317
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          162..317
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -11406,7 +11386,7 @@ FEATURES             Location/Qualifiers
                      matrix metalloproteinases family (matrixins). The HX
                      repeats of some matrixins bind tissue inhibitor of...;
                      cl02471"
-                     /db_xref="CDD:271582"
+                     /db_xref="CDD:295316"
      Site            order(362,364,383,385,428,430,476,478)
                      /site_type="metal-binding"
                      /note="Metal binding sites [ion binding]"
@@ -11437,7 +11417,7 @@ ORIGIN
 LOCUS       BAA82708                 578 aa            linear   ROD 25-JUN-2002
 DEFINITION  membrane-type-4 matrix metalloproteinase [Mus musculus].
 ACCESSION   BAA82708
-VERSION     BAA82708.2  GI:21624137
+VERSION     BAA82708.2
 DBSOURCE    accession AB021224.2
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -11525,7 +11505,7 @@ ORIGIN
 LOCUS       AAB86602                 581 aa            linear   ROD 10-JUN-2016
 DEFINITION  matrix metalloproteinase-14 [Mus musculus].
 ACCESSION   AAB86602
-VERSION     AAB86602.1  GI:2624991
+VERSION     AAB86602.1
 DBSOURCE    accession AH005635.2
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -11621,7 +11601,7 @@ ORIGIN
 LOCUS       CAC18879                 463 aa            linear   ROD 23-SEP-2008
 DEFINITION  putative matrix metalloproteinase [Mus musculus].
 ACCESSION   CAC18879
-VERSION     CAC18879.1  GI:11877302
+VERSION     CAC18879.1
 DBSOURCE    embl accession AJ278461.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -11652,11 +11632,11 @@ FEATURES             Location/Qualifiers
      Region          28..84
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          105..259
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          105..259
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -11714,7 +11694,7 @@ ORIGIN
 LOCUS       AAI52337                 482 aa            linear   ROD 23-AUG-2007
 DEFINITION  Matrix metallopeptidase 20 (enamelysin) [Mus musculus].
 ACCESSION   AAI52337
-VERSION     AAI52337.1  GI:156229732
+VERSION     AAI52337.1
 DBSOURCE    accession BC152336.1
 KEYWORDS    MGC.
 SOURCE      Mus musculus (house mouse)
@@ -11782,11 +11762,11 @@ FEATURES             Location/Qualifiers
      Region          39..94
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          115..270
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          115..270
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -11835,7 +11815,7 @@ ORIGIN
 LOCUS       EDL31870                 492 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 11, isoform CRA_a [Mus musculus].
 ACCESSION   EDL31870
-VERSION     EDL31870.1  GI:148699923
+VERSION     EDL31870.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466553.2
@@ -11964,7 +11944,7 @@ ORIGIN
 LOCUS       EDL11089                 662 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 2 [Mus musculus].
 ACCESSION   EDL11089
-VERSION     EDL11089.1  GI:148679142
+VERSION     EDL11089.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466525.1
@@ -12124,7 +12104,7 @@ ORIGIN
 LOCUS       BAC40889                 462 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAC40889
-VERSION     BAC40889.1  GI:26354522
+VERSION     BAC40889.1
 DBSOURCE    accession AK089452.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -12373,7 +12353,7 @@ ORIGIN
 LOCUS       BAE37413                 582 aa            linear   ROD 06-OCT-2010
 DEFINITION  unnamed protein product [Mus musculus].
 ACCESSION   BAE37413
-VERSION     BAE37413.1  GI:74201105
+VERSION     BAE37413.1
 DBSOURCE    accession AK163601.1
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -12562,11 +12542,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -12598,7 +12578,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /coded_by="AK163601.1:255..2003"
                      /note="matrix metalloproteinase 14 (membrane-inserted)
@@ -12621,7 +12601,7 @@ ORIGIN
 LOCUS       CAA58520                 582 aa            linear   ROD 24-SEP-2008
 DEFINITION  MT-MMP [Mus musculus].
 ACCESSION   CAA58520
-VERSION     CAA58520.2  GI:6572429
+VERSION     CAA58520.2
 DBSOURCE    embl accession X83536.2
 KEYWORDS    .
 SOURCE      Mus musculus (house mouse)
@@ -12660,11 +12640,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -12696,7 +12676,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /gene="mouse 29"
                      /coded_by="X83536.2:173..1921"
@@ -12730,7 +12710,7 @@ LOCUS       EDL36349                 582 aa            linear   ROD 26-JUL-2016
 DEFINITION  matrix metallopeptidase 14 (membrane-inserted), isoform CRA_b [Mus
             musculus].
 ACCESSION   EDL36349
-VERSION     EDL36349.1  GI:148704402
+VERSION     EDL36349.1
 DBLINK      BioProject: PRJNA11785
             BioSample: SAMN03004379
 DBSOURCE    accession CH466535.2
@@ -12802,11 +12782,11 @@ FEATURES             Location/Qualifiers
      Region          36..88
                      /region_name="PG_binding_1"
                      /note="Putative peptidoglycan binding domain; pfam01471"
-                     /db_xref="CDD:250643"
+                     /db_xref="CDD:279773"
      Region          118..284
                      /region_name="Peptidase_M10"
                      /note="Matrixin; pfam00413"
-                     /db_xref="CDD:249842"
+                     /db_xref="CDD:278824"
      Region          118..284
                      /region_name="ZnMc_MMP"
                      /note="Zinc-dependent metalloprotease, matrix
@@ -12838,7 +12818,7 @@ FEATURES             Location/Qualifiers
      Region          <560..582
                      /region_name="DUF3377"
                      /note="Domain of unknown function (DUF3377); pfam11857"
-                     /db_xref="CDD:256677"
+                     /db_xref="CDD:288690"
      CDS             1..582
                      /gene="Mmp14"
                      /locus_tag="mCG_8704"
