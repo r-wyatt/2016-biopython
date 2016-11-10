@@ -19,8 +19,8 @@ as a .csv if need be.
 
 This code stumbles if the save directory you specify already exists (it will add to directory,
 and not overwrite existing entries, possibly duplicating searches). If you want to overwrite
-a directory, you need to delete it before running this code. I tried, but failed, as windows
-throws access denied errors.
+a directory, you need to delete it before running this code. I tried to have this code do that, 
+but failed, as windows throws access denied errors.
 
 Command to use the script:
 

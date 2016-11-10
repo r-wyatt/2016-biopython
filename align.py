@@ -60,12 +60,26 @@ def trim_align(alignpath,out):
 	process = subprocess.Popen(cmd)
 	process.wait()
 	print('\nDone trim\n')
+#-----------------------------------------------------------------------------
+# Functions to condense fasta names before saving as phylip
+#-----------------------------------------------------------------------------
+def trim_fasta_names(alignpath, input):
+	no_ext = re.sub(r'\.[A-Za-z]{3}', "", input)
+	print no_ext
+	outname = no_ext + "Rename.aln"
+	stdout_bak = sys.stdout
+	sys.stdout = open(os.path.join(alignpath, outname),"w")
+	for line in open(os.path.join(alignpath, input)):
+		line = re.sub(r'\>([A-Za-z]{1})[A-Za-z]{3} (\S*)', r'>\1\2', line)
+		s = line[0] + line[1].lower() + line[2:]
+		print s,
+	sys.stdout = stdout_bak
+	format_converter(sys.argv[1],outname,"phylip-relaxed")
 	
-#-----------------------------------------------------------------------------
-# Function to save alignment as relaxed phylip
-#-----------------------------------------------------------------------------
-def save_phylip(input, output):
-	AlignIO.read(os.path.join("2016-11-02","align.aln"),"fasta")
+def format_converter(alignpath, input, output_style):
+	alignment = AlignIO.read(os.path.join(alignpath,input), "fasta")
+	AlignIO.write(alignment,os.path.join(alignpath,"transfomed.phy"),output_style)
+	
 
 
 #-----------------------------------------------------------------------------
@@ -79,6 +93,7 @@ in_file = os.path.join(dir,infile)
 align(in_file,out_file)
 
 trim_align(out_file, os.path.join(dir,outfile2))
+trim_fasta_names(dir,"align.phy")
 
 
 
