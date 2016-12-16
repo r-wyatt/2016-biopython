@@ -10,25 +10,28 @@ This script requires version 2 of python (syntax breaks with 3, sadly).
 It takes an index file with directions for what BLAST searches to accomplish.
 
 Index file must have the following format:
-Genus species,queryAccession
-Genus species,queryAccession
-Genus species,queryAccession
 
-Where each line is a separate BLAST instruction. This can be edited in excel and saved
-as a .csv if need be.
+Genus species,genus species,genus species
+accession, accession
 
-This code stumbles if the save directory you specify already exists (it will add to directory,
-and not overwrite existing entries, possibly duplicating searches). If you want to overwrite
-a directory, you need to delete it before running this code. I tried to have this code do that, 
-but failed, as windows throws access denied errors.
+Where first line indicates species to query, and second indicates accessions to use
+to search them. This can be edited in excel and saved as a .csv if need be.
+
+This code will add to directory, and not overwrite existing entries, possibly 
+duplicating searches. If you want to overwrite a directory, you need to delete it 
+before running this code. 
 
 Command to use the script:
 
-fastBLAST.py   path_to_index_file   output_directory_path
+python fastBLAST.py   path_to_index_file   output_directory_path
 
-For troubleshooting purposes, there is an optional 'mock' argument at the end which 
-will have the script run without doing the actual BLAST searches (that's what takes 
-the longest time).
+OR:
+
+python fastBLAST.py   path_to_index_file   output_directory_path   mock
+
+For troubleshooting purposes, the optional 'mock' argument at the end will parse any
+input files without running the actual BLAST, to check that they are properly
+formatted. 
 
 '''
 #-----------------------------------------------------------------------------
@@ -161,15 +164,15 @@ def search_NCBI(species, seqQuery, out):
 		run = False
 	if run == True:
 		eQ = species + '\[Organism\]'
-		gi = seqQuery
-		result = NCBIWWW.qblast("blastp","nr", gi, entrez_query= eQ, expect=0.001, hitlist_size=100, ncbi_gi=True)
+		acc = seqQuery
+		result = NCBIWWW.qblast("blastp","nr",acc, entrez_query= eQ, expect=0.001, hitlist_size=100)
 
 		# Save file
 		save_file = open(out, "w")
 		save_file.write(result.read())
 		save_file.close()
 		result.close()
-		time.sleep(15) # Pause 2min between database queries
+		time.sleep(15) # Pause 15s between database queries
 		print("Saving file as: " + out)
 	else:
 		print("\n\nMock Search")
@@ -183,10 +186,11 @@ def search_NCBI(species, seqQuery, out):
 # file to send the file names of processed BLAST searches to.
 
 def get_ids(filename, dir, ethresh = 0.01):
+	print("get_ids",filename)
 	eValueThresh = ethresh
 	result = open(os.path.join(dir,"BLAST",filename),"r") # mode omitted defaults to read only
 	blast_record = NCBIXML.parse(result)
-	blast_records = list(blast_record)
+	blast_records = list(blast_record) # Why does this line given me an error?
 	record = blast_records[0]
 	hits = []
 	for alignment in record.alignments:
@@ -261,16 +265,14 @@ def run_blasts(dir):
 			setDirections = []
 			for row in index:
 				setDirections.append(row)
-			count = len(setDirections)	
-			for i in range(0,count-1):
-				if setDirections[i] != None:
-					query = str(setDirections[i][1])
-					species = str(setDirections[i][0])
+			print(setDirections)
+			for species in setDirections[0]:
+				for accession in setDirections[1]:
 					matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
 					shortSpecies = matchSpecies.group(1).upper() + matchSpecies.group(2).lower()
-					name = shortSpecies+"_"+query+".xml"
-					out = os.path.join(dir,"BLAST", name)
-					search_NCBI(species,query,out)
+					name = shortSpecies+"_"+accession+".xml"
+					out = os.path.join(dir,"BLAST",name)
+					search_NCBI(species, accession, out)
 	else:
 		print("\n\nInput file doesn't exist\n\n")
 		
@@ -288,7 +290,7 @@ def parse_files(dir):
 #-----------------------------------------------------------------------------
 # Run BLAST searches
 #-----------------------------------------------------------------------------
-print "\n\n Clearing/creating new directory...\n\n"
+print "\n Creating new directory...\n\n"
 if os.path.exists(sys.argv[2]) != True:
 	init(sys.argv[2])
 
@@ -297,7 +299,7 @@ run_blasts(sys.argv[2])
 #-----------------------------------------------------------------------------
 # Run parser and data fetch
 #-----------------------------------------------------------------------------
-print "\n\nFetching genbank data and saving..."	
+print "\n Fetching genbank data and saving..."	
 parse_files(sys.argv[2])
 
 consolidate_species(sys.argv[2])

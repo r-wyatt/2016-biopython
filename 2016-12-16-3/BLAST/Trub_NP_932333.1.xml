@@ -1,0 +1,2451 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>NP_932333.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>72 kDa type IV collagenase precursor [Danio rerio]</BlastOutput_query-def>
+  <BlastOutput_query-len>657</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>NP_932333.1</Iteration_query-ID>
+  <Iteration_query-def>72 kDa type IV collagenase precursor [Danio rerio]</Iteration_query-def>
+  <Iteration_query-len>657</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|83776608|ref|NP_001032958.1|</Hit_id>
+  <Hit_def>72 kDa type IV collagenase precursor [Takifugu rubripes] &gt;gi|70568308|dbj|BAE06265.1| matrix metalloproteinase-2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>NP_001032958</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1108.59</Hsp_bit-score>
+      <Hsp_score>2866</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>658</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>652</Hsp_align-len>
+      <Hsp_qseq>FRCRHIVLKVFLVQFLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEP-TDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FSCRRIVLKVFLVHFVAFQATYAAPSPIIRFPGDDTPKTDKEVALHYLNKFYGCPQDRCNLMVLKDTLKKMQKFFSLQETGEIDAKTVEIMKKPRCGVPDVANYNFFHRKPMWQKKDITYRILGYSPDLDEEVINDAFFRAFKVWSDVTPLTFERIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGAGIGGDSHFDDDEQWTLGEGQVVKVKYGNADGEFCQFPFLFMGTEYNSCTSQGRDDGFLWCSTTYNFSEDGKYGFCPHELLFTLGGNAEGAACKFPFTFQGENYDGCTTSGRDDGYRWCATTENYDVDKSFGFCPETAMSTVGGNAEGSPCVFPFTFLGNTYESCTSSGRSDGKMWCASTKSYDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSQDPGALMAPVYTFTKDFRLSHDDIQGIQELYGGVLTDKPFPPTQGPVTPMDICKEAVIFDAVAQIRGETFFFKDRFLFRSVNFGSKPTGPMLVATYWPDLPSKIDAAYENPVDETTVFFAGNEMWVYKADALERGYPKKLSSLGLPSDLQHIDAAFNFRKNKKTYLFAGDKFWRYDEDRKTMEASFPKLIGESWNGIPDDVDSAFSLNGIDYSYFFKGNHYFKLEDNSLKIVKLGEIRKDWLGC</Hsp_hseq>
+      <Hsp_midline>F CR IVLKVFLV F+A   T+AAPSPII+FPGDDT  TDKEVALHYLNKFYGCP+DRCNLMVLKDTLKKMQKFF+L ETGEID KTVEIMKKPRCGVPDVANYNFFHRKP W +K++TYRILG++PDLDE+ I+DAF+RAFKVWSDVTPL F RIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPG GIGGDSHFDDDEQWTLGEGQVVKVKYGNA+GEFC+FPFLFMG EYNSCTSQGRDDGFLWCSTTYNF +DGKYGFCPHELLFTLGGNA+GA CKFPFTFQG+ YD CTTSGRDDGYRWCATTE+YD DK++GFCPETAMST GGN++G+PCVFPF FLG++Y+SCT+SGR+DGKMWCA TKS+DDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHS DPGALMAP+YTFTK  RLS DD++GIQELYG   TDKP      PVTPMD+C E +IFDAVAQIRGE FFFKDRFLFR+ +   KPTGPMLVAT+W +LP KIDAAYENP++E TVFFAG+EMWVY A  LER YPKK+SS+GLPSDL  IDAA++F K KKTY+FAG+KFWRY+E +K M+  FPK+I +SW  +PDD+D A SLNG  +SYFFK +HY K++D++LKI+K+GE++KDWL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|83776610|ref|NP_001032959.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase-9 precursor [Takifugu rubripes] &gt;gi|70568314|dbj|BAE06266.1| matrix metalloproteinase-9 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>NP_001032959</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>622.854</Hsp_bit-score>
+      <Hsp_score>1605</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>673</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>415</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>654</Hsp_align-len>
+      <Hsp_qseq>SPIIKFPGDDTAH-TDKEVALHYLNKF-YGCPKDRCNL--MVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG----------------------EPTDKPLATHTP-PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRT-ADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>SVFVDFPGDIIKNMTDIELADNYLKKFGYIDIQRRSGLDSVISTKALKKMQKQLGLKETGELDKTTLEAMKQPRCGVPDVANYATFEGDLKWDHNDVTYRVLNYSPDMDSFVIDDAFVRAFRVWSDVTPLTFTRLFDGIADIMISFGKTDHGDFYPFDGKDGLLAHAYPPGEGVQGDAHFDDDEFWTLGKGPVVKTLYGNAEGAMCHFPFRFQNKPYKHCTSEGRLDDLPWCATTADYDKDKKYGFCPSELLYTFGGNANGEKCVFPFTFLGMEYDSCTSEGRSDGFRWCATTKSFDEDKKYGFCPGRDTAVIGGNSDGELCHFPFIFQDKEYDSCTSEGRGDGKLWCSTTANYGQDKKWGLCPDRGYSLFLVAAHEFGHALGLEHSTIKEALMYPMYSYVENFSLHKDDIEGIQYLYGSNTGPKLTPNPPIYPTTDPIVTDSTDRPTETTTPLPVDPSQDACTVTIFDSITAINGELHFFKNGIYWRMPSKSNAGVKGPHAISEKWPQLPAVIDTAFEDTVTKKIYFFSGTKFWVYTGQNVMG--PRSIEKLGLPPSIQKVEGALQRGK-DKVLLFSGDSYWRLNIKDQKMDKGYPKYTDVAFGGVPYKAHDVFQYKGN--SYFCQDRSYWRM-NSRRQVDRVGNVKNDILKC</Hsp_hseq>
+      <Hsp_midline>S  + FPGD   + TD E+A +YL KF Y   + R  L  ++    LKKMQK   L ETGE+D+ T+E MK+PRCGVPDVANY  F    KW   +VTYR+L ++PD+D   IDDAF RAF+VWSDVTPL FTR+ DG ADIMI+FG+ +HGD YPFDGKDGLLAHA+ PG G+ GD+HFDDDE WTLG+G VVK  YGNAEG  C FPF F  K Y  CTS+GR D   WC+TT ++D D KYGFCP ELL+T GGNA+G  C FPFTF G +YDSCT+ GR DG+RWCATT+ +D+DK YGFCP    +  GGNSDG  C FPF F    YDSCT+ GR DGK+WC+ T ++  D+KWG CPD+GYSLFLVAAHEFGHALGLEHS    ALM P+Y++ +   L  DD++GIQ LYG                      + TD+P  T TP PV P        IFD++  I GE+ FFK+   +R  +       GP  ++  W +LP  ID A+E+ + ++  FF+G + WVY+   +    P+ I  +GLP  +  ++ A    K  K  +F+G+ +WR N   +KMD G+PK    ++  VP          G+  SYF +D  Y +M +S  ++ +VG VK D L+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|525344773|ref|NP_001266961.1|</Hit_id>
+  <Hit_def>collagenase 3-like precursor [Takifugu rubripes] &gt;gi|386799503|gb|AFJ38182.1| matrix metalloproteinase [Takifugu rubripes]</Hit_def>
+  <Hit_accession>NP_001266961</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>1.07299e-58</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPL-ATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSY</Hsp_qseq>
+      <Hsp_hseq>FDEDELFTFRSQKGYVLFLVAAHEFGHSLGLSHSQDPGALMFPVYTFHDPDTFVLPQDDVSGIQSLYGPNPKGPVDPGVTRPTTP-DACDSDLVLDAVTTLRGEMYFFKGRFLWRRPSQSDLPQQ-SLIANFWRGAPVNIDAAFENPESDRVFLFKDRQVWAFRAYDPVSGYPKSISTFGLPMTVRKIDAALYDEQSGKILFFAGNMQYRYDEAKKTMDEGFPKRIDLTFPDIPGKVTAAFGYRGFAYIY</Hsp_hseq>
+      <Hsp_midline>FD+D  + F   +GY LFLVAAHEFGH+LGL HS DPGALM P+YTF    T  L  DDV GIQ LYG     P+    T P TP D C+ +++ DAV  +RGE++FFK RFL+R       P    L+A FW   P  IDAA+ENP  +R   F   ++W + A      YPK IS+ GLP  +  IDAA    ++ K   FAGN  +RY+EAKK MD GFPK I  ++  +P  +  A    G  + Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>7.97135e-42</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>PGDDTAHTDKEVALHYLNKFYGCPKD-----RCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDV--ANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>PLPQRTNLDEQFAEKYLRTFFNFKEENGSVVRRGISPLSQKLREMQGFFGLEITGRLDSDTKEMMSKPRCGVPDIKTSAYSISGNDLKWKKNHLTYRIENYSPDMSVAEIEQSIDKALQVWAKVTPLRFSKV-SSDPDIKVLFGGQYHGDSYPFDGPDGILAHAFSPGPGIGGDAHFDEDELFTF</Hsp_hseq>
+      <Hsp_midline>P     + D++ A  YL  F+   ++     R  +  L   L++MQ FF L  TG +D  T E+M KPRCGVPD+  + Y+      KW + ++TYRI  ++PD+    I+ +  +A +VW+ VTPL+F+++   + DI + FG   HGD YPFDG DG+LAHAF+PGPGIGGD+HFD+DE +T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|768950901|ref|XP_011614477.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614477</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>6.75452e-54</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEP--------------------------TDKPLATHTPP--VTPMDVCNENII----FDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKI</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTLGNPNHDGNDLFLVAVHELGHALGLEHSNDPTAIMAPFYQYMDTDNFKLPHDDLQGIQKIYGPPDRAPQPTRPPPTVPPPRFLQPSDPRKHDRHARPHRPPQGAKPSNPNSKPNICDGGFNTLAILRQELFVFKDQWFWRVRDNSVVPGYPMQINHFWKGLPAKIDAVYENS-EGKFVFFKGSRFWVFKDTTLQPSYPQDISLFGRGMPTQSIETAVWWEDVAKTYFFKGDRYWRYNEDMRTMDPGYPKPIT-VWKGIPDSPQGAFVDKANGFTYFYKGKEYWKFNNQLLRV</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS+DP A+MAP Y +  T   +L  DD++GIQ++YG P                           D+    H PP    P +  ++  I    F+ +A +R E+F FKD++ +R  D    P  PM +  FW  LP KIDA YEN  E + VFF G   WV+  +TL+  YP+ IS  G       I+ A  +    KTY F G+++WRYNE  + MDPG+PK I   W  +PD   GA     +G +YF+K   Y K ++  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.89226e-32</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRK-----PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIM-------DGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGE</Hsp_qseq>
+      <Hsp_hseq>TMHSAIASMQRVYGLNVTGTLDERTKDWMQKPRCGVPDKSASRSRKRRYALTGQKWQRAHITYSIKNVTPKVGARETHDAIRRAFDVWQGVTPLRFEAVPYSALETGRRDVDITIIFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLGN</Hsp_hseq>
+      <Hsp_midline> +   +  MQ+ + L  TG +D++T + M+KPRCGVPD +      R+      KW + ++TY I   TP +      DA  RAF VW  VTPL+F  +          + DI I F    HGD  PFDG+ G LAHA+ PGPGIGGD+HFD DE WTLG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|768958125|ref|XP_011617485.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-14 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011617485</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>8.66759e-54</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYS-LFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPLAT------------HTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMG--LPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIK--VGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDLAEPWTVGADQGGNDVFLVTVHELGHALGLEHSNDPSAIMAPFYQWFETENFHLPDDDRRGIQAIYGSKSGAPPPPPPPRPTKFPRPEHGP-----DICEGH--FDTIAVLRGEKFIFKDKWFWRVRNNKVLTGYPMPISHFWKGLPSNINAAYERS-DGKFVFFKGDRYWVFSESTMDRDSPKTLSELGTGLPKDR--IDAALFYTITGQTYLFRGNKYYRFNEQTRSVDSGYPKPIS-TWSGAPDNIKATIMSEDGSYTYFYKANKYWKFNNQYMKVESGYPKSVLTDWMGC</Hsp_hseq>
+      <Hsp_midline>FD    W    DQG + +FLV  HE GHALGLEHS+DP A+MAP Y +  T+   L DDD +GIQ +YG  +  P               H P     D+C  +  FD +A +RGE F FKD++ +R  + +     PM ++ FW  LP  I+AAYE   + + VFF GD  WV+S ST++R+ PK +S +G  LP D   IDAA  +  T +TY+F GNK++R+NE  + +D G+PK I+ +W+  PD++   +      ++YF+K + Y K ++  +K+       V  DW+ C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>3.53716e-33</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNF---FHRKP------KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI--------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQ</Hsp_qseq>
+      <Hsp_hseq>VETAIKAMQGFYGLSATGTIDSETIEAMRRPRCGVPDMFGPELKTNLRRKRYAVQGLKWDKSEVTFSIENYTPKVGERATYEAIRKAFRVWESVIPITFREIPYSQIRNKVDKYADIMLSFSEGFHGDSTPFDGEGGFLAHAFFPGNAIGGDTHFDLAEPWTVGADQ</Hsp_hseq>
+      <Hsp_midline>++  +K MQ F+ L  TG ID +T+E M++PRCGVPD+          RK       KW +  VT+ I  +TP + E    +A  +AF+VW  V P+ F  I        +D  ADIM++F    HGD  PFDG+ G LAHAF PG  IGGD+HFD  E WT+G  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|410908747|ref|XP_003967852.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003967852</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.05696e-53</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEP-----TDKPLATHTPPVT--PMDV----------------------CNENII---FDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKI</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTLGNPNHDGNDLFLVAVHELGHALGLEHSNDPTAIMAPFYQYMDTDNFKLPMDDLLGIQKIYGPPDKLPQPTKPLPTVPPPRSHPPSDPRKPDRQTRPPRLPPGDRPSHPNAKPNICDGGFNTLAILRREMFVFKDDWFWRVRDNSVMPGYPMLINVFWRGLPHKIDAVYENS-EGKFVFFKGKQFWVFKDTVLQPGYPKDITQFGHGMPAQSIETAVWWEDVAKTYFFKGDRYWRFNEEMRTMDPGYPKPIT-VWRGVPDSPQGAFVDKANGFTYFYKGKEYWKFNNQFLRV</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS+DP A+MAP Y +  T   +L  DD+ GIQ++YG P       KPL T  PP +  P D                          NI    F+ +A +R E+F FKD + +R  D    P  PML+  FW  LP KIDA YEN  E + VFF G + WV+  + L+  YPK I+  G       I+ A  +    KTY F G+++WR+NE  + MDPG+PK I   W  VPD   GA     +G +YF+K   Y K ++  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>5.16513e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD----VANYNFFHRK-----PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGE-------ADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>VMQSAIAAMQRRYGLNVTGTLDSNTIEWMKKPRCGVPDQIGGAARFSVRKRRYALTGQRWHHKHITYSIKNVTPKVGAEETHDAIRRAFDVWQNVTPLRFEAVPYSELERSKTDVDITIIFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLG</Hsp_hseq>
+      <Hsp_midline>V++  +  MQ+ + L  TG +D  T+E MKKPRCGVPD     A ++   R+      +W  K++TY I   TP +  +   DA  RAF VW +VTPL+F  +   E        DI I F    HGD  PFDG+ G LAHA+ PGPGIGGD+HFD DE WTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|525344801|ref|NP_001266964.1|</Hit_id>
+  <Hit_def>collagenase 3 precursor [Takifugu rubripes] &gt;gi|386799509|gb|AFJ38185.1| matrix metalloproteinase [Takifugu rubripes]</Hit_def>
+  <Hit_accession>NP_001266964</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>5.1776e-53</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDS</Hsp_qseq>
+      <Hsp_hseq>FDEDENWT-KDSTAYNLFIVAAHELGHALGMGHSTDAGALMYPTYSYRTGFLLSVDDVKGIQELYG-PNPNPTEVTPSPEAPKQ-CDRMLSIDAVTGLRGETMVFKDRFYWRLHPQMPEPD-QILIKSTWPSLRNKVDAAYENPEKDQVIIFSGIRMWALNGYDIVEGYPKYIHKFGLPKKIRKVDAAVHISDTGKTLLFTDEEYWSYDEATGRMDSGYPRSIEKDFPGIGDKIDAAVYQY--GFLYFFRDN</Hsp_hseq>
+      <Hsp_midline>FD+D  W       Y+LF+VAAHE GHALG+ HS D GALM P Y++     LS DDVKGIQELYG P   P      P  P   C+  +  DAV  +RGE   FKDRF +R      +P   +L+ + W  L  K+DAAYENP +++ + F+G  MW  +   +   YPK I   GLP  +  +DAA     T KT +F   ++W Y+EA  +MD G+P+ I   +  + D +D A+     G  YFF+D+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>6.32965e-50</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VALHYLNKFYGCPKDRCNLMV----LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>LAEKYLRRFYGLPVGLQGSQKAAGDFQKTIKQMQRFFKLKVTGSLNEETVEVMKQARCGVPDVGEYTHFPRKLKWNTNKLTFRILDYTPDLQKSDVDKAVRKALNLWAAVTPLTFKKLHTGTADIMISFGSGEHGDYNPFDGPNSLLAHAYPPGQGIGGDVHFDEDENWT</Hsp_hseq>
+      <Hsp_midline>+A  YL +FYG P             + T+K+MQ+FF L  TG ++++TVE+MK+ RCGVPDV  Y  F RK KW    +T+RIL +TPDL +  +D A  +A  +W+ VTPL F ++  G ADIMI+FG  EHGD  PFDG + LLAHA+ PG GIGGD HFD+DE WT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|386799505|gb|AFJ38183.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase [Takifugu rubripes]</Hit_def>
+  <Hit_accession>AFJ38183</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>4.80677e-51</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYGCPKDRCNLM---------VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>DEKLAEEYLRRFYNLQPSRGKEVSGRKARSTPAMEEKIREMQNFFGLKETGQLDHQTLEVMRKPRCGVPDVENYSFYAKNPKWENHTITFMIDRYTTDMRREDVDKSFTSAMKMWSDAAPLNFIRVYHNPADIVLSFARRTHGDFFPFDGPRGVLAHAFHPGKGIGGDVHFDEDETWTAG</Hsp_hseq>
+      <Hsp_midline>D+++A  YL +FY     R   +          +++ +++MQ FF L ETG++D +T+E+M+KPRCGVPDV NY+F+ + PKW    +T+ I  +T D+  + +D +F  A K+WSD  PL F R+    ADI+++F R  HGD +PFDG  G+LAHAF PG GIGGD HFD+DE WT G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>4.97527e-34</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIY-TFTKTLR-LSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPML---VATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDEDETWT-AGSRGYSLFAVAAHELGHSLGLSHSKDPSAVMYPSYRSHSRTQSSLSRDDTLGIQKLYGIPRREVEIQPVP-----DKCDPRVGLNAAVMIGGDIVFFANRQVWRT-------TGATLGQSVGAHLQNINSHVDAAYA--YAGTLYIFSGDRYFVVQQIKMH-TYAGSIRDYGFPSSLKQVDAAVHISEYGKTVFFVGASYYRYDERRRRMDPGFPRLIQADWPGIPRKVNAAFKLQGN--IYIFSGAKTYQYNIRQNRVVSMIPAKA-WQRC</Hsp_hseq>
+      <Hsp_midline>FD+D  W     +GYSLF VAAHE GH+LGL HS DP A+M P Y + ++T   LS DD  GIQ+LYG P  +      P     D C+  +  +A   I G+I FF +R ++RT       TG  L   V      +   +DAAY          F+GD  +V     +   Y   I   G PS L  +DAA    +  KT  F G  ++RY+E +++MDPGFP++I   W  +P  ++ A  L G+   Y F  +   + +    +++ +   K  W RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|410928765|ref|XP_003977770.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-14-like isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003977770</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>9.83694e-51</Hsp_evalue>
+      <Hsp_query-from>394</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>GYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTP----------------MDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSM--GLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVK---KDWLRC</Hsp_qseq>
+      <Hsp_hseq>GNDIFLVAVHELGHALGLEHSNDPSAIMAPFYQWMDTENFELPDDDRRGIQQLYGSGS----GPQPPPVTPDYGTQPTYAPDKPHVGPNICDGH--FDTITTLRGEMFVFKDKWFWRVRNNHVMDGYPMPIGQFWRGLPTHINSAFERE-DGKFAFFKGDRYWVFTESNLDPGFPKNLNEMGSGLPRDR--IDAALYYTPTGQTFYFRANKYYRFNEASRSVDAGYPKSIS-VWQGVPDNFKAAFMSKDQAYTYFYKANKYWKFNNQVMR-VEPGYPKSALRDWMGC</Hsp_hseq>
+      <Hsp_midline>G  +FLVA HE GHALGLEHS+DP A+MAP Y +  T+   L DDD +GIQ+LYG  +        PPVTP                 ++C+ +  FD +  +RGE+F FKD++ +R  +       PM +  FW  LP  I++A+E   + +  FF GD  WV++ S L+  +PK ++ M  GLP D   IDAA  +  T +T+ F  NK++R+NEA + +D G+PK I+  W  VPD+   A       ++YF+K + Y K ++  ++ ++ G  K   +DW+ C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>6.40796e-32</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD---------VANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI--------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>VTSAIAAMQRFYGLTVTGSIDDNTIQAMKRPRCGVPDKFGAELKSNLRRKRYAIQGLKWNKNEVTFSIQNYTPKVGEYETYEAIRKAFKVWESITPLRFREIPYSYIRDRVEEFADIMLFFGEGFHGDSTPFDGEGGFLAHAYFPGNGIGGDTHFDAAEPWTV</Hsp_hseq>
+      <Hsp_midline>+   +  MQ+F+ L  TG ID  T++ MK+PRCGVPD         +    +  +  KW +  VT+ I  +TP + E    +A  +AFKVW  +TPL+F  I        ++  ADIM+ FG   HGD  PFDG+ G LAHA+ PG GIGGD+HFD  E WT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|768957480|ref|XP_011617214.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-14-like isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011617214</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>8.86107e-49</Hsp_evalue>
+      <Hsp_query-from>394</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>GYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTD-------KPLAT----------------HTPPVTP----------------MDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSM--GLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVK---KDWLRC</Hsp_qseq>
+      <Hsp_hseq>GNDIFLVAVHELGHALGLEHSNDPSAIMAPFYQWMDTENFELPDDDRRGIQQLYGELSSHAANRCHSPLTVPETLDLYASAGSGSGPQPPPVTPDYGTQPTYAPDKPHVGPNICDGH--FDTITTLRGEMFVFKDKWFWRVRNNHVMDGYPMPIGQFWRGLPTHINSAFERE-DGKFAFFKGDRYWVFTESNLDPGFPKNLNEMGSGLPRDR--IDAALYYTPTGQTFYFRANKYYRFNEASRSVDAGYPKSIS-VWQGVPDNFKAAFMSKDQAYTYFYKANKYWKFNNQVMR-VEPGYPKSALRDWMGC</Hsp_hseq>
+      <Hsp_midline>G  +FLVA HE GHALGLEHS+DP A+MAP Y +  T+   L DDD +GIQ+LYGE +         PL                    PPVTP                 ++C+ +  FD +  +RGE+F FKD++ +R  +       PM +  FW  LP  I++A+E   + +  FF GD  WV++ S L+  +PK ++ M  GLP D   IDAA  +  T +T+ F  NK++R+NEA + +D G+PK I+  W  VPD+   A       ++YF+K + Y K ++  ++ ++ G  K   +DW+ C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.765e-32</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD---------VANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI--------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQ--------VVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCST-TYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYG</Hsp_qseq>
+      <Hsp_hseq>VTSAIAAMQRFYGLTVTGSIDDNTIQAMKRPRCGVPDKFGAELKSNLRRKRYAIQGLKWNKNEVTFSIQNYTPKVGEYETYEAIRKAFKVWESITPLRFREIPYSYIRDRVEEFADIMLFFGEGFHGDSTPFDGEGGFLAHAYFPGNGIGGDTHFDAAEPWTVKNRDLTGNDIFLVAVHELGHA-----------LGLEHSNDPSAIMAPFYQWMDTENFELPDDDRRGI--QQLYGELSSHAANR-CHSPLTVP-ETLDLYASAGSGSGPQPPPVTPDYGTQPTYA</Hsp_hseq>
+      <Hsp_midline>+   +  MQ+F+ L  TG ID  T++ MK+PRCGVPD         +    +  +  KW +  VT+ I  +TP + E    +A  +AFKVW  +TPL+F  I        ++  ADIM+ FG   HGD  PFDG+ G LAHA+ PG GIGGD+HFD  E WT+            V   + G+A           +G E+++  S      + W  T  +   DD + G    +L   L  +A    C  P T   +  D   ++G   G +    T DY    TY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|768931668|ref|XP_011606543.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC101068697 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011606543</Hit_accession>
+  <Hit_len>976</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>1.2469e-48</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYGCPKDRCNLM---------VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>DEKLAEEYLRRFYNLQPSRGKEVSGRKARSTPAMEEKIREMQNFFGLKETGQLDHQTLEVMRKPRCGVPDVENYSFYAKNPKWENHTITFMIDRYTTDMRREDVDKSFTSAMKMWSDAAPLNFIRVYHNPADIVLSFARRTHGDFFPFDGPRGVLAHAFHPGKGIGGDVHFDEDETWTAG</Hsp_hseq>
+      <Hsp_midline>D+++A  YL +FY     R   +          +++ +++MQ FF L ETG++D +T+E+M+KPRCGVPDV NY+F+ + PKW    +T+ I  +T D+  + +D +F  A K+WSD  PL F R+    ADI+++F R  HGD +PFDG  G+LAHAF PG GIGGD HFD+DE WT G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.45375e-42</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>695</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYG------CPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQV</Hsp_qseq>
+      <Hsp_hseq>EQDFAEEYLARFFNHVGVTNSTMRRITINSFNDTLEAMQAYFGLEVTGTLNNETIEMMKKPRCGVSDVSRYGHFQGKPRWRKGLITYRITRYTPDLPQKQVDQTIAKAFQLYSDVIPLDFKQIYGTVSDIEILFQGGYHGDFYPFDGRGGVLAHANSPGQQQGGDTHFDDDETWTLSQRGV</Hsp_hseq>
+      <Hsp_midline>+++ A  YL +F+           R  +    DTL+ MQ +F L  TG ++ +T+E+MKKPRCGV DV+ Y  F  KP+W +  +TYRI  +TPDL +  +D    +AF+++SDV PL F +I    +DI I F    HGD YPFDG+ G+LAHA +PG   GGD+HFDDDE WTL +  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.84324e-37</Hsp_evalue>
+      <Hsp_query-from>351</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>657</Hsp_hit-from>
+      <Hsp_hit-to>947</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>FPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGEPTDKPLATHTP-------------------PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPML-VATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSAS--TLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYF</Hsp_qseq>
+      <Hsp_hseq>YPFDGRGGVLAHANSPGQQQGG-----DTHFDDDETWTLS-QRGVNLLLVAAHEFGHALGLDHSRDRRALMFPTYQYVNTNGYKLPDDDRQGVQALYGSRTARPTPAPRPTPPPEPEPEPEEPTEDSNLPNPRGEQCSRDLVFDAATSIRGDLYFFKNGYYWRKS--VKLATIPFTKVSTKWPPI-RSVDAAFEVPQDNKVYLLQGNQYWGLRATSRTILSGYPKPLTNLGLPTYVNKVDAAVYVRSTGKTLFFVNRKYWSYDERRNRMDSGYPRNINWDFPGIGSKVDAAFE--NYGYLYF</Hsp_hseq>
+      <Hsp_midline>+PF   G       + G+  G         FDDD  W     +G +L LVAAHEFGHALGL+HS D  ALM P Y +  T   +L DDD +G+Q LYG  T +P     P                   P    + C+ +++FDA   IRG+++FFK+ + +R +   K  T P   V+T W  +   +DAA+E P + +     G++ W   A+  T+   YPK ++++GLP+ ++ +DAA     T KT  F   K+W Y+E + +MD G+P+ I   +  +   +D A      G+ YF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>1.74379e-32</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>648</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIY-TFTKTLR-LSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPML---VATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVG</Hsp_qseq>
+      <Hsp_hseq>FDEDETWT-AGSRGYSLFAVAAHELGHSLGLSHSKDPSAVMYPSYRSHSRTQSSLSRDDTLGIQKLYGIPRREVEIQPVP-----DKCDPRVGLNAAVMIGGDIVFFANRQVWRT-------TGATLGQSVGAHLQNINSHVDAAYA--YAGTLYIFSGDRYFVVQQIKMH-TYAGSIRDYGFPSSLKQVDAAVHISEYGKTVFFVGASYYRYDERRRRMDPGFPRLIQADWPGIPRKVNAAFKLQGN--IYIFSGAKTYQYNIRQNRVSRVG</Hsp_hseq>
+      <Hsp_midline>FD+D  W     +GYSLF VAAHE GH+LGL HS DP A+M P Y + ++T   LS DD  GIQ+LYG P  +      P     D C+  +  +A   I G+I FF +R ++RT       TG  L   V      +   +DAAY          F+GD  +V     +   Y   I   G PS L  +DAA    +  KT  F G  ++RY+E +++MDPGFP++I   W  +P  ++ A  L G+   Y F  +   + +    ++ +VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|410911940|ref|XP_003969448.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003969448</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.40959e-48</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>643</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGEP---------------------------TDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLK</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTIGNQNIQGNDLFLVAVHELGHALGLEHSNNPLAIMAPFYQWMETDNFQLPDDDRRGIQQIYGQPDSGPTQALPTVTARRPEPRPPQSPPRHPDRPRATERPDHYGPNICEGN--FDTVAMLRGEMFVFKGRWFWRVRRNRVLDNYPMPINHFWRGLPGDIDAAYER-HDGRFVFFKGNRYWLFREANLEMGYPLELVDFGRDIPYDRVDTAIWWEPSGYTYLFQGDWYWRFDEKSRLADRGYPKPISVWGSSVPSAPKGAFLSDDGAYTFFYKGSKYWKFDNLRMK</Hsp_hseq>
+      <Hsp_midline>FD D  W  G    QG  LFLVA HE GHALGLEHS++P A+MAP Y + +T   +L DDD +GIQ++YG+P                            D+P AT  P     ++C  N  FD VA +RGE+F FK R+ +R    R     PM +  FW  LP  IDAAYE   + R VFF G+  W++  + LE  YP ++   G       +D A  +  +  TY+F G+ +WR++E  +  D G+PK I+   ++VP    GA   +   +++F+K S Y K D+  +K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>5.46481e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD---------VANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI--------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQV</Hsp_qseq>
+      <Hsp_hseq>ILSGAVSDMQRFYGLEVTGKMDPETIRAMKRPRCGVPDKFGGQIKTNVRRKRYALTGHKWSKKQLTYSIQNYTPKIGEYNSYEAIRRAFKVWEGVTPLTFDEIPYQEIKYGRRKEPDIMIFFASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDEPWTIGNQNI</Hsp_hseq>
+      <Hsp_midline>+L   +  MQ+F+ L  TG++D +T+  MK+PRCGVPD         V    +     KW +K +TY I  +TP + E    +A  RAFKVW  VTPL F  I           E DIMI F    HGD  PFDG+ G LAHA+ PGPG+GGD+HFD DE WT+G   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|410903229|ref|XP_003965096.1|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003965096</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.77251e-45</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>646</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTD-KPLATHTPPV---TPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREY--PKKISSMGLPSDLHGIDAAYSFHKT--KKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIK</Hsp_qseq>
+      <Hsp_hseq>FDYDEHWTVGNDVGMDLLQVAAHEFGHVLGLQHSLEPGAVMSPFYSDSYPPQLSEDDKRGIQYLYGLPLNVEPQMTETNEIDIGIP-DACRTN--FDAVSMIRGELFFFKSQYVWRLRERQLQIGYPALASRHWKSFPDHVDAAYEDK-SGNIWFFQGDQYWVFDA---ERKITGPDSVWNLGLP--VTGIQAALKWHQNGIEKVYLMKSSSYWSLNPQENRVDNTYPQSMWE-WEGVPSHIDAAFR-DRHGYANFLSGHHYWRFDPENKKVLE</Hsp_hseq>
+      <Hsp_midline>FD D  W    D G  L  VAAHEFGH LGL+HS +PGA+M+P Y+ +   +LS+DD +GIQ LYG P + +P  T T  +    P D C  N  FDAV+ IRGE+FFFK ++++R  + + +   P L +  W   P+ +DAAYE+       FF GD+ WV+ A   ER+   P  + ++GLP  + GI AA  +H+   +K Y+   + +W  N  + ++D  +P+ + + W  VP  +D A   +  G++ F    HY + D    K+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>3.74276e-23</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>EIDQKTVEIMKKPRCGVPDVANYNFFHRK------------------PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG------QVVKVKYGNAEG</Hsp_qseq>
+      <Hsp_hseq>ELESHTSDPWKRPRCGVPDYPSVTESELKLQRNRLRRERRKRFTVFGGRWEKTDLTYKIVHFPWQMSEAKVQHVLQEAFGVWSAVTPLRFHEVTSDKADIIIDFNRYWHGDNLPFDGPGGILAHAFFPRTHRQGEVHFDYDEHWTVGNDVGMDLLQVAAHEFGHVLG</Hsp_hseq>
+      <Hsp_midline>E++  T +  K+PRCGVPD  +      K                   +W + ++TY+I+     + E  +      AF VWS VTPL+F  +   +ADI+I+F R  HGD  PFDG  G+LAHAF P     G+ HFD DE WT+G        QV   ++G+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|386799507|gb|AFJ38184.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase [Takifugu rubripes]</Hit_def>
+  <Hit_accession>AFJ38184</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>3.99913e-44</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYG------CPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQV</Hsp_qseq>
+      <Hsp_hseq>EQDFAEEYLARFFNHVGVTNSTMRRITINSFNDTLEAMQAYFGLEVTGTLNNETIEMMKKPRCGVSDVSRYGHFQGKPRWRKGLITYRITRYTPDLPQKQVDQTIAKAFQLYSDVIPLDFKQIYGTVSDIEILFQGGYHGDFYPFDGRGGVLAHANSPGQQQGGDTHFDDDETWTLSQRGV</Hsp_hseq>
+      <Hsp_midline>+++ A  YL +F+           R  +    DTL+ MQ +F L  TG ++ +T+E+MKKPRCGV DV+ Y  F  KP+W +  +TYRI  +TPDL +  +D    +AF+++SDV PL F +I    +DI I F    HGD YPFDG+ G+LAHA +PG   GGD+HFDDDE WTL +  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>4.61898e-39</Hsp_evalue>
+      <Hsp_query-from>351</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>FPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGEPTDKPLATHTP-------------------PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPML-VATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSAS--TLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>YPFDGRGGVLAHANSPGQQQGG-----DTHFDDDETWTLS-QRGVNLLLVAAHEFGHALGLDHSRDRRALMFPTYQYVNTNGYKLPDDDRQGVQALYGSRTARPTPAPRPTPPPEPEPEPEEPTEDSNLPNPRGEQCSRDLVFDAATSIRGDLYFFKNGYYWRKS--VKLATIPFTKVSTKWPPI-RSVDAAFEVPQDNKVYLLQGNQYWGLRATSRTILSGYPKPLTNLGLPTYVNKVDAAVYVQSTGKTLFFVNRKYWSYDERRNRMDSGYPRNINWDFPGIGSKVDAAFE--NYGYLYFSSGPRQTEYNLPYKHVRRV-LLNYGWLNC</Hsp_hseq>
+      <Hsp_midline>+PF   G       + G+  G         FDDD  W     +G +L LVAAHEFGHALGL+HS D  ALM P Y +  T   +L DDD +G+Q LYG  T +P     P                   P    + C+ +++FDA   IRG+++FFK+ + +R +   K  T P   V+T W  +   +DAA+E P + +     G++ W   A+  T+   YPK ++++GLP+ ++ +DAA     T KT  F   K+W Y+E + +MD G+P+ I   +  +   +D A      G+ YF       + +     + +V  +   WL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|768949359|ref|XP_011613834.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: stromelysin-3-like, partial [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011613834</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>5.90087e-42</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGE-----------PTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAA--YSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMD</Hsp_qseq>
+      <Hsp_hseq>FDYDESWTLGNHMGTDLLQVAAHEFGHVLGLQHSREPGAVMSAYYSFSYPLRLSEDDKQGIQYLYGAHPRVLPTSPPPXSAPANPETNEIVTNPDACQTD--FDAVSMIRGELFFFRSGYVWRIRDGQLESGYPALASRHWRGIPSNIDAAFEDKTGN-IWFFQGDNYWVFDAERQIRG-PESIRTLGLSA--LGIQAALRWGHDSTYDTYFFRSGSYWRFSPHQNRVESAYPRSMQD-WSGIPNDVDASFR-DIYGYAHFIRGRQYWKFD</Hsp_hseq>
+      <Hsp_midline>FD D  W      G  L  VAAHEFGH LGL+HS +PGA+M+  Y+F+  LRLS+DD +GIQ LYG             +          VT  D C  +  FDAV+ IRGE+FFF+  +++R  D + +   P L +  W  +P  IDAA+E+       FF GD  WV+ A    R  P+ I ++GL +   GI AA  +    T  TY F    +WR++  + +++  +P+ + D W+ +P+D+D +   +  G+++F +   Y K D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.76702e-25</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>KKPRCGVPDVANYNFFHRKPKWGQK------------NVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG------QVVKVKYGNAEG-EFCKFPFLFMGKEYN</Hsp_qseq>
+      <Hsp_hseq>NRPRCGVPDYPAQKEVHYRVRNRQRRFVLYGGRLDRTDLTYRIVRFPWQMGEEKVRRVFREALKIWSDVTPLTFTEVHSGKADIRIDFTRYWHGDNLPFDGPGGILAHAFFPKTHRQGDIHFDYDESWTLGNHMGTDLLQVAAHEFGHVLGLQHSREPGAVMSAYYS</Hsp_hseq>
+      <Hsp_midline> +PRCGVPD       H + +  Q+            ++TYRI+     + E+ +   F  A K+WSDVTPL FT +  G+ADI I+F R  HGD  PFDG  G+LAHAF P     GD HFD DE WTLG        QV   ++G+  G +  + P   M   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|410895929|ref|XP_003961452.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: matrix metalloproteinase-25 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003961452</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.76755e-37</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYS-LFLVAAHEFGHALGLEHSDDPGALMAPIYTF----TKTLRLSDDDVKGIQELYGEPTDKP-----------------LATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTA-DVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGL------PSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKM------DPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTL--KIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDDQEVWSYGGDSSSTDLFAVAVHEFGHALGLSHSSSDPSIMKPYYQGGVGDIVNFQLAVDDKLAIQQLYGVKDTAPSDGGDPHLPRLPSPPPPRPTQLTDPSFNERCQGG--FDAVANIRGEVFFFKGAQFWRTKRDGSLVSNRPAQIQNFWMGLPPQTNKIDAVYERKSDSHIIFFIESQYWVFKDTEAMSGYPRPLSDWGMMRRNGQPVD--KVEAAFIWAHNGKTYLFSGGEFWRFDESQKRQGVHIQPESGYPRDNS-LWAGVPSHMDDIISW-GEGDAYFFKDNFYWVLKNGGLNQEVVTPQSTAVDWLRC</Hsp_hseq>
+      <Hsp_midline>FDD   W +  D   + LF VA HEFGHALGL HS    ++M P Y          +L+ DD   IQ+LYG     P                   T     +  + C     FDAVA IRGE+FFFK    +RT  D       P  +  FW  LP    KIDA YE   +   +FF   + WV+  +     YP+ +S  G+      P D   ++AA+ +    KTY+F+G +FWR++E++K+       + G+P+  +  W  VP  +D  +S  G+G +YFFKD+ Y  + +  L  +++       DWLRC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.07986e-24</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYN-------------FFHRKPKWGQKNVTYRILGH-----TPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMD------GEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>IEQAIRVMQRFGGLQETGVLDSETIRLMSARRCSLPDIIGSEDRLRRKRRRRRKRYALSGLKWHKTDLTWSVHSYPSPSQSPNLPDILVDNILRSAFKAWSNVXPLNFRHVATDSGGTAAGGDIRVSFNRLFHDDGYPFDGQGGTLAHAFFPGSAEVAGDTHFDDQEVWSYG</Hsp_hseq>
+      <Hsp_midline>++  ++ MQ+F  L ETG +D +T+ +M   RC +PD+                 +     KW + ++T+ +  +     +P+L +  +D+    AFK WS+V PL F  +           DI ++F R  H DGYPFDG+ G LAHAF PG   + GD+HFDD E W+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|768910850|ref|XP_011609753.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011609753</Hit_accession>
+  <Hit_len>2503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.32256e-36</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDS----------CTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>GNSDGQPCVFPFVYKGKTYHSCTSAGRSDGQLWCSTSSDFETDQKYSFCTEKNVLVVTRGGNSNGALCQFPFIYNGQNYTDCTAEGRRDGMKWCGTTTNYDDEQRFGFCPMAAHEEVCTASEGV-----MYRVGDQWDKRHDILGHMMRCTCVGNGRGEWSCVAYSQLKD</Hsp_hseq>
+      <Hsp_midline>GN++G+ C FPF++ GK Y+SCTS GR DG LWCST+ +F+ D KY FC  +  L+ T GGN++GA C+FPF + G  Y  CT  GR DG +WC TT +YD ++ +GFCP  A       S+G         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>3.78571e-35</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSDGQPCVFPFVYKGKTYHSCTSAGRSDGQLWCSTSSDFETDQKYSFCTEKNVLVVTRGGNSNGALCQFPFIYNGQNYTDCTAEGRRDGMKWCGTTTNYDDEQRFGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN+DG PC FPF ++G  Y SCT++GR DG  WC+T+ D++ D+ Y FC E    + T GGNS+GA C FPF + G +Y  CT  GR DG  WC  T ++DD++++GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>5.8081e-15</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>SDFETDQKYSFCTEKNVLVVTRGGNSNGALCQFPFIYNGQNYTDCTAEGRRDGMKWCGTTTNYDDEQRFGFCP</Hsp_hseq>
+      <Hsp_midline>S F+ D++++    +  +V  + GN+ G  C+FPF++ G+ Y  CT++GR DG  WC TT N+DD+ ++GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|768936024|ref|XP_011608364.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011608364</Hit_accession>
+  <Hit_len>2376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>4.40924e-36</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYD----------SCTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>GNSNGQPCALPFVFRGKTYYSCTSDGRTDGQLWCSTTSDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCPMAAHEELCTTSDGV-----MHRVGDKWDKRHDVMGHMMQCTCLGNGRGEWNCVAYSQLRD</Hsp_hseq>
+      <Hsp_midline>GN+ G+ C  PF+F GK Y SCTS GR DG LWCSTT +F+ D +Y FC  +  ++ T GGN++GA C FPF + G  Y  CT  GR D  RWC TT DYD D+ YGFCP  A       SDG         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.63704e-33</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSNGQPCALPFVFRGKTYYSCTSDGRTDGQLWCSTTSDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN++G PC  PF F+G  Y SCT+ GR DG  WC+TT D++KD+ Y FC E    ++T GGNS+GA C FPF + G +Y  CT  GR D   WC  T  +D D+ +GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>3.16561e-15</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP---HELLFTLGGNADGAPCKFPFTFQGDKYD</Hsp_qseq>
+      <Hsp_hseq>SDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCPMAAHEELCT---TSDGVMHRV-----GDKWD</Hsp_hseq>
+      <Hsp_midline>S F+ D Q++    +  +V  + GN+ G  C FPF++ G+ Y  CT+ GR D   WC TTY++D D  YGFCP   HE L T    +DG   +      GDK+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|768936026|ref|XP_011608365.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011608365</Hit_accession>
+  <Hit_len>2350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>4.47538e-36</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYD----------SCTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>GNSNGQPCALPFVFRGKTYYSCTSDGRTDGQLWCSTTSDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCPMAAHEELCTTSDGV-----MHRVGDKWDKRHDVMGHMMQCTCLGNGRGEWNCVAYSQLRD</Hsp_hseq>
+      <Hsp_midline>GN+ G+ C  PF+F GK Y SCTS GR DG LWCSTT +F+ D +Y FC  +  ++ T GGN++GA C FPF + G  Y  CT  GR D  RWC TT DYD D+ YGFCP  A       SDG         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.65885e-33</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSNGQPCALPFVFRGKTYYSCTSDGRTDGQLWCSTTSDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN++G PC  PF F+G  Y SCT+ GR DG  WC+TT D++KD+ Y FC E    ++T GGNS+GA C FPF + G +Y  CT  GR D   WC  T  +D D+ +GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.18728e-15</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP---HELLFTLGGNADGAPCKFPFTFQGDKYD</Hsp_qseq>
+      <Hsp_hseq>SDFEKDRQYSFCTEKNVIVATRGGNSNGALCHFPFIYGGRNYTDCTADGRRDTMRWCGTTYDYDSDQLYGFCPMAAHEELCT---TSDGVMHRV-----GDKWD</Hsp_hseq>
+      <Hsp_midline>S F+ D Q++    +  +V  + GN+ G  C FPF++ G+ Y  CT+ GR D   WC TTY++D D  YGFCP   HE L T    +DG   +      GDK+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|410931050|ref|XP_003978909.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17-like, partial [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003978909</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>6.54478e-35</Hsp_evalue>
+      <Hsp_query-from>464</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DVCNENIIFDAVAQIRGEIFFFKDRFLFR-TADVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIK--VGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>DRCSSH--FDAVAQIRGEAFFFKGKYFWRLTREKHLVSLRPAQIHRFWRGLPPSLDGVDAVYERAADHKIVFFKGSRYWLFKDNIMEEGYPRPISDFGLPLD--GVDAAFVWLHNHKTYFFRERRYWRYDEQLRQMDPGYPKASA-LWEGLPPDLDDAMSWS-DGSSYFFKGREYWRVPGGAVEAEPGFPRLTSTDWLLC</Hsp_hseq>
+      <Hsp_midline>D C+ +  FDAVAQIRGE FFFK ++ +R T +       P  +  FW  LP   + +DA YE   + + VFF G   W++  + +E  YP+ IS  GLP D  G+DAA+ +    KTY F   ++WRY+E  ++MDPG+PK  A  W  +P DLD A+S + DG SYFFK   Y ++    ++           DWL C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.0056e-05</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVA------NYNFFHRKPKWGQKNVTYRILGHTPD</Hsp_qseq>
+      <Hsp_hseq>ALTRAIRAMQRFGGLKETGIFDQDTLLLMGTPRCSLPDVPEGSTGRSRRALMPQSKWNKRHLSWRMARDAPD</Hsp_hseq>
+      <Hsp_midline> L   ++ MQ+F  L ETG  DQ T+ +M  PRC +PDV       +      + KW ++++++R+    PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|768931584|ref|XP_003968289.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003968289</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.51353e-34</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT-FTKTLRLSDDDVKGIQELYGEPTD--------KPLATHTPPVTPMDVCNENI----------IFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKD--WLRC</Hsp_qseq>
+      <Hsp_hseq>FDRAERWTLNGYKGHNLFMVAAHEIGHTLGLEHSPVRHALMSPYYRKLGRSLVPSWDDIVAVQQLYGKPSSSHPVRLLGQVLHATLQDLEFTELHNQHRGKGQPLYCQGVFDAITIDQNETVFVFRGNMYWTVSTDGSVGGPRPLLQRWSHLPTAIEAATFSPLDFKWYFFKGKRMWRYAGDVLDPGFPKKNTDLGLP---HHPDSAFYYAPLGHMVIFKGSRYFVLNLRTMIQEHYYPRRLTD-WTGVPWGTNGALA-RPDGRLFFFREKRFWRFDPVKVRVTQEGQWAEDLSWTGC</Hsp_hseq>
+      <Hsp_midline>FD   +W     +G++LF+VAAHE GH LGLEHS    ALM+P Y    ++L  S DD+  +Q+LYG+P+         + L      +   ++ N++           +FDA+   + E  F     ++ T        GP  +   WS LP  I+AA  +PL+ +  FF G  MW Y+   L+  +PKK + +GLP   H  D+A+ +       IF G++++  N      +  +P+ + D WT VP   +GAL+   DG  +FF++  + + D   +++ + G+  +D  W  C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.86928e-19</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD-----------VANYNFFHRKP-------KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGY--PFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>IHSAISDFQRISRLPVTGRLDSATLRQMSEPRCGVSDEGSQKNWAQRVKATFTRQRRKARSATQDRKWYKRHLTYQIINWPRHLPLSSVRLVVHAAFQLWSNVSNLVFREASEGPADIRLAFYEGDHNDGTGNAFDGPGGTLAHAFLPR---RGEAHFDRAERWTL</Hsp_hseq>
+      <Hsp_midline>+   +   Q+   LP TG +D  T+  M +PRCGV D            A +    RK        KW ++++TY+I+     L   ++    + AF++WS+V+ L F    +G ADI + F   +H DG    FDG  G LAHAF P     G++HFD  E+WTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|410919419|ref|XP_003973182.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-19 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003973182</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.85497e-31</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT-FTKTLRLSDDDVKGIQELYGEPTDKPLATHTPP-VTPMDVCNEN-IIFDAVAQIRGEI--------FFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVG---EVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDDDEFWTEGSYYGSNLRIVAAHEIGHALGLGHSQFRSALMAPVYTGYQVNFKLHSDDIKGIQALYGKRATSSLDSATPAGVFPTENSQETEIIPDPCTATLDAIMLGPWKKTFAFSGNYVWTISDMGH--NTPIKIDRLWPGLPGSMNAAVHSKRTNKTYFFKGNKVWRYTMFVKDYGYPKVVKR--IPPN---IDAALYLEKNKKLVFIKGSEHWQWDELKYTDLSVYPKPLSALFTGAPSSVDAAFTWT-NGKIFFFKGDDYWRVN--ALLSVDRGYPLSKKERWMRC</Hsp_hseq>
+      <Hsp_midline>FDDD  W      G +L +VAAHE GHALGL HS    ALMAP+YT +    +L  DD+KGIQ LYG+     L + TP  V P +   E  II D        I        F F   +++  +D+      P+ +   W  LP  ++AA  +    +T FF G+++W Y+    +  YPK +    +P +   IDAA    K KK     G++ W+++E K      +PK ++  +T  P  +D A +   +G  +FFK   Y +++   L  +  G     K+ W+RC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.85451e-26</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ALHYLNKFYGCPKDRCN------LMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKP--KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>AKNYLTK-YGYLNDAADQEDPQYLEEVMEALRVFQKVNDLPPTGEPDEATLKVMRQPRCGLKDPFNKKYLKYRVMGRWRKKSLTYRIYNYTPDMKKTDVSAAVRAAFRYWSDVADLTFREIHYGRADIRLAFHKRDGFCSEPFDGLGRILAHAESPESGV---VHFDDDEFWTEG</Hsp_hseq>
+      <Hsp_midline>A +YL K YG   D  +      L  + + L+  QK   LP TGE D+ T+++M++PRCG+ D  N  +   +   +W +K++TYRI  +TPD+ +  +  A   AF+ WSDV  L F  I  G ADI + F + +     PFDG   +LAHA +P  G+    HFDDDE WT G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|768924892|ref|XP_011605130.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011605130</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.58822e-31</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>FLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKFYGCPKDRCNL------MVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVA---------NYNFFHRKPKWGQKNVTYRILGHT--PDLDEDTIDDAFYRAFKVWSDVTPLKFTRI-------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL-GEGQ-------VVKVKYGNAEG-EFCKFPFLFMGKEYN</Hsp_qseq>
+      <Hsp_hseq>ILAPLSTVSILSFVLCVQAAHVPEEDSFYAQAWLRSFGYLPKASRQMSSMQSARMLPKAISRMQRFYGLEVTGELDAATIAAMRRPRCGLPDVTPLEVEQDSRRKRYVLRGQRWDEDHITYSVLTQQIPTSLGEQRTSDTIRRALDMWERVTPLSFKELPAVSRSNQSALADIMLLFASGFHGDMSLFDGEGGSLAHAFYPGPGIGGDVHFDADERWTLDSQGQTGVDLFLVAVHELGHALGLEHSDNPAAIMAPLYQ</Hsp_hseq>
+      <Hsp_midline> LA L T +  S ++          D   A  +L  F   PK    +       +L   + +MQ+F+ L  TGE+D  T+  M++PRCG+PDV             +  R  +W + ++TY +L       L E    D   RA  +W  VTPL F  +           ADIM+ F    HGD   FDG+ G LAHAF PGPGIGGD HFD DE+WTL  +GQ       V   + G+A G E    P   M   Y </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>8.75165e-26</Hsp_evalue>
+      <Hsp_query-from>462</Hsp_query-from>
+      <Hsp_query-to>639</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>PMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDD</Hsp_qseq>
+      <Hsp_hseq>PPDICDGD--FDTVTLLRGEMFVFKGRWFWRVRRNRVLDNYPMPISVFWVGLPSNIDAAYER-HDGKFVFFKDDKFWVFREADVLPGYPQPLREYGKGVPVHKIDTAIWWEPNGYTYFFSGDRYWRFNEQTRSTDSDFPKPNS-RWGRIPDSPRGAFLSDDSAYTYIYQGSNYWRFDN</Hsp_hseq>
+      <Hsp_midline>P D+C+ +  FD V  +RGE+F FK R+ +R    R     PM ++ FW  LP  IDAAYE   + + VFF  D+ WV+  + +   YP+ +   G    +H ID A  +     TY F+G+++WR+NE  +  D  FPK  +  W  +PD   GA   +   ++Y ++ S+Y + D+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.02418e-15</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPD--QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNE</Hsp_qseq>
+      <Hsp_hseq>FDADERWTLDSQGQTGVDLFLVAVHELGHALGLEHSDNPAAIMAPLYQWMHTHDFTLHPDDIQGVQSIYGPPLTAPPVHEDPPTSSVPPLEE</Hsp_hseq>
+      <Hsp_midline>FD D +W        G  LFLVA HE GHALGLEHSD+P A+MAP+Y +  T    L  DD++G+Q +YG P   P     PP + +    E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|768961184|ref|XP_011618728.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-24, partial [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011618728</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>3.77515e-30</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>607</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPT-----DKPLATHTPPVTPM----------------------------DVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSW</Hsp_qseq>
+      <Hsp_hseq>LFLVAVHELGHALGLEHSNDPSAIMAPFYQYMDTHNFKLPLDDLQGIQKIYGVPTAMMEPTRPLPTLPTRRTPSTSERKHDRHSRPPRPPADRPALPGNGRPNICDGN--FNTVAFFRREMFVFKDRWFWRLRNNKVQEGYPMQIDQFWKGLPPRIDATYERP-DGKFVFFKGKN---------------KLSCNN--------------GETYYTYFYRGKEYWKFDNQKLAVEPGYPKSVLRDW</Hsp_hseq>
+      <Hsp_midline>LFLVA HE GHALGLEHS+DP A+MAP Y +  T   +L  DD++GIQ++YG PT      +PL T     TP                             ++C+ N  F+ VA  R E+F FKDR+ +R  + + +   PM +  FW  LP +IDA YE P + + VFF G                 K+S                  +T  TY + G ++W+++  K  ++PG+PK +   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|768960806|ref|XP_011618573.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: matrix metalloproteinase-17-like, partial [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011618573</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.11571e-24</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>VATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIK--VGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>IHRFWRGLPPSLDGVDAVYERAADHKIVFFKGSRYWLFKDNIME-EGPRPISDFGLP--LDGVDAAFVWLHNHKTYFFRERRYWRYDEQLRQMDPGYPKASA-LWEGLPPDLDDAMSWS-DGSSYFFKGREYWRVPGGAVEAEPGFPRLTSTDWLLC</Hsp_hseq>
+      <Hsp_midline>+  FW  LP   + +DA YE   + + VFF G   W++  + +E E P+ IS  GLP  L G+DAA+ +    KTY F   ++WRY+E  ++MDPG+PK  A  W  +P DLD A+S + DG SYFFK   Y ++    ++           DWL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|768960410|ref|XP_011618413.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17-like, partial [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011618413</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.60543e-19</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGI-GGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>LGRDTVRALMHYALKVWSDIAPLNFHEVAGSDADIQIDFTKADHEDGYPFDGPGGTVAHAFFPGEKFSAGDTHFDDDEAWTF</Hsp_hseq>
+      <Hsp_midline>L  DT+    + A KVWSD+ PL F  +   +ADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.3353e-07</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPDQ-GYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRT--ADVRKKPTGPMLVATFW---------SELPEKIDAA</Hsp_qseq>
+      <Hsp_hseq>GEKFSAGDTHFDDDEAWTFRSPDADGVDLFAVAVHEFGHAIGLVHTSAVESIMRPYYQ--------------------GPVGDPLKYHLTYEDKVRVWQLYGVRDSVSHTSSS-YFFKGREYWRVPGGAVEAEPGFPRLTSTDWLLCSQMQADSPDPEAPDAA</Hsp_hseq>
+      <Hsp_midline>G+ + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y                      P   PL  H      + V     + D+V+      +FFK R  +R     V  +P  P L +T W         S  PE  DAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|768960412|ref|XP_011618414.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011618414</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.16628e-18</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>FYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGI-GGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MHYALKVWSDIAPLNFHEVAGSDADIQIDFTKADHEDGYPFDGPGGTVAHAFFPGEKFSAGDTHFDDDEAWTF</Hsp_hseq>
+      <Hsp_midline> + A KVWSD+ PL F  +   +ADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.48672e-06</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPDQ-GYSLFLVAAHEFGHALGLEHSDDPGALMAPIY</Hsp_qseq>
+      <Hsp_hseq>GEKFSAGDTHFDDDEAWTFRSPDADGVDLFAVAVHEFGHAIGLIHTSAVESIMRPYY</Hsp_hseq>
+      <Hsp_midline>G+ + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|768940664|ref|XP_011610261.1|</Hit_id>
+  <Hit_def>PREDICTED: protein sel-1 homolog 1 isoform X1 [Takifugu rubripes] &gt;gi|768940666|ref|XP_011610262.1| PREDICTED: protein sel-1 homolog 1 isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011610261</Hit_accession>
+  <Hit_len>823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.26341e-14</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>PKEVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETEEQSQQRLQAEE</Hsp_hseq>
+      <Hsp_midline>P+     +GG +DG PC+FPF F    Y  CTT GR DG++WCA T  ++ D+KWGFC  +  S   + A E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.91153e-14</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMS</Hsp_qseq>
+      <Hsp_hseq>PKEVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETEEQS</Hsp_hseq>
+      <Hsp_midline>P E+    GG ADG PC FPF FQ  +Y  CTT GR DG  WCATT DY+ DK +GFC     S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.44307e-13</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE</Hsp_qseq>
+      <Hsp_hseq>EVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETE</Hsp_hseq>
+      <Hsp_midline>+V  V  G A+GE C FPFLF  KEY  CT+ GR DG LWC+TTY+++ D K+GFC  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|768940668|ref|XP_011610263.1|</Hit_id>
+  <Hit_def>PREDICTED: protein sel-1 homolog 1 isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011610263</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.27868e-14</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>PKEVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETEEQSQQRLQAEE</Hsp_hseq>
+      <Hsp_midline>P+     +GG +DG PC+FPF F    Y  CTT GR DG++WCA T  ++ D+KWGFC  +  S   + A E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.88531e-14</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMS</Hsp_qseq>
+      <Hsp_hseq>PKEVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETEEQS</Hsp_hseq>
+      <Hsp_midline>P E+    GG ADG PC FPF FQ  +Y  CTT GR DG  WCATT DY+ DK +GFC     S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.30944e-13</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE</Hsp_qseq>
+      <Hsp_hseq>EVPVVNGGTADGEPCIFPFLFQKKEYTDCTTDGRGDGRLWCATTYDYNMDKKWGFCETE</Hsp_hseq>
+      <Hsp_midline>+V  V  G A+GE C FPFLF  KEY  CT+ GR DG LWC+TTY+++ D K+GFC  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|768931031|ref|XP_011606279.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011606279</Hit_accession>
+  <Hit_len>1434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.93897e-14</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>IFTLGGNAFGAPCQFPFKFQTKWYSECTKDGRSDRQLWCATDRDYDMKKKWGFCP</Hsp_hseq>
+      <Hsp_midline>+FTLGGNA GAPC+FPF FQ   Y  CT  GR D   WCAT  DYD  K +GFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>8.62071e-13</Hsp_evalue>
+      <Hsp_query-from>339</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG</Hsp_qseq>
+      <Hsp_hseq>TLGGNAFGAPCQFPFKFQTKWYSECTKDGRSDRQLWCATDRDYDMKKKWGFCPTEG</Hsp_hseq>
+      <Hsp_midline>T GGN+ GAPC FPFKF    Y  CT  GR+D ++WCA  + +D  +KWGFCP +G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.32385e-09</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNAD</Hsp_qseq>
+      <Hsp_hseq>GNAFGAPCQFPFKFQTKWYSECTKDGRSDRQLWCATDRDYDMKKKWGFCPTE--GTLGWDTD</Hsp_hseq>
+      <Hsp_midline>GNA G  C+FPF F  K Y+ CT  GR D  LWC+T  ++D   K+GFCP E   TLG + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|768918442|ref|XP_011602484.1|</Hit_id>
+  <Hit_def>PREDICTED: C-type mannose receptor 2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011602484</Hit_accession>
+  <Hit_len>1483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.35734e-14</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>PYREIYTIQGNSHGHPCYFPFLYDGQWFHNCTDIGREDGHLWCATTSDYGKDEQWGFCP</Hsp_hseq>
+      <Hsp_midline>P+  ++T+ GN+ G PC FPF + G  + +CT  GR+DG+ WCATT DY KD+ +GFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.07634e-11</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>PYREIYTIQGNSHGHPCYFPFLYDGQWFHNCTDIGREDGHLWCATTSDYGKDEQWGFCP</Hsp_hseq>
+      <Hsp_midline>P   + T  GNS G PC FPF + G  + +CT  GR DG +WCA T  +  D +WGFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>4.0914e-10</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>GNSHGHPCYFPFLYDGQWFHNCTDIGREDGHLWCATTSDYGKDEQWGFCP</Hsp_hseq>
+      <Hsp_midline>GN+ G  C FPFL+ G+ +++CT  GR+DG LWC+TT ++  D ++GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|768908499|ref|XP_011614551.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614551</Hit_accession>
+  <Hit_len>665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.07341e-13</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>SGRNDGKMWCAVTKSFDDDRKWGFCPD--QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK-TLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNE--NIIFDAVAQ---------IRGEIFFFKD--RFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEER---TVFFAGDEMWVYSAS-----TLE---REYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAV-----PD-DLDGALSLNGDGHSYFFKDSHYLKMDDS</Hsp_qseq>
+      <Hsp_hseq>TGQEFAHAWFLGDIHFDDDEHFT-APNTGSGISLLKVAVHEIGHVLGLPHIYRSGSIMQPSYLPQESSFEMGWMDRKAIQHLYGG------------------CNGRFSTVFDWIRKEKTPYGEVVVRFNTYFMRDGWYWLYENRNNRTRYGDPVTLQIGWHGLPKDGVDAYVHVWSRKRDTVYFFKGTRFWRYDSENDRVFTLDPEGRRYPRPISE-GFPGVIGPIDTAFYDRRDSHIYFFKNALVYAFNVGANALARGFPKSIREVFPAVRRGDHPDGHIDAAYFSYTHGAVFLLKGSRFWRVAGS</Hsp_hseq>
+      <Hsp_midline>+G+     W      FDDD  +   P+   G SL  VA HE GH LGL H    G++M P Y   + +  +   D K IQ LYG                   CN   + +FD + +         +R   +F +D   +L+   + R +   P+ +   W  LP+    AY +    +     FF G   W Y +      TL+   R YP+ IS  G P  +  ID A+   +    Y F     + +N     +  GFPK I + + AV     PD  +D A      G  +  K S + ++  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.47731e-05</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>QKNVTYRILG--HTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDG---EADIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>KRLLKWRLIGEGYSSQLTVEEQRYIFRLAFRMWSEVSPLEFVEDMRSPLEDVDIRLGFGTGRHLGCNQRFDGTGQEFAHAW-----FLGDIHFDDDEHFT</Hsp_hseq>
+      <Hsp_midline>++ + +R++G  ++  L  +     F  AF++WS+V+PL+F   M     + DI + FG   H G    FDG     AHA+       GD HFDDDE +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|768936033|ref|XP_011608367.1|</Hit_id>
+  <Hit_def>PREDICTED: secretory phospholipase A2 receptor [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011608367</Hit_accession>
+  <Hit_len>1466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>7.88923e-13</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>RDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>RNAHHLW--KRYNTDREGPCSR-PYEDIHTLLGNAHGMPCALPFKYNNKWYYECTAEGRDDHLLWCATSTHYDDTKKWGFCP</Hsp_hseq>
+      <Hsp_midline>R+   LW    YN D +G     P+E + TL GNA G PC  PF +    Y  CT  GRDD   WCAT+  YD  K +GFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.35871e-12</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>YDKDKTYGFC--PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYS</Hsp_qseq>
+      <Hsp_hseq>YNTDRE-GPCSRPYEDIHTLLGNAHGMPCALPFKYNNKWYYECTAEGRDDHLLWCATSTHYDDTKKWGFCPVPGYS</Hsp_hseq>
+      <Hsp_midline>Y+ D+  G C  P   + T  GN+ G PC  PFK+    Y  CT  GR+D  +WCA +  +DD +KWGFCP  GYS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.04376e-10</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>IHTLLGNAHGMPCALPFKYNNKWYYECTAEGRDDHLLWCATSTHYDDTKKWGFCP</Hsp_hseq>
+      <Hsp_midline>+    GNA G  C  PF +  K Y  CT++GRDD  LWC+T+ ++DD  K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|768932981|ref|XP_011607087.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011607087</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.88331e-12</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGE--ADIMINFGRNEHGDGY------PFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQ</Hsp_qseq>
+      <Hsp_hseq>KWRHHNITYRILKFPNTLNVDDTRKAIGIAFAKWSGVSPLTFTEVTNSNTTVDISIGFYTFNHTDCWWSPLHPCFDGLNGELAHAFLPP---RGEIHFDNHEFWILGKSR</Hsp_hseq>
+      <Hsp_midline>KW   N+TYRIL     L+ D    A   AF  WS V+PL FT + +     DI I F    H D +       FDG +G LAHAF P     G+ HFD+ E W LG+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.58774e-10</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVQVAAHEIGHALGLWHSRDPTALMHPNATYTGQRNVAQDDVWGIQRLYG</Hsp_hseq>
+      <Hsp_midline>L  VAAHE GHALGL HS DP ALM P  T+T    ++ DDV GIQ LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|768913366|ref|XP_011619705.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X3 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011619705</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.25729e-11</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>ETGEIDQKT--VEIMKKPRCGVPDVAN---YNFFHRKPKWGQKNVTYRILGHTPDL-DEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>EIGEAYTRVLLIGIRKEARSHVLHLSRNKRYTLTPGKLKWDKFKLTYKLLSFPTNLINASDTRRGIAKAFGLWSDVSPFSFREVPADEEADIKIGFYPINHTDCLQSYLHHCFDGITGELAHAFFPQTG---EIHFDDSEYWILG</Hsp_hseq>
+      <Hsp_midline>E GE   +   + I K+ R  V  ++    Y     K KW +  +TY++L    +L +         +AF +WSDV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P  G   + HFDD E W LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.15337e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVATHEIGHALGLMHSMDPKAIMHLNATLTGRKLITQDEVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VA HE GHALGL HS DP A+M    T T    ++ D+V G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|410899050|ref|XP_003963010.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003963010</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.13299e-11</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FALPETGEIDQKTVEIMKKPRCGVPDVAN---YNFFHRKPKWGQKNVTYRILGHTPDL-DEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>WRLEEEAYTRVLLIGIRKEARSHVLHLSRNKRYTLTPGKLKWDKFKLTYKLLSFPTNLINASDTRRGIAKAFGLWSDVSPFSFREVPADEEADIKIGFYPINHTDCLQSYLHHCFDGITGELAHAFFPQTG---EIHFDDSEYWILG</Hsp_hseq>
+      <Hsp_midline>+ L E        + I K+ R  V  ++    Y     K KW +  +TY++L    +L +         +AF +WSDV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P  G   + HFDD E W LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.4461e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVATHEIGHALGLMHSMDPKAIMHLNATLTGRKLITQDEVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VA HE GHALGL HS DP A+M    T T    ++ D+V G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|768940429|ref|XP_011610174.1|</Hit_id>
+  <Hit_def>PREDICTED: cation-independent mannose-6-phosphate receptor [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011610174</Hit_accession>
+  <Hit_len>2496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.26279e-11</Hsp_evalue>
+      <Hsp_query-from>344</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1894</Hsp_hit-from>
+      <Hsp_hit-to>1974</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>SDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG----YSLFLVAAHEFGHALGLEHSDDPGAL</Hsp_qseq>
+      <Hsp_hseq>SDGEVCVLPFTFMKKLYKECTKDGRTEGRKWCATTASYDTDGKWGFCTEASAKRRSSILFICDYSAGHGTPQLLSETAGCL</Hsp_hseq>
+      <Hsp_midline>SDG  CV PF F+   Y  CT  GR +G+ WCA T S+D D KWGFC +       S+  +  +  GH      S+  G L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.6022e-09</Hsp_evalue>
+      <Hsp_query-from>228</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1894</Hsp_hit-from>
+      <Hsp_hit-to>1940</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>AEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFC</Hsp_qseq>
+      <Hsp_hseq>SDGEVCVLPFTFMKKLYKECTKDGRTEGRKWCATTASYDTDGKWGFC</Hsp_hseq>
+      <Hsp_midline>++GE C  PF FM K Y  CT  GR +G  WC+TT ++D DGK+GFC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.1449e-08</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1894</Hsp_hit-from>
+      <Hsp_hit-to>1944</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETA</Hsp_qseq>
+      <Hsp_hseq>SDGEVCVLPFTFMKKLYKECTKDGRTEGRKWCATTASYDTDGKWGFCTEAS</Hsp_hseq>
+      <Hsp_midline>+DG  C  PFTF    Y  CT  GR +G +WCATT  YD D  +GFC E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|768913364|ref|XP_011619701.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011619701</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.62665e-08</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>RAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>KAFGLWSDVSPFSFREVPADEEADIKIGFYPINHTDCLQSYLHHCFDGITGELAHAFFPQTG---EIHFDDSEYWILG</Hsp_hseq>
+      <Hsp_midline>+AF +WSDV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P  G   + HFDD E W LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.51837e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVATHEIGHALGLMHSMDPKAIMHLNATLTGRKLITQDEVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VA HE GHALGL HS DP A+M    T T    ++ D+V G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|298566236|ref|NP_001177292.1|</Hit_id>
+  <Hit_def>CD205 protein [Takifugu rubripes] &gt;gi|237769789|dbj|BAH59415.1| CD205 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>NP_001177292</Hit_accession>
+  <Hit_len>1627</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.12395e-08</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFC--PDQG</Hsp_qseq>
+      <Hsp_hseq>PYRVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEG</Hsp_hseq>
+      <Hsp_midline>P   + T+ GNS+G PCVFPFK+ G  Y  C    +     WCA T  FD D++ G C  P++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.25454e-08</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC--PETAMST</Hsp_qseq>
+      <Hsp_hseq>PYRVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEGCQT</Hsp_hseq>
+      <Hsp_midline>P+ ++ T  GN++G PC FPF + G  Y  C    +     WCATT D+D+D+  G C  PE    T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.22387e-06</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFC--PHELLFTLGGNADGAPC</Hsp_qseq>
+      <Hsp_hseq>RVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEGCQTLFAGPEDKSC</Hsp_hseq>
+      <Hsp_midline>+VV    GN+EG  C FPF + G  Y+ C  + +     WC+TT +FD D + G C  P E   TL    +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|768935268|ref|XP_011608038.1|</Hit_id>
+  <Hit_def>PREDICTED: CD205 protein isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011608038</Hit_accession>
+  <Hit_len>1740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.37711e-08</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFC--PDQG</Hsp_qseq>
+      <Hsp_hseq>PYRVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEG</Hsp_hseq>
+      <Hsp_midline>P   + T+ GNS+G PCVFPFK+ G  Y  C    +     WCA T  FD D++ G C  P++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.41797e-08</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC--PETAMST</Hsp_qseq>
+      <Hsp_hseq>PYRVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEGCQT</Hsp_hseq>
+      <Hsp_midline>P+ ++ T  GN++G PC FPF + G  Y  C    +     WCATT D+D+D+  G C  PE    T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.52742e-06</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFC--PHELLFTLGGNADGAPC</Hsp_qseq>
+      <Hsp_hseq>RVVHTTEGNSEGIPCVFPFKYNGSWYHGCIPEPQIPKVTWCATTMDFDQDQRKGLCLIPEEGCQTLFAGPEDKSC</Hsp_hseq>
+      <Hsp_midline>+VV    GN+EG  C FPF + G  Y+ C  + +     WC+TT +FD D + G C  P E   TL    +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|410910098|ref|XP_003968527.1|</Hit_id>
+  <Hit_def>PREDICTED: vitronectin [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003968527</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.38672e-06</Hsp_evalue>
+      <Hsp_query-from>532</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>FAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTK-KTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHS-----YFFKDSHY</Hsp_qseq>
+      <Hsp_hseq>FRGEYFFELDHKTVLPGYPKLIKDVWGISG--PIDAAFTRYNCQGKTYIFKGSKYWRFDNG--VLDDDYPRDISVGFDTIPDHIDAAFALPAPGHNGREKVYFFKGDQY</Hsp_hseq>
+      <Hsp_midline>F G+  +     T+   YPK I  +   S    IDAA++ +  + KTYIF G+K+WR++     +D  +P+ I+  +  +PD +D A +L   GH+     YFFK   Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.90926e-06</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>GIQELYGEPTDKPLATHTPPVT-----PMDVCNENIIFDAVAQIR-GEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYEN-PLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSF-----HKTKKTYIFAGNKFWRY</Hsp_qseq>
+      <Hsp_hseq>SLDEKVTEPSPIDPQTTTVPATTDVPDPDAVVCSGRRFDSFMQVKNGSVFAFRGEYFFELDHKTVLPGYPKLIKDVWG-ISGPIDAAFTRYNCQGKTYIFKGSKYWRFDNGVLDDDYPRDI-SVGFDTIPDHIDAAFALPAPGHNGREKVYFFKGDQYYTY</Hsp_hseq>
+      <Hsp_midline> + E   EP+     T T P T     P  V      FD+  Q++ G +F F+  + F        P  P L+   W  +   IDAA+     + +T  F G + W +    L+ +YP+ I S+G  +    IDAA++      +  +K Y F G++++ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|410915224|ref|XP_003971087.1|</Hit_id>
+  <Hit_def>PREDICTED: vitronectin-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003971087</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.80545e-06</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>603</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>FDAVAQIRG-EIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYEN-PLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSF----HKTK-KTYIFAGNKFWRY-------NEAKKKMDPGFPKII</Hsp_qseq>
+      <Hsp_hseq>FDAFLQLKNTSIYAFRGEYFFELDEKSILPGYPKLIQDVWG-IPGPIDAAFTRINCHGKSYIFKGSQYWRFDGDVMDEDYPRNI-SVGFGDVPDGVDAAFAVPAPSHRGKEKAYFFKEDRYYQYEFKHQPSHEECVEMNKASPSIL</Hsp_hseq>
+      <Hsp_midline>FDA  Q++   I+ F+  + F   +    P  P L+   W  +P  IDAA+       ++  F G + W +    ++ +YP+ I S+G      G+DAA++     H+ K K Y F  +++++Y       +E   +M+   P I+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.07e-05</Hsp_evalue>
+      <Hsp_query-from>532</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>FAGDEMWVYSASTLEREYPKKISSM-GLPSDLHGIDAAYS-FHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGH-----SYFFKDSHYLKMD</Hsp_qseq>
+      <Hsp_hseq>FRGEYFFELDEKSILPGYPKLIQDVWGIPGP---IDAAFTRINCHGKSYIFKGSQYWRFD--GDVMDEDYPRNISVGFGDVPDGVDAAFAVPAPSHRGKEKAYFFKEDRYYQYE</Hsp_hseq>
+      <Hsp_midline>F G+  +     ++   YPK I  + G+P     IDAA++  +   K+YIF G+++WR++     MD  +P+ I+  +  VPD +D A ++    H     +YFFK+  Y + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.99922e-05</Hsp_evalue>
+      <Hsp_query-from>558</Hsp_query-from>
+      <Hsp_query-to>648</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LPSDLHGIDA------AYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALS-LNGDGHSYFFKDSHYLK-----MDDSTLKIIKVG</Hsp_qseq>
+      <Hsp_hseq>LPVDAHAAPCSGRPFDAFLQLKNTSIYAFRGEYFFELDE--KSILPGYPKLIQDVW-GIPGPIDAAFTRINCHGKSYIFKGSQYWRFDGDVMDEDYPRNISVG</Hsp_hseq>
+      <Hsp_midline>LP D H          A+   K    Y F G  F+  +E  K + PG+PK+I D W  +P  +D A + +N  G SY FK S Y +     MD+   + I VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|768951157|ref|XP_011614580.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1-like isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614580</Hit_accession>
+  <Hit_len>1422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>9.59863e-06</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETA</Hsp_qseq>
+      <Hsp_hseq>LFTLEGNAFGKPCAFPFFYKDRWFGECTTYDSSTKRAWCAVGTRFENEQ-WGYCPTTS</Hsp_hseq>
+      <Hsp_midline>LFTL GNA G PC FPF ++   +  CTT        WCA    ++ ++ +G+CP T+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.75713e-05</Hsp_evalue>
+      <Hsp_query-from>328</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TYGFCPET--AMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>TRGACSRTYRELFTLEGNAFGKPCAFPFFYKDRWFGECTTYDSSTKRAWCAVGTRFENE-QWGYCP</Hsp_hseq>
+      <Hsp_midline>T G C  T   + T  GN+ G PC FPF +    +  CTT   +  + WCAV   F+++ +WG+CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|768951159|ref|XP_011614581.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1-like isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614581</Hit_accession>
+  <Hit_len>1206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.04359e-05</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETA</Hsp_qseq>
+      <Hsp_hseq>LFTLEGNAFGKPCAFPFFYKDRWFGECTTYDSSTKRAWCAVGTRFENEQ-WGYCPTTS</Hsp_hseq>
+      <Hsp_midline>LFTL GNA G PC FPF ++   +  CTT        WCA    ++ ++ +G+CP T+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>2.06409e-05</Hsp_evalue>
+      <Hsp_query-from>328</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TYGFCPET--AMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>TRGACSRTYRELFTLEGNAFGKPCAFPFFYKDRWFGECTTYDSSTKRAWCAVGTRFENE-QWGYCP</Hsp_hseq>
+      <Hsp_midline>T G C  T   + T  GN+ G PC FPF +    +  CTT   +  + WCAV   F+++ +WG+CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|768951163|ref|XP_011614583.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1-like isoform X2 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614583</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00012198</Hsp_evalue>
+      <Hsp_query-from>330</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GFCPET--AMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>GACMKTYRELYTIGGNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHEL-WGYCP</Hsp_hseq>
+      <Hsp_midline>G C +T   + T GGN++G  C+FPF +    Y  C+       ++WC+V   ++ +  WG+CP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000126358</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>LYTIGGNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHE-LWGYCP</Hsp_hseq>
+      <Hsp_midline>L+T+GGNA+G  C FPF ++   Y  C+         WC+    Y+ +  +G+CP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000161726</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>GNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHE-LWGYCP</Hsp_hseq>
+      <Hsp_midline>GNA G+FC FPFL+  + Y+ C+        LWCS    ++ +  +G+CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|768951161|ref|XP_011614582.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1-like isoform X1 [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011614582</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000184545</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>LYTIGGNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHE-LWGYCP</Hsp_hseq>
+      <Hsp_midline>L+T+GGNA+G  C FPF ++   Y  C+         WC+    Y+ +  +G+CP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000203085</Hsp_evalue>
+      <Hsp_query-from>330</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GFCPET--AMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>GACMKTYRELYTIGGNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHEL-WGYCP</Hsp_hseq>
+      <Hsp_midline>G C +T   + T GGN++G  C+FPF +    Y  C+       ++WC+V   ++ +  WG+CP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000239597</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>GNANGKFCMFPFLYKDRWYSDCSVDDSPGNRLWCSVETKYEHE-LWGYCP</Hsp_hseq>
+      <Hsp_midline>GNA G+FC FPFL+  + Y+ C+        LWCS    ++ +  +G+CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29126</Statistics_db-num>
+      <Statistics_db-len>17567095</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
