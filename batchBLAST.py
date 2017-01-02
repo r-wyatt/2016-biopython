@@ -139,7 +139,6 @@ def consolidate_species(dir):
 def merge_all_fasta(dir):
 	wdir = os.path.join(dir,"fasta","")
 	files = glob.glob(os.path.join(wdir,"*")) # Makes list of filenames
-	print files
 	with open(os.path.join(dir,"master.txt"), "w") as outfile:
 		for file in files:
 			with open(file, "r") as infile:
@@ -157,7 +156,7 @@ def merge_all_fasta(dir):
 # Species in the form of full scientific name (Genus species), seqQuery as an accession
 # and out as the name of the file to save to (speciesCode_accession).
 def search_NCBI(species, seqQuery, out):	
-	print("\n\nSearching: "+species+" for "+seqQuery)
+	print("\n\n Searching: "+species+" for "+seqQuery)
 	# NCBI query
 	run = True
 	if len(sys.argv) > 3 and sys.argv[3] == "mock":
@@ -173,9 +172,9 @@ def search_NCBI(species, seqQuery, out):
 		save_file.close()
 		result.close()
 		time.sleep(15) # Pause 15s between database queries
-		print("Saving file as: " + out)
+		print(" Saving file as: " + out)
 	else:
-		print("\n\nMock Search")
+		print("\n     Mock Search")
 
 #-----------------------------------------------------------------------------
 # Given input file, give a csv of IDs
@@ -186,7 +185,6 @@ def search_NCBI(species, seqQuery, out):
 # file to send the file names of processed BLAST searches to.
 
 def get_ids(filename, dir, ethresh = 0.01):
-	print("get_ids",filename)
 	eValueThresh = ethresh
 	result = open(os.path.join(dir,"BLAST",filename),"r") # mode omitted defaults to read only
 	blast_record = NCBIXML.parse(result)
@@ -231,7 +229,7 @@ def fetch_data(datatype, rname, dir):
 # Reformat genbank file to FASTA
 #-----------------------------------------------------------------------------
 def process_gbk(dir):
-	print "\n\nFormatting genbank data to FASTA..."
+	print "\n\n Formatting genbank data to FASTA..."
 	wdir = os.path.join(dir,"gb","")
 	rm = r'master([A-Z|a-z]{4}).*'
 	read_files = [f for f in listdir(wdir) if isfile(wdir+f) and re.match(rm,f) != None] 
@@ -265,7 +263,6 @@ def run_blasts(dir):
 			setDirections = []
 			for row in index:
 				setDirections.append(row)
-			print(setDirections)
 			for species in setDirections[0]:
 				for accession in setDirections[1]:
 					matchSpecies = re.match(r'([A-Z|a-z])[A-Z|a-z]* ([A-Z|a-z]{3}).*', species)
@@ -274,7 +271,7 @@ def run_blasts(dir):
 					out = os.path.join(dir,"BLAST",name)
 					search_NCBI(species, accession, out)
 	else:
-		print("\n\nInput file doesn't exist\n\n")
+		print("\n\n Input file doesn't exist\n\n")
 		
 #-----------------------------------------------------------------------------
 # Parse a series of xml BLAST output files to return accession lists
