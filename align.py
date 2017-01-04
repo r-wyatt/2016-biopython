@@ -31,7 +31,6 @@ outfile2 = "trimAlign.aln"
 #-----------------------------------------------------------------------------
 # Set-up section
 #-----------------------------------------------------------------------------
-from subprocess import call
 import os.path
 import sys
 import os
