@@ -12,29 +12,19 @@ Edit the filenames below:			'''
 infile = "align.aln"
 outfile = "trimAlign.aln"
 
-
 #-----------------------------------------------------------------------------
 # Set-up section
 #-----------------------------------------------------------------------------
 from Bio import AlignIO
-from Bio import Phylo
-from StringIO import StringIO
-import subprocess
-import os.path
-import sys
-import os
-import re
+import sys, os, re
 
 #-----------------------------------------------------------------------------
-# Function to use trimal to trim alignment
+# Function to use Gblocks to trim alignment
 #-----------------------------------------------------------------------------
-def trim_align(alignpath,outpath):
-	cmd = ['trimal', '-in', alignpath, '-out', outpath, "-automated1"]
-	process = subprocess.Popen(cmd)
-	process.wait()
-	print('\nDone trim\n')
+def blocktrim(input):
+	os.system("Gblocks.exe "+input)
 #-----------------------------------------------------------------------------
-# Functions to condense fasta names before saving as phylip
+# Reformat alignment
 #-----------------------------------------------------------------------------
 def trim_fasta_names(alignpath, input):
 	no_ext = re.sub(r'\.[A-Za-z]{3}', "", input)
@@ -43,7 +33,7 @@ def trim_fasta_names(alignpath, input):
 	stdout_bak = sys.stdout
 	sys.stdout = open(os.path.join(alignpath, outname),"w")
 	for line in open(os.path.join(alignpath, input)):
-		line = re.sub(r'\>([A-Za-z]{1})[A-Za-z]{3} (\S*)', r'>\1\2', line)
+		line = re.sub(r'\>([A-Za-z]{4}) (\S*)', r'>\1\2', line)
 		s = line[0] + line[1].lower() + line[2:]
 		print s,
 	sys.stdout = stdout_bak
@@ -52,18 +42,13 @@ def trim_fasta_names(alignpath, input):
 def format_converter(alignpath, input, output_style):
 	alignment = AlignIO.read(os.path.join(alignpath,input), "fasta")
 	AlignIO.write(alignment,os.path.join(alignpath,"transfomed.phy"),output_style)
-	
-
 #-----------------------------------------------------------------------------
 # Flow control
 #-----------------------------------------------------------------------------
 dir = sys.argv[1] # First argument is the master directory name
 
-inpath = os.path.join(dir,infile)
-outpath = os.path.join(dir,outfile)
-
-trim_align(dir,infile)
-trim_fasta_names(dir,outfile)
+blocktrim(os.path.join(dir,"align.aln"))
+trim_fasta_names(dir,"align.aln-gb")
 
 
 

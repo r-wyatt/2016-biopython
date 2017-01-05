@@ -171,7 +171,7 @@ def search_NCBI(species, seqQuery, out):
 		save_file.write(result.read())
 		save_file.close()
 		result.close()
-		time.sleep(15) # Pause 15s between database queries
+		time.sleep(1) # Pause 1s between database queries
 		print(" Saving file as: " + out)
 	else:
 		print("\n     Mock Search")
@@ -188,7 +188,7 @@ def get_ids(filename, dir, ethresh = 0.01):
 	eValueThresh = ethresh
 	result = open(os.path.join(dir,"BLAST",filename),"r") # mode omitted defaults to read only
 	blast_record = NCBIXML.parse(result)
-	blast_records = list(blast_record) # Why does this line given me an error?
+	blast_records = list(blast_record)
 	record = blast_records[0]
 	hits = []
 	for alignment in record.alignments:
@@ -214,7 +214,8 @@ def get_ids(filename, dir, ethresh = 0.01):
 	csvfile.close()
 
 #-----------------------------------------------------------------------------
-# Fetch data can take either the list of accessions or name of csv (one entry per line)
+# Fetch data can takes the name of csv species in the first row, accessions in 
+# the second row.
 #-----------------------------------------------------------------------------
 def fetch_data(datatype, rname, dir):
 	accs = csv_to_list(os.path.join(dir,"accs",rname+".csv"))
@@ -240,7 +241,6 @@ def process_gbk(dir):
 			input_handle = open(os.path.join(wdir,file),"r")
 			output_handle = open(os.path.join(dir,"fasta",spec+".txt"),"w")
 			for seq_record in SeqIO.parse(input_handle, "genbank"):
-				#print "Dealing with GenBank record %s" % seq_record.id
 				output_handle.write(">%s %s\n%s\n" % (
 															find_species(seq_record.description),
 															seq_record.id,
