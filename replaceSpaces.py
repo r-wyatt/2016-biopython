@@ -2,35 +2,24 @@
 # Functionally this will replace all spaces with underscores
 # for any line that includes ">"
 
-'''
-Usage:
-	replaceSpaces.py directoryOfFastaFiles
+import re, sys, glob, os
 
-Options:
-	-h --help	Show this screen.
-	--filext	Transform only files with the given file extension.
-'''
-
-from docopt import docopt
-print(docopt(__doc__, version='Replace Spaces 1.0')
-
-import re, sys
-
-def rem_spaces(file):
+def rem_spaces(dir, file):
 	stdout_bk = sys.stdout
-	sys.stdout = open("ns_"+file,"w+")
-	with open(file) as f:
+	sys.stdout = open(file,"w+")
+	with open(os.path.join(dir,"ns"+file),"w+") as f:
 		for line in f:
 			if re.search(r'>',line):
 				line = re.sub(r' ',"_",line)
-			sys.stdout.write(line)
+			print(line)
 		print "file finished"
 	sys.stdout = stdout_bk
 	
 
 def do_all_files(directory):
-	files = [f for f in listdir(wdir) if isfile(wdir+f)]
+	dir = os.path.join(directory,"fasta")
+	files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir,f))]
 	for file in files:
-		rem_spaces(file)
+		rem_spaces(dir,file)
 	
 do_all_files(sys.argv[1])
