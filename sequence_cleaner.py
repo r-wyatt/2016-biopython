@@ -16,6 +16,7 @@ def sequence_cleaner(fasta_file, min_length=0, por_n=100):
 
 	# Using the Biopython fasta parse we can read our fasta input
 	for seq_record in SeqIO.parse(fasta_file, "fasta"):
+		print(".")
 		# Take the current sequence
 		print(seq_record.id)
 		sequence = str(seq_record.seq).upper()
@@ -46,6 +47,8 @@ def sequence_cleaner(fasta_file, min_length=0, por_n=100):
 
 
 userParameters = sys.argv[1:]
+
+'''
 try:
 	if len(userParameters) == 1:
 		sequence_cleaner(userParameters[0])
@@ -57,6 +60,10 @@ try:
 	else:
 		print userParameters
 		print("There is a problem!"+" "+str(len(userParameters)))
+
+	
 except:
 	print userParameters
 	print("There is a problem!"+" "+str(len(userParameters)))
+	
+'''
