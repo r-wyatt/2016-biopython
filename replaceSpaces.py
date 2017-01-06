@@ -6,13 +6,12 @@ import re, sys, glob, os
 
 def rem_spaces(dir, file):
 	stdout_bk = sys.stdout
-	sys.stdout = open(file,"w+")
-	with open(os.path.join(dir,"ns"+file),"w+") as f:
+	sys.stdout = open(os.path.join(dir,"ns"+file),"w+")
+	with open(os.path.join(dir,file),"r") as f:
 		for line in f:
 			if re.search(r'>',line):
 				line = re.sub(r' ',"_",line)
-			print(line)
-		print "file finished"
+			sys.stdout.write(line)
 	sys.stdout = stdout_bk
 	
 
