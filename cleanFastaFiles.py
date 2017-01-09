@@ -53,7 +53,6 @@ def sequence_cleaner(dir, fasta_file, min_length=0, por_n=100):
 				if not re.search(seq_record.id,sequences[sequence]):
 					sequences[sequence] += "_" + seq_record.id
 
-
 	# Write the clean sequences
 
 	# Create a file in the same directory where you ran this script
