@@ -39,7 +39,7 @@ import os
 # MUSCLE through command line call
 #-----------------------------------------------------------------------------
 def align(input,output):
-	os.system("muscle3.8.31_i86win32.exe "+"-in "+input+" -out "+output)
+	os.system("muscle3.8.31_i86win32.exe "+"-in "+input+" -out "+output+" -gapopen -16")
 #-----------------------------------------------------------------------------
 # Flow control
 #-----------------------------------------------------------------------------

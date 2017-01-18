@@ -20,6 +20,7 @@ minlength = 200 # Minimum length of sequences (shorter will be trimmed)
 #-----------------------------------------------------------------------------
 import re, sys, glob, os
 from Bio import SeqIO
+from glob import glob
 
 def rem_spaces(dir, file):
 	stdout_bk = sys.stdout
@@ -68,5 +69,13 @@ def do_all_files(directory):
 	for file in files:
 		newfile = rem_spaces(dir,file)
 		sequence_cleaner(dir,newfile,minlength)
-	
-do_all_files(sys.argv[1])
+
+
+newfile = rem_spaces(sys.argv[1],"master.txt")
+sequence_cleaner(sys.argv[1],newfile,minlength)
+
+os.remove(os.path.join(sys.argv[1],"master.txt"))
+os.remove(os.path.join(sys.argv[1],"nsmaster.txt"))
+os.rename(os.path.join(sys.argv[1],"clear_nsmaster.txt"),os.path.join(sys.argv[1],"master.txt"))
+
+

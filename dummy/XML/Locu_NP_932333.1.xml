@@ -1,0 +1,2479 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>NP_932333.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>72 kDa type IV collagenase precursor [Danio rerio]</BlastOutput_query-def>
+  <BlastOutput_query-len>657</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>NP_932333.1</Iteration_query-ID>
+  <Iteration_query-def>72 kDa type IV collagenase precursor [Danio rerio]</Iteration_query-def>
+  <Iteration_query-len>657</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|973209186|ref|XP_015224043.1|</Hit_id>
+  <Hit_def>PREDICTED: 72 kDa type IV collagenase [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015224043</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1125.54</Hsp_bit-score>
+      <Hsp_score>2910</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>658</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>525</Hsp_identity>
+      <Hsp_positive>589</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>649</Hsp_align-len>
+      <Hsp_qseq>RHIVLKVFLVQFLASLQTFAAPSPIIKFPGDDTA-HTDKEVALHYLNKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>RNCLLLVLFSLFIAFQQTSAAPSPIIKFPGDDTSPKTDKEVALHYLNKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTLEVMKKPRCGVPDVANYNFFPRRPKWEKNTVTYRILGHTPDLDEETIDDAFARAFKVWSDFTPLQFNRIMDGEADIMINFGRWEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYSTCTSEGRDDGFLWCSTTYNFDEDGKYGFCPHELLFTLGGNGEGAPCKLPFTFQGQKYEACTTVGREDGYRWCATTEDYDRDKTYGFCPETAMSTVGGNAEGSPCVFPFTFLGDKYESCTSSGRNDGKMWCATSSSYDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSQDPGALMAPIYTYTKNFKLSNDDIKGIQELYGVPTDKPLPPTQGPVTPMDLCQEDILFDAVSQLRGEMFFFKDRFLWRSSNPRSKPKGPTLVATFWTELPEKFDAVYENPLEEKSVFFAGNELWVYSASTLEKGYPKKIATLGLPADLPRVDAAFSFNKNKKTYIFAGDKFWRYNEAKKKMDPGFPKLIADAWNGIPDSLDAAFHFNGDGYSYFFKDGYYLKLDDRNLKIVKIGDIKSDWLGC</Hsp_hseq>
+      <Hsp_midline>R+ +L V    F+A  QT AAPSPIIKFPGDDT+  TDKEVALHYLNKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKT+E+MKKPRCGVPDVANYNFF R+PKW +  VTYRILGHTPDLDE+TIDDAF RAFKVWSD TPL+F RIMDGEADIMINFGR EHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEY++CTS+GRDDGFLWCSTTYNFD+DGKYGFCPHELLFTLGGN +GAPCK PFTFQG KY++CTT GR+DGYRWCATTEDYD+DKTYGFCPETAMST GGN++G+PCVFPF FLGD Y+SCT+SGRNDGKMWCA + S+DDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHS DPGALMAPIYT+TK  +LS+DD+KGIQELYG PTDKPL     PVTPMD+C E+I+FDAV+Q+RGE+FFFKDRFL+R+++ R KP GP LVATFW+ELPEK DA YENPLEE++VFFAG+E+WVYSASTLE+ YPKKI+++GLP+DL  +DAA+SF+K KKTYIFAG+KFWRYNEAKKKMDPGFPK+IAD+W  +PD LD A   NGDG+SYFFKD +YLK+DD  LKI+K+G++K DWL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|973200991|ref|XP_015220536.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: matrix metalloproteinase-9 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015220536</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.33</Hsp_bit-score>
+      <Hsp_score>1235</Hsp_score>
+      <Hsp_evalue>4.52586e-163</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>453</Hsp_align-len>
+      <Hsp_qseq>RHIVLKVFLVQFLASLQTFAAP--SPIIKFPGDDTAH-TDKEVALHYLNKF-YGCPKDRC-NLMVLKD-TLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDD----DRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKP</Hsp_qseq>
+      <Hsp_hseq>RPCVLAV-LTLGLCALGGLCLPLKSVSVVFPGDTLKNMTNKEFANDYLQKFGYMNVLDRSGNQQVSSEKALRRMQRQLGLQETGQLDRETLDAMRRPRCGVPDIRNYQTFEGDLKWDHKDVTYRILNYSPDMDASLIDDAFARAFKVWSDVTPLTFTRLYDGTADIMVSFGKKDHGDPYPFDGKDGLLAHAYPPGEGMQGDAHFDDDEFWTLGTGPVVKTRFGNAEGALCHFPFTFQGESYSSCTTEGRSDGLPWCATTADYDRDNKFGFCPSELLFTIGGNSDGAACVFPFVFDGESYEGCTTEGRSDGYRWCATTGSYDTDRKYGFCPSRDTAVIGGNSEGEPCVFPFTFQKKSYASCTSDGXXPGTIGSRSPGPWQQVXPLSPAFLFLP-PGYSLFLVAAHEFGHALGLDHSNVREALMFPMYSYVKDFSLHQDDIEGIQYLYGXSPGPP</Hsp_hseq>
+      <Hsp_midline>R  VL V L   L +L     P  S  + FPGD   + T+KE A  YL KF Y    DR  N  V  +  L++MQ+   L ETG++D++T++ M++PRCGVPD+ NY  F    KW  K+VTYRIL ++PD+D   IDDAF RAFKVWSDVTPL FTR+ DG ADIM++FG+ +HGD YPFDGKDGLLAHA+ PG G+ GD+HFDDDE WTLG G VVK ++GNAEG  C FPF F G+ Y+SCT++GR DG  WC+TT ++D D K+GFCP ELLFT+GGN+DGA C FPF F G+ Y+ CTT GR DGYRWCATT  YD D+ YGFCP    +  GGNS+G PCVFPF F   SY SCT+ G   G +       +         + F P  GYSLFLVAAHEFGHALGL+HS+   ALM P+Y++ K   L  DD++GIQ LYG     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|972957987|ref|XP_006627786.2|</Hit_id>
+  <Hit_def>PREDICTED: collagenase 3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006627786</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>2.29792e-56</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKV</Hsp_qseq>
+      <Hsp_hseq>FDEDETWS-TDSSGYNLFVVAAHEFGHALGLAHSSDPGALMFPVYSYSRGFPLAEDDMHGIQALYGPNPDHRKVKPKPDAP--DKCDPMLTFDAVTELRGETIIFKDRFYWRLHPQMVEPEQTLIKMT-WPSIPNKIDAAYENPAKDLVFIFKGIRMWALNGYNLVEGYPKYIHKLGLPKSIRRIDAAVYMEDSGKTLLFTDEDYWSYDESSGTMDPGYPRSIEDDFPGIGEEMD-AVSYKY-GYLYFYRGAIQFEYNYRARKVLRI</Hsp_hseq>
+      <Hsp_midline>FD+D  W      GY+LF+VAAHEFGHALGL HS DPGALM P+Y++++   L++DD+ GIQ LYG   D       P     D C+  + FDAV ++RGE   FKDRF +R      +P   ++  T W  +P KIDAAYENP ++    F G  MW  +   L   YPK I  +GLP  +  IDAA     + KT +F    +W Y+E+   MDPG+P+ I D +  + +++D A+S    G+ YF++ +   + +    K++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>3.77064e-50</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ASLQTFAAPSPIIKFPGDDTAHTDKE----VALHYLNKFYGC--PKDRCNLMV---LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>SGLLLFLAVSPLFAAPLSRKEAEQKEDNWIFAEKYLRRFYGLSPPGLRGQPGSPDSVQLKIQEMQGFLGLEVTGQLDPDTLAVMNMPRCGVPDVGEYNLFPRNLKWRNNNVTFRIVNYTPDLKPSEVDRAIHNALKAWSDVTPLVFKKIHNGTADIMIAFGAKEHGDFNPFDGPNGLLAHAYPPGNGIGGDTHFDEDETWS</Hsp_hseq>
+      <Hsp_midline>+ L  F A SP+   P        KE     A  YL +FYG   P  R        ++  +++MQ F  L  TG++D  T+ +M  PRCGVPDV  YN F R  KW   NVT+RI+ +TPDL    +D A + A K WSDVTPL F +I +G ADIMI FG  EHGD  PFDG +GLLAHA+ PG GIGGD+HFD+DE W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|573893194|ref|XP_006634350.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006634350</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>1.7476e-55</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPM----------------------------------DVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKI</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTLGNPNHDGNDLFLVAVHELGHALGLEHSNDPTAIMAPFYQYMDTENFKLPYDDLQGIQKIYGPPEKVPQPTQPLPTAPPPRSHPPSDPRKHDRQTRPPRLPTGDRPSYPSAKPNICDGS--FNTLAILRREMFVFKDQWFWRVRDNAVMPGYPMQIAYFWRGLPPKIDAVYENS-EGKFVFFKGNKFWVFKDTTLQPTYPQDLSKFGKGMPSQGIETAVWWEDVAKTYFFKGDRYWRYNEDMRAMDPGYPKPIT-VWKGIPDSPQGAFVDKVNGFTYFYKGKEYWKFNNQNLRV</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS+DP A+MAP Y +  T+  +L  DD++GIQ++YG P   P  T   P  P                                   ++C+ +  F+ +A +R E+F FKD++ +R  D    P  PM +A FW  LP KIDA YEN  E + VFF G++ WV+  +TL+  YP+ +S  G      GI+ A  +    KTY F G+++WRYNE  + MDPG+PK I   W  +PD   GA     +G +YF+K   Y K ++  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>8.25827e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD----VANYNFFHRK-----PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIM-------DGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGE</Hsp_qseq>
+      <Hsp_hseq>TMQSAIAAMQRLYGLNVTGTLDQNTIDWMKKPRCGVPDQPGGASKFNVRRRRYALTGQKWPHKYITYSIKNVTPKVGAEETHDAIRRAFDVWQNVTPLRFEAVPYNTLENGKRDVDITIIFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLGN</Hsp_hseq>
+      <Hsp_midline> ++  +  MQ+ + L  TG +DQ T++ MKKPRCGVPD     + +N   R+      KW  K +TY I   TP +  +   DA  RAF VW +VTPL+F  +          + DI I F    HGD  PFDG+ G LAHA+ PGPGIGGD+HFD DE WTLG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|973125836|ref|XP_015210020.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015210020</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>2.01821e-55</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPM----------------------------------DVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKI</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTLGNPNHDGNDLFLVAVHELGHALGLEHSNDPTAIMAPFYQYMDTENFKLPYDDLQGIQKIYGPPEKVPQPTQPLPTAPPPRSHPPSDPRKHDRQTRPPRLPTGDRPSYPSAKPNICDGS--FNTLAILRREMFVFKDQWFWRVRDNAVMPGYPMQIAYFWRGLPPKIDAVYENS-EGKFVFFKGNKFWVFKDTTLQPTYPQDLSKFGKGMPSQGIETAVWWEDVAKTYFFKGDRYWRYNEDMRAMDPGYPKPIT-VWKGIPDSPQGAFVDKVNGFTYFYKGKEYWKFNNQNLRV</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS+DP A+MAP Y +  T+  +L  DD++GIQ++YG P   P  T   P  P                                   ++C+ +  F+ +A +R E+F FKD++ +R  D    P  PM +A FW  LP KIDA YEN  E + VFF G++ WV+  +TL+  YP+ +S  G      GI+ A  +    KTY F G+++WRYNE  + MDPG+PK I   W  +PD   GA     +G +YF+K   Y K ++  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>9.35864e-33</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVE-----IMKKPRCGVPD----VANYNFFHRK-----PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIM-------DGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGE</Hsp_qseq>
+      <Hsp_hseq>TMQSAIAAMQRLYGLNVTGTLDQNTIDDITLSWMKKPRCGVPDQPGGASKFNVRRRRYALTGQKWPHKYITYSIKNVTPKVGAEETHDAIRRAFDVWQNVTPLRFEAVPYNTLENGKRDVDITIIFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLGN</Hsp_hseq>
+      <Hsp_midline> ++  +  MQ+ + L  TG +DQ T++      MKKPRCGVPD     + +N   R+      KW  K +TY I   TP +  +   DA  RAF VW +VTPL+F  +          + DI I F    HGD  PFDG+ G LAHA+ PGPGIGGD+HFD DE WTLG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|972957985|ref|XP_015196619.1|</Hit_id>
+  <Hit_def>PREDICTED: collagenase 3-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196619</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.83404e-54</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>TAHTDKEVALHYLNKFYGC-----PKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>TAKNDEEVAEAYLKRFFNLTTPEGPIQRRRISPMTEKVREMQRFFGLKVTGTLDSDTMQMMNKPRCGVPDVAQYSTFQGNIKWPKTSLTYRIENYTPDMAVQDVDRALERALQVWAKVTPLRFTRIYSGTADIMISFGAGVHGDYYPFDGPDGTLAHAFAPSEGIGGDAHFDEDETFTSG</Hsp_hseq>
+      <Hsp_midline>TA  D+EVA  YL +F+       P  R  +  + + +++MQ+FF L  TG +D  T+++M KPRCGVPDVA Y+ F    KW + ++TYRI  +TPD+    +D A  RA +VW+ VTPL+FTRI  G ADIMI+FG   HGD YPFDG DG LAHAFAP  GIGGD+HFD+DE +T G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.85231e-50</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK--TLRLSDDDVKGIQELYGEPTDKPLATHTP---PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKV</Hsp_qseq>
+      <Hsp_hseq>FDEDETFT-SGSMGYNLFLVAAHEFGHSLGLSHSTDPGALMFPVYSYVDPDTFSLPQDDIKGIQFLYGPNPDVDGGNPDPNPGPTTP-NACDPRLSLDAATTLRGEKILFKGSFFWRSFS-QSSQVEQHRIKYFWPELPDNIDAAYESLESDRVYLFKGNQVWALFGYDIVQGYPKSITTLGLPRSVTKIDAAVYDEQSRKALFFTGNQIYSYDEATRKVDQGFPKSIKDVFPGIGNKVDAA--LQDRGFTYLF-NGQYMMEYSYTRRALRV</Hsp_hseq>
+      <Hsp_midline>FD+D  +      GY+LFLVAAHEFGH+LGL HS DPGALM P+Y++    T  L  DD+KGIQ LYG   D       P   P TP + C+  +  DA   +RGE   FK  F +R+   +        +  FW ELP+ IDAAYE+   +R   F G+++W      + + YPK I+++GLP  +  IDAA    +++K   F GN+ + Y+EA +K+D GFPK I D +  + + +D A  L   G +Y F +  Y+     T + ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|972958240|ref|XP_015196726.1|</Hit_id>
+  <Hit_def>PREDICTED: matrilysin-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196726</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>5.08057e-54</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>FLVQFLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGR--------------NEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQV</Hsp_qseq>
+      <Hsp_hseq>MLVTLMLTCTPLASAGPVPLRAEGRNSSEDVDWARLYLERFYNLTQDR---HPLEGKLREMQRFFGLKVTGRVDRATLSIMKKPRCGVPEMADYSFFPGKPKWTKKRLTYRIVRYTADISKRQVDRTVKTALRLWSKVTPLKFIRINKGEADIMIKFASCTCSRGALMCGVPITGHGDDFPFDGPGGELAHAFAPGKGLLGDAHFDRDETWSLGQSGI</Hsp_hseq>
+      <Hsp_midline> LV  + +    A+  P+        +  D + A  YL +FY   +DR     L+  L++MQ+FF L  TG +D+ T+ IMKKPRCGVP++A+Y+FF  KPKW +K +TYRI+ +T D+ +  +D     A ++WS VTPLKF RI  GEADIMI F                  HGD +PFDG  G LAHAFAPG G+ GD+HFD DE W+LG+  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.2467e-13</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>FDRDETWSLG-QSGINLLLVAAHEFGHSLGLGHSQDKDALMYPTYSYRNTAGFQLSRDDIAGIQSLYG</Hsp_hseq>
+      <Hsp_midline>FD D  W      G +L LVAAHEFGH+LGL HS D  ALM P Y++  T   +LS DD+ GIQ LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|973201395|ref|XP_006639739.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-24 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006639739</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.82058e-53</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGEPT-----DKPLAT-----------------HTPPVTPM------------DVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIK--VGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTLGNANHDGNDLFLVAVHELGHALGLEHSNDPSAIMAPFYQYMETHNFKLPLDDLQGIQKIYGIPTAMLEPTRPLPTLPARRTHSTSERKHDRQSRPPRPPSGDKPASPGTAKPNICDGN--FNTVAFFRREMFVFKDRWFWRLRNNKVQEGYPMQIDQFWKGLPPRIDAAYERS-DGKFVFFKGDKYWVFKEVTAEPGYPHSLVDLGNCLPREGIDTALRWEPVGKTYFFKGDQYWRYNEEKRTADPGYPKPIT-VWKGIPESPQGAFVSKEGFYTYFYKGKEYWKFDNQKLNVEPGYPKSILKDWMGC</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS+DP A+MAP Y + +T   +L  DD++GIQ++YG PT      +PL T                   PP  P             ++C+ N  F+ VA  R E+F FKDR+ +R  + + +   PM +  FW  LP +IDAAYE   + + VFF GD+ WV+   T E  YP  +  +G      GID A  +    KTY F G+++WRYNE K+  DPG+PK I   W  +P+   GA       ++YF+K   Y K D+  L +       + KDW+ C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.44172e-36</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD-------VANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI-------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQ</Hsp_qseq>
+      <Hsp_hseq>AMQSAVAAMQRFYGIPVTGVLDQTTIEWMRKPRCGVPDHPRISRRRRNKRYALTGQKWRQKHITYSIHNFTPKVGEKDTQKAIRQAFDVWETVTPLTFEEIPYSEIKNERKEADIMIFFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLGNAN</Hsp_hseq>
+      <Hsp_midline> ++  +  MQ+F+ +P TG +DQ T+E M+KPRCGVPD         N  +     KW QK++TY I   TP + E     A  +AF VW  VTPL F  I          EADIMI F    HGD  PFDG+ G LAHA+ PGPGIGGD+HFD DE WTLG   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|972958140|ref|XP_015196689.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196689</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>4.8653e-53</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYGC-----PKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>DVTFAEEYLSRFYPLREADGTRTRRQAAAAEERLRQMQEFFGLEATGRLSRQTVAVMKRERCGVPDTENYSFYPDKPRWRNSTVTYRIVKYTPDLKRKDVERTFRQALKIWSDAAPLKFVRLDHGEADIMINFGSKAHGDFFPFDGPKGVLAHAFEPGEDIGGDAHFDEDEIWTMG</Hsp_hseq>
+      <Hsp_midline>D   A  YL++FY        + R      ++ L++MQ+FF L  TG + ++TV +MK+ RCGVPD  NY+F+  KP+W    VTYRI+ +TPDL    ++  F +A K+WSD  PLKF R+  GEADIMINFG   HGD +PFDG  G+LAHAF PG  IGGD+HFD+DE WT+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.81472e-40</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQ-GYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK--TLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPE------------KIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDEDEIWTMGNKKPGYNLFTVAAHEFGHTLGLSHSKDPSALMYPNYKYYNPATYSLPRDDVLGIQELYGR---KPVA-----LPPPEKCDPYLSFDAVAVIGRDIAFFKNSYMWLR----------MTWMMNWNSLREGLISSLLPSISSPVDAAYDIPAKGVAYLFTGPKFWIVQQLNM-KSYSGSIYDIGFPTDVKQVDAAVHVKEYGKTYFFVGERYYRFDETWSRMDPGFPRRIRTDWPGIGSKIDAAFELAGYIH--FFSGPKAYKYDYRQRQVLYAVRANA-WLGC</Hsp_hseq>
+      <Hsp_midline>FD+D  W     + GY+LF VAAHEFGH LGL HS DP ALM P Y +    T  L  DDV GIQELYG    KP+A     + P + C+  + FDAVA I  +I FFK+ +++            M     W+ L E             +DAAY+ P +     F G + W+     + + Y   I  +G P+D+  +DAA    +  KTY F G +++R++E   +MDPGFP+ I   W  +   +D A  L G  H  FF      K D    +++        WL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|972958138|ref|XP_015196688.1|</Hit_id>
+  <Hit_def>PREDICTED: matrilysin-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196688</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.75468e-52</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>FRCRHIVLKVFLVQFLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKFYGCPKDR-CNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>MESRYLV-RVSLLTLTSAVLSAALPVGQDAQLGTD----DQHFAEQYLQRFYKMKQGRGAGSNVLSEKVKEMQTFFKLNVTGSLDAETMEVMKKPRCGVPDVARYQVFSDRAKWTVNPVSYRIVNYTPDLTTQEVDNAIDAALKVWSDVIPLTFRKTTDLTADILISFAAGEHGDFSPFDGPSGTLAHAFSPGSGLGGDAHFDEDERWS</Hsp_hseq>
+      <Hsp_midline>   R++V +V L+   +++ + A P       G D    D+  A  YL +FY   + R     VL + +K+MQ FF L  TG +D +T+E+MKKPRCGVPDVA Y  F  + KW    V+YRI+ +TPDL    +D+A   A KVWSDV PL F +  D  ADI+I+F   EHGD  PFDG  G LAHAF+PG G+GGD+HFD+DE+W+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.73569e-30</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT--LRLSDDDVKGIQELYGE----------------PTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFR---TADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDE--MWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNG</Hsp_qseq>
+      <Hsp_hseq>FDEDERWS-TTSKGFNLFLVAAHEFGHALGLDHSSDPSALMYPTYKYVDTTGFVLPSDDVKGIQSLYGKPTASPATTTTATTSKAPVKSTAAAHPG-------CDPNLTLDAVAYLGSDLLFFKGSAVWRKRQNGSVVREP----LSARFSCPL-TNVDAAYD--YRGATYLFKNTDMIMWLKEQGDKYKPYQLNISYFGFPRTVRKIDAAVHIAATGKTLFFVGDQYYRFNQKTSTME--LRSTIKEDFPGIGSKVDAAFQMSG</Hsp_hseq>
+      <Hsp_midline>FD+D +W     +G++LFLVAAHEFGHALGL+HS DP ALM P Y +  T    L  DDVKGIQ LYG+                P     A H         C+ N+  DAVA +  ++ FFK   ++R      V ++P    L A F   L   +DAAY+      T  F   +  MW+       + Y   IS  G P  +  IDAA     T KT  F G++++R+N+    M+      I + +  +   +D A  ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|973204257|ref|XP_015221916.1|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221916</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>6.31185e-50</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG-----EPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSF--HKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKII</Hsp_qseq>
+      <Hsp_hseq>FDYDETWTVGNSMGTDLLQVAAHEFGHVLGLQHSLVPGAVMSPFYSFSYPLALSDDDKQGIQYLYGPRQYSEPQTTTMTNEIIVTTP-NACDTD--FDAVSMIRGELFFFKSRYVWRIRAGRLQEGYPALASRHWRGIPDRVDAAFEDG-SGNIWFFQGHNYWVYDGEK-PITGPDSVSSLGLP--ISNIQAALMWGEDKNKKTYFFKGSSYWRFNPTANRVDMVYPRSLAD-WRGVPTSIDAAFQ-DSYGYAHFLQGRQYWKFDPVTVKVL</Hsp_hseq>
+      <Hsp_midline>FD D  W      G  L  VAAHEFGH LGL+HS  PGA+M+P Y+F+  L LSDDD +GIQ LYG     EP    +       TP + C+ +  FDAV+ IRGE+FFFK R+++R    R +   P L +  W  +P+++DAA+E+       FF G   WVY         P  +SS+GLP  +  I AA  +   K KKTY F G+ +WR+N    ++D  +P+ +AD W  VP  +D A   +  G+++F +   Y K D  T+K++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>3.49375e-27</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NKFYGCPKDRCNLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFH----RKPK-------WGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG------QVVKVKYGNAEG</Hsp_qseq>
+      <Hsp_hseq>SRFYNM-KKRGRLHHSQETLKDIASGKGGLGSTALPGNGSAFWKRPRCGVPDYPTHRGAHGGHPRQKRFVLFGGRWEKTDLTYKIMRFPWQMDKEKVRHAFQEALRVWSEVTPLTFTEVTSGRADIIIDFTRYWHGDNLPFDGPGGILAHAFFPRTHREGDIHFDYDETWTVGNSMGTDLLQVAAHEFGHVLG</Hsp_hseq>
+      <Hsp_midline>++FY   K R  L   ++TLK +        +  +        K+PRCGVPD   +   H    R+ +       W + ++TY+I+     +D++ +  AF  A +VWS+VTPL FT +  G ADI+I+F R  HGD  PFDG  G+LAHAF P     GD HFD DE WT+G        QV   ++G+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|972958417|ref|XP_015196808.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196808</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.8642e-47</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>DKEVALHYLNKFYGCPKDRCNLMV-----LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG-----QVVKVKYGNAEG</Hsp_qseq>
+      <Hsp_hseq>DFSYAQEYLSKYYDSEEESTGLLRAPRQPLARKLREMQSFMGLRVTGRLDRSTMSLIQTPRCGVPDVENYRLFPGAPKWKTNTITYRVAKYTSSLTRAEVDHAVDMGLSVWSSVTPLHFQKIHSGEADIMISFEVGAHGDAYPFDGPRGTLAHAFAPAEGLGGDTHFDDEEKWTMGTNGFNLFTVAAHEFGHALG</Hsp_hseq>
+      <Hsp_midline>D   A  YL+K+Y   ++   L+      L   L++MQ F  L  TG +D+ T+ +++ PRCGVPDV NY  F   PKW    +TYR+  +T  L    +D A      VWS VTPL F +I  GEADIMI+F    HGD YPFDG  G LAHAFAP  G+GGD+HFDD+E+WT+G        V   ++G+A G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>3.65018e-44</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFT--KTLRLSDDDVKGIQELYGEPTDKPLATHTPP---------------------VTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDDEEKWTMGTN-GFNLFTVAAHEFGHALGLAHSSDPSALMYPTYKYQDPRGFKLPSDDVKGIQSLYGS-ANKNQEKHEKEDHQNRQQIPVPPVPQPPYWPVPRHPDMCDNDLTFDAAAVFGNELLFFKDGFLWRRQS-RLKDVRPGYIRTSFPQLLTSIDAAYDVPEKGLAYLFKGSNYWTSRGFQMVGG-PRSITDFGLPSRVRQVDAAVYLKDMKQTLFFVGNEFYSYNHAMLRMDDGYPRKIEEEFSGIRGKVDAAVAVN--GFLYLFSGPNAYKYDSDREDVIRVVKA-NSWLGC</Hsp_hseq>
+      <Hsp_midline>FDD+ KW    + G++LF VAAHEFGHALGL HS DP ALM P Y +   +  +L  DDVKGIQ LYG   +K    H                            D+C+ ++ FDA A    E+ FFKD FL+R    R K   P  + T + +L   IDAAY+ P +     F G   W      +    P+ I+  GLPS +  +DAA      K+T  F GN+F+ YN A  +MD G+P+ I + ++ +   +D A+++N  G  Y F   +  K D     +I+V +    WL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|973203159|ref|XP_015221454.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X4 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221454</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.16267e-46</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPD-QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK----TLRLSDDDVKGIQELYG-----EPTDKPLATHT--PPVT---------------PMDVCNENIIFDAVAQIRGEIFFFKDRFLFR-TADVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVG---EVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>GDSYAAGDTHFDDDESWTFRSPDSHGMDLFAVAVHEFGHAIGLAHTSAKKSIMMPYYQGPVGDPLKYNLPYEDKVHIWQLYGVRDSVSHTARPDVSRTDDPPVLLDLPENRSTVPPAQDAPDRCNTH--FDAVAQIRGEAFFFKGKYFWRLTREKHLVSLRPAQIHRFWRGLPLNLDSVDAVYERPSDHKIVFFKGEKYWVFKDNNVEEGYPRLTSDFGLP--LEGVDAAFVWPHNDKTYFFMDRRYWRYDDHLRRMDLGYPKDTM-LWKGVPTLLDDAMRWS-DGSSYFFKGKEYWRVQGSDME-VEVGYPRSIGKDWLAC</Hsp_hseq>
+      <Hsp_midline>G  + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y           L  +D   I +LYG       T +P  + T  PPV                  D CN +  FDAVAQIRGE FFFK ++ +R T +       P  +  FW  LP   + +DA YE P + + VFF G++ WV+  + +E  YP+  S  GLP  L G+DAA+ +    KTY F   ++WRY++  ++MD G+PK     W  VP  LD A+  + DG SYFFK   Y ++  S ++ ++VG    + KDWL C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>4.02335e-29</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPK--------WGQKNVTYRILGHTPD---LDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MQKFGGLEETGVLDEATLVLMKTPRCSLPDMSDAGMDSGRQKRAASSPTKWYKRHLSWRVRKFPKESHLLGHDTVRALMYYALKVWSDIAPLNFHEVAGSEADIQIDFTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDESWTF</Hsp_hseq>
+      <Hsp_midline>MQKF  L ETG +D+ T+ +MK PRC +PD+++      + K        W ++++++R+     +   L  DT+    Y A KVWSD+ PL F  +   EADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|973203155|ref|XP_015221452.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221452</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>2.12903e-46</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPD-QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK----TLRLSDDDVKGIQELYG-----EPTDKPLATHT--PPVT---------------PMDVCNENIIFDAVAQIRGEIFFFKDRFLFR-TADVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVG---EVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>GDSYAAGDTHFDDDESWTFRSPDSHGMDLFAVAVHEFGHAIGLAHTSAKKSIMMPYYQGPVGDPLKYNLPYEDKVHIWQLYGVRDSVSHTARPDVSRTDDPPVLLDLPENRSTVPPAQDAPDRCNTH--FDAVAQIRGEAFFFKGKYFWRLTREKHLVSLRPAQIHRFWRGLPLNLDSVDAVYERPSDHKIVFFKGEKYWVFKDNNVEEGYPRLTSDFGLP--LEGVDAAFVWPHNDKTYFFMDRRYWRYDDHLRRMDLGYPKDTM-LWKGVPTLLDDAMRWS-DGSSYFFKGKEYWRVQGSDME-VEVGYPRSIGKDWLAC</Hsp_hseq>
+      <Hsp_midline>G  + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y           L  +D   I +LYG       T +P  + T  PPV                  D CN +  FDAVAQIRGE FFFK ++ +R T +       P  +  FW  LP   + +DA YE P + + VFF G++ WV+  + +E  YP+  S  GLP  L G+DAA+ +    KTY F   ++WRY++  ++MD G+PK     W  VP  LD A+  + DG SYFFK   Y ++  S ++ ++VG    + KDWL C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.16647e-30</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>YLNKF-YGCPKDRCNLMV-----LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPK--------WGQKNVTYRILGHTPD---LDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>WLSKFGYLPPPDSVTGQLQTKEALTEAIKAMQKFGGLEETGVLDEATLVLMKTPRCSLPDMSDAGMDSGRQKRAASSPTKWYKRHLSWRVRKFPKESHLLGHDTVRALMYYALKVWSDIAPLNFHEVAGSEADIQIDFTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDESWTF</Hsp_hseq>
+      <Hsp_midline>+L+KF Y  P D     +     L + +K MQKF  L ETG +D+ T+ +MK PRC +PD+++      + K        W ++++++R+     +   L  DT+    Y A KVWSD+ PL F  +   EADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|973209232|ref|XP_015224061.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015224061</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>2.99414e-46</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>FDDDRKW--GFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTF--TKTLRLSDDDVKGIQELYGEPTDKPLATH-TPPVTPM----------------------------------------DVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKI</Hsp_qseq>
+      <Hsp_hseq>FDSDEPWTIGNANLNGNDLFLVAVHELGHALGLEHSNNPLAIMAPFYQWMDTENFQLPEDDLRGVQQIYGPPDASPTPTKPLPPVEPRQPAHPDPKPPNPPKTPPGGKPHNPDPGKPRTTDRPDHYGPNICDGN--FDTVTVLRGEMFVFKGRWFWRVRRNRVLDNYPMPIGHFWRGLPGDIDAAYER-HDGKFVFFKGSKFWLFREANLEPGYPQELTEYGQGIPYDKIETAIWWEPTGYTYFFKGDRYWRFNEQSRAVDKDYPKPIS-VWGGIPPSPRGSFLSDDGAYTFFYKGSKYWKFDNQRMKI</Hsp_hseq>
+      <Hsp_midline>FD D  W  G     G  LFLVA HE GHALGLEHS++P A+MAP Y +  T+  +L +DD++G+Q++YG P   P  T   PPV P                                         ++C+ N  FD V  +RGE+F FK R+ +R    R     PM +  FW  LP  IDAAYE   + + VFF G + W++  + LE  YP++++  G       I+ A  +  T  TY F G+++WR+NE  + +D  +PK I+  W  +P    G+   +   +++F+K S Y K D+  +KI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.50312e-33</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPD---------VANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRI--------MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQV</Hsp_qseq>
+      <Hsp_hseq>IFSNAVADMQRFYGLTVSGVLDQETQNAMKRPRCGVPDKFGGLIKTNVRRKRYALTGHKWSKSHLTYSIQNYTPKIGEFESYQAIRKAFQVWESVTPLRFEEIPYHEVKYGRRKEADIMIFFASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDEPWTIGNANL</Hsp_hseq>
+      <Hsp_midline>+  + +  MQ+F+ L  +G +DQ+T   MK+PRCGVPD         V    +     KW + ++TY I  +TP + E     A  +AF+VW  VTPL+F  I           EADIMI F    HGD  PFDG+ G LAHA+ PGPG+GGD+HFD DE WT+G   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|973203153|ref|XP_015221451.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221451</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>3.59024e-46</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPD-QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK----TLRLSDDDVKGIQELYG-----EPTDKPLATHT--PPVT---------------PMDVCNENIIFDAVAQIRGEIFFFKDRFLFR-TADVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVG---EVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>GDSYAAGDTHFDDDESWTFRSPDSHGMDLFAVAVHEFGHAIGLAHTSAKKSIMMPYYQGPVGDPLKYNLPYEDKVHIWQLYGVRDSVSHTARPDVSRTDDPPVLLDLPENRSTVPPAQDAPDRCNTH--FDAVAQIRGEAFFFKGKYFWRLTREKHLVSLRPAQIHRFWRGLPLNLDSVDAVYERPSDHKIVFFKGEKYWVFKDNNVEEGYPRLTSDFGLP--LEGVDAAFVWPHNDKTYFFMDRRYWRYDDHLRRMDLGYPKDTM-LWKGVPTLLDDAMRWS-DGSSYFFKGKEYWRVQGSDME-VEVGYPRSIGKDWLAC</Hsp_hseq>
+      <Hsp_midline>G  + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y           L  +D   I +LYG       T +P  + T  PPV                  D CN +  FDAVAQIRGE FFFK ++ +R T +       P  +  FW  LP   + +DA YE P + + VFF G++ WV+  + +E  YP+  S  GLP  L G+DAA+ +    KTY F   ++WRY++  ++MD G+PK     W  VP  LD A+  + DG SYFFK   Y ++  S ++ ++VG    + KDWL C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.04241e-31</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VLKVFLVQFLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKF-YGCPKDRCNLMV-----LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNF--------FHRKPKWGQKNVTYRILGHTPD---LDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MILVPVLWFLS--ETFAAPSLTAE---------QINMGVDWLSKFGYLPPPDSVTGQLQTKEALTEAIKAMQKFGGLEETGVLDEATLVLMKTPRCSLPDMSDAGMDSGRQKRAASSPTKWYKRHLSWRVRKFPKESHLLGHDTVRALMYYALKVWSDIAPLNFHEVAGSEADIQIDFTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDESWTF</Hsp_hseq>
+      <Hsp_midline>++ V ++ FL+  +TFAAPS   +            + + +L+KF Y  P D     +     L + +K MQKF  L ETG +D+ T+ +MK PRC +PD+++                KW ++++++R+     +   L  DT+    Y A KVWSD+ PL F  +   EADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|972958445|ref|XP_015196817.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196817</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>1.14956e-45</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>TAHTDKEVALHYLNKFYGC---PKDRC--NLMVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG-EG----QVVKVKYGNAEG-EFCKFPFLFMGKEYNS</Hsp_qseq>
+      <Hsp_hseq>TVRNDLELATGYLRDYYRLQEEPASRAKRSSASFGSKVREMQRFFGLNATGGLDAETVSAMKRPRCGVPDVQNYSPYGEPSRWHKNTITYSIGQYTNDLPSETVDSLIDSALKVWSTASPLTFVRSYSHNADIMVEFGTYDHGDLFPFDGPKGTLAHAYGPGEGIGGDTHFDDDEHWTAGSEGFNLFLVAAHEFGHALGLSHSRYPGSLMYPTYKT</Hsp_hseq>
+      <Hsp_midline>T   D E+A  YL  +Y     P  R   +       +++MQ+FF L  TG +D +TV  MK+PRCGVPDV NY+ +    +W +  +TY I  +T DL  +T+D     A KVWS  +PL F R     ADIM+ FG  +HGD +PFDG  G LAHA+ PG GIGGD+HFDDDE WT G EG     V   ++G+A G    ++P   M   Y +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.87662e-40</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIY-TFTKTLRLSDDDVKGIQELYGEPTD--KPLATHTP-----------PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>FDDDEHWT-AGSEGFNLFLVAAHEFGHALGLSHSRYPGSLMYPTYKTRSPSNLLSGEDIRQLQALYGPRRGFGYPRSGFRSFYHLWRLKSGFPLPLQDSCKPGLSFDAVATLGQDALLMKDGYLWLRHG-QQPSVKAGLISNFLPQVPSDIDAAYSLPQRSSTVLLKGSSYWTVRGSRVKGR-PKSIYGLGFPEWVTRIDAAVHVSKTGNTLFFVNDTYWSYNESTRAMDEHYPREVADDFPGIAGRIDAA--AEKDGFLYFFSGASVQVFDNSQKQIVGT-ETASSWLGC</Hsp_hseq>
+      <Hsp_midline>FDDD  W     +G++LFLVAAHEFGHALGL HS  PG+LM P Y T + +  LS +D++ +Q LYG       P +               P+   D C   + FDAVA +  +    KD +L+     ++      L++ F  ++P  IDAAY  P    TV   G   W    S ++   PK I  +G P  +  IDAA    KT  T  F  + +W YNE+ + MD  +P+ +AD +  +   +D A     DG  YFF  +     D+S  +I+   E    WL C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|972959613|ref|XP_015197324.1|</Hit_id>
+  <Hit_def>PREDICTED: epididymal sperm-binding protein 1-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015197324</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>9.42176e-41</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQW-TLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG</Hsp_qseq>
+      <Hsp_hseq>SDYDTDGKWGNCPESGIVTVG-GNDPGKHCVFPFYYEDQLHLKCTTK-NNNHIPWCATTSDFAKDKKWGNCPFSGSPTTGGNSNGAPCQFPFIYQNKQYYYCTTENEGSKLPWCATVSNYDKDPKWGYCPTSGIVTEGGNDPGKQCVFPFYYGKELYFQCTTKDHNN--LWCATTSDFNTDRKWGNCPDSG</Hsp_hseq>
+      <Hsp_midline>S +D D +W    E  +V V  GN  G+ C FPF +  + +  CT++  ++   WC+TT +F  D K+G CP     T GGN++GAPC+FPF +Q  +Y  CTT        WCAT  +YDKD  +G+CP + + T GGN  G  CVFPF +  + Y  CTT   N+  +WCA T  F+ DRKWG CPD G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>8.75533e-38</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>PGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG</Hsp_qseq>
+      <Hsp_hseq>PWCATTSDFAKDKKWGNCPFSGSPTTGGNSNGAPCQFPFIYQNKQYYYCTTENEGSKLPWCATVSNYDKDPKWGYCPTSGIVTEGGNDPGKQCVFPFYYGKELYFQCTT--KDHNNLWCATTSDFNTDRKWGNCPDSGIVTVGGNDPGKHCVFPFYYEDQLYFQCTTK-NNKNIPWCATTGDFDKDQKWGNCPVSG</Hsp_hseq>
+      <Hsp_midline>P     S F  D++W            GN+ G  C+FPF++  K+Y  CT++       WC+T  N+D D K+G+CP   + T GGN  G  C FPF +  + Y  CTT  +D    WCATT D++ D+ +G CP++ + T GGN  G  CVFPF +    Y  CTT   N    WCA T  FD D+KWG CP  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>1.65597e-36</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MINFGRNEHGDG--YPFDGKDGLLAHAFAPG----PGIGGDSHFDDDEQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG</Hsp_qseq>
+      <Hsp_hseq>IITVGGNDPGKECIFPFKYEDKMYFQCIIKNNNNIPWCATTSDYAKDQKWGNCAIIGSPTTGGNSNGAPCQFPFTYQNKQYYYCTTYNEGSKLPWCATVSNYDKDPKWGYCPTSGIVTEGGNDPGKHCVFPFYYGKELYFQCTTNDHD--HLWCATTSDYDTDGKWGNCPESGIVTVGGNDPGKHCVFPFYYEDQLHLKCTTK-NNNHIPWCATTSDFAKDKKWGNCPFSG</Hsp_hseq>
+      <Hsp_midline>+I  G N+ G    +PF  +D +            P     S +  D++W            GN+ G  C+FPF +  K+Y  CT+        WC+T  N+D D K+G+CP   + T GGN  G  C FPF +  + Y  CTT+  D  + WCATT DYD D  +G CPE+ + T GGN  G  CVFPF +    +  CTT   N+   WCA T  F  D+KWG CP  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>4.27559e-35</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>TLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQG</Hsp_qseq>
+      <Hsp_hseq>SLATKAIITVG-GNDPGKECIFPFKYEDKMYFQCIIKNNNN-IPWCATTSDYAKDQKWGNCAIIGSPTTGGNSNGAPCQFPFTYQNKQYYYCTTYNEGSKLPWCATVSNYDKDPKWGYCPTSGIVTEGGNDPGKHCVFPFYYGKELYFQCTTNDHD--HLWCATTSDYDTDGKWGNCPESG</Hsp_hseq>
+      <Hsp_midline>+L    ++ V  GN  G+ C FPF +  K Y  C  +  ++   WC+TT ++  D K+G C      T GGN++GAPC+FPFT+Q  +Y  CTT        WCAT  +YDKD  +G+CP + + T GGN  G  CVFPF +  + Y  CTT+  +   +WCA T  +D D KWG CP+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|973167134|ref|XP_015214675.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214675</Hit_accession>
+  <Hit_len>2327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.93251e-37</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>QWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDS----------CTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>EWD-GQSQVYG---GNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCPMAAHEEVCTTSEGV-----MYRVGDQWDKRHDVLGHMMRCTCVGNGRGEWSCIAYSQLRD</Hsp_hseq>
+      <Hsp_midline>+W  G+ QV     GN++G+ C FPF+FMGK Y SCTS+GR DG LWCST+ N++ D  Y FC  +  L+ T GGN++GA C FPF + G  Y  CT  GR DG +WC TT +YD D+ +GFCP  A       S+G         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>5.95825e-35</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN+DG PC FPF F G  Y SCT+ GR DG  WC+T+ +Y++D+ Y FC +    ++T GGNS+GA C FPF + G +Y  CT  GR DG  WC  T ++D D+K+GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.11798e-14</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>SNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP</Hsp_hseq>
+      <Hsp_midline>S+++ D  ++    +  +V  + GN+ G  C FPFL+ G+ Y  CT+ GR DG  WC TT N+D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|973167124|ref|XP_015214674.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214674</Hit_accession>
+  <Hit_len>2353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.08296e-37</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>QWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDS----------CTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>EWD-GQSQVYG---GNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCPMAAHEEVCTTSEGV-----MYRVGDQWDKRHDVLGHMMRCTCVGNGRGEWSCIAYSQLRD</Hsp_hseq>
+      <Hsp_midline>+W  G+ QV     GN++G+ C FPF+FMGK Y SCTS+GR DG LWCST+ N++ D  Y FC  +  L+ T GGN++GA C FPF + G  Y  CT  GR DG +WC TT +YD D+ +GFCP  A       S+G         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>6.36183e-35</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN+DG PC FPF F G  Y SCT+ GR DG  WC+T+ +Y++D+ Y FC +    ++T GGNS+GA C FPF + G +Y  CT  GR DG  WC  T ++D D+K+GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.17676e-14</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>SNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP</Hsp_hseq>
+      <Hsp_midline>S+++ D  ++    +  +V  + GN+ G  C FPFL+ G+ Y  CT+ GR DG  WC TT N+D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|973167106|ref|XP_015214673.1|</Hit_id>
+  <Hit_def>PREDICTED: fibronectin isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214673</Hit_accession>
+  <Hit_len>2418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.11751e-37</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>QWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE--LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDS----------CTTSGRNDGKMWCAVTKSFDD</Hsp_qseq>
+      <Hsp_hseq>EWD-GQSQVYG---GNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCPMAAHEEVCTTSEGV-----MYRVGDQWDKRHDVLGHMMRCTCVGNGRGEWSCIAYSQLRD</Hsp_hseq>
+      <Hsp_midline>+W  G+ QV     GN++G+ C FPF+FMGK Y SCTS+GR DG LWCST+ N++ D  Y FC  +  L+ T GGN++GA C FPF + G  Y  CT  GR DG +WC TT +YD D+ +GFCP  A       S+G         +GD +D           CT  G   G+  C       D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>6.40834e-35</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPE--TAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYSLFLVAAHE</Hsp_qseq>
+      <Hsp_hseq>GGNSDGQPCVFPFVFMGKSYYSCTSEGRSDGQLWCSTSSNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP--------MAAHE</Hsp_hseq>
+      <Hsp_midline>GGN+DG PC FPF F G  Y SCT+ GR DG  WC+T+ +Y++D+ Y FC +    ++T GGNS+GA C FPF + G +Y  CT  GR DG  WC  T ++D D+K+GFCP        +AAHE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.18573e-14</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SHFDDDEQWTL--GEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>SNYEQDRMYSFCTQKNVLVTTRGGNSNGALCHFPFLYNGRNYTDCTADGRRDGMKWCGTTSNYDGDQKFGFCP</Hsp_hseq>
+      <Hsp_midline>S+++ D  ++    +  +V  + GN+ G  C FPFL+ G+ Y  CT+ GR DG  WC TT N+D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|973203157|ref|XP_015221453.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221453</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>3.2724e-32</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VLKVFLVQFLASLQTFAAPSPIIKFPGDDTAHTDKEVALHYLNKF-YGCPKDRCNLMV-----LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNF--------FHRKPKWGQKNVTYRILGHTPD---LDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MILVPVLWFLS--ETFAAPSLTAE---------QINMGVDWLSKFGYLPPPDSVTGQLQTKEALTEAIKAMQKFGGLEETGVLDEATLVLMKTPRCSLPDMSDAGMDSGRQKRAASSPTKWYKRHLSWRVRKFPKESHLLGHDTVRALMYYALKVWSDIAPLNFHEVAGSEADIQIDFTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDESWTF</Hsp_hseq>
+      <Hsp_midline>++ V ++ FL+  +TFAAPS   +            + + +L+KF Y  P D     +     L + +K MQKF  L ETG +D+ T+ +MK PRC +PD+++                KW ++++++R+     +   L  DT+    Y A KVWSD+ PL F  +   EADI I+F + +H DGYPFDG  G +AHAF PG     GD+HFDDDE WT </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>6.50397e-19</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GKMWCAVTKSFDDDRKWGF-CPD-QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK----TLRLSDDDVKGIQELYG-----EPTDKPLATHT--PPVT---------------PMDVCNENIIFDAVAQIRGEIFFFKDRFLFR-TADVRKKPTGPMLVATFWSELP---EKIDAAYENPLEERTVFF---AGDEMWVY</Hsp_qseq>
+      <Hsp_hseq>GDSYAAGDTHFDDDESWTFRSPDSHGMDLFAVAVHEFGHAIGLAHTSAKKSIMMPYYQGPVGDPLKYNLPYEDKVHIWQLYGVRDSVSHTARPDVSRTDDPPVLLDLPENRSTVPPAQDAPDRCNTH--FDAVAQIRGEAFFFKGKYFWRLTREKHLVSLRPAQIHRFWRGLPLNLDSVDAVYERPSDHKIVFFKDATGGMMTIY</Hsp_hseq>
+      <Hsp_midline>G  + A    FDDD  W F  PD  G  LF VA HEFGHA+GL H+    ++M P Y           L  +D   I +LYG       T +P  + T  PPV                  D CN +  FDAVAQIRGE FFFK ++ +R T +       P  +  FW  LP   + +DA YE P + + VFF    G  M +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|573882400|ref|XP_006629382.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-19 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006629382</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.40845e-31</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT-FTKTLRLSDDDVKGIQELYGE--------PTD--KPLATHTPPVTP------MDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGEVKKD-WLRC</Hsp_qseq>
+      <Hsp_hseq>FDEDEYWTEGTSRGANLRIIAAHEIGHALGLGHSQYPSALMGPVYNGYKSNFWLHPDDVRAIQALYGKRVPSVPSVPSEPQAPAPSVPPAVVPDEQGDVPDPCTADLDAIMLGPYR-KTYAFSGQYMWTVSDLGH--NRPMKISLLWKSLPGNLDAAVHSQRTNKTYFLKGDKVWRYTGFRLDYGYPKPLTR--IPPN---IDAALYWDVNQKIFFFKGDGYWQWDELVYNDLSMYPKPISQLFTGVPSHPGSAFTWT-NGKIYFFKGDRYWRVNEQLRAERGYPQSKRERWMQC</Hsp_hseq>
+      <Hsp_midline>FD+D  W     +G +L ++AAHE GHALGL HS  P ALM P+Y  +     L  DDV+ IQ LYG+        P++   P  +  P V P       D C  ++    +   R + + F  ++++  +D+      PM ++  W  LP  +DAA  +    +T F  GD++W Y+   L+  YPK ++   +P +   IDAA  +   +K + F G+ +W+++E        +PK I+  +T VP     A +   +G  YFFK   Y ++++         + K++ W++C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>6.40304e-31</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFFHRK--PKWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEGQ------VVKVKYGNAEG-EFCKFPFLFMGKEYNSCTS</Hsp_qseq>
+      <Hsp_hseq>IEEALRVFQRVTQLPVTGTIDKATLAMMRRPRCGIEDPFNQKTFKYRLLGRWRKKNLTYRIHNHTPDLGLAETRAAIQSAFHYWSEVAPLTFQEVTGGRADIKISFHRRSHACSVAFDGPGRVLAHADVPESGI---VHFDEDEYWTEGTSRGANLRIIAAHEIGHALGLGHSQYPSALMGPVYNGYKS</Hsp_hseq>
+      <Hsp_midline>+++ L+  Q+   LP TG ID+ T+ +M++PRCG+ D  N   F  +   +W +KN+TYRI  HTPDL       A   AF  WS+V PL F  +  G ADI I+F R  H     FDG   +LAHA  P  GI    HFD+DE WT G  +      +   + G+A G    ++P   MG  YN   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|973206262|ref|XP_015222756.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015222756</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>4.80023e-30</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>CAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT-FTKTLRLSDDDVKGIQELYGEPTDKPLATHTP---------------------PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGE--VKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>CRGEAHFDMAERWTLNGHKGHNLFVVTAHEIGHTLGLEHSPVRNALMSPYYKKLGRAFVLSWDDIAAVQRLYGKPPSG-LAVQLPGQVYSSFLQDWESTEGTQGPGPALP-PYCQ--TFFDAITMDQNRTVYVFRGARFWTVSAQGRASAALPLQRRWPQLPASVEAAAVSPPEGKFYFFRGGRFWRFSGSRLDPGFPRRSSAAGLPRH---PDYAFYYPPLGNMVLVKGPRYFVLNLRSLTPEPYYPRGLAD-WKGLPQGANGAVG-RPDG-LYFFKDELFWRFDPGRVRVVSRGRWAPELEWTGC</Hsp_hseq>
+      <Hsp_midline>C     FD   +W     +G++LF+V AHE GH LGLEHS    ALM+P Y    +   LS DD+  +Q LYG+P    LA   P                     P  P   C     FDA+   +    +      F T   + + +  + +   W +LP  ++AA  +P E +  FF G   W +S S L+  +P++ S+ GLP      D A+ +       +  G +++  N      +P +P+ +AD W  +P   +GA+    DG  YFFKD  + + D   ++++  G    + +W  C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.17542e-14</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MKKPRCGVPDVANYNFF------------------HRKP-------KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGY--PFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MSRPRCGVGDGESHSAWAQRVRGIFSGMGGRGARRHRSKRYSQQGEKWSKRQLTYRLVNWPRHLSPGQVRLAVRAAFQLWSNASALAFRELTHGPADIRLAFYEGEHNDGTGNAFDGPGGALAHAFFP---CRGEAHFDMAERWTL</Hsp_hseq>
+      <Hsp_midline>M +PRCGV D  +++ +                  HR         KW ++ +TYR++     L    +  A   AF++WS+ + L F  +  G ADI + F   EH DG    FDG  G LAHAF P     G++HFD  E+WTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|973206260|ref|XP_006641013.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006641013</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.11045e-29</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>657</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>CAVTKSFDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT-FTKTLRLSDDDVKGIQELYGEPTDKPLATHTP---------------------PVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGHSYFFKDSHYLKMDDSTLKIIKVGE--VKKDWLRC</Hsp_qseq>
+      <Hsp_hseq>CRGEAHFDMAERWTLNGHKGHNLFVVTAHEIGHTLGLEHSPVRNALMSPYYKKLGRAFVLSWDDIAAVQRLYGKPPSG-LAVQLPGQVYSSFLQDWESTEGTQGPGPALP-PYCQ--TFFDAITMDQNRTVYVFRGARFWTVSAQGRASAALPLQRRWPQLPASVEAAAVSPPEGKFYFFRGGRFWRFSGSRLDPGFPRRSSAAGLPRH---PDYAFYYPPLGNMVLVKGPRYFVLNLRSLTPEPYYPRGLAD-WKGLPQGANGAVG-RPDG-LYFFKDELFWRFDPGRVRVVSRGRWAPELEWTGC</Hsp_hseq>
+      <Hsp_midline>C     FD   +W     +G++LF+V AHE GH LGLEHS    ALM+P Y    +   LS DD+  +Q LYG+P    LA   P                     P  P   C     FDA+   +    +      F T   + + +  + +   W +LP  ++AA  +P E +  FF G   W +S S L+  +P++ S+ GLP      D A+ +       +  G +++  N      +P +P+ +AD W  +P   +GA+    DG  YFFKD  + + D   ++++  G    + +W  C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>1.48594e-19</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MVLKDTLKKMQKFFALPETGEIDQKTVEIMKKPRCGVPDVANYNFF------------------HRKP-------KWGQKNVTYRILGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEADIMINFGRNEHGDGY--PFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTL</Hsp_qseq>
+      <Hsp_hseq>MAAVASSREFQWLSHLPVTGKLDSATLWLMSRPRCGVGDGESHSAWAQRVRGIFSGMGGRGARRHRSKRYSQQGEKWSKRQLTYRLVNWPRHLSPGQVRLAVRAAFQLWSNASALAFRELTHGPADIRLAFYEGEHNDGTGNAFDGPGGALAHAFFP---CRGEAHFDMAERWTL</Hsp_hseq>
+      <Hsp_midline>M    + ++ Q    LP TG++D  T+ +M +PRCGV D  +++ +                  HR         KW ++ +TYR++     L    +  A   AF++WS+ + L F  +  G ADI + F   EH DG    FDG  G LAHAF P     G++HFD  E+WTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|973217212|ref|XP_015195073.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-25 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015195073</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>2.38179e-24</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MKKPRCGVPDVANYNFFHRKPK--------WGQKNVTYRI-----LGHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDG----EADIMINFGRNEHGDGYPFDGKDGLLAHAFAPGPG-IGGDSHFDDDEQWTLGEGQ------VVKVKYGNAEG</Hsp_qseq>
+      <Hsp_hseq>MKKPRCSLPDIIGTAELLRRRKRYALSGEVWSRTQLTWRVDNYPDIAQSPTLRADTVRTLMHLALQVWAKVTPLQFRELTAGGASEEPDIHITFSSSYHQDGYPFDGPGGTLAHAFFPGEHPVSGDTHFDDQESWTYADPQGTDLFTVAIHEFGHALG</Hsp_hseq>
+      <Hsp_midline>MKKPRC +PD+       R+ K        W +  +T+R+     +  +P L  DT+    + A +VW+ VTPL+F  +  G    E DI I F  + H DGYPFDG  G LAHAF PG   + GD+HFDD E WT  + Q      V   ++G+A G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.3913e-11</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYT----FTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>FDDQESWTYADPQGTDLFTVAIHEFGHALGLSHSSSTNSIMAPYYQGPVGRPEDYVLPGDDTQGIQQLYG</Hsp_hseq>
+      <Hsp_midline>FDD   W +   QG  LF VA HEFGHALGL HS    ++MAP Y       +   L  DD +GIQ+LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|972986644|ref|XP_015209388.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015209388</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.25236e-24</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>612</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>AVTKSFDDDRKWGF--CPDQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTK----TLRLSDDDVKGIQELYGEP-----------------TDKPLATHT--PPVTPMDVCNENIIFDAVAQIRGEIFFFKDRFLFRTAD-VRKKPTGPMLVATFWSELPEKIDA--AYENPLEERTVFFAGDEMWVYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKK---TYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPD</Hsp_qseq>
+      <Hsp_hseq>AGTVHLDSQEDWTFRASESQGTDLFTVAVHEFGHALGLSHSSARRSIMRPYYQGPVGDPLQYQLSPEDRREILRLYGKREHLLSSESPSLVIPTALTRPPLHRHTARPPGPLPDRCSSE--FDAVASIRGETFFFKGRYFWRVSQGGHLLSLRPVLLQRFWRGLPARLESVRAVLERASDHSIIFIGDLQWDPQAGRV--VWGEWEEAMGDPSWKELIEGGVDGITTDGDGYTYVFKGHLYWRFPSPGSYPEPGYPRSTAYDWLDCPD</Hsp_hseq>
+      <Hsp_midline>A T   D    W F     QG  LF VA HEFGHALGL HS    ++M P Y          +LS +D + I  LYG+                  T  PL  HT  PP    D C+    FDAVA IRGE FFFK R+ +R +         P+L+  FW  LP ++++  A      + ++ F GD  W   A  +   + +   +MG PS    I+       T     TY+F G+ +WR+       +PG+P+  A  W   PD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.15851e-15</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>EIDQKTVEIMKKPRCGVPD-----------------VANYNFFHRK--PKW--GQKNVTYRILGHTP--DLDEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGDGYPFDGKDGLLAHAFAPG-PGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>EGDEETLTLMSTPRCSLPDDQGEPQPTPQSSTFSQHAQQHPQRQRRDTAEWTKSHKNISWRVRSYPSHSSLSREMIRSLLFYALRVWAEPTPLEFHEVGVTGEAELQVDFLQGSHGDSFPFDGPGGAVGHAFFPSDPQRAGTVHLDSQEDWT</Hsp_hseq>
+      <Hsp_midline>E D++T+ +M  PRC +PD                    +    R+   +W    KN+++R+  +     L  + I    + A +VW++ TPL+F  + + GEA++ ++F +  HGD +PFDG  G + HAF P  P   G  H D  E WT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|972949006|ref|XP_015197999.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015197999</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.20992e-20</Hsp_evalue>
+      <Hsp_query-from>381</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>FDDDRKWGFCP-DQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFT-KTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQIRGEIFFFK--DRFLFRTADVRKKPTGPMLVATFWSELPE-KIDAAYE--NPLEERTVFFAGDEMWVYSASTLE--------REYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTA-VPDDLDGALSLNGDG</Hsp_qseq>
+      <Hsp_hseq>LDDDEPYNTSPSDQGVGLLQVAVHEIGHVLGLPHLLYPGSVMHPFYPTTGGTVELSWHDRRAIQELYGQCED-------PFDTVFDWVRRQSSQKGEPVLRFNTFFFRGGQYWLYENRHSRPRLGDPRRLTAGWRGLPEGGVDAFVHVWTPQIDARFFFKGTQFWRYDSSTDRVFTQDPEGQRYPCRISE-GFPGVSGPIDAAVFLRREGCIYFFKGQEVLAFGVSSNQTLPGFPKRLEEVFPASIQEDHPTGQVLLGSG</Hsp_hseq>
+      <Hsp_midline> DDD  +   P DQG  L  VA HE GH LGL H   PG++M P Y  T  T+ LS  D + IQELYG+  D       P  T  D             +R   FFF+    +L+     R +   P  +   W  LPE  +DA      P  +   FF G + W Y +ST          + YP +IS  G P     IDAA    +    Y F G +   +  +  +  PGFPK + + + A + +D      L G G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.21736e-07</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>QKNVTYRIL--GHTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMD---GEADIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDE</Hsp_qseq>
+      <Hsp_hseq>QQRLKWRLMAEGHSDHLTKEEQRRELRLAFRRWSEVAPLSFQEDLTCPMAEIDIWVGFGTGRHLGCPWAFDGLGGELAHTLLP-----GEIHLDDDE</Hsp_hseq>
+      <Hsp_midline>Q+ + +R++  GH+  L ++        AF+ WS+V PL F   +     E DI + FG   H G  + FDG  G LAH   P     G+ H DDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|972980273|ref|XP_015206532.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: protein sel-1 homolog 1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015206532</Hit_accession>
+  <Hit_len>773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>5.83472e-17</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQ</Hsp_qseq>
+      <Hsp_hseq>PKEVQTVIGGTADGEPCLFPFLFLGKEYSECTTEGRGDGRLWCATTYDYDRDKRWGFCESE</Hsp_hseq>
+      <Hsp_midline>P+   +  GG +DG PC+FPF FLG  Y  CTT GR DG++WCA T  +D D++WGFC  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.51325e-16</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC</Hsp_qseq>
+      <Hsp_hseq>PKEVQTVIGGTADGEPCLFPFLFLGKEYSECTTEGRGDGRLWCATTYDYDRDKRWGFC</Hsp_hseq>
+      <Hsp_midline>P E+   +GG ADG PC FPF F G +Y  CTT GR DG  WCATT DYD+DK +GFC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.4364e-15</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHE</Hsp_qseq>
+      <Hsp_hseq>EVQTVIGGTADGEPCLFPFLFLGKEYSECTTEGRGDGRLWCATTYDYDRDKRWGFCESE</Hsp_hseq>
+      <Hsp_midline>+V  V  G A+GE C FPFLF+GKEY+ CT++GR DG LWC+TTY++D D ++GFC  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|973157279|ref|XP_015214386.1|</Hit_id>
+  <Hit_def>PREDICTED: secretory phospholipase A2 receptor isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214386</Hit_accession>
+  <Hit_len>1352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.05143e-16</Hsp_evalue>
+      <Hsp_query-from>235</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTS---GGNSDGAPC----VFPFKFLGDSYDSCTTSGRN</Hsp_qseq>
+      <Hsp_hseq>FPLLFM----KSCKSAADEDVVL-----------DQNQLSEHNKIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCPSPETGCDVFWEKNQDTKACYQFNLYSILSWNQAHASCQAQGGN</Hsp_hseq>
+      <Hsp_midline>FP LFM     SC S   +D  L            +     H  + T+ GNA G PC FPF +    Y  CT  GR+D YRWCATT  YD+D+ +GFCP            N D   C    ++       ++ SC   G N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.28581e-12</Hsp_evalue>
+      <Hsp_query-from>337</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>IHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>+ T  GN+ G PCVFPFK+    Y  CT  GR D   WCA T  +D D KWGFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>3.15544e-11</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EQWTLGEGQVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>DQNQLSEHNKIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>+Q  L E   +    GNA G  C FPF +  K Y+ CT++GR+D + WC+TT  +D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|573897899|ref|XP_006636684.1|</Hit_id>
+  <Hit_def>PREDICTED: secretory phospholipase A2 receptor isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006636684</Hit_accession>
+  <Hit_len>1479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.2292e-15</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC--PETAMST-SGGNSDGAPC----VFPFKFLGDSYDSCTTSGRN</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCPSPETGCDVFWEKNQDTKACYQFNLYSILSWNQAHASCQAQGGN</Hsp_hseq>
+      <Hsp_midline>P+E + T+ GNA G PC FPF +    Y  CT  GR+D YRWCATT  YD+D+ +GFC  PET        N D   C    ++       ++ SC   G N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>5.59035e-13</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>P   + T  GN+ G PCVFPFK+    Y  CT  GR D   WCA T  +D D KWGFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.42516e-10</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TLGEG------QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>TLDEGPCSRPYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>TL EG      + +    GNA G  C FPF +  K Y+ CT++GR+D + WC+TT  +D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|973157301|ref|XP_015214387.1|</Hit_id>
+  <Hit_def>PREDICTED: secretory phospholipase A2 receptor isoform X4 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214387</Hit_accession>
+  <Hit_len>1204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.2307e-15</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC--PETAMST-SGGNSDGAPC----VFPFKFLGDSYDSCTTSGRN</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCPSPETGCDVFWEKNQDTKACYQFNLYSILSWNQAHASCQAQGGN</Hsp_hseq>
+      <Hsp_midline>P+E + T+ GNA G PC FPF +    Y  CT  GR+D YRWCATT  YD+D+ +GFC  PET        N D   C    ++       ++ SC   G N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>5.554e-13</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPD</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCPS</Hsp_hseq>
+      <Hsp_midline>P   + T  GN+ G PCVFPFK+    Y  CT  GR D   WCA T  +D D KWGFCP </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.4277e-10</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TLGEG------QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>TLDEGPCSRPYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>TL EG      + +    GNA G  C FPF +  K Y+ CT++GR+D + WC+TT  +D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|973157260|ref|XP_015214385.1|</Hit_id>
+  <Hit_def>PREDICTED: secretory phospholipase A2 receptor isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214385</Hit_accession>
+  <Hit_len>1424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.65584e-15</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>P+E + T+ GNA G PC FPF +    Y  CT  GR+D YRWCATT  YD+D+ +GFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.11975e-13</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>478</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP------DQGYSLFLVAAHEFGHALGLEHSDD-PGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQI</Hsp_qseq>
+      <Hsp_hseq>PYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCPSPERLNDVGV-LVWIGLNHLDETAGWQWSDGAPLALVNFTTDISMMSRVNNAYCGVYNSVWGH---KWHSLHCRSALPY-ICKKNPNYSRTAEL</Hsp_hseq>
+      <Hsp_midline>P   + T  GN+ G PCVFPFK+    Y  CT  GR D   WCA T  +D D KWGFCP      D G  L  +  +      G + SD  P AL+      +   R+++        ++G    K  + H     P  +C +N  +   A++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.33144e-10</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TLGEG------QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>TLDEGPCSRPYEEIHTVQGNAHGMPCVFPFKYNNKWYSECTAEGREDNYRWCATTSQYDQDEKWGFCP</Hsp_hseq>
+      <Hsp_midline>TL EG      + +    GNA G  C FPF +  K Y+ CT++GR+D + WC+TT  +D D K+GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|972970733|ref|XP_015202449.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015202449</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.74826e-14</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>593</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>SGRNDGKMWCAVTKSFDDDRKWGFCPD--QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT-LRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQ---------IRGEIFFFKDR--FLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERT---VFFAGDEMW--------VYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTA-VPDD-----LDGALSLNGDGHSYFFKDSHYLKMDDS</Hsp_qseq>
+      <Hsp_hseq>AGREFAHAWFLGDIHFDDDEHFT-APSGGNGISLLKVAVHEIGHVLGLPHIYRGGSIMQPSYVPQDSAFEIDWMDRKAIQQLYGGCKGR----------------FNTVFDWVRKERTPYGELVIRFNTYFIRDSWYWLYENRSNRTRYGDPIALQVGWHGIPSDGVDAYVHVWDWRTDAAYFFKGTQYWRYDSENDQVYTQDSEGQRYPRLISE-GFPGIPSPINTAFYNRRDSRIYFFKDLHVYSFDVRTNKKVNGFPMRITDVFPAVVPGDHPIGNLDVAYFSYTHNSIFFLKGSHFWKVVSS</Hsp_hseq>
+      <Hsp_midline>+GR     W      FDDD  +   P    G SL  VA HE GH LGL H    G++M P Y    +   +   D K IQ+LYG    +                 N +FD V +         IR   +F +D   +L+     R +   P+ +   W  +P     AY +  + RT    FF G + W        VY+  +  + YP+ IS  G P     I+ A+   +  + Y F     + ++    K   GFP  I D + A VP D     LD A         +F K SH+ K+  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.19914e-06</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>QKNVTYRILG--HTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDG---EADIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG----QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGF</Hsp_qseq>
+      <Hsp_hseq>KKVLKWRLMGEGYSSQLSIDEQRYVFKLAFRMWSEVCPVEFEEDLTSPLFEIDVRLGFGTGRHLGCAQSFDGAGREFAHAW-----FLGDIHFDDDEHFTAPSGGNGISLLKVAV-HEIGHVLGLPHIYRGGSIMQPSYVPQDSAF</Hsp_hseq>
+      <Hsp_midline>+K + +R++G  ++  L  D     F  AF++WS+V P++F   +     E D+ + FG   H G    FDG     AHA+       GD HFDDDE +T   G     ++KV   +  G     P ++ G      +   +D  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|573885075|ref|XP_006630578.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21 isoform X2 [Lepisosteus oculatus] &gt;gi|972970735|ref|XP_015202450.1| PREDICTED: matrix metalloproteinase-21 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006630578</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>5.33091e-14</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>589</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>SGRNDGKMWCAVTKSFDDDRKWGFCPD--QGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT-LRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNENIIFDAVAQ---------IRGEIFFFKDR--FLFRTADVRKKPTGPMLVATFWSELPEKIDAAYENPLEERT---VFFAGDEMW--------VYSASTLEREYPKKISSMGLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTA-VPDD-----LDGALSLNGDGHSYFFKDSHYLKMDDS</Hsp_qseq>
+      <Hsp_hseq>AGREFAHAWFLGDIHFDDDEHFT-APSGGNGISLLKVAVHEIGHVLGLPHIYRGGSIMQPSYVPQDSAFEIDWMDRKAIQQLYGGCKGR----------------FNTVFDWVRKERTPYGELVIRFNTYFIRDSWYWLYENRSNRTRYGDPIALQVGWHGIPSDGVDAYVHVWDWRTDAAYFFKGTQYWRYDSENDQVYTQDSEGQRYPRLISE-GFPGIPSPINTAFYNRRDSRIYFFKDLHVYSFDVRTNKKVNGFPMRITDVFPAVVPGDHPIGNLDVAYFSYTHNSIFFLKGSHFWKVVSS</Hsp_hseq>
+      <Hsp_midline>+GR     W      FDDD  +   P    G SL  VA HE GH LGL H    G++M P Y    +   +   D K IQ+LYG    +                 N +FD V +         IR   +F +D   +L+     R +   P+ +   W  +P     AY +  + RT    FF G + W        VY+  +  + YP+ IS  G P     I+ A+   +  + Y F     + ++    K   GFP  I D + A VP D     LD A         +F K SH+ K+  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.31069e-06</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>QKNVTYRILG--HTPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDG---EADIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGEG----QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGF</Hsp_qseq>
+      <Hsp_hseq>KKVLKWRLMGEGYSSQLSIDEQRYVFKLAFRMWSEVCPVEFEEDLTSPLFEIDVRLGFGTGRHLGCAQSFDGAGREFAHAW-----FLGDIHFDDDEHFTAPSGGNGISLLKVAV-HEIGHVLGLPHIYRGGSIMQPSYVPQDSAF</Hsp_hseq>
+      <Hsp_midline>+K + +R++G  ++  L  D     F  AF++WS+V P++F   +     E D+ + FG   H G    FDG     AHA+       GD HFDDDE +T   G     ++KV   +  G     P ++ G      +   +D  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|972964047|ref|XP_015199364.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21-like isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015199364</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.13045e-13</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>639</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>SGRNDGKMWCAVTKSFDDDRKWGFCP---DQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT-LRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNEN--IIFDAVAQIRGE---------IFFFKDRFLFRTADVRKKP--TGPMLVATFWSELP-EKIDAAYE--NPLEERTVFFAGDEMWVY--------SASTLEREYPKKISSM--GLPSDLHGIDAAYSFHKTKKTYIFAGNKFWRYN-EAKKKMDPGFPKIIADSWTAVPD------DLDGALSLNGDGHSYFFKDSHYLKMDD</Hsp_qseq>
+      <Hsp_hseq>AGQELAHAWHLGDIHFNDDKH--FVPPRSEQGINLLTVAVHEIGHVLGLPHISRVGSVMQASYNSQNAYLELDRKDRNAIQGIYG------------------TCGQQFGTVFDMVYKGEDEEGHVKYKFSTYFFRSSWYWRYENQYSRPRYRDPILLRVGWHGIPSEGIDACVHVWTTDKDSVLFFKGTQFWQYDTENDRACTEDSQGRPFPQLIKDRFPGVPSP---IDTAFFDRRDHNIFFFRGNNVTAFNVDLNRKVD-GYPKRIIDVFPAVVSGDHPVGNLDAVYFSYYYNATYIFKDQDYWKVVD</Hsp_hseq>
+      <Hsp_midline>+G+     W      F+DD+   F P   +QG +L  VA HE GH LGL H    G++M   Y      L L   D   IQ +YG                   C +    +FD V +   E          +FF+  + +R  +   +P    P+L+   W  +P E IDA        ++  +FF G + W Y        +  +  R +P+ I     G+PS    ID A+   +    + F GN    +N +  +K+D G+PK I D + AV        +LD          +Y FKD  Y K+ D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.57756e-06</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>PETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWG----QKNVTYRILGH-----TPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEA---DIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWT</Hsp_qseq>
+      <Hsp_hseq>PREKRFLQQLVERSQKQRRSV-------VYVRSSDWGMGFSKRALKWRLLGEGYSSWLPIEDQRKI---LKRAFRLWSEVIPLNFQEDLTSRASEIDVKLGFGTRRHLGCSQAFDGAGQELAHAWH-----LGDIHFNDDKHFV</Hsp_hseq>
+      <Hsp_midline>P      Q+ VE  +K R  V        + R   WG    ++ + +R+LG       P  D+  I     RAF++WS+V PL F   +   A   D+ + FG   H G    FDG    LAHA+       GD HF+DD+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|973125453|ref|XP_015210001.1|</Hit_id>
+  <Hit_def>PREDICTED: macrophage mannose receptor 1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015210001</Hit_accession>
+  <Hit_len>1454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.36449e-13</Hsp_evalue>
+      <Hsp_query-from>276</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>HELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMSTSG</Hsp_qseq>
+      <Hsp_hseq>YEDIFTLGGNSFGLPCQFPFKYDEKWYAECTLDGRSDGQLWCATTADYKTDRKWGLCP--TKSTSG</Hsp_hseq>
+      <Hsp_midline>+E +FTLGGN+ G PC+FPF +    Y  CT  GR DG  WCATT DY  D+ +G CP    STSG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.36452e-12</Hsp_evalue>
+      <Hsp_query-from>339</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPDQGYS</Hsp_qseq>
+      <Hsp_hseq>TLGGNSFGLPCQFPFKYDEKWYAECTLDGRSDGQLWCATTADYKTDRKWGLCPTKSTS</Hsp_hseq>
+      <Hsp_midline>T GGNS G PC FPFK+    Y  CT  GR+DG++WCA T  +  DRKWG CP +  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.37915e-07</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>GNSFGLPCQFPFKYDEKWYAECTLDGRSDGQLWCATTADYKTDRKWGLCP</Hsp_hseq>
+      <Hsp_midline>GN+ G  C+FPF +  K Y  CT  GR DG LWC+TT ++  D K+G CP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|973187262|ref|XP_015217425.1|</Hit_id>
+  <Hit_def>PREDICTED: C-type mannose receptor 2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015217425</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.01588e-12</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCP</Hsp_qseq>
+      <Hsp_hseq>IYTIQGNSHGRPCTIPFMYDNQWFHECTSTGREDGHLWCATTTDYGKDERWGFCP</Hsp_hseq>
+      <Hsp_midline>++T+ GN+ G PC  PF +    +  CT++GR+DG+ WCATT DY KD+ +GFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.5765e-10</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDK-DKTYGFCPETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCP</Hsp_qseq>
+      <Hsp_hseq>LPLSLGANYTQVPSRDP--------------SQSDSNKWRLYSTDQDLCSKSY-----REIYTIQGNSHGRPCTIPFMYDNQWFHECTSTGREDGHLWCATTTDYGKDERWGFCP</Hsp_hseq>
+      <Hsp_midline>L  +LG N    P + P               + D  +W   + D D   K+Y       + T  GNS G PC  PF +    +  CT++GR DG +WCA T  +  D +WGFCP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.38208e-09</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCP</Hsp_qseq>
+      <Hsp_hseq>GNSHGRPCTIPFMYDNQWFHECTSTGREDGHLWCATTTDYGKDERWGFCP</Hsp_hseq>
+      <Hsp_midline>GN+ G  C  PF++  + ++ CTS GR+DG LWC+TT ++  D ++GFCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|973211413|ref|XP_015192539.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015192539</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.24115e-11</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>NYNFFHRKPKWGQKNVTYRILGHTPDL-DEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGE</Hsp_qseq>
+      <Hsp_hseq>RYTLTPEKLKWDKFKLTYKLLSFPRNLINASDTHKAMAKAFSMWGDVSPFSFREVPADQEADIKIGFYPINHTDCLRSYLHHCFDGITGELAHAFFPP---TGEIHFDDHEYWVLGN</Hsp_hseq>
+      <Hsp_midline> Y     K KW +  +TY++L    +L +      A  +AF +W DV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P     G+ HFDD E W LG </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.31848e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVAAHEIGHALGLMHSLNPKAIMHLNATLTGKKFITQDDVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VAAHE GHALGL HS +P A+M    T T    ++ DDV G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|973211415|ref|XP_015192540.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015192540</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.41189e-11</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>NYNFFHRKPKWGQKNVTYRILGHTPDL-DEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLGE</Hsp_qseq>
+      <Hsp_hseq>RYTLTPEKLKWDKFKLTYKLLSFPRNLINASDTHKAMAKAFSMWGDVSPFSFREVPADQEADIKIGFYPINHTDCLRSYLHHCFDGITGELAHAFFPP---TGEIHFDDHEYWVLGN</Hsp_hseq>
+      <Hsp_midline> Y     K KW +  +TY++L    +L +      A  +AF +W DV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P     G+ HFDD E W LG </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.33425e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVAAHEIGHALGLMHSLNPKAIMHLNATLTGKKFITQDDVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VAAHE GHALGL HS +P A+M    T T    ++ DDV G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|573908849|ref|XP_006642143.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006642143</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.66519e-11</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>NYNFFHRKPKWGQKNVTYRILGHTPDL-DEDTIDDAFYRAFKVWSDVTPLKFTRI-MDGEADIMINFGRNEHGD------GYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQWTLG</Hsp_qseq>
+      <Hsp_hseq>RYTLTPEKLKWDKFKLTYKLLSFPRNLINASDTHKAMAKAFSMWGDVSPFSFREVPADQEADIKIGFYPINHTDCLRSYLHHCFDGITGELAHAFFPP---TGEIHFDDHEYWVLG</Hsp_hseq>
+      <Hsp_midline> Y     K KW +  +TY++L    +L +      A  +AF +W DV+P  F  +  D EADI I F    H D       + FDG  G LAHAF P     G+ HFDD E W LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.94229e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYG</Hsp_qseq>
+      <Hsp_hseq>LVHVAAHEIGHALGLMHSLNPKAIMHLNATLTGKKFITQDDVWGLHRLYG</Hsp_hseq>
+      <Hsp_midline>L  VAAHE GHALGL HS +P A+M    T T    ++ DDV G+  LYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|972949552|ref|XP_015200573.1|</Hit_id>
+  <Hit_def>PREDICTED: cation-independent mannose-6-phosphate receptor [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015200573</Hit_accession>
+  <Hit_len>2485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.38959e-10</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>1870</Hsp_hit-from>
+      <Hsp_hit-to>1937</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>EGQVVKVKYGNAE--------GEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPH</Hsp_qseq>
+      <Hsp_hseq>EDQAIIMKYGSGDPCPTVTTKGEVCTFPFKYHKKSYNSCTTDGRTNGDLWCATTDDYNRDQKWGFCTN</Hsp_hseq>
+      <Hsp_midline>E Q + +KYG+ +        GE C FPF +  K YNSCT+ GR +G LWC+TT +++ D K+GFC +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.36008e-10</Hsp_evalue>
+      <Hsp_query-from>344</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>1889</Hsp_hit-from>
+      <Hsp_hit-to>1937</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>SDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFCPD</Hsp_qseq>
+      <Hsp_hseq>TKGEVCTFPFKYHKKSYNSCTTDGRTNGDLWCATTDDYNRDQKWGFCTN</Hsp_hseq>
+      <Hsp_midline>+ G  C FPFK+   SY+SCTT GR +G +WCA T  ++ D+KWGFC +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>5.35158e-09</Hsp_evalue>
+      <Hsp_query-from>288</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>1891</Hsp_hit-from>
+      <Hsp_hit-to>1935</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC</Hsp_qseq>
+      <Hsp_hseq>GEVCTFPFKYHKKSYNSCTTDGRTNGDLWCATTDDYNRDQKWGFC</Hsp_hseq>
+      <Hsp_midline>G  C FPF +    Y+SCTT GR +G  WCATT+DY++D+ +GFC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|973157236|ref|XP_015214384.1|</Hit_id>
+  <Hit_def>PREDICTED: lymphocyte antigen 75 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015214384</Hit_accession>
+  <Hit_len>1723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.44602e-10</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>DDGKYGFC--PHELLFTLGGNADGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFC</Hsp_qseq>
+      <Hsp_hseq>DNSSENICQRPYKVVYTTRGNSFGSPCELPFQVNGTWHHDCISDGREEGREWCPTTADYDTDGKWGVC</Hsp_hseq>
+      <Hsp_midline>D+     C  P+++++T  GN+ G+PC+ PF   G  +  C + GR++G  WC TT DYD D  +G C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.16671e-08</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PETAMSTSGGNSDGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFC--PDQG</Hsp_qseq>
+      <Hsp_hseq>PYKVVYTTRGNSFGSPCELPFQVNGTWHHDCISDGREEGREWCPTTADYDTDGKWGVCLKPEKG</Hsp_hseq>
+      <Hsp_midline>P   + T+ GNS G+PC  PF+  G  +  C + GR +G+ WC  T  +D D KWG C  P++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.54937e-07</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>QVVKVKYGNAEGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFC</Hsp_qseq>
+      <Hsp_hseq>KVVYTTRGNSFGSPCELPFQVNGTWHHDCISDGREEGREWCPTTADYDTDGKWGVC</Hsp_hseq>
+      <Hsp_midline>+VV    GN+ G  C+ PF   G  ++ C S GR++G  WC TT ++D DGK+G C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|573911542|ref|XP_006643489.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23-like, partial [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006643489</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>6.52057e-10</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKTLRLSDDDVKGIQELYGEPTDKPLATHTP</Hsp_qseq>
+      <Hsp_hseq>LVQVAAHEIGHALGLWHSRQPQALMHPNATYTGQRTISRDDVWGIQRLY-EPPPVDTTTASP</Hsp_hseq>
+      <Hsp_midline>L  VAAHE GHALGL HS  P ALM P  T+T    +S DDV GIQ LY EP      T +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|972964049|ref|XP_015199365.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21-like isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015199365</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>3.67274e-09</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>SGRNDGKMWCAVTKSFDDDRKWGFCP---DQGYSLFLVAAHEFGHALGLEHSDDPGALMAPIYTFTKT-LRLSDDDVKGIQELYGEPTDKPLATHTPPVTPMDVCNEN--IIFDAVAQIRGE---------IFFFKDRFLFRTADVRKKP--TGPMLVATFWSELP-EKIDAAYE--NPLEERTVFFAGDEMWVY--------SASTLEREYPKKISSM--GLPSDLHGIDAAYSFHKTKKTYIFAGNKF</Hsp_qseq>
+      <Hsp_hseq>AGQELAHAWHLGDIHFNDDKH--FVPPRSEQGINLLTVAVHEIGHVLGLPHISRVGSVMQASYNSQNAYLELDRKDRNAIQGIYG------------------TCGQQFGTVFDMVYKGEDEEGHVKYKFSTYFFRSSWYWRYENQYSRPRYRDPILLRVGWHGIPSEGIDACVHVWTTDKDSVLFFKGTQFWQYDTENDRACTEDSQGRPFPQLIKDRFPGVPSP---IDTAFFDRRDHNIFFFRGNNW</Hsp_hseq>
+      <Hsp_midline>+G+     W      F+DD+   F P   +QG +L  VA HE GH LGL H    G++M   Y      L L   D   IQ +YG                   C +    +FD V +   E          +FF+  + +R  +   +P    P+L+   W  +P E IDA        ++  +FF G + W Y        +  +  R +P+ I     G+PS    ID A+   +    + F GN +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.37271e-06</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>PETGEIDQKTVEIMKKPRCGVPDVANYNFFHRKPKWG----QKNVTYRILGH-----TPDLDEDTIDDAFYRAFKVWSDVTPLKFTRIMDGEA---DIMINFGRNEH-GDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDEQ</Hsp_qseq>
+      <Hsp_hseq>PREKRFLQQLVERSQKQRRSV-------VYVRSSDWGMGFSKRALKWRLLGEGYSSWLPIEDQRKI---LKRAFRLWSEVIPLNFQEDLTSRASEIDVKLGFGTRRHLGCSQAFDGAGQELAHAWH-----LGDIHFNDDKH</Hsp_hseq>
+      <Hsp_midline>P      Q+ VE  +K R  V        + R   WG    ++ + +R+LG       P  D+  I     RAF++WS+V PL F   +   A   D+ + FG   H G    FDG    LAHA+       GD HF+DD+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|573906819|ref|XP_006641129.1|</Hit_id>
+  <Hit_def>PREDICTED: vitronectin [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006641129</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.04133e-06</Hsp_evalue>
+      <Hsp_query-from>525</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LEERTVF-FAGDEMWVYSASTLEREYPKKISSMGLPSDLHG-IDAAYS-FHKTKKTYIFAGNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALSLNGDGH-----SYFFKDSHYLKMD</Hsp_qseq>
+      <Hsp_hseq>LKNGSIFAFRGEHFYELDEKEVRPGYPKLIKDVW---GIEGPIDAAFTRINCQGKSYIFKGSKYWRFDDGF--LDPDYPREISVGFANIPEDVDGAFALPAANYYSREKVYFFKGDQYYQYE</Hsp_hseq>
+      <Hsp_midline>L+  ++F F G+  +      +   YPK I  +     + G IDAA++  +   K+YIF G+K+WR+++    +DP +P+ I+  +  +P+D+DGA +L    +      YFFK   Y + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000150988</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>SFHKTKKTYIFA--GNKFWRYNEAKKKMDPGFPKIIADSWTAVPDDLDGALS-LNGDGHSYFFKDSHYLKMDDSTL</Hsp_qseq>
+      <Hsp_hseq>AFMQLKNGSIFAFRGEHFYELDE--KEVRPGYPKLIKDVW-GIEGPIDAAFTRINCQGKSYIFKGSKYWRFDDGFL</Hsp_hseq>
+      <Hsp_midline>+F + K   IFA  G  F+  +E  K++ PG+PK+I D W  +   +D A + +N  G SY FK S Y + DD  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|972966126|ref|XP_015200289.1|</Hit_id>
+  <Hit_def>PREDICTED: hepatocyte growth factor activator [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015200289</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.50326e-06</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>390</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>DGAPCVFPFKFLGDSYDSCTTSGRNDGKMWCAVTKSFDDDRKWGFC</Hsp_qseq>
+      <Hsp_hseq>DGKECKFPFRHGGSLYHSCL-SNKNTEKLWCSITHNFDRDQLWGYC</Hsp_hseq>
+      <Hsp_midline>DG  C FPF+  G  Y SC  S +N  K+WC++T +FD D+ WG+C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.78224e-05</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EGEFCKFPFLFMGKEYNSCTSQGRDDGFLWCSTTYNFDDDGKYGFCPHELLFT</Hsp_qseq>
+      <Hsp_hseq>DGKECKFPFRHGGSLYHSCLSN-KNTEKLWCSITHNFDRDQLWGYCATRSLDT</Hsp_hseq>
+      <Hsp_midline>+G+ CKFPF   G  Y+SC S  ++   LWCS T+NFD D  +G+C    L T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>6.56486e-05</Hsp_evalue>
+      <Hsp_query-from>287</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>DGAPCKFPFTFQGDKYDSCTTSGRDDGYRWCATTEDYDKDKTYGFCPETAMST</Hsp_qseq>
+      <Hsp_hseq>DGKECKFPFRHGGSLYHSCL-SNKNTEKLWCSITHNFDRDQLWGYCATRSLDT</Hsp_hseq>
+      <Hsp_midline>DG  CKFPF   G  Y SC  S ++    WC+ T ++D+D+ +G+C   ++ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>33996</Statistics_db-num>
+      <Statistics_db-len>24215737</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
