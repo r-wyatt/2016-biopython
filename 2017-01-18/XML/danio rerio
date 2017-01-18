@@ -1,0 +1,2422 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_75645</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>39</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_75645</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>39</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|966644565|gb|KTF79477.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00047977 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF79477</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.91861e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|966702196|gb|KTG34437.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00028509 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG34437</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.18368e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|966703897|gb|KTG36138.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00036806 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG36138</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.51078e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1040680647|ref|XP_017209345.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017209345</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.51637e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|528483402|ref|XP_699803.4|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-24 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_699803</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.58799e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|966638266|gb|KTF73370.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00034195 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF73370</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.65095e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|966702526|gb|KTG34767.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00007061, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG34767</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.66892e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|688535681|ref|XP_009295076.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009295076</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.78488e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|528470125|ref|XP_700781.6|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_700781</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.89271e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966701323|gb|KTG33564.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00009228 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG33564</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.94892e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1040681210|ref|XP_017209448.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017209448</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.98789e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1040695662|ref|XP_017212610.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017212610</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.18943e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|688565961|ref|XP_009301842.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009301842</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.36918e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966673284|gb|KTG06665.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00024351, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG06665</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.3714e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966674153|gb|KTG07533.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00003053 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG07533</Hit_accession>
+  <Hit_len>659</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.37819e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSEE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966714087|gb|KTG46325.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00001333 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG46325</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>3.86284e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FAEGFHGDSTPFDGEGGFLAHAYFPGPGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGDS PFDG GGFLAHA+FPGPG GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966647435|gb|KTF82345.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00004595, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF82345</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.5979e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATGYHGDAYPFDGPQGILAHAFAPSSGIGGDAHFDEDE</Hsp_hseq>
+      <Hsp_midline>SFA+G+HGD+YPFDGP G LAHAF P  G GGD HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|35903119|ref|NP_919397.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase-14 precursor [Danio rerio] &gt;gi|32251076|gb|AAP74483.1| membrane-type matrix metalloproteinase 1 alpha [Danio rerio] &gt;gi|124297207|gb|AAI31865.1| Matrix metalloproteinase 14 (membrane-inserted) alpha [Danio rerio]</Hit_def>
+  <Hit_accession>NP_919397</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.69518e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FAEGFHGDSTPFDGEGGFLAHAYFPGHGIGGDTHFDEAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGDS PFDG GGFLAHA+FPG G GGDTHFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966641082|gb|KTF75996.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00044645, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF75996</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>4.41217e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATRYHGDASPFDGPLGTLAHAFAPSPGIGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA+ +HGD+ PFDGP G LAHAF P PG GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966641083|gb|KTF75997.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00044646 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF75997</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>7.82964e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATRYHGDALPFDGPLGTLAHAFAPSPGIGGDVHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA+ +HGD+ PFDGP G LAHAF P PG GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|528521488|ref|XP_001924042.4|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001924042</Hit_accession>
+  <Hit_len>651</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>8.55236e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGYHGDMSLFDGEGGSLAHAFFPGPGMGGDTHFDTDE</Hsp_hseq>
+      <Hsp_midline>FASG+HGD   FDG GG LAHAFFPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966672768|gb|KTG06149.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00013235 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG06149</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.40915e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FAEGFHGDSTPFDGEGGFLAHAYFPGHGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGDS PFDG GGFLAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966642596|gb|KTF77508.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00047206, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF77508</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.43945e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FKAGYHGDFYPFDGPNGVLAHANAPGPEQGGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G+HGD YPFDGP G LAHA  PGP  GGDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966712584|gb|KTG44822.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00007110 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG44822</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.67876e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGYHGDMSLFDGEGGSLAHAFFPGPGMGGDTHFDIDE</Hsp_hseq>
+      <Hsp_midline>FASG+HGD   FDG GG LAHAFFPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|125858765|gb|AAI29281.1|</Hit_id>
+  <Hit_def>Zgc:136396 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI29281</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.82851e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FKGGHHGDFYPFDGPNGVLAHANSPGPGQGGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDGP G LAHA  PGPG GGDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966713383|gb|KTG45621.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00022166 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG45621</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.18577e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FAAGYHGDMSLFDGEGGSLAHAFFPGPGMGGDTHFDIDE</Hsp_hseq>
+      <Hsp_midline>FA+G+HGD   FDG GG LAHAFFPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1040664668|ref|XP_017206678.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017206678</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>6.42758e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFNSKAHGDFFPFDGPGGVLAHAFEPGEGLGGDVHFDDDE</Hsp_hseq>
+      <Hsp_midline>SF S  HGD +PFDGPGG LAHAF PG G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|528471499|ref|XP_005171367.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-14 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005171367</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>6.47394e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FADGFHGDASPFDGEGGFLAHAYFPGNGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGD+ PFDG GGFLAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|292619299|ref|XP_002663942.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-25-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002663942</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>6.60676e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG--GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFARSLHDDGYPFDGKGGTLAHAFFPGESDVAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA   H D YPFDG GG LAHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|35903106|ref|NP_919395.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase-14 precursor [Danio rerio] &gt;gi|32251078|gb|AAP74484.1| membrane-type matrix metalloproteinase 1 beta [Danio rerio]</Hit_def>
+  <Hit_accession>NP_919395</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>6.86517e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FADGFHGDASPFDGEGGFLAHAYFPGNGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGD+ PFDG GGFLAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|190339264|gb|AAI62135.1|</Hit_id>
+  <Hit_def>Matrix metalloproteinase 14 (membrane-inserted) beta [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62135</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>7.35158e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FADGFHGDASPFDGEGGFLAHAYFPGNGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGD+ PFDG GGFLAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966710589|gb|KTG42827.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00043323 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG42827</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.66921e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG--GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFARSLHDDGYPFDGKGGTLAHAFFPGEADIAGDTHFDDEE</Hsp_hseq>
+      <Hsp_midline>SFA   H D YPFDG GG LAHAFFPG     GDTHFDD+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966652397|gb|KTF87299.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00020751 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF87299</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.20596e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FADGFHGDASPFDGEGGYLAHAYFPGNGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGD+ PFDG GG+LAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1040683781|ref|XP_017210163.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-25 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017210163</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.08867e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG--GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>TFTSGYHEDGYPFDGKGGALAHAFFPGKGDLAGDTHFDAEE</Hsp_hseq>
+      <Hsp_midline>+F SG+H D YPFDG GG LAHAFFPG G   GDTHFD +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966705235|gb|KTG37476.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00008330 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG37476</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.18715e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FADGFHGDPSPFDGEGGFLAHAYFPGNGIGGDTHFDAAE</Hsp_hseq>
+      <Hsp_midline>FA GFHGD  PFDG GGFLAHA+FPG G GGDTHFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166797027|gb|AAI59193.1|</Hit_id>
+  <Hit_def>Mmp13 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI59193</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.94097e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FATGDHGDGYPFDGPNGFLAHAYPPYEGVGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>FA+G HGD YPFDGP GFLAHA+ P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|62202816|gb|AAH93333.1|</Hit_id>
+  <Hit_def>LOC553390 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAH93333</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.97919e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FKGGHHGDFYPFDGPNGVLAHANSPGPEQGGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDGP G LAHA  PGP  GGDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|688575181|ref|XP_009303831.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase 13a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009303831</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.01842e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FATGDHGDGYPFDGPNGFLAHAYPPYEGVGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>FA+G HGD YPFDGP GFLAHA+ P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|594190967|ref|NP_001277408.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase 13a precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001277408</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.09896e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FATGDHGDGYPFDGPNGFLAHAYPPYEGVGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>FA+G HGD YPFDGP GFLAHA+ P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966661670|gb|KTF96256.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00012038, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF96256</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.1199e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG--GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>TFASSYHEDGYPFDGKGGNLAHAFFPGKGDLAGDTHFDDGE</Hsp_hseq>
+      <Hsp_midline>+FAS +H D YPFDG GG LAHAFFPG G   GDTHFDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|33324363|gb|AAQ07962.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase 13 [Danio rerio]</Hit_def>
+  <Hit_accession>AAQ07962</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.16151e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATGDHRDGYPFDGPNGFLAHAFPPFEGIGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA+G H D YPFDGP GFLAHAF P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966638367|gb|KTF73471.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00048545, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF73471</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.33929e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATRDHGDAQPFDGPLGTLAHAFAPSPGIGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA+  HGD+ PFDGP G LAHAF P PG GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|41350992|gb|AAH65591.1|</Hit_id>
+  <Hit_def>Mmp13 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH65591</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.38164e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFATGDHRDGYPFDGPNGFLAHAFPPFEGIGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SFA+G H D YPFDGP GFLAHAF P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966670356|gb|KTG03737.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00007041 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG03737</Hit_accession>
+  <Hit_len>784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.83042e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDE</Hsp_hseq>
+      <Hsp_midline>+F    HGD YPFDG  G LAHAF PGPG GGD+HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966643297|gb|KTF78209.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00028289 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF78209</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.65698e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGRNEHGDGYPFDGKDGLLAHAFAPGPGTGGDSHFDDDE</Hsp_hseq>
+      <Hsp_midline>+F    HGD YPFDG  G LAHAF PGPG GGD+HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|94536884|ref|NP_001035381.1|</Hit_id>
+  <Hit_def>stromelysin-2 precursor [Danio rerio] &gt;gi|92096319|gb|AAI15114.1| Zgc:136396 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001035381</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.54617e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FKGGDHGDFYPFDGPNGVLAHANSPGPEQGGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDGP G LAHA  PGP  GGDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|37620187|ref|NP_932333.1|</Hit_id>
+  <Hit_def>72 kDa type IV collagenase precursor [Danio rerio] &gt;gi|32251074|gb|AAP74482.1| matrix metalloproteinase 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_932333</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.80696e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDE</Hsp_hseq>
+      <Hsp_midline>+F    HGD YPFDG  G LAHAF PGPG GGD+HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|49900524|gb|AAH76545.1|</Hit_id>
+  <Hit_def>Matrix metalloproteinase 2 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH76545</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>5.048e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGRNEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDE</Hsp_hseq>
+      <Hsp_midline>+F    HGD YPFDG  G LAHAF PGPG GGD+HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|528513405|ref|XP_698601.6|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_698601</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>5.85058e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHNDGYPFDGPGGTVAHAFFPGERFTAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966701759|gb|KTG34000.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00003419 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG34000</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>6.45539e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHNDGYPFDGPGGTVAHAFFPGERFTAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|966659979|gb|KTF94833.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00042342, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF94833</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.22663e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HEDGSPFDGEGGILAHTFFPGPGIGGDVHFDDEE</Hsp_hseq>
+      <Hsp_midline>H D  PFDG GG LAH FFPGPG GGD HFDD+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|1040657491|ref|XP_017213634.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-18-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017213634</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.47771e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFNNKDHNDGSPFDGEGGILAHAFSPGPGIGGDVHFDDEE</Hsp_hseq>
+      <Hsp_midline>SF +  H D  PFDG GG LAHAF PGPG GGD HFDD+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|125838084|ref|XP_001345507.1|</Hit_id>
+  <Hit_def>PREDICTED: collagenase 3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001345507</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>6.08445e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGTKEHGDFNPFDGPEGLLAHAYPPGIGIGGDTHFDEDE</Hsp_hseq>
+      <Hsp_midline>SF +  HGD  PFDGP G LAHA+ PG G GGDTHFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|966659050|gb|KTF93904.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00001875 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF93904</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>7.92213e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FARFWHGDNLPFDGPGGILAHAFFPRTHREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>FA  +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|528488085|ref|XP_692205.6|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_692205</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.82153e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTRYWHGDNLPFDGPGGILAHAFFPRTHREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>F   +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|966641791|gb|KTF76705.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00010420 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF76705</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.89435e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTRYWHGDNLPFDGPGGILAHAFFPRTHREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>F   +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|966701943|gb|KTG34184.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00019938 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG34184</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.95014e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FNRYWHGDNLPFDGPGGILAHAFFPRTYREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>F   +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|1101522310|ref|XP_018926747.1|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3-like [Cyprinus carpio] &gt;gi|966666661|gb|KTG00366.1| hypothetical protein cypCar_00013972 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG00366</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>2.25885e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FNRYWHGDNLPFDGPGGILAHAFFPRTYREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>F   +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|966673437|gb|KTG06818.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00005548 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG06818</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.19643e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FVGNEHGDSFPFDGPDGTLAHAFGPGEGIGGDVHFDEAE</Hsp_hseq>
+      <Hsp_midline>F    HGDS+PFDGP G LAHAF PG G GGD HFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|1101618174|ref|XP_018972772.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-9-like [Cyprinus carpio] &gt;gi|966708783|gb|KTG41021.1| hypothetical protein cypCar_00013171 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG41021</Hit_accession>
+  <Hit_len>674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.60854e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGKADHGDPYPFDGKDGLLAHAYPPGEGIQGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SF    HGD YPFDG  G LAHA+ PG G  GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|966647434|gb|KTF82344.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00004594 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF82344</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>7.38672e-08</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HQDGYPFDGPNGLLAHAFPPFEGIGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>H D YPFDGP G LAHAF P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|333830582|gb|AEG20934.1|</Hit_id>
+  <Hit_def>mmp9, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AEG20934</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>7.87301e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPGG-GDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGKADHGDPYPFDGKDGLLAHAYPPGEGTQGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SF    HGD YPFDG  G LAHA+ PG G  GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|966714158|gb|KTG46396.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00003989 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG46396</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>8.72148e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>FHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>YHGDPYPFDGKDGLLAHAYPPGEGIQGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>+HGD YPFDG  G LAHA+ PG G  GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|966635896|gb|KTF71004.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00049037, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF71004</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.03463e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>34</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HQDGYPFDGPDGFLAHAFPPFEGLGGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>H D YPFDGP GFLAHAF P  G GGD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|47085869|ref|NP_998288.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase-9 precursor [Danio rerio] &gt;gi|31419581|gb|AAH53292.1| Matrix metalloproteinase 9 [Danio rerio] &gt;gi|37722565|gb|AAN72418.1| matrix metalloproteinase 9 [Danio rerio] &gt;gi|169642693|gb|AAI60656.1| Matrix metalloproteinase 9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998288</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.69821e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPGG-GDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGKLDHGDPYPFDGKDGLLAHAYPPGEGTQGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SF    HGD YPFDG  G LAHA+ PG G  GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|688588298|ref|XP_009290029.1|</Hit_id>
+  <Hit_def>PREDICTED: matrilysin-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009290029</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>7.19493e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FVGKEHGDFFPFDGPDGTLAHAFGPGEGIGGDVHFDEAE</Hsp_hseq>
+      <Hsp_midline>F    HGD +PFDGP G LAHAF PG G GGD HFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|528513609|ref|XP_694153.4|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_694153</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.54317e-06</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HGDYLNFDGPGGILAHAFFPRTYREGEIHFDMDE</Hsp_hseq>
+      <Hsp_midline>HGD   FDGPGG LAHAFFP     G+ HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|966652612|gb|KTF87514.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00037548 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF87514</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>5.84706e-05</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFFPQT--GEIHFDDDE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFFP    G+ HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|966662546|gb|KTF96912.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00008625 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF96912</Hit_accession>
+  <Hit_len>626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>7.79741e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPG-PG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FLHGPHGDGYPFDGAGGSVGHAFFPSDPGRAGGVHLDAEE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDG GG + HAFFP  PG  G  H D +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|966650142|gb|KTF85052.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00025524 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF85052</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000107949</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDS------YPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FYSGNHTDCLQSYLHHCFDGITGELAHAFFPQT--GEIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F SG H D       + FDG  G LAHAFFP    G+ HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|966658531|gb|KTF93385.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00044888 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF93385</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000131367</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPG--PGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FLRGPHGDGYPFDGAGGSVGHAFFPSDPDRAGGVHLDAEE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDG GG + HAFFP      G  H D +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|528500738|ref|XP_002664536.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002664536</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000219202</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPG--PGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FLHGPHGDGYPFDGAGGSVGHAFFPSDPNRAGGVHLDAEE</Hsp_hseq>
+      <Hsp_midline>F  G HGD YPFDG GG + HAFFP      G  H D +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|688569606|ref|XP_009302611.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009302611</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.000355503</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFFPQT--GEIHFDDDE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFFP    G+ HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|966705554|gb|KTG37795.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00034062, partial [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG37795</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.000373225</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>PFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>PFDGPGHVLAHA--EAPPSGIVHFDEDE</Hsp_hseq>
+      <Hsp_midline>PFDGPG  LAHA    P  G  HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|688569615|ref|XP_009302613.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009302613</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00260264</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFF--PQTGEIHFDDDE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFF  P  G+ HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|688576060|ref|XP_009304055.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-19 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009304055</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00287229</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>PFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>PFDGPGHVLAHA--EAPPSGIVHFDEDE</Hsp_hseq>
+      <Hsp_midline>PFDGPG  LAHA    P  G  HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|966714003|gb|KTG46241.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00040413 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG46241</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.00401721</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>PFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>PFDGPGHVLAHA--EAPPSGIVHFDEDE</Hsp_hseq>
+      <Hsp_midline>PFDGPG  LAHA    P  G  HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|688586768|ref|XP_009289686.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289686</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.00475109</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGPGGALAHAFF--PFRGEAHFDMSE</Hsp_hseq>
+      <Hsp_midline>FDGPGG LAHAFF  P  G+ HFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|292621203|ref|XP_001337581.3|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001337581</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.00475139</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGPGGALAHAFF--PFRGEAHFDMSE</Hsp_hseq>
+      <Hsp_midline>FDGPGG LAHAFF  P  G+ HFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|966647924|gb|KTF82834.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00034594 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF82834</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.0128747</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGLNGELAHAFLPPR--GDIHFDNHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAF P    GD HFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|966701819|gb|KTG34060.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00045125 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG34060</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.026259</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCSQRFDGAGREFAHAWFL----GDIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G S  FDG G   AHA+F     GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|960139227|ref|NP_001304682.1|</Hit_id>
+  <Hit_def>matrix metallopeptidase-21 precursor [Danio rerio] &gt;gi|929996753|gb|ALF36875.1| matrix metallopeptidase 21 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001304682</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.0262625</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCSQRFDGAGREFAHAWFL----GDIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G S  FDG G   AHA+F     GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|1064303031|sp|A0A0N9E2K8.2|MMP21_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Matrix metallopeptidase-21; Short=MMP-21; Flags: Precursor</Hit_def>
+  <Hit_accession>A0A0N9E2K8</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.0267873</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCSQRFDGAGREFAHAWFL----GDIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G S  FDG G   AHA+F     GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|62955747|ref|NP_001017890.1|</Hit_id>
+  <Hit_def>matrix metalloproteinase-23 precursor [Danio rerio] &gt;gi|62203239|gb|AAH92954.1| Matrix metallopeptidase 23a, like [Danio rerio] &gt;gi|182890478|gb|AAI64476.1| Mmp23al protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001017890</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.0397516</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGLNGELAHAFLPPR--GEIHFDNHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAF P    G+ HFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|966650507|gb|KTF85409.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00027262 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTF85409</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.0479926</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFHRRDQGCPVAFDGPGQVLGHA--EGPESGTVHFDADE</Hsp_hseq>
+      <Hsp_midline>SF     G    FDGPG  L HA   GP  G  HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112490</Statistics_db-num>
+      <Statistics_db-len>58060731</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

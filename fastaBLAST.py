@@ -17,16 +17,19 @@ Entrez.email = raw_input("Enter email: ")
 #-----------------------------------------------------------------------------
 # Parse arguments
 #-----------------------------------------------------------------------------
-with open(sys.argv[1], 'rb') as f: 		# input path to species list (csv file)
+with open(sys.argv[1], 'rb') as f: 					# input path to species list (csv file)
     reader = csv.reader(f)
     species = list(reader)[0]
-consensus = open(sys.argv[2]).read() 	# fasta file containing consensus sequence
-dir = sys.argv[3] 						# path to outdirectory
+print species
 
-if not os.path.exists(dir):				# initialize master directory
+cF = SeqIO.parse(sys.argv[2], "fasta")	# fasta formatted consensus sequence file
+consensus = cF.next().seq
+dir = sys.argv[3] 									# outdirectory (path)
+
+if not os.path.exists(dir):							# initialize master directory
 	os.makedirs(dir)
 	
-for string in ["gb","fasta","XML"]:		# initialize folder structure
+for string in ["gb","fasta","XML"]:					# initialize folder structure
 	folder = os.path.join(dir,string)
 	if not os.path.exists(folder):
 		os.makedirs(folder)
@@ -50,12 +53,13 @@ def find_species(string):
 # BLAST
 #-----------------------------------------------------------------------------
 for eQ in species:
+	print " BLAST for", eQ,"\n"
 	result = NCBIWWW.qblast("blastp","nr",consensus, entrez_query= eQ, expect=0.050, hitlist_size=numhits)
-	save_file = open(os.path.join(dir,"XML",eQ), "w")
+	save_file = open(os.path.join(dir,"XML",eQ+".xml"), "w")
 	save_file.write(result.read())
 	save_file.close()
 	result.close()
-	print(" Saving file as: " + out)
+	print(" Saving file...\n")
 
 #-----------------------------------------------------------------------------
 # Process xml files
