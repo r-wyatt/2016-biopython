@@ -17,19 +17,19 @@ Entrez.email = raw_input("Enter email: ")
 #-----------------------------------------------------------------------------
 # Parse arguments
 #-----------------------------------------------------------------------------
-with open(sys.argv[1], 'rb') as f: 					# input path to species list (csv file)
+with open(sys.argv[1], 'rb') as f: 		# Argument 1: input path to species list (csv file)
     reader = csv.reader(f)
     species = list(reader)[0]
 print species
 
-cF = SeqIO.parse(sys.argv[2], "fasta")	# fasta formatted consensus sequence file
+cF = SeqIO.parse(sys.argv[2], "fasta")	# Argument 2: fasta formatted consensus sequence file
 consensus = cF.next().seq
-dir = sys.argv[3] 									# outdirectory (path)
+dir = sys.argv[3] 						# Argument 3: outdirectory (path)
 
-if not os.path.exists(dir):							# initialize master directory
+if not os.path.exists(dir):				# initialize master directory
 	os.makedirs(dir)
 	
-for string in ["gb","fasta","XML"]:					# initialize folder structure
+for string in ["gb","fasta","XML"]:		# initialize folder structure
 	folder = os.path.join(dir,string)
 	if not os.path.exists(folder):
 		os.makedirs(folder)
