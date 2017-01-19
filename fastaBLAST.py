@@ -20,10 +20,10 @@ Entrez.email = raw_input("Enter email: ")
 with open(sys.argv[1], 'rb') as f: 		# Argument 1: input path to species list (csv file)
     reader = csv.reader(f)
     species = list(reader)[0]
-print species
 
 cF = SeqIO.parse(sys.argv[2], "fasta")	# Argument 2: fasta formatted consensus sequence file
 consensus = cF.next().seq
+
 dir = sys.argv[3] 						# Argument 3: outdirectory (path)
 
 if not os.path.exists(dir):				# initialize master directory
@@ -34,6 +34,16 @@ for string in ["gb","fasta","XML"]:		# initialize folder structure
 	if not os.path.exists(folder):
 		os.makedirs(folder)
 		
+#-----------------------------------------------------------------------------
+# Print some useful run headers
+#-----------------------------------------------------------------------------
+print "\nSpecies selected:",
+for sp in species:
+	print sp+",",
+print "\n"
+
+print "Consensus:",consensus
+print ""	
 #-----------------------------------------------------------------------------
 # Return filename without extension
 #-----------------------------------------------------------------------------
@@ -48,7 +58,7 @@ def find_species(string):
 	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', string)
 	name = mobj.group(1) + mobj.group(2)
 	return name.title()
-	
+'''	
 #-----------------------------------------------------------------------------
 # BLAST
 #-----------------------------------------------------------------------------
@@ -60,7 +70,7 @@ for eQ in species:
 	save_file.close()
 	result.close()
 	print(" Saving file...\n")
-
+'''
 #-----------------------------------------------------------------------------
 # Process xml files
 #-----------------------------------------------------------------------------
@@ -86,7 +96,7 @@ for file in files:
 					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(1))
 					acc = str(accession.group(1))
 					species = find_species(title)
-					print acc,shortSpecies,specCode
+					print acc,species,specCode
 					hits.append((acc, species))
 	filtered = []
 	for each in hits:
