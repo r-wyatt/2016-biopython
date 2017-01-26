@@ -24,7 +24,7 @@ doi:10.1186/1471-2105-5-113
 
 (Optional) Edit the filenames below:			'''
 
-infile = "master_clean.txt"
+infile = "master_clean.fa"
 outfile1 = "align.aln"
 outfile2 = "trimAlign.aln"
 

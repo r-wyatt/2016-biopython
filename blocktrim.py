@@ -48,7 +48,7 @@ def format_converter(alignpath, input, output_style):
 dir = sys.argv[1] # First argument is the master directory name
 
 blocktrim(os.path.join(dir,"align.aln"))
-trim_fasta_names(dir,"align.aln-gb")
+#trim_fasta_names(dir,"align.aln-gb")
 
 
 

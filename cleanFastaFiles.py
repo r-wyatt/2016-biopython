@@ -34,13 +34,15 @@ def rem_spaces(dir, file):
 	return("ns"+file)
 	
 
-def sequence_cleaner(dir, fasta_file, min_length=0, por_n=100):
+def sequence_cleaner(dir, fasta_file, min_length=minlength, por_n=100):
 	# Create our hash table to add the sequences
 	sequences={}
 	# Using the Biopython fasta parse we can read our fasta input
 	for seq_record in SeqIO.parse(os.path.join(dir,fasta_file), "fasta"):
 		# Take the current sequence
 		sequence = str(seq_record.seq).upper()
+		if(len(sequence) < min_length:
+			print "Se"
 		# Check if the current sequence is according to the user parameters
 		if (len(sequence) >= min_length and
 			(float(sequence.count("N"))/float(len(sequence)))*100 <= por_n):
@@ -71,11 +73,11 @@ def do_all_files(directory):
 		sequence_cleaner(dir,newfile,minlength)
 
 
-newfile = rem_spaces(sys.argv[1],"master.txt")
+newfile = rem_spaces(sys.argv[1],"master.fa")
 sequence_cleaner(sys.argv[1],newfile,minlength)
 
-os.remove(os.path.join(sys.argv[1],"master.txt"))
-os.remove(os.path.join(sys.argv[1],"nsmaster.txt"))
-os.rename(os.path.join(sys.argv[1],"clear_nsmaster.txt"),os.path.join(sys.argv[1],"master.txt"))
+#os.remove(os.path.join(sys.argv[1],"master.fa"))
+#os.remove(os.path.join(sys.argv[1],"nsmaster.txt"))
+#os.rename(os.path.join(sys.argv[1],"clear_nsmaster.txt"),os.path.join(sys.argv[1],"master.fa"))
 
 
