@@ -58,7 +58,7 @@ def find_species(string):
 	mobj = re.match(r'.*\[([A-Z|a-z])\S* ([A-Z|a-z]{3}).*', string)
 	name = mobj.group(1) + mobj.group(2)
 	return name.title()
-'''	
+
 #-----------------------------------------------------------------------------
 # BLAST
 #-----------------------------------------------------------------------------
@@ -70,12 +70,11 @@ for eQ in species:
 	save_file.close()
 	result.close()
 	print(" Saving file...\n")
-'''
+
 #-----------------------------------------------------------------------------
 # Process xml files
 #-----------------------------------------------------------------------------
 files = os.listdir(os.path.join(dir,"XML",""))
-print files
 
 for file in files:
 	os.chmod(os.path.join(dir,"XML",file),S_IREAD)
@@ -84,32 +83,28 @@ for file in files:
 	blast_records = list(blast_record)
 	record = blast_records[0]
 	hits = []
-	specm = re.match( r'(\S{1})\S* (\S{3})[\S\s]*', file)
-	specCode = specm.group(1)+specm.group(2)
 	for alignment in record.alignments:
 		for hsp in alignment.hsps:
 			if hsp.expect < eThresh:
 				title = alignment.title
-				print title
-				mdata = re.match( r'.*[A-Z|a-z]{2,3}\|\S*\|(.*?)\|.*', title)
+				mdata = re.match( r'[A-Z|a-z]{2,3}\|[0-9]*\|[A-Z|a-z]{2,3}\|(\S*)\|.*', title)
 				if mdata is not None:
-					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(1))
-					acc = str(accession.group(1))
-					species = find_species(title)
-					print acc,species,specCode
-					hits.append((acc, species))
-	filtered = []
-	for each in hits:
-		if each[1] == specCode:
-			filtered.append(each)
-	output = list(set(filtered))
-	print output
+					acc = mdata.group(1)
+					name = re.match(r'.*(\[[A-Z|a-z]* [A-Z|a-z]*\]).*',title)
+					if name is None:
+						print "\nNo species name found for", "<"+title+">: ","Removed\n"
+						continue
+					species = find_species(name.group(1))
+					hits.append(acc)
+				else :
+					print "Can't parse title:",title
+
 	
 	# Saving results as gb
 	save_stdout = sys.stdout
 	sys.stdout = open(os.path.join(dir,"gb",stripext(file)+".gb"), "w")
-	for each in output:
-		handle = Entrez.efetch(db="protein", id=each[0], rettype="gb", retmode="text")
+	for each in hits:
+		handle = Entrez.efetch(db="protein", id=each, rettype="gb", retmode="text")
 		print handle.read()
 	sys.stdout = save_stdout
 
@@ -117,18 +112,11 @@ for file in files:
 # Parse fasta format sequences!
 #-----------------------------------------------------------------------------
 gbfiles = os.listdir(os.path.join(dir,"gb",""))
-
 print "\n\n Formatting genbank data to FASTA..."
 
 for file in gbfiles:
-	input_handle = open(os.path.join(dir,"gb",file),"r")
-	output_handle = open(os.path.join(dir,"fasta",stripext(file)+".fa"),"w")
-	for seq_record in SeqIO.parse(input_handle, "genbank"):
-		output_handle.write(">%s %s\n%s\n" % (find_species(seq_record.description),
-												seq_record.id,
-												seq_record.seq))	
-	output_handle.close()
-	input_handle.close()
+	newfile = os.path.join(dir,"fasta",stripext(file)+".fa")
+	SeqIO.convert(os.path.join(dir,"gb",file), "genbank",newfile,"fasta")
 
 #-----------------------------------------------------------------------------
 # Make one big fasta file
@@ -144,7 +132,7 @@ for file in fastafiles:
 sys.stdout = save_stdout
 
 #-----------------------------------------------------------------------------
-# Remove spaces in fasta names
+# Add species code
 #-----------------------------------------------------------------------------
 masterfasta = os.path.join(dir,"master.fa")
 nsmasterfasta = os.path.join(dir,"master_ns.fa")
@@ -154,7 +142,10 @@ sys.stdout = open(nsmasterfasta,"w+")
 with open(masterfasta,"r") as f:
 	for line in f:
 		if re.search(r'>',line):
-			line = re.sub(r' ',"_",line)
+			species = re.match(r'.*\[([A-Z|a-z]* [A-Z|a-z]*)\].*',line).group(1)
+			species = re.sub(r' ',"_",species)
+			acc = re.match(r'>(\S*) .*',line).group(1)
+			line = ">"+acc+"_"+species+"\n"
 		sys.stdout.write(line)
 sys.stdout = stdout_bk
 
@@ -174,6 +165,7 @@ for seq_record in SeqIO.parse(fastafile, "fasta"):
    # of the current sequence to another one that is already in the hash table
 		else:
 			if not re.search(seq_record.id,sequences[sequence]):
+				print "sequence duplicate found: <%s> merged with <%s>" % (seq_record.id,sequences[sequence])
 				sequences[sequence] += "_" + seq_record.id
 
 # Write the clean sequences
@@ -182,8 +174,6 @@ output_file = open(cleanfasta, "w+")
 for sequence in sequences:
 	output_file.write(">" + sequences[sequence] + "\n" + sequence + "\n")
 output_file.close()
-
-print("CLEAN!!!")
 
 
 

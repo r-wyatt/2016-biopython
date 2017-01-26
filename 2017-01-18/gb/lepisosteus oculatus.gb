@@ -1,0 +1,2879 @@
+LOCUS       XP_015210020             612 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-16 isoform X1 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015210020
+VERSION     XP_015210020.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015354534.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269964.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..612
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG9"
+     Protein         1..612
+                     /product="matrix metalloproteinase-16 isoform X1"
+                     /calculated_mol_wt=70099
+     Region          41..92
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          129..294
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          129..294
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(188,200,207..213,222,249..250,259,269..271)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(249..250,253,259)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          297..>333
+                     /region_name="SPRR2"
+                     /note="Small proline-rich 2; pfam14820"
+                     /db_xref="CDD:291486"
+     Region          345..537
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(353,355,398,400,445,447,493,495)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     Region          542..612
+                     /region_name="DUF3377"
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:288690"
+     CDS             1..612
+                     /gene="mmp16"
+                     /coded_by="XM_015354534.1:2290..4128"
+                     /db_xref="GeneID:102687027"
+ORIGIN      
+        1 micltfrnrr rlnciypgaf clqfmlwilc avcgeeqpfs veawlqrygy lpptdprmsv
+       61 lrsaqtmqsa iaamqrlygl nvtgtldqnt idditlswmk kprcgvpdqp ggaskfnvrr
+      121 rryaltgqkw phkyitysik nvtpkvgaee thdairrafd vwqnvtplrf eavpyntlen
+      181 gkrdvditii fasgfhgdss pfdgeggfla hayfpgpgig gdthfdsdep wtlgnpnhdg
+      241 ndlflvavhe lghalglehs ndptaimapf yqymdtenfk lpyddlqgiq kiygppekvp
+      301 qptqplptap pprshppsdp rkhdrqtrpp rlptgdrpsy psakpnicdg sfntlailrr
+      361 emfvfkdqwf wrvrdnavmp gypmqiayfw rglppkidav yensegkfvf fkgnkfwvfk
+      421 dttlqptypq dlskfgkgmp sqgietavww edvaktyffk gdrywryned mramdpgypk
+      481 pitvwkgipd spqgafvdkv ngftyfykgk eywkfnnqnl rvepgyprsi lkdfmgcdds
+      541 aereteqhhp qddvdivikl dntastvkai aivipcilal cllvlvytif qfkrkgtprh
+      601 ilyckrsmqe wv
+//
+
+
+LOCUS       XP_006634350             607 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-16 isoform X2 [Lepisosteus
+            oculatus].
+ACCESSION   XP_006634350
+VERSION     XP_006634350.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006634287.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269964.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..607
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG9"
+     Protein         1..607
+                     /product="matrix metalloproteinase-16 isoform X2"
+                     /calculated_mol_wt=69570
+     Region          41..94
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          124..289
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          124..289
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(183,195,202..208,217,244..245,254,264..266)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(244..245,248,254)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          292..>328
+                     /region_name="SPRR2"
+                     /note="Small proline-rich 2; pfam14820"
+                     /db_xref="CDD:291486"
+     Region          340..532
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(348,350,393,395,440,442,488,490)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     Region          537..607
+                     /region_name="DUF3377"
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:288690"
+     CDS             1..607
+                     /gene="mmp16"
+                     /coded_by="XM_006634287.2:2289..4112"
+                     /db_xref="GeneID:102687027"
+ORIGIN      
+        1 micltfrnrr rlnciypgaf clqfmlwilc avcgeeqpfs veawlqrygy lpptdprmsv
+       61 lrsaqtmqsa iaamqrlygl nvtgtldqnt idwmkkprcg vpdqpggask fnvrrrryal
+      121 tgqkwphkyi tysiknvtpk vgaeethdai rrafdvwqnv tplrfeavpy ntlengkrdv
+      181 ditiifasgf hgdsspfdge ggflahayfp gpgiggdthf dsdepwtlgn pnhdgndlfl
+      241 vavhelghal glehsndpta imapfyqymd tenfklpydd lqgiqkiygp pekvpqptqp
+      301 lptappprsh ppsdprkhdr qtrpprlptg drpsypsakp nicdgsfntl ailrremfvf
+      361 kdqwfwrvrd navmpgypmq iayfwrglpp kidavyense gkfvffkgnk fwvfkdttlq
+      421 ptypqdlskf gkgmpsqgie tavwwedvak tyffkgdryw rynedmramd pgypkpitvw
+      481 kgipdspqga fvdkvngfty fykgkeywkf nnqnlrvepg yprsilkdfm gcddsaeret
+      541 eqhhpqddvd ivikldntas tvkaiaivip cilalcllvl vytifqfkrk gtprhilyck
+      601 rsmqewv
+//
+
+
+LOCUS       XP_006639739             606 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-24 [Lepisosteus oculatus].
+ACCESSION   XP_006639739
+VERSION     XP_006639739.2
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006639676.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270030.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jan 8, 2016 this sequence version replaced gi:573904033.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..606
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG18"
+     Protein         1..606
+                     /product="matrix metalloproteinase-24"
+                     /calculated_mol_wt=69894
+     Region          41..94
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          122..287
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          122..287
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(181,193,200..206,215,242..243,252,262..264)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(242..243,246,252)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          338..530
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(346,348,391,393,438,440,486,488)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     Region          536..606
+                     /region_name="DUF3377"
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:288690"
+     CDS             1..606
+                     /gene="mmp24"
+                     /coded_by="XM_006639676.2:388..2208"
+                     /db_xref="GeneID:102698043"
+ORIGIN      
+        1 mtgmgvkrrk aglpgfcwkt cyfhilfwvv svcgeektfi vetwlknygy llphdirtsd
+       61 lrsekamqsa vaamqrfygi pvtgvldqtt iewmrkprcg vpdhprisrr rrnkryaltg
+      121 qkwrqkhity sihnftpkvg ekdtqkairq afdvwetvtp ltfeeipyse iknerkeadi
+      181 miffasgfhg dsspfdgegg flahayfpgp giggdthfds depwtlgnan hdgndlflva
+      241 vhelghalgl ehsndpsaim apfyqymeth nfklplddlq giqkiygipt amleptrplp
+      301 tlparrthst serkhdrqsr pprppsgdkp aspgtakpni cdgnfntvaf frremfvfkd
+      361 rwfwrlrnnk vqegypmqid qfwkglppri daayersdgk fvffkgdkyw vfkevtaepg
+      421 yphslvdlgn clpregidta lrwepvgkty ffkgdqywry neekrtadpg ypkpitvwkg
+      481 ipespqgafv skegfytyfy kgkeywkfdn qklnvepgyp ksilkdwmgc hqsdvekske
+      541 rhlphddvdi mvtindvpst vnaiavvipc ilsfcilvlv ytifqfknkg vqqnvtyykr
+      601 pvqewv
+//
+
+
+LOCUS       XP_015224061             649 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-15 [Lepisosteus oculatus].
+ACCESSION   XP_015224061
+VERSION     XP_015224061.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015368575.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270045.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..649
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG23"
+     Protein         1..649
+                     /product="matrix metalloproteinase-15"
+                     /calculated_mol_wt=74106
+     Region          41..95
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          125..291
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          125..291
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(185,197,204..210,219,246..247,256,266..268)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(246..247,250,256)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          349..541
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(357,359,402,404,449,451,497,499)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     Region          582..649
+                     /region_name="DUF3377"
+                     /note="Domain of unknown function (DUF3377); pfam11857"
+                     /db_xref="CDD:288690"
+     CDS             1..649
+                     /gene="mmp15"
+                     /coded_by="XM_015368575.1:1390..3339"
+                     /db_xref="GeneID:102684428"
+ORIGIN      
+        1 mmgslwkcrt wlpwklnvvp vilvfvctvg araaeedatf naeswlrmyg ylpqasrems
+       61 tmrsaqifsn avadmqrfyg ltvsgvldqe tqnamkrprc gvpdkfggli ktnvrrkrya
+      121 ltghkwsksh ltysiqnytp kigefesyqa irkafqvwes vtplrfeeip yhevkygrrk
+      181 eadimiffas gfhgdsspfd geggflahay fpgpgmggdt hfdsdepwti gnanlngndl
+      241 flvavhelgh alglehsnnp laimapfyqw mdtenfqlpe ddlrgvqqiy gppdasptpt
+      301 kplppveprq pahpdpkppn ppktppggkp hnpdpgkprt tdrpdhygpn icdgnfdtvt
+      361 vlrgemfvfk grwfwrvrrn rvldnypmpi ghfwrglpgd idaayerhdg kfvffkgskf
+      421 wlfreanlep gypqelteyg qgipydkiet aiwweptgyt yffkgdrywr fneqsravdk
+      481 dypkpisvwg gippsprgsf lsddgaytff ykgskywkfd nqrmkiepgy pksilrdfmg
+      541 cqvdldldkd tdtdvgrkwp dvnqppfdpd agrdrtndvd ykdegegngd vdvvvkidey
+      601 trtmniimvt vplilvlcil glifaiikmq rkgapkllvh ckrslqdwv
+//
+
+
+LOCUS       XP_015195073             398 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-25 [Lepisosteus oculatus].
+ACCESSION   XP_015195073
+VERSION     XP_015195073.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015339587.1
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270137.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 46% of CDS bases
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..398
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+     Protein         1..398
+                     /product="matrix metalloproteinase-25"
+                     /calculated_mol_wt=43965
+     Region          31..198
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          31..198
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(91,103,110..116,126,151..152,161,171..173)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(151..152,155,161)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          263..308
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     CDS             1..398
+                     /gene="mmp25"
+                     /coded_by="XM_015339587.1:39..1235"
+                     /db_xref="GeneID:107076138"
+ORIGIN      
+        1 mkkprcslpd iigtaellrr rkryalsgev wsrtqltwrv dnypdiaqsp tlradtvrtl
+       61 mhlalqvwak vtplqfrelt aggaseepdi hitfsssyhq dgypfdgpgg tlahaffpge
+      121 hpvsgdthfd dqeswtyadp qgtdlftvai hefghalgls hssstnsima pyyqgpvgrp
+      181 edyvlpgddt qgiqqlygss ltltllhsht ltllhsltlt lslsllhhvt sslidlprva
+      241 rslliglsrs adplaadwpv adwlsrygyl pppdprtgql qtkegiekal rvmqrfggik
+      301 etgrlgdayf fkenrywvqq kgglnqeatt prsvavdwmr capppspsqp pvrsdpkgrd
+      361 cicnlgnggv gltpkvvshw lfllpvslla hltsffcy
+//
+
+
+LOCUS       XP_015196808             496 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus].
+ACCESSION   XP_015196808
+VERSION     XP_015196808.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341322.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..496
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..496
+                     /product="matrix metalloproteinase-20-like"
+                     /calculated_mol_wt=56195
+     Region          42..94
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          115..270
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          115..270
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(167,179,186..192,201,225..226,235,245..247)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(225..226,229,235)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          307..496
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(317,319,361,363,408,410,457,459)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..496
+                     /gene="LOC102684982"
+                     /coded_by="XM_015341322.1:42..1532"
+                     /db_xref="GeneID:102684982"
+ORIGIN      
+        1 mkllcvflpv lvllmvtvrc ssarqfrkqr ygrstwrdfs yaqeylskyy dseeestgll
+       61 raprqplark lremqsfmgl rvtgrldrst msliqtprcg vpdvenyrlf pgapkwktnt
+      121 ityrvakyts sltraevdha vdmglsvwss vtplhfqkih sgeadimisf evgahgdayp
+      181 fdgprgtlah afapaeglgg dthfddeekw tmgtngfnlf tvaahefgha lglahssdps
+      241 almyptykyq dprgfklpsd dvkgiqslyg sanknqekhe kedhqnrqqi pvppvpqppy
+      301 wpvprhpdmc dndltfdaaa vfgnellffk dgflwrrqsr lkdvrpgyir tsfpqlltsi
+      361 daaydvpekg laylfkgsny wtsrgfqmvg gprsitdfgl psrvrqvdaa vylkdmkqtl
+      421 ffvgnefysy nhamlrmddg yprkieeefs girgkvdaav avngflylfs gpnaykydsd
+      481 redvirvvka nswlgc
+//
+
+
+LOCUS       XP_015196688             476 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrilysin-like [Lepisosteus oculatus].
+ACCESSION   XP_015196688
+VERSION     XP_015196688.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341202.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..476
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..476
+                     /product="matrilysin-like"
+                     /calculated_mol_wt=52373
+     Region          39..87
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          108..263
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          108..263
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(160,172,179..185,194,218..219,228,238..240)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(218..219,222,228)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          292..476
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(299,301,342,344,390,392,437,439)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..476
+                     /gene="LOC102685380"
+                     /coded_by="XM_015341202.1:393..1823"
+                     /db_xref="GeneID:102685380"
+ORIGIN      
+        1 mesrylvrvs lltltsavls aalpvgqdaq lgtddqhfae qylqrfykmk qgrgagsnvl
+       61 sekvkemqtf fklnvtgsld aetmevmkkp rcgvpdvary qvfsdrakwt vnpvsyrivn
+      121 ytpdlttqev dnaidaalkv wsdvipltfr kttdltadil isfaagehgd fspfdgpsgt
+      181 lahafspgsg lggdahfded erwsttskgf nlflvaahef ghalgldhss dpsalmypty
+      241 kyvdttgfvl psddvkgiqs lygkptaspa ttttattska pvkstaaahp gcdpnltlda
+      301 vaylgsdllf fkgsavwrkr qngsvvrepl sarfscpltn vdaaydyrga tylfkntdmi
+      361 mwlkeqgdky kpyqlnisyf gfprtvrkid aavhiaatgk tlffvgdqyy rfnqktstme
+      421 lrstikedfp gigskvdaaf qmsgktylss gpylyeydln nrrvvstqrn sallac
+//
+
+
+LOCUS       XP_015196619             470 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: collagenase 3-like [Lepisosteus oculatus].
+ACCESSION   XP_015196619
+VERSION     XP_015196619.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341133.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..470
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..470
+                     /product="collagenase 3-like"
+                     /calculated_mol_wt=52411
+     Region          29..86
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          107..262
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          107..262
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(159,171,178..184,193,217..218,227,237..239)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(217..218,221,227)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          281..470
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(291,293,335,337,383,385,432,434)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..470
+                     /gene="LOC102684784"
+                     /coded_by="XM_015341133.1:40..1452"
+                     /db_xref="GeneID:102684784"
+ORIGIN      
+        1 mktlsallll glaaaacslp ialpstaknd eevaeaylkr ffnlttpegp iqrrrispmt
+       61 ekvremqrff glkvtgtlds dtmqmmnkpr cgvpdvaqys tfqgnikwpk tsltyrieny
+      121 tpdmavqdvd raleralqvw akvtplrftr iysgtadimi sfgagvhgdy ypfdgpdgtl
+      181 ahafapsegi ggdahfdede tftsgsmgyn lflvaahefg hslglshstd pgalmfpvys
+      241 yvdpdtfslp qddikgiqfl ygpnpdvdgg npdpnpgptt pnacdprlsl daattlrgek
+      301 ilfkgsffwr sfsqssqveq hrikyfwpel pdnidaayes lesdrvylfk gnqvwalfgy
+      361 divqgypksi ttlglprsvt kidaavydeq srkalfftgn qiysydeatr kvdqgfpksi
+      421 kdvfpgignk vdaalqdrgf tylfngqymm eysytrralr vlytnyflgc
+//
+
+
+LOCUS       XP_015224043             658 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: 72 kDa type IV collagenase [Lepisosteus oculatus].
+ACCESSION   XP_015224043
+VERSION     XP_015224043.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015368557.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270045.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..658
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG23"
+     Protein         1..658
+                     /product="72 kDa type IV collagenase"
+                     /calculated_mol_wt=74235
+     Region          <71..98
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          119..447
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          119..447
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(171,183,190..196,205,404..405,414,424..426)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Region          227..275
+                     /region_name="FN2"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
+     Site            order(238,240,245,259,266,272,274)
+                     /site_type="other"
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+     Region          285..333
+                     /region_name="FN2"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
+     Site            order(296,298,303,317,324,330,332)
+                     /site_type="other"
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+     Region          343..391
+                     /region_name="FN2"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
+     Site            order(354,356,361,375,382,388,390)
+                     /site_type="other"
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+     Site            order(404..405,408,414)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          464..658
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(474,476,519,521,567,569,616,618)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..658
+                     /gene="mmp2"
+                     /coded_by="XM_015368557.1:201..2177"
+                     /db_xref="GeneID:102688130"
+ORIGIN      
+        1 mrrgtplsnr nclllvlfsl fiafqqtsaa pspiikfpgd dtspktdkev alhylnkfyg
+       61 cpkdrcnlmv lkdtlkkmqk ffalpetgei dqktlevmkk prcgvpdvan ynffprrpkw
+      121 ekntvtyril ghtpdldeet iddafarafk vwsdftplqf nrimdgeadi minfgrwehg
+      181 dgypfdgkdg llahafapgp giggdshfdd deqwtlgegq vvkvkygnae gefckfpflf
+      241 mgkeystcts egrddgflwc sttynfdedg kygfcphell ftlggngega pcklpftfqg
+      301 qkyeacttvg redgyrwcat tedydrdkty gfcpetamst vggnaegspc vfpftflgdk
+      361 yesctssgrn dgkmwcatss sydddrkwgf cpdqgyslfl vaahefghal glehsqdpga
+      421 lmapiytytk nfklsnddik giqelygvpt dkplpptqgp vtpmdlcqed ilfdavsqlr
+      481 gemfffkdrf lwrssnprsk pkgptlvatf wtelpekfda vyenpleeks vffagnelwv
+      541 ysastlekgy pkkiatlglp adlprvdaaf sfnknkktyi fagdkfwryn eakkkmdpgf
+      601 pkliadawng ipdsldaafh fngdgysyff kdgyylkldd rnlkivkigd iksdwlgc
+//
+
+
+LOCUS       XP_015221451             577 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-17 isoform X1 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015221451
+VERSION     XP_015221451.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015365965.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270036.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..577
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG20"
+     Protein         1..577
+                     /product="matrix metalloproteinase-17 isoform X1"
+                     /calculated_mol_wt=65344
+     Region          30..80
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          109..273
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          109..273
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(164,176,183..189,199,226..227,236,246..248)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(226..227,230,236)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          312..506
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(320,322,369,371,415,417,463,465)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..577
+                     /gene="mmp17"
+                     /coded_by="XM_015365965.1:828..2561"
+                     /db_xref="GeneID:102688683"
+ORIGIN      
+        1 milvpvlwfl setfaapslt aeqinmgvdw lskfgylppp dsvtgqlqtk ealteaikam
+       61 qkfggleetg vldeatlvlm ktprcslpdm sdagmdsgrq kraassptkw ykrhlswrvr
+      121 kfpkeshllg hdtvralmyy alkvwsdiap lnfhevagse adiqidftka dhddgypfdg
+      181 pggtvahaff pgdsyaagdt hfdddeswtf rspdshgmdl favavhefgh aiglahtsak
+      241 ksimmpyyqg pvgdplkynl pyedkvhiwq lygvrdsvsh tarpdvsrtd dppvlldlpe
+      301 nrstvppaqd apdrcnthfd avaqirgeaf ffkgkyfwrl trekhlvslr paqihrfwrg
+      361 lplnldsvda vyerpsdhki vffkgekywv fkdnnveegy prltsdfglp legvdaafvw
+      421 phndktyffm drrywryddh lrrmdlgypk dtmlwkgvpt llddamrwsd gssyffkgke
+      481 ywrvqgsdme vevgyprsig kdwlacremq sdspaadgng tetrsqgqhh vshaengyev
+      541 csctsaatpr gplsrtrvgr llplwpwtla vvltapl
+//
+
+
+LOCUS       XP_015221452             551 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-17 isoform X2 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015221452
+VERSION     XP_015221452.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015365966.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270036.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..551
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG20"
+     Protein         1..551
+                     /product="matrix metalloproteinase-17 isoform X2"
+                     /calculated_mol_wt=62543
+     Region          1..54
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          83..247
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          83..247
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(138,150,157..163,173,200..201,210,220..222)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(200..201,204,210)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          286..480
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(294,296,343,345,389,391,437,439)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..551
+                     /gene="mmp17"
+                     /coded_by="XM_015365966.1:51..1706"
+                     /db_xref="GeneID:102688683"
+ORIGIN      
+        1 mqdwlskfgy lpppdsvtgq lqtkealtea ikamqkfggl eetgvldeat lvlmktprcs
+       61 lpdmsdagmd sgrqkraass ptkwykrhls wrvrkfpkes hllghdtvra lmyyalkvws
+      121 diaplnfhev agseadiqid ftkadhddgy pfdgpggtva haffpgdsya agdthfddde
+      181 swtfrspdsh gmdlfavavh efghaiglah tsakksimmp yyqgpvgdpl kynlpyedkv
+      241 hiwqlygvrd svshtarpdv srtddppvll dlpenrstvp paqdapdrcn thfdavaqir
+      301 geafffkgky fwrltrekhl vslrpaqihr fwrglplnld svdavyerps dhkivffkge
+      361 kywvfkdnnv eegyprltsd fglplegvda afvwphndkt yffmdrrywr yddhlrrmdl
+      421 gypkdtmlwk gvptllddam rwsdgssyff kgkeywrvqg sdmevevgyp rsigkdwlac
+      481 remqsdspaa dgngtetrsq gqhhvshaen gyevcsctsa atprgplsrt rvgrllplwp
+      541 wtlavvltap l
+//
+
+
+LOCUS       XP_015221453             525 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-17 isoform X3 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015221453
+VERSION     XP_015221453.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015365967.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270036.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..525
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG20"
+     Protein         1..525
+                     /product="matrix metalloproteinase-17 isoform X3"
+                     /calculated_mol_wt=58357
+     Region          30..80
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          109..273
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          109..273
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(164,176,183..189,199,226..227,236,246..248)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(226..227,230,236)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          312..>385
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cl02471"
+                     /db_xref="CDD:295316"
+     CDS             1..525
+                     /gene="mmp17"
+                     /coded_by="XM_015365967.1:830..2407"
+                     /db_xref="GeneID:102688683"
+ORIGIN      
+        1 milvpvlwfl setfaapslt aeqinmgvdw lskfgylppp dsvtgqlqtk ealteaikam
+       61 qkfggleetg vldeatlvlm ktprcslpdm sdagmdsgrq kraassptkw ykrhlswrvr
+      121 kfpkeshllg hdtvralmyy alkvwsdiap lnfhevagse adiqidftka dhddgypfdg
+      181 pggtvahaff pgdsyaagdt hfdddeswtf rspdshgmdl favavhefgh aiglahtsak
+      241 ksimmpyyqg pvgdplkynl pyedkvhiwq lygvrdsvsh tarpdvsrtd dppvlldlpe
+      301 nrstvppaqd apdrcnthfd avaqirgeaf ffkgkyfwrl trekhlvslr paqihrfwrg
+      361 lplnldsvda vyerpsdhki vffkdatggm mtiyggwiwg tqrtlcygke frhfsmtpcg
+      421 gltaphtssk grstggyraa iwrwkwgtpd psartgwhae rcsrtlqprt atarrraprg
+      481 sttsvtrrta trsapaprpp rpaapspgha sagsspsgrg psrwc
+//
+
+
+LOCUS       XP_015221454             518 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-17 isoform X4 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015221454
+VERSION     XP_015221454.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015365968.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270036.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..518
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG20"
+     Protein         1..518
+                     /product="matrix metalloproteinase-17 isoform X4"
+                     /calculated_mol_wt=58896
+     Region          50..214
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          50..214
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(105,117,124..130,140,167..168,177,187..189)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(167..168,171,177)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          253..447
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(261,263,310,312,356,358,404,406)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..518
+                     /gene="mmp17"
+                     /coded_by="XM_015365968.1:113..1669"
+                     /db_xref="GeneID:102688683"
+ORIGIN      
+        1 mqkfggleet gvldeatlvl mktprcslpd msdagmdsgr qkraassptk wykrhlswrv
+       61 rkfpkeshll ghdtvralmy yalkvwsdia plnfhevags eadiqidftk adhddgypfd
+      121 gpggtvahaf fpgdsyaagd thfdddeswt frspdshgmd lfavavhefg haiglahtsa
+      181 kksimmpyyq gpvgdplkyn lpyedkvhiw qlygvrdsvs htarpdvsrt ddppvlldlp
+      241 enrstvppaq dapdrcnthf davaqirgea fffkgkyfwr ltrekhlvsl rpaqihrfwr
+      301 glplnldsvd avyerpsdhk ivffkgekyw vfkdnnveeg yprltsdfgl plegvdaafv
+      361 wphndktyff mdrrywrydd hlrrmdlgyp kdtmlwkgvp tllddamrws dgssyffkgk
+      421 eywrvqgsdm evevgyprsi gkdwlacrem qsdspaadgn gtetrsqgqh hvshaengye
+      481 vcsctsaatp rgplsrtrvg rllplwpwtl avvltapl
+//
+
+
+LOCUS       XP_015196817             490 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus].
+ACCESSION   XP_015196817
+VERSION     XP_015196817.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341331.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..490
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..490
+                     /product="matrix metalloproteinase-20-like"
+                     /calculated_mol_wt=54263
+     Region          <71..96
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          117..271
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          117..271
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(169,181,188..194,203,227..228,237,247..249)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(227..228,231,237)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          302..490
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(311,313,355,357,402,404,451,453)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..490
+                     /gene="LOC102685179"
+                     /coded_by="XM_015341331.1:36..1508"
+                     /db_xref="GeneID:102685179"
+ORIGIN      
+        1 mkwlflfwaf tlvdvrlcga apasgfrekt gllkgtvrnd lelatgylrd yyrlqeepas
+       61 rakrssasfg skvremqrff glnatgglda etvsamkrpr cgvpdvqnys pygepsrwhk
+      121 ntitysigqy tndlpsetvd slidsalkvw staspltfvr syshnadimv efgtydhgdl
+      181 fpfdgpkgtl ahaygpgegi ggdthfddde hwtagsegfn lflvaahefg halglshsry
+      241 pgslmyptyk trspsnllsg edirqlqaly gprrgfgypr sgfrsfyhlw rlksgfplpl
+      301 qdsckpglsf davatlgqda llmkdgylwl rhgqqpsvka glisnflpqv psdidaaysl
+      361 pqrsstvllk gssywtvrgs rvkgrpksiy glgfpewvtr idaavhvskt gntlffvndt
+      421 ywsynestra mdehypreva ddfpgiagri daaaekdgfl yffsgasvqv fdnsqkqivg
+      481 tetasswlgc
+//
+
+
+LOCUS       XP_006627786             466 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: collagenase 3 [Lepisosteus oculatus].
+ACCESSION   XP_006627786
+VERSION     XP_006627786.2
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006627723.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jan 8, 2016 this sequence version replaced gi:573879129.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..466
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..466
+                     /product="collagenase 3"
+                     /calculated_mol_wt=52598
+     Region          30..87
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          108..261
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          108..261
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(160,172,179..185,194,218..219,228,238..240)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(218..219,222,228)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          276..466
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(286,288,330,332,378,380,427,429)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..466
+                     /gene="mmp13"
+                     /coded_by="XM_006627723.2:42..1442"
+                     /db_xref="GeneID:102692873"
+ORIGIN      
+        1 mkasglllfl avsplfaapl srkeaeqked nwifaekylr rfyglsppgl rgqpgspdsv
+       61 qlkiqemqgf lglevtgqld pdtlavmnmp rcgvpdvgey nlfprnlkwr nnnvtfrivn
+      121 ytpdlkpsev draihnalka wsdvtplvfk kihngtadim iafgakehgd fnpfdgpngl
+      181 lahayppgng iggdthfded etwstdssgy nlfvvaahef ghalglahss dpgalmfpvy
+      241 sysrgfplae ddmhgiqaly gpnpdhrkvk pkpdapdkcd pmltfdavte lrgetiifkd
+      301 rfywrlhpqm vepeqtlikm twpsipnkid aayenpakdl vfifkgirmw alngynlveg
+      361 ypkyihklgl pksirridaa vymedsgktl lftdedywsy dessgtmdpg yprsieddfp
+      421 gigeemdavs ykygylyfyr gaiqfeynyr arkvlrilrt nsilnc
+//
+
+
+LOCUS       XP_015221916             486 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: stromelysin-3 [Lepisosteus oculatus].
+ACCESSION   XP_015221916
+VERSION     XP_015221916.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015366430.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270036.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG20"
+     Protein         1..486
+                     /product="stromelysin-3"
+                     /calculated_mol_wt=55060
+     Region          114..268
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          114..268
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(166,178,185..191,200,225..226,235,245..247)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(225..226,229,235)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          289..479
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(297,299,342,344,386,388,436,438)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..486
+                     /gene="mmp11"
+                     /coded_by="XM_015366430.1:270..1730"
+                     /db_xref="GeneID:102691308"
+ORIGIN      
+        1 mlsplllagv lalplcahsl pvtegkgtnr ykaagewlqk srfynmkkrg rlhhsqetlk
+       61 diasgkgglg stalpgngsa fwkrprcgvp dypthrgahg ghprqkrfvl fggrwektdl
+      121 tykimrfpwq mdkekvrhaf qealrvwsev tpltftevts gradiiidft rywhgdnlpf
+      181 dgpggilaha ffprthregd ihfdydetwt vgnsmgtdll qvaahefghv lglqhslvpg
+      241 avmspfysfs yplalsdddk qgiqylygpr qysepqtttm tneiivttpn acdtdfdavs
+      301 mirgelfffk sryvwrirag rlqegypala srhwrgipdr vdaafedgsg niwffqghny
+      361 wvydgekpit gpdsvsslgl pisniqaalm wgedknkkty ffkgssywrf nptanrvdmv
+      421 yprsladwrg vptsidaafq dsygyahflq grqywkfdpv tvkvldgypr qigvdffgcp
+      481 tsnnyr
+//
+
+
+LOCUS       XP_015196689             467 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus].
+ACCESSION   XP_015196689
+VERSION     XP_015196689.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341203.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..467
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..467
+                     /product="matrix metalloproteinase-20-like"
+                     /calculated_mol_wt=53420
+     Region          31..88
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          109..266
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          109..266
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(161,173,180..186,195,221..222,231,241..243)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(221..222,225,231)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          275..467
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(285,287,332,334,379,381,428,430)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..467
+                     /gene="LOC102693072"
+                     /coded_by="XM_015341203.1:9..1412"
+                     /db_xref="GeneID:102693072"
+ORIGIN      
+        1 mlpwssllfl lgnltlvvtl piaaeselkp edvtfaeeyl srfyplread gtrtrrqaaa
+       61 aeerlrqmqe ffgleatgrl srqtvavmkr ercgvpdten ysfypdkprw rnstvtyriv
+      121 kytpdlkrkd vertfrqalk iwsdaaplkf vrldhgeadi minfgskahg dffpfdgpkg
+      181 vlahafepge diggdahfde deiwtmgnkk pgynlftvaa hefghtlgls hskdpsalmy
+      241 pnykyynpat yslprddvlg iqelygrkpv alpppekcdp ylsfdavavi grdiaffkns
+      301 ymwlrmtwmm nwnslregli ssllpsissp vdaaydipak gvaylftgpk fwivqqlnmk
+      361 sysgsiydig fptdvkqvda avhvkeygkt yffvgeryyr fdetwsrmdp gfprrirtdw
+      421 pgigskidaa felagyihff sgpkaykydy rqrqvlyavr anawlgc
+//
+
+
+LOCUS       XP_015196726             287 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrilysin-like [Lepisosteus oculatus].
+ACCESSION   XP_015196726
+VERSION     XP_015196726.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015341240.1
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269891.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 3% of CDS bases
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..287
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG3"
+     Protein         1..287
+                     /product="matrilysin-like"
+                     /calculated_mol_wt=31936
+     Region          32..83
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          104..273
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          104..273
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(156,182,189..195,204,228..229,238,248..250)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(228..229,232,238)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     CDS             1..287
+                     /gene="LOC102685588"
+                     /coded_by="XM_015341240.1:933..1796"
+                     /db_xref="GeneID:102685588"
+ORIGIN      
+        1 mrtcgmlvtl mltctplasa gpvplraegr nssedvdwar lylerfynlt qdrhplegkl
+       61 remqrffglk vtgrvdratl simkkprcgv pemadysffp gkpkwtkkrl tyrivrytad
+      121 iskrqvdrtv ktalrlwskv tplkfirink geadimikfa sctcsrgalm cgvpitghgd
+      181 dfpfdgpgge lahafapgkg llgdahfdrd etwslgqsgi nlllvaahef ghslglghsq
+      241 dkdalmypty syrntagfql srddiagiqs lygtrrtahr lsktask
+//
+
+
+LOCUS       XP_015220536             562 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: LOW QUALITY PROTEIN: matrix metalloproteinase-9
+            [Lepisosteus oculatus].
+ACCESSION   XP_015220536
+VERSION     XP_015220536.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015365050.1
+KEYWORDS    RefSeq; corrected model; includes ab initio.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270030.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##RefSeq-Attributes-START##
+            ab initio            :: 2% of CDS bases
+            frameshifts          :: corrected 1 indel
+            internal stop codons :: corrected 1 genomic stop codon
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..562
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG18"
+     Protein         1..562
+                     /product="LOW QUALITY PROTEIN: matrix metalloproteinase-9"
+     Region          47..94
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          115..446
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          115..446
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(167,179,186..192,201,403..404,413,423..425)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Region          223..271
+                     /region_name="FN2"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
+     Site            order(234,236,241,255,262,268,270)
+                     /site_type="other"
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+     Region          281..329
+                     /region_name="FN2"
+                     /note="Fibronectin type 2 domain; smart00059"
+                     /db_xref="CDD:128373"
+     Site            order(292,294,299,313,320,326,328)
+                     /site_type="other"
+                     /note="putative gelatin-binding site"
+                     /db_xref="CDD:238019"
+     Region          339..>364
+                     /region_name="FN2"
+                     /note="Fibronectin Type II domain: FN2 is one of three
+                     types of internal repeats which combine to form larger
+                     domains within fibronectin. Fibronectin, a plasma protein
+                     that binds cell surfaces and various compounds including
+                     collagen, fibrin, heparin, DNA, and...; cl09951"
+                     /db_xref="CDD:299134"
+     Site            order(403..404,407,413)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          <487..554
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cl02471"
+                     /db_xref="CDD:295316"
+     CDS             1..562
+                     /gene="mmp9"
+                     /coded_by="XM_015365050.1:105..1793"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: inserted 2 bases in 1 codon;
+                     substituted 1 base at 1 genomic stop codon"
+                     /db_xref="GeneID:102692037"
+ORIGIN      
+        1 mrpcvlavlt lglcalgglc lplksvsvvf pgdtlknmtn kefandylqk fgymnvldrs
+       61 gnqqvsseka lrrmqrqlgl qetgqldret ldamrrprcg vpdirnyqtf egdlkwdhkd
+      121 vtyrilnysp dmdaslidda farafkvwsd vtpltftrly dgtadimvsf gkkdhgdpyp
+      181 fdgkdgllah ayppgegmqg dahfdddefw tlgtgpvvkt rfgnaegalc hfpftfqges
+      241 ysscttegrs dglpwcatta dydrdnkfgf cpsellftig gnsdgaacvf pfvfdgesye
+      301 gcttegrsdg yrwcattgsy dtdrkygfcp srdtaviggn segepcvfpf tfqkksyasc
+      361 tsdgxxpgti gsrspgpwqq vxplspaflf lppgyslflv aahefghalg ldhsnvreal
+      421 mfpmysyvkd fslhqddieg iqylygxspg ppwpllpqgt rspfsrclsd waharlgssn
+      481 slalaprldv kaqtidkgyp rfidlvfagv pvdshdvfly nghyyfcreq fywrmnsrrq
+      541 vdrvgyvkyd ilkcpdnsrr yv
+//
+
+
+LOCUS       XP_015209388             521 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-17-like [Lepisosteus oculatus].
+ACCESSION   XP_015209388
+VERSION     XP_015209388.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015353902.1
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269961.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 12% of CDS bases
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..521
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG9"
+     Protein         1..521
+                     /product="matrix metalloproteinase-17-like"
+                     /calculated_mol_wt=57877
+     Region          108..273
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          111..273
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(164,176,183..189,199,226..227,236,246..248)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(226..227,230,236)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          309..458
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cl02471"
+                     /db_xref="CDD:295316"
+     Site            order(317,319,366,368,389,391,415,417)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..521
+                     /gene="LOC102692214"
+                     /coded_by="XM_015353902.1:1..1566"
+                     /db_xref="GeneID:102692214"
+ORIGIN      
+        1 mqprreawgw aglrphslls vclsvcaarc lseaaptvpt tppvadegta lvvslrkegd
+       61 eetltlmstp rcslpddqge pqptpqsstf sqhaqqhpqr qrrdtaewtk shkniswrvr
+      121 sypshsslsr emirsllfya lrvwaeptpl efhevgvtge aelqvdflqg shgdsfpfdg
+      181 pggavghaff psdpqragtv hldsqedwtf rasesqgtdl ftvavhefgh alglshssar
+      241 rsimrpyyqg pvgdplqyql spedrreilr lygkrehlls sespslvipt altrpplhrh
+      301 tarppgplpd rcssefdava sirgetfffk gryfwrvsqg ghllslrpvl lqrfwrglpa
+      361 rlesvravle rasdhsiifi gdlqwdpqag rvvwgeweea mgdpswkeli eggvdgittd
+      421 gdgytyvfkg hlywrfpspg sypepgyprs taydwldcpd psltqpsigp sslapprgrq
+      481 eyreclrslg cpcitksrgs tvtahlglss lgllimalvp l
+//
+
+
+LOCUS       XP_006629382             480 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-19 [Lepisosteus oculatus].
+ACCESSION   XP_006629382
+VERSION     XP_006629382.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006629319.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269901.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..480
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG4"
+     Protein         1..480
+                     /product="matrix metalloproteinase-19"
+                     /calculated_mol_wt=54569
+     Region          24..84
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          107..259
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          107..259
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(159,171,178..184,190,215..216,225,235..237)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(215..216,219,225)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          292..478
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(300,302,344,346,387,389,436,438)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..480
+                     /gene="mmp19"
+                     /coded_by="XM_006629319.2:526..1968"
+                     /db_xref="GeneID:102688963"
+ORIGIN      
+        1 mpslrpllll stvalsalss vmdrrneyte atdylkqygy lstpldpqas gfqpeeieea
+       61 lrvfqrvtql pvtgtidkat lammrrprcg iedpfnqktf kyrllgrwrk knltyrihnh
+      121 tpdlglaetr aaiqsafhyw sevapltfqe vtggradiki sfhrrshacs vafdgpgrvl
+      181 ahadvpesgi vhfdedeywt egtsrganlr iiaaheigha lglghsqyps almgpvyngy
+      241 ksnfwlhpdd vraiqalygk rvpsvpsvps epqapapsvp pavvpdeqgd vpdpctadld
+      301 aimlgpyrkt yafsgqymwt vsdlghnrpm kisllwkslp gnldaavhsq rtnktyflkg
+      361 dkvwrytgfr ldygypkplt rippnidaal ywdvnqkiff fkgdgywqwd elvyndlsmy
+      421 pkpisqlftg vpshpgsaft wtngkiyffk gdrywrvneq lraergypqs krerwmqchk
+//
+
+
+LOCUS       XP_006642143             386 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X1 [Lepisosteus
+            oculatus].
+ACCESSION   XP_006642143
+VERSION     XP_006642143.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006642080.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270051.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..386
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG25"
+     Protein         1..386
+                     /product="matrix metalloproteinase-23 isoform X1"
+                     /calculated_mol_wt=44319
+     Region          83..250
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          83..250
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(137,155,162..168,174,207..208,217,227..229)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(207..208,211,217)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          251..285
+                     /region_name="ShKT"
+                     /note="ShK toxin domain; smart00254"
+                     /db_xref="CDD:214586"
+     Region          291..384
+                     /region_name="Ig_2"
+                     /note="Immunoglobulin domain; pfam13895"
+                     /db_xref="CDD:290606"
+     Region          303..384
+                     /region_name="IG_like"
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+     CDS             1..386
+                     /gene="mmp23b"
+                     /coded_by="XM_006642080.2:322..1482"
+                     /db_xref="GeneID:102692450"
+ORIGIN      
+        1 mecglfkhsl kgdrsvlhfv vpllsvavmf avmqettalp twrneeeaqp ssilvigigk
+       61 eahsrllrls rnkrytltpe klkwdkfklt ykllsfprnl inasdthkam akafsmwgdv
+      121 spfsfrevpa dqeadikigf ypinhtdclr sylhhcfdgi tgelahaffp ptgeihfddh
+      181 eywvlgnmrf swkkrvwltd lvhvaaheig halglmhsln pkaimhlnat ltgkkfitqd
+      241 dvwglhrlyg cldrlficps warkgycdsk rklmqrqcps scdfcyefpf ptlaptpvpp
+      301 rtknklvpeg rkltfrcgkk vaakkgkvyw ykdgelleys ypgyislkdd hisivanain
+      361 egtytcivrk nnkvltsfsw rvrvrf
+//
+
+
+LOCUS       XP_015192540             342 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X3 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015192540
+VERSION     XP_015192540.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015337054.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270051.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..342
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG25"
+     Protein         1..342
+                     /product="matrix metalloproteinase-23 isoform X3"
+                     /calculated_mol_wt=39378
+     Region          39..206
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          39..206
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(93,111,118..124,130,163..164,173,183..185)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(163..164,167,173)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          207..241
+                     /region_name="ShKT"
+                     /note="ShK toxin domain; smart00254"
+                     /db_xref="CDD:214586"
+     Region          247..340
+                     /region_name="Ig_2"
+                     /note="Immunoglobulin domain; pfam13895"
+                     /db_xref="CDD:290606"
+     Region          259..340
+                     /region_name="IG_like"
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+     CDS             1..342
+                     /gene="mmp23b"
+                     /coded_by="XM_015337054.1:254..1282"
+                     /db_xref="GeneID:102692450"
+ORIGIN      
+        1 meeaqpssil vigigkeahs rllrlsrnkr ytltpeklkw dkfkltykll sfprnlinas
+       61 dthkamakaf smwgdvspfs frevpadqea dikigfypin htdclrsylh hcfdgitgel
+      121 ahaffpptge ihfddheywv lgnmrfswkk rvwltdlvhv aaheighalg lmhslnpkai
+      181 mhlnatltgk kfitqddvwg lhrlygcldr lficpswark gycdskrklm qrqcpsscdf
+      241 cyefpfptla ptpvpprtkn klvpegrklt frcgkkvaak kgkvywykdg elleysypgy
+      301 islkddhisi vanainegty tcivrknnkv ltsfswrvrv rf
+//
+
+
+LOCUS       XP_015192539             345 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-23 isoform X2 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015192539
+VERSION     XP_015192539.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015337053.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270051.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..345
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG25"
+     Protein         1..345
+                     /product="matrix metalloproteinase-23 isoform X2"
+                     /calculated_mol_wt=39741
+     Region          42..209
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          42..209
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(96,114,121..127,133,166..167,176,186..188)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(166..167,170,176)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          210..244
+                     /region_name="ShKT"
+                     /note="ShK toxin domain; smart00254"
+                     /db_xref="CDD:214586"
+     Region          250..343
+                     /region_name="Ig_2"
+                     /note="Immunoglobulin domain; pfam13895"
+                     /db_xref="CDD:290606"
+     Region          262..343
+                     /region_name="IG_like"
+                     /note="Immunoglobulin like; smart00410"
+                     /db_xref="CDD:214653"
+     CDS             1..345
+                     /gene="mmp23b"
+                     /coded_by="XM_015337053.1:940..1977"
+                     /db_xref="GeneID:102692450"
+ORIGIN      
+        1 mhprckaqps silvigigke ahsrllrlsr nkrytltpek lkwdkfklty kllsfprnli
+       61 nasdthkama kafsmwgdvs pfsfrevpad qeadikigfy pinhtdclrs ylhhcfdgit
+      121 gelahaffpp tgeihfddhe ywvlgnmrfs wkkrvwltdl vhvaaheigh alglmhslnp
+      181 kaimhlnatl tgkkfitqdd vwglhrlygc ldrlficpsw arkgycdskr klmqrqcpss
+      241 cdfcyefpfp tlaptpvppr tknklvpegr kltfrcgkkv aakkgkvywy kdgelleysy
+      301 pgyislkddh isivanaine gtytcivrkn nkvltsfswr vrvrf
+//
+
+
+LOCUS       XP_006641013             466 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X1 [Lepisosteus
+            oculatus].
+ACCESSION   XP_006641013
+VERSION     XP_006641013.2
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006640950.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270041.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jan 8, 2016 this sequence version replaced gi:573906586.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..466
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG22"
+     Protein         1..466
+                     /product="matrix metalloproteinase-28 isoform X1"
+                     /calculated_mol_wt=52032
+     Region          76..230
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          76..230
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(128,142,149..155,161,186..187,196,206..208)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(186..187,190,196)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          273..454
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(274,276,319,321,364,366,412,414)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..466
+                     /gene="mmp28"
+                     /coded_by="XM_006640950.2:2..1402"
+                     /db_xref="GeneID:102697774"
+ORIGIN      
+        1 maavassref qwlshlpvtg kldsatlwlm srprcgvgdg eshsawaqrv rgifsgmggr
+       61 garrhrskry sqqgekwskr qltyrlvnwp rhlspgqvrl avraafqlws nasalafrel
+      121 thgpadirla fyegehndgt gnafdgpgga lahaffpcrg eahfdmaerw tlnghkghnl
+      181 fvvtaheigh tlglehspvr nalmspyykk lgrafvlswd diaavqrlyg kppsglavql
+      241 pgqvyssflq dwestegtqg pgpalppycq tffdaitmdq nrtvyvfrga rfwtvsaqgr
+      301 asaalplqrr wpqlpasvea aavsppegkf yffrggrfwr fsgsrldpgf prrssaaglp
+      361 rhpdyafyyp plgnmvlvkg pryfvlnlrs ltpepyyprg ladwkglpqg angavgrpdg
+      421 lyffkdelfw rfdpgrvrvv srgrwapele wtgcqrahgt dansvh
+//
+
+
+LOCUS       XP_015222756             437 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-28 isoform X2 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015222756
+VERSION     XP_015222756.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015367270.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270041.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..437
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG22"
+     Protein         1..437
+                     /product="matrix metalloproteinase-28 isoform X2"
+                     /calculated_mol_wt=48834
+     Region          47..201
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          47..201
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(99,113,120..126,132,157..158,167,177..179)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(157..158,161,167)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          244..425
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     Site            order(245,247,290,292,335,337,383,385)
+                     /site_type="metal-binding"
+                     /note="Metal binding sites [ion binding]"
+                     /db_xref="CDD:238046"
+     CDS             1..437
+                     /gene="mmp28"
+                     /coded_by="XM_015367270.1:581..1894"
+                     /db_xref="GeneID:102697774"
+ORIGIN      
+        1 msrprcgvgd geshsawaqr vrgifsgmgg rgarrhrskr ysqqgekwsk rqltyrlvnw
+       61 prhlspgqvr lavraafqlw snasalafre lthgpadirl afyegehndg tgnafdgpgg
+      121 alahaffpcr geahfdmaer wtlnghkghn lfvvtaheig htlglehspv rnalmspyyk
+      181 klgrafvlsw ddiaavqrly gkppsglavq lpgqvyssfl qdwestegtq gpgpalppyc
+      241 qtffdaitmd qnrtvyvfrg arfwtvsaqg rasaalplqr rwpqlpasve aaavsppegk
+      301 fyffrggrfw rfsgsrldpg fprrssaagl prhpdyafyy pplgnmvlvk gpryfvlnlr
+      361 sltpepyypr gladwkglpq gangavgrpd glyffkdelf wrfdpgrvrv vsrgrwapel
+      421 ewtgcqrahg tdansvh
+//
+
+
+LOCUS       XP_015197999             351 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-21-like [Lepisosteus oculatus].
+ACCESSION   XP_015197999
+VERSION     XP_015197999.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015342513.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269866.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..351
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG1"
+     Protein         1..351
+                     /product="matrix metalloproteinase-21-like"
+                     /calculated_mol_wt=39785
+     Region          10..162
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          11..162
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(60,75,82..88,92,118..119,128,138..140)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(118..119,122,128)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          166..>330
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cl02471"
+                     /db_xref="CDD:295316"
+     CDS             1..351
+                     /gene="LOC102693665"
+                     /coded_by="XM_015342513.1:459..1514"
+                     /db_xref="GeneID:102693665"
+ORIGIN      
+        1 mpglgfaqqr lkwrlmaegh sdhltkeeqr relrlafrrw sevaplsfqe dltcpmaeid
+       61 iwvgfgtgrh lgcpwafdgl ggelahtllp geihldddep yntspsdqgv gllqvavhei
+      121 ghvlglphll ypgsvmhpfy pttggtvels whdrraiqel ygqcedpfdt vfdwvrrqss
+      181 qkgepvlrfn tfffrggqyw lyenrhsrpr lgdprrltag wrglpeggvd afvhvwtpqi
+      241 darfffkgtq fwrydsstdr vftqdpegqr ypcrisegfp gvsgpidaav flrregciyf
+      301 fkgqevlafg vssnqtlpgf pkrleevfpa siqedhptgq vllgsgkrgq h
+//
+
+
+LOCUS       XP_006643489             209 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-23-like, partial [Lepisosteus
+            oculatus].
+ACCESSION   XP_006643489
+VERSION     XP_006643489.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006643426.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006270413.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: incomplete on the amino end.
+FEATURES             Location/Qualifiers
+     source          1..209
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+     Protein         <1..209
+                     /product="matrix metalloproteinase-23-like"
+     Region          <9..104
+                     /region_name="ZnMc"
+                     /note="Zinc-dependent metalloprotease. This super-family
+                     of metalloproteases contains two major branches, the
+                     astacin-like proteases and the adamalysin/reprolysin-like
+                     proteases. Both branches have wide phylogenetic
+                     distribution, and contain sub-families, which...; cl00064"
+                     /db_xref="CDD:294052"
+     Region          <12..104
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Site            order(62..63,66,72)
+                     /site_type="active"
+                     /db_xref="CDD:238124"
+     Region          125..200
+                     /region_name="Ig_2"
+                     /note="Immunoglobulin domain; pfam13895"
+                     /db_xref="CDD:290606"
+     CDS             1..209
+                     /gene="LOC102685025"
+                     /coded_by="XM_006643426.2:<1..630"
+                     /db_xref="GeneID:102685025"
+ORIGIN      
+        1 tdcwtsplhp cfdglngela haflpprgei hfdnhefwvl grsrfswkqg vwlndlvqva
+       61 aheighalgl whsrqpqalm hpnatytgqr tisrddvwgi qrlyepppvd tttaspaski
+      121 ktklvprgki vnfrcgnras rvppkvswyk dgellsssvp gyismknhel rivanefneg
+      181 qytcrilrqg tiitanswii rlkpeelss
+//
+
+
+LOCUS       XP_006630578             628 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-21 isoform X2 [Lepisosteus
+            oculatus].
+ACCESSION   XP_006630578
+VERSION     XP_006630578.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_006630515.2
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269919.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..628
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG5"
+     Protein         1..628
+                     /product="matrix metalloproteinase-21 isoform X2"
+                     /calculated_mol_wt=71082
+     Region          <116..141
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          228..384
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          228..384
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(284,297,304..310,314,340..341,350,360..362)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(340..341,344,350)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          409..614
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     CDS             1..628
+                     /gene="mmp21"
+                     /coded_by="XM_006630515.2:450..2336"
+                     /db_xref="GeneID:102693885"
+ORIGIN      
+        1 mltsirlray flltliapav aerifhirdh sdvlipashq aeliidkgsa qqfllkygfm
+       61 rpgsweesqs dtalvpaaas tapfdmtpli qegdsgsrag kesaskdpae nptfisalrd
+      121 fqevsglrvt gvlddatkaa mnkprcgvpd kaldsnvtat anatdtrlnq tlfisttaag
+      181 atrgldsths rdgptgslgp errkrfletl llrkrrrrdl tgagqvgfsk kvlkwrlmge
+      241 gyssqlside qryvfklafr mwsevcpvef eedltsplfe idvrlgfgtg rhlgcaqsfd
+      301 gagrefahaw flgdihfddd ehftapsggn gisllkvavh eighvlglph iyrggsimqp
+      361 syvpqdsafe idwmdrkaiq qlyggckgrf ntvfdwvrke rtpygelvir fntyfirdsw
+      421 ywlyenrsnr trygdpialq vgwhgipsdg vdayvhvwdw rtdaayffkg tqywrydsen
+      481 dqvytqdseg qryprliseg fpgipspint afynrrdsri yffkdlhvys fdvrtnkkvn
+      541 gfpmritdvf pavvpgdhpi gnldvayfsy thnsifflkg shfwkvvssq drrqnpslpy
+      601 ngvlprkdid shwfdicnvh mstlkmtl
+//
+
+
+LOCUS       XP_015202449             632 aa            linear   VRT 08-JAN-2016
+DEFINITION  PREDICTED: matrix metalloproteinase-21 isoform X1 [Lepisosteus
+            oculatus].
+ACCESSION   XP_015202449
+VERSION     XP_015202449.1
+DBLINK      BioProject: PRJNA221149
+DBSOURCE    REFSEQ: accession XM_015346963.1
+KEYWORDS    RefSeq.
+SOURCE      Lepisosteus oculatus (spotted gar)
+  ORGANISM  Lepisosteus oculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Holostei; Semionotiformes;
+            Lepisosteidae; Lepisosteus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006269919.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Lepisosteus oculatus Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..632
+                     /organism="Lepisosteus oculatus"
+                     /isolate="Spotted Gar 1"
+                     /db_xref="taxon:7918"
+                     /sex="female"
+                     /country="USA: Bayou Chevreuil, St. James Parish,
+                     Louisiana"
+                     /lat_lon="29.91 N 90.80 W"
+                     /linkage_group="LG5"
+     Protein         1..632
+                     /product="matrix metalloproteinase-21 isoform X1"
+                     /calculated_mol_wt=71716
+     Region          <120..145
+                     /region_name="PG_binding_1"
+                     /note="Putative peptidoglycan binding domain; pfam01471"
+                     /db_xref="CDD:279773"
+     Region          232..388
+                     /region_name="Peptidase_M10"
+                     /note="Matrixin; pfam00413"
+                     /db_xref="CDD:278824"
+     Region          232..388
+                     /region_name="ZnMc_MMP"
+                     /note="Zinc-dependent metalloprotease, matrix
+                     metalloproteinase (MMP) sub-family. MMPs are responsible
+                     for a great deal of pericellular proteolysis of
+                     extracellular matrix and cell surface molecules, playing
+                     crucial roles in morphogenesis, cell fate...; cd04278"
+                     /db_xref="CDD:239805"
+     Site            order(288,301,308..314,318,344..345,354,364..366)
+                     /site_type="other"
+                     /note="TIMP-binding surface"
+                     /db_xref="CDD:239805"
+     Site            order(344..345,348,354)
+                     /site_type="active"
+                     /db_xref="CDD:239805"
+     Region          413..618
+                     /region_name="HX"
+                     /note="Hemopexin-like repeats.; Hemopexin is a
+                     heme-binding protein that transports heme to the liver.
+                     Hemopexin-like repeats occur in vitronectin and some
+                     matrix metalloproteinases family (matrixins). The HX
+                     repeats of some matrixins bind tissue inhibitor of...;
+                     cd00094"
+                     /db_xref="CDD:238046"
+     CDS             1..632
+                     /gene="mmp21"
+                     /coded_by="XM_015346963.1:201..2099"
+                     /db_xref="GeneID:102693885"
+ORIGIN      
+        1 mqffrfpqkk ancksttall dnryfslgfe wilhlinksv sstptcvwpp pslaqqfllk
+       61 ygfmrpgswe esqsdtalvp aaastapfdm tpliqegdsg sragkesask dpaenptfis
+      121 alrdfqevsg lrvtgvldda tkaamnkprc gvpdkaldsn vtatanatdt rlnqtlfist
+      181 taagatrgld sthsrdgptg slgperrkrf letlllrkrr rrdltgagqv gfskkvlkwr
+      241 lmgegyssql sideqryvfk lafrmwsevc pvefeedlts plfeidvrlg fgtgrhlgca
+      301 qsfdgagref ahawflgdih fdddehftap sggngisllk vavheighvl glphiyrggs
+      361 imqpsyvpqd safeidwmdr kaiqqlyggc kgrfntvfdw vrkertpyge lvirfntyfi
+      421 rdswywlyen rsnrtrygdp ialqvgwhgi psdgvdayvh vwdwrtdaay ffkgtqywry
+      481 dsendqvytq dsegqryprl isegfpgips pintafynrr dsriyffkdl hvysfdvrtn
+      541 kkvngfpmri tdvfpavvpg dhpignldva yfsythnsif flkgshfwkv vssqdrrqnp
+      601 slpyngvlpr kdidshwfdi cnvhmstlkm tl
+//
+
+

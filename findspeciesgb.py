@@ -11,6 +11,7 @@ import sys, os, re, csv
 numhits = 200
 eThresh = 0.05
 minlength = 200 # Minimum length of sequences (shorter will be trimmed)
+Entrez.email = raw_input("Enter email: ")
 
 dir = sys.argv[1]
 
@@ -29,52 +30,52 @@ def find_species(string):
 	name = mobj.group(1) + mobj.group(2)
 	return name.title()
 
-#-----------------------------------------------------------------------------
-# Process xml files
-#-----------------------------------------------------------------------------
-files = os.listdir(os.path.join(dir,"XML",""))
 
-for file in files:
-	os.chmod(os.path.join(dir,"XML",file),S_IREAD)
-	result = open(os.path.join(dir,"XML",file),"r") # mode omitted defaults to read only
-	blast_record = NCBIXML.parse(result)
-	blast_records = list(blast_record)
-	record = blast_records[0]
-	hits = []
-	for alignment in record.alignments:
-		for hsp in alignment.hsps:
-			if hsp.expect < eThresh:
-				title = alignment.title
-				mdata = re.match( r'.*[\|[A-Z|a-z]{2,3}\|(\S*)\|]{2}.*', title)
-				if mdata is not None:
-					accession = re.match(r'([A-Z|a-z|_|0-9]*)\..*', mdata.group(2))
-					acc = str(accession.group(2))
-					species = find_species(title)
-					hits.append(acc)
-
-	
-	# Saving results as gb
-	save_stdout = sys.stdout
-	sys.stdout = open(os.path.join(dir,"gb",stripext(file)+".gb"), "w")
-	for each in hits:
-		handle = Entrez.efetch(db="protein", id=each, rettype="gb", retmode="text")
-		print handle.read()
-	sys.stdout = save_stdout
 
 #-----------------------------------------------------------------------------
-# Parse fasta format sequences!
+# Add species code
 #-----------------------------------------------------------------------------
-gbfiles = os.listdir(os.path.join(dir,"gb",""))
-print gbfiles
-print "\n\n Formatting genbank data to FASTA..."
+masterfasta = os.path.join(dir,"master.fa")
+nsmasterfasta = os.path.join(dir,"master_ns.fa")
 
-for file in gbfiles:
-	specm = re.match( r'(\S{1})\S* (\S{3})[\S\s]*', file)
-	specCode = specm.group(1)+specm.group(2)
-	input_handle = open(os.path.join(dir,"gb",file),"r")
-	for seq_record in SeqIO.parse(input_handle, "genbank"):
-		print(seq_record.id, seq_record.seq)	
-	input_handle.close()
+stdout_bk = sys.stdout
+sys.stdout = open(nsmasterfasta,"w+")
+with open(masterfasta,"r") as f:
+	for line in f:
+		if re.search(r'>',line):
+			species = re.match(r'.*\[([A-Z|a-z]* [A-Z|a-z]*)\].*',line).group(1)
+			species = re.sub(r' ',"_",species)
+			acc = re.match(r'>(\S*) .*',line).group(1)
+			line = ">"+acc+"_"+species+"\n"
+		sys.stdout.write(line)
+sys.stdout = stdout_bk
 
+#-----------------------------------------------------------------------------
+# Clean duplicate and short sequences
+#-----------------------------------------------------------------------------
+fastafile = nsmasterfasta
+cleanfasta = os.path.join(dir,"master_clean.fa")
+sequences={}
+
+for seq_record in SeqIO.parse(fastafile, "fasta"):
+	sequence = str(seq_record.seq).upper()
+	if len(sequence) >= minlength:
+		if sequence not in sequences:
+			sequences[sequence] = seq_record.id
+   # If it is already in the hash table, we're just gonna concatenate the ID
+   # of the current sequence to another one that is already in the hash table
+		else:
+			if not re.search(seq_record.id,sequences[sequence]):
+				print "sequence duplicate found: <%s> merged with <%s>" % (seq_record.id,sequences[sequence])
+				sequences[sequence] += "_" + seq_record.id
+
+# Write the clean sequences
+output_file = open(cleanfasta, "w+")
+# Just read the hash table and write on the file as a fasta format
+for sequence in sequences:
+	output_file.write(">" + sequences[sequence] + "\n" + sequence + "\n")
+output_file.close()
+
+print("CLEAN!!!")
 
 	
