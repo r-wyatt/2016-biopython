@@ -19,12 +19,7 @@ Entrez.email = raw_input("Enter email: ")
 #-----------------------------------------------------------------------------
 with open(sys.argv[1], 'rb') as f: 		# Argument 1: input path to species list (csv file)
 	reader = csv.reader(f)
-	input = list(reader)
-	species = []
-	for entry in input:
-		species.append("txid"+str(entry[1])+"[ORGN]")
-
-print species
+	species = list(reader)[0]
 	
 cF = SeqIO.parse(sys.argv[2], "fasta")	# Argument 2: fasta formatted consensus sequence file
 consensus = cF.next().seq
@@ -43,8 +38,8 @@ for string in ["gb","fasta","XML"]:		# initialize folder structure
 # Print some useful run headers
 #-----------------------------------------------------------------------------
 print "\nSpecies selected:",
-for sp in input:
-	print sp[0]+",",
+for sp in species:
+	print sp+",",
 print "\n"
 
 print "Consensus:",consensus
@@ -64,13 +59,16 @@ def find_species(string):
 	name = mobj.group(1) + mobj.group(2)
 	return name.title()
 	
-'''
 #-----------------------------------------------------------------------------
 # BLAST
 #-----------------------------------------------------------------------------
 for eQ in species:
-	print " BLAST for", eQ,"\n"
-	result = NCBIWWW.qblast("blastp","refseq",consensus, entrez_query= eQ, expect=0.050, hitlist_size=numhits)
+	print " BLAST for", eQ
+	result = NCBIWWW.qblast("blastp","nr",consensus, entrez_query= eQ, 
+							expect=eThresh, hitlist_size=numhits, matrix_name = "BLOSUM62", 
+							gapcosts = "11 1",word_size=6 
+							#,format_type = "XML"
+							)
 	save_file = open(os.path.join(dir,"XML",eQ+".xml"), "w")
 	save_file.write(result.read())
 	save_file.close()
@@ -138,7 +136,7 @@ for file in fastafiles:
 sys.stdout = save_stdout
 
 #-----------------------------------------------------------------------------
-# Add species code
+# Add species code, remove spaces
 #-----------------------------------------------------------------------------
 masterfasta = os.path.join(dir,"master.fa")
 nsmasterfasta = os.path.join(dir,"master_ns.fa")
@@ -183,6 +181,5 @@ for sequence in sequences:
 	output_file.write(">" + sequences[sequence] + "\n" + sequence + "\n")
 output_file.close()
 
-'''
 
 

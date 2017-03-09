@@ -1,0 +1,94 @@
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_004986.1_Homo_sapiens and 14XP_001157686.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and 16XP_001136497.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and 16XP_544165.3_Canis_lupus_familiaris are exactly identical
+
+IMPORTANT WARNING
+Found 7 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file clean2.0.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 410 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.74%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 410
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -s clean2.0.phy -n rclean2.0raxml.txt -p 12398942 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.068 0.057 0.032 0.071 0.010 0.036 0.050 0.081 0.031 0.045 0.079 0.051 0.021 0.071 0.064 0.054 0.049 0.026 0.050 0.054 
+
+Inference[0]: Time -156.000000 GAMMA-based likelihood -60663.073096, best rearrangement setting 10
+alpha[0]: 1.161564 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -60663.065917 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\RAxML_result.rclean2.0raxml.txt
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -60663.065917 .... 
+
+Final GAMMA-based Score of best tree -60663.065916
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\RAxML_info.rclean2.0raxml.txt
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\RAxML_bestTree.rclean2.0raxml.txt
+
+Overall execution time: -2370.000000 secs or -0.658333 hours or -0.027431 days
+

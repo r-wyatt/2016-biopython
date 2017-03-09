@@ -1,0 +1,13 @@
+
+
+IMPORTANT WARNING: Sequences MMP26XP_011518521.1_Homo_sapiens and MMP26NP_068573.2_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences MMP26XP_011518521.1_Homo_sapiens and MMP26HsapNP_068573.2_matrix_metalloproteinase-26_preproprotein_Homo_sapiens are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file C:/Users/Rachael/Python/2017-biopython/Spotted Gar MMP7/refined.phy.reduced

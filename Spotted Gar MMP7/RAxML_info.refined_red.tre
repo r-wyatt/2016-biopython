@@ -1,0 +1,46 @@
+
+
+This is RAxML version 8.1.21 released by Alexandros Stamatakis on May 21 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 153 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.66%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 100 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 153
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3_8121.exe -T 2 -f a -x 873 -m PROTGAMMAJTTF -p 220 -N 100 -s C:/Users/Rachael/Python/2017-biopython/Spotted Gar MMP7/refined.phy.reduced -n refined_red.tre -O -w C:/Users/Rachael/Python/2017-biopython/Spotted Gar MMP7/ 
+
+

@@ -1,0 +1,84 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Starting SMS v1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input alignment    : hsapmmps_phy
+Data type          : Protein
+Number of taxa     : 25
+Number of sites    : 162
+Number of branches : 47
+Criterion          : AIC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1 : Set a fixed topology
+	AIC=11651.75016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2 : Select the best decoration
+	AIC=10973.93688	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3 : Select the best matrix
+	AIC=0	matrix : 'LG'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4 : Select the best final decoration
+	AIC=10973.93688	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected model				: LG +G+I
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Substitution model			: LG
+Equilibrium frequencies			: Model
+Proportion of invariable sites		: estimated (0.092)
+Number of substitution rate categories	: 4
+Gamma shape parameter			: estimated (1.120)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional step : Infer tree with model : 'LG +G+I'
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 hsapmmps_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 100
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 LG
+                . Proportion of invariable sites:		 0.092000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 1.120000
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 none
+                . Random seed:					 1486410742
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -5438.756898.
+
+
+. Non parametric bootstrap analysis 
+
+  [....................]   20/ 100
+  [....................]   40/ 100
+  [....................]   60/ 100
+  [....................]   80/ 100
+  [....................]  100/ 100
+  
+. Time used 0h18m43s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

@@ -1,0 +1,87 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Starting SMS v1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input alignment    : homologene_mmps_phy
+Data type          : Protein
+Number of taxa     : 220
+Number of sites    : 1808
+Number of branches : 437
+Criterion          : AIC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1 : Set a fixed topology
+	AIC=234518.23756
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2 : Select the best decoration
+	AIC=223275.10912	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3 : Select the best matrix
+	AIC=221512.69136	matrix : 'JTT'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4 : Select the best final decoration
+	AIC=221512.57892	decoration : '+G+I+F'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected model				: JTT +G+I+F
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Substitution model			: JTT
+Equilibrium frequencies			: Empirical
+Proportion of invariable sites		: estimated (0.008)
+Number of substitution rate categories	: 4
+Gamma shape parameter			: estimated (1.022)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional step : Infer tree with model : 'JTT +G+I+F'
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 homologene_mmps_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 100
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 JTT
+                . Proportion of invariable sites:		 0.008000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 1.022000
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 none
+                . Random seed:					 1486693016
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. WARNING: this analysis requires at least 709 MB of memory space.
+
+
+. Log likelihood of the current tree: -109915.661407.
+
+
+. Non parametric bootstrap analysis 
+
+  [....................]   20/ 100
+  [....................]   40/ 100
+  [....................]   60/ 100
+  [....................]   80/ 100
+  [....................]  100/ 100
+  
+. Time used 92h15m57s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

@@ -1,0 +1,84 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Starting SMS v1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input alignment    : trimrefine_phy
+Data type          : Protein
+Number of taxa     : 27
+Number of sites    : 167
+Number of branches : 51
+Criterion          : AIC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1 : Set a fixed topology
+	AIC=7060.01724
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2 : Select the best decoration
+	AIC=6786.32288	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3 : Select the best matrix
+	AIC=6675.03498	matrix : 'HIVb'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4 : Select the best final decoration
+	AIC=6675.03216	decoration : '+G+I'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected model				: HIVb +G+I
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Substitution model			: HIVb
+Equilibrium frequencies			: Model
+Proportion of invariable sites		: estimated (0.174)
+Number of substitution rate categories	: 4
+Gamma shape parameter			: estimated (1.327)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional step : Infer tree with model : 'HIVb +G+I'
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 trimrefine_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 100
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 HIVb
+                . Proportion of invariable sites:		 0.174000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 1.327000
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 no
+                . Run ID:					 none
+                . Random seed:					 1486053334
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -3274.412329.
+
+
+. Non parametric bootstrap analysis 
+
+  [....................]   20/ 100
+  [....................]   40/ 100
+  [....................]   60/ 100
+  [....................]   80/ 100
+  [....................]  100/ 100
+  
+. Time used 0h14m59s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_188307</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>39</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.045</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_188307</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>39</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|973125836|ref|XP_015210020.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015210020</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>4.9446e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|573893194|ref|XP_006634350.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-16 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006634350</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>5.39874e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|973201395|ref|XP_006639739.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-24 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006639739</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>6.49511e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|973209232|ref|XP_015224061.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-15 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015224061</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>7.9661e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FASGFHGDSSPFDGEGGFLAHAYFPGPGMGGDTHFDSDE</Hsp_hseq>
+      <Hsp_midline>FASGFHGDS PFDG GGFLAHA+FPGPG GGDTHFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|973217212|ref|XP_015195073.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-25 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015195073</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.43344e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPG--PGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>TFSSSYHQDGYPFDGPGGTLAHAFFPGEHPVSGDTHFDDQE</Hsp_hseq>
+      <Hsp_midline>+F+S +H D YPFDGPGG LAHAFFPG  P  GDTHFDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|972958417|ref|XP_015196808.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196808</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.22579e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFEVGAHGDAYPFDGPRGTLAHAFAPAEGLGGDTHFDDEE</Hsp_hseq>
+      <Hsp_midline>SF  G HGD+YPFDGP G LAHAF P  G GGDTHFDD+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|972958138|ref|XP_015196688.1|</Hit_id>
+  <Hit_def>PREDICTED: matrilysin-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196688</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.49927e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFAAGEHGDFSPFDGPSGTLAHAFSPGSGLGGDAHFDEDE</Hsp_hseq>
+      <Hsp_midline>SFA+G HGD  PFDGP G LAHAF PG G GGD HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|972957985|ref|XP_015196619.1|</Hit_id>
+  <Hit_def>PREDICTED: collagenase 3-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196619</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.01095e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGAGVHGDYYPFDGPDGTLAHAFAPSEGIGGDAHFDEDE</Hsp_hseq>
+      <Hsp_midline>SF +G HGD YPFDGP G LAHAF P  G GGD HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|973209186|ref|XP_015224043.1|</Hit_id>
+  <Hit_def>PREDICTED: 72 kDa type IV collagenase [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015224043</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>3.08375e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGRWEHGDGYPFDGKDGLLAHAFAPGPGIGGDSHFDDDE</Hsp_hseq>
+      <Hsp_midline>+F    HGD YPFDG  G LAHAF PGPG GGD+HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|973203153|ref|XP_015221451.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221451</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>6.88786e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|973203155|ref|XP_015221452.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221452</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>7.09586e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|973203157|ref|XP_015221453.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221453</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>7.23921e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|973203159|ref|XP_015221454.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17 isoform X4 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221454</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>7.90684e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP--GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTKADHDDGYPFDGPGGTVAHAFFPGDSYAAGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>F    H D YPFDGPGG +AHAFFPG     GDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|972958445|ref|XP_015196817.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196817</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.0051e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HGDLFPFDGPKGTLAHAYGPGEGIGGDTHFDDDE</Hsp_hseq>
+      <Hsp_midline>HGD +PFDGP G LAHA+ PG G GGDTHFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|972957987|ref|XP_006627786.2|</Hit_id>
+  <Hit_def>PREDICTED: collagenase 3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006627786</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>7.74982e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>AFGAKEHGDFNPFDGPNGLLAHAYPPGNGIGGDTHFDEDE</Hsp_hseq>
+      <Hsp_midline>+F +  HGD  PFDGP G LAHA+ PG G GGDTHFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|973204257|ref|XP_015221916.1|</Hit_id>
+  <Hit_def>PREDICTED: stromelysin-3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015221916</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>8.62854e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPGP-GGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FTRYWHGDNLPFDGPGGILAHAFFPRTHREGDIHFDYDE</Hsp_hseq>
+      <Hsp_midline>F   +HGD+ PFDGPGG LAHAFFP     GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|972958140|ref|XP_015196689.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-20-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196689</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.01956e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>NFGSKAHGDFFPFDGPKGVLAHAFEPGEDIGGDAHFDEDE</Hsp_hseq>
+      <Hsp_midline>+F S  HGD +PFDGP G LAHAF PG   GGD HFD+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|972958240|ref|XP_015196726.1|</Hit_id>
+  <Hit_def>PREDICTED: matrilysin-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015196726</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.10244e-08</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>HGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>HGDDFPFDGPGGELAHAFAPGKGLLGDAHFDRDE</Hsp_hseq>
+      <Hsp_midline>HGD +PFDGPGG LAHAF PG G  GD HFD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|973200991|ref|XP_015220536.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: matrix metalloproteinase-9 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015220536</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>4.78995e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SFASGFHGDSYPFDGPGGFLAHAFFPGPG-GGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>SFGKKDHGDPYPFDGKDGLLAHAYPPGEGMQGDAHFDDDE</Hsp_hseq>
+      <Hsp_midline>SF    HGD YPFDG  G LAHA+ PG G  GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|972986644|ref|XP_015209388.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-17-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015209388</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>4.61962e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FASGFHGDSYPFDGPGGFLAHAFFPG--PGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FLQGSHGDSFPFDGPGGAVGHAFFPSDPQRAGTVHLDSQE</Hsp_hseq>
+      <Hsp_midline>F  G HGDS+PFDGPGG + HAFFP      G  H D  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|573908849|ref|XP_006642143.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006642143</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.000761051</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFFPPT--GEIHFDDHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFFP    G+ HFDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|973211415|ref|XP_015192540.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X3 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015192540</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00100313</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFFPPT--GEIHFDDHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFFP    G+ HFDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|973211413|ref|XP_015192539.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015192539</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00102311</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGITGELAHAFFPPT--GEIHFDDHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAFFP    G+ HFDD E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|973206260|ref|XP_006641013.2|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006641013</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.001743</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGPGGALAHAFF--PCRGEAHFDMAE</Hsp_hseq>
+      <Hsp_midline>FDGPGG LAHAFF  P  G+ HFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|973206262|ref|XP_015222756.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-28 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015222756</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.00192379</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGPGGALAHAFF--PCRGEAHFDMAE</Hsp_hseq>
+      <Hsp_midline>FDGPGG LAHAFF  P  G+ HFD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|972949006|ref|XP_015197999.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21-like [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015197999</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.0104143</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCPWAFDGLGGELAHTLLP----GEIHLDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G  + FDG GG LAH   P    G+ H DDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|573911542|ref|XP_006643489.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-23-like, partial [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006643489</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.0223977</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>36</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FDGLNGELAHAFLPPR--GEIHFDNHE</Hsp_hseq>
+      <Hsp_midline>FDG  G LAHAF P    G+ HFD+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|573885075|ref|XP_006630578.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21 isoform X2 [Lepisosteus oculatus] &gt;gi|972970735|ref|XP_015202450.1| PREDICTED: matrix metalloproteinase-21 isoform X2 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_006630578</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.0392857</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCAQSFDGAGREFAHAWFL----GDIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G +  FDG G   AHA+F     GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|972970733|ref|XP_015202449.1|</Hit_id>
+  <Hit_def>PREDICTED: matrix metalloproteinase-21 isoform X1 [Lepisosteus oculatus]</Hit_def>
+  <Hit_accession>XP_015202449</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.0429509</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FASGFH-GDSYPFDGPGGFLAHAFFPGPGGGDTHFDDDE</Hsp_qseq>
+      <Hsp_hseq>FGTGRHLGCAQSFDGAGREFAHAWFL----GDIHFDDDE</Hsp_hseq>
+      <Hsp_midline>F +G H G +  FDG G   AHA+F     GD HFDDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>33996</Statistics_db-num>
+      <Statistics_db-len>24215737</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

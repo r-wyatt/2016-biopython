@@ -1,0 +1,78 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Starting SMS v1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Input alignment    : clean2_0_phy
+Data type          : Protein
+Number of taxa     : 223
+Number of sites    : 1142
+Number of branches : 443
+Criterion          : AIC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1 : Set a fixed topology
+	AIC=179883.74546
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2 : Select the best decoration
+	AIC=0	decoration : '+G'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3 : Select the best matrix
+	AIC=0	matrix : 'JTT'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4 : Select the best final decoration
+	AIC=0	decoration : '+G'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected model				: JTT +G
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Substitution model			: JTT
+Equilibrium frequencies			: Model
+Proportion of invariable sites		: fixed (0.0)
+Number of substitution rate categories	: 4
+Gamma shape parameter			: estimated ()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional step : Infer tree with model : 'JTT +G'
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 clean2_0_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 100
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 JTT
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1487610281
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. WARNING: this analysis requires at least 494 MB of memory space.
+
+
+. Log likelihood of the current tree: -84884.203761.
+
+. Err: '19XP_002934557.2_Xenopus_(Silurana' is not found in sequence data set
+
+. Type enter to exit.
