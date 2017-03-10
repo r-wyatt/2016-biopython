@@ -1,3 +1,4 @@
 Refined_tree1.2 --> refined_phy_phyml_tree.nwk
 	Has ambiguously placed spotten gar and Notothenia sequences
 
+Next time, try gap stripping on basealign
