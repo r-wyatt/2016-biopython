@@ -1,0 +1,446 @@
+ 222 51
+XP_001342721.4_Danio_rerio                    FDDFVISLLK VAVHEIGLGL PHIYRPGSIM QPSYQDEIDW MDRKSIQRLY
+21XP_002932698.2_Xenopus_tropicalis           FDDFAISLLK VATHEIGLGL SHIHRVGSIM QPNYQDELDR SDRRAIQNLY
+21NP_694423.1_Mus_musculus                    FDDFPISLLK VAVHEIGLGL PHTYRVGSIM QPNYQEELDW ADRKAIQRLY
+21NP_001099778.1_Rattus_norvegicus            FDDFPISLLK VAVHEIGLGL PHTYRVGSIM QPNYQEELDW SDRKAIQRLY
+21XP_003640036.1_Canis_lupus_familiaris       FDDFPISLLK VAVHEIGLGL PHTYRAGSIM QPNYQEELDW SDRKAIQKLY
+21XP_001085506.1_Macaca_mulatta               FDDFPISLLK VAVHEIGLGL PHTYRTGSIM QPNYQEELDW SDRKAIQKLY
+21NP_671724.1_Homo_sapiens                    FDDFPISLLK VAVHEIGLGL PHTYRTGSIM QPNYQEELDW SDRKAIQKLY
+21XP_003312866.1_Pan_troglodytes              FDDFPISLLK VAVHEIGLGL LHTYRTGSIM QPNYQEELDW SDRKAIQKLY
+XP_005172554.1_Danio_rerio                    FDDWLTDLVH VAAHEIGLGL MHSQNPKALM HATLRKLITQ DEVWGLHRLY
+23XP_004916207.1_Xenopus_tropicalis           FDDWLTDLVH VAAHEIGLGL MHSLNSNALM HATLKKLISQ DDIWGIYSLY
+23XP_417569.1_Gallus_gallus                   FDDWLTDLVH VAAHEIGLGL MHSQNPNALM HATLKKTISQ DEVWGIHRLY
+NP_036115.1_Mus_musculus                      FDDWLTNLVH VAAHEIGLGL MHSQQDQALM HATLWKALSQ DELWGLHRLY
+NP_446058.1_Rattus_norvegicus                 FDDWLTDLVH VAAHEIGLGL MHSQQDQALM HATLWKALSQ DELWGLHRLY
+23XP_001155083.2_Pan_troglodytes              FDDWLTDLVH VAAHEIGLGL MHSQHGRALM HATLWKALSQ DELWGLHRLY
+23NP_008914.1_Homo_sapiens                    FDDWLTDLVH VAAHEIGLGL MHSQHGRALM HATLWKALSQ DELWGLHRLY
+23XP_001095296.1_Macaca_mulatta               FDDWLTDLVH VAAHEIGLGL MHSQHGRALM HATLWKALSQ DELWGLHRLY
+23XP_848890.1_Canis_lupus_familiaris          FDDWLTDLVH VAAHEIGLGL MHSQHGRALM HATLWKTLSQ DELWGLHRLY
+NP_001033645.1_Bos_taurus                     FDDWLTDLVH VAAHEIGLGL MHSQHGRALM HATLWKALSQ DELWGLHRLY
+NP_503790.1_Caenorhabditis_elegans            FDDWYTDLLA VAIHEGGLGL EHSRDENAIM APFYTTNLKS DDISAIQAIY
+NP_001065361.2_Oryza_sativa_Japonica_Group    LDAWVIDLES VATHEIGLGL GHSASPRAVM YPSIRERLTV DDVEGVQALY
+NP_182030.1_Arabidopsis_thaliana              LDKWVVDLES VAVHEIGLGL GHSSVKDAAM YPTLRSNLNM DDVVGVQSLY
+NP_193397.1_Arabidopsis_thaliana              LDAWVVDLES VATHEIGLGL GHSSQESAVM YPSLRTDLTV DDVAGVLKLY
+XP_554330.4_Anopheles_gambiae_str._PEST       FDEWEVDFYS VAIHELGLGL AHSPVYSSLM FPYYIATLDY DDILAMYQLY
+NP_510112.2_Caenorhabditis_elegans            FDEWAVDLYA VAVHEIGLGL KHSSNHLSIM APFYYTHLHQ DDISAVKRLY
+XP_001337581.3_Danio_rerio                    FDMWLHNLFL VTAHEIGLGL VHSPVRHALM SPYYISVLSW DDITAVQQLY
+28XP_002933877.2_Xenopus_tropicalis           FDSWLQNLFV VLAHEIGLGL QHSPFKNALM SPYYLNVLNF DDVLAIQNLY
+XP_415771.4_Gallus_gallus                     FDSWLRNLFV VVAHEVGLGL EHSPTKSALM SPYYLGVLNW DDILAIQNLY
+28XP_002695695.3_Bos_taurus                   TRRGLRRQWR VSSFRFGQAA APSREPSVFP PVEWWSHLPP TSVRSSSSPY
+28NP_536701.1_Mus_musculus                    FDGWLRNLFV VLAHEIGLGL THSPAPRALM APYYLGLLSW DDVLAVQSLY
+28NP_001073357.1_Rattus_norvegicus            FDQWLRNLFV VLAHEIGLGL THSPAPRALM APYYLGLLSW DDVLAVQNLY
+XP_003750927.1_Rattus_norvegicus              FDQWLRNLFV VLAHEIGLGL THSPAPRALM APYYLGLLSW DDVLAVQNLY
+28XP_548256.2_Canis_lupus_familiaris          FDGWLRNLFV GLAHEIGLGL AHSPAPRALM APYYLGLLSW DDVLAVQGLY
+28NP_077278.1_Homo_sapiens                    FDQWLRNLFV VLAHEIGLGL THSPAPRALM APYYLGLLSW DDVLAVQSLY
+28XP_001114445.2_Macaca_mulatta               FDQWLRNLFV VLAHEIGLGL THSPAPRALM APYYLGLLSW DDVLAVQSLY
+XP_002663942.1_Danio_rerio                    FDDWYTDLFA VAVHEFGLGL SHSSSSPSIM KPYYSVILPD DDREAIQSLY
+XP_001341682.4_Danio_rerio                    FDAWYSDLFT VAVHDFGLGL FHSSSSDSIM KPYYPVSLTA VDRLGIQALY
+17XP_698601.6_Danio_rerio                     FDDWFMDLFA VAVHEFGIGL AHTSAIESIM RPYYPVNLAY EDKVRVWQLY
+17NP_001096469.1_Xenopus_tropicalis           FDDWFMDLFA VAVHEFGIGL THISDMESIM RPYYPVDLPY DDKVRIWQLY
+17XP_415092.3_Gallus_gallus                   FDDWFMDLFA VAVHEFGIGL THISAIESIM RPYYPVDLPY EDKVRIWQLY
+17XP_852332.3_Canis_lupus_familiaris          FDDWFMDLFA VAVHEFGIGL SHVAATSSIM QPYYPVRLPY EDRVRIWQLY
+17XP_002694502.1_Bos_taurus                   FDDWFMDLFA VAVHEFGIGL SHVAATRSIM QPYYPVGLPY EDRVRVWQLY
+17NP_035976.3_Mus_musculus                    FDDWFMDLFA VAVHEFGIGL SHVAAPSSIM QPYYPVGLPY EDRVRVWQLY
+17NP_001099395.1_Rattus_norvegicus            FDDWFMDLFA VAVHEFGIGL SHVAAPSSIM QPYYPVGLPY EDRVRVWQLY
+XP_002798895.1_Macaca_mulatta                 FDDWFMDLFA VAVHEFGIGL SHVAATHSIM RPYYPVGLPY EDRVRVWQLY
+17NP_057239.4_Homo_sapiens                    FDDWFMDLFA VAVHEFGIGL SHVAAAHSIM RPYYPVGLPY EDKVRVWQLY
+17XP_509485.2_Pan_troglodytes                 FDDWFMDLFA VAVHEFGIGL SHVAAAHSIM RPYYPVGLPY EDKVRVWQLY
+25XP_002943093.2_Xenopus_Silurana_tropicalis  MDAWYTDLFA VAVHEFGLGL YHSSSENSIM KPYYTVRLPP DDVDGIQTLY
+25NP_001028511.1_Mus_musculus                 FDDWFIDLFA VAVHEFGLGL GHSSAPNSIM RPFYPVRLPQ DDRDGLQQLY
+25NP_071913.1_Homo_sapiens                    FDDWFTDLFA VAVHEFGLGL GHSSAPNSIM RPFYPVRLSQ DDRDGLQQLY
+25XP_001165615.2_Pan_troglodytes              FDDWFTDLFA VAVHEFGLGL GHSSAPNSIM RPFYPVRLSQ DDRDGLQQLY
+25XP_547166.3_Canis_lupus_familiaris          FDDWYTDLFA VAVHEFGLGL GHSSAPNSIM RPFYPVRLSD DDREGLQQLY
+25XP_005224698.1_Bos_taurus                   FDDWFTDLFA VAVHEFGLGL GHSSAPDSIM RPFYPVRLSQ DDREGLQQLY
+XP_003199461.2_Danio_rerio                    FDEWESNLRI VAAHEIGLGL GHSQYSSALM AAHYYQRLHI DDIRGIQAIY
+19XP_002934557.2_Xenopus_Silurana_tropicalis  FDEWEVNLRI IAAHELGLGL GHSRFRSALM APIYYKRLHD DDVKGIQALY
+19NP_067387.1_Mus_musculus                    FDKWEVNLRI IAAHEVGLGL GHSRYTQALM APVYYQKLHP DDVAGIQALY
+19NP_001100629.1_Rattus_norvegicus            FDNWEVNLRI IAAHEVGLGL GHSRYTQALM APVYYQRLHP DDVAGIQALY
+19XP_001111542.1_Macaca_mulatta               FDEWEVNLRI IAAHEVGLGL GHSRYSQALM APVYYQKLHP DDVAGIQALY
+19NP_002420.1_Homo_sapiens                    FDEWEVNLRI IAAHEVGLGL GHSRYSQALM APVYYRKLHP DDVAGIQALY
+19XP_001154045.2_Pan_troglodytes              FDEWEVNLRI IAAHEVGLGL GHSRYSQALM APVYYRKLHP DDVAGIQALY
+19XP_848410.2_Canis_lupus_familiaris          FDEWEVNLRI IAAHELGLGL GHSRYTQALM APVYYRKLHP DDVAGIQALY
+19NP_001069451.1_Bos_taurus                   FDEWEVNLRI IAAHEIGLGL GHSRYTQALM APVYYRKLHP DDVAGIQALY
+11XP_694153.4_Danio_rerio                     FDMWLTDLLQ VATHEIGLGL QHSKVPGAVM APFYFSRLSE DDKRGIQALY
+11XP_692205.6_Danio_rerio                     FDYWVTDLLQ VAAHEFGLGL QHSLVPGAIM SPFYFSKLSE DDKKGIQYLY
+11XP_004910638.1_Xenopus_tropicalis           FDYWITDLLQ VAAHEFGLGL QHSSVSKSLM SPFYFRSLSA DDKHGIQFLY
+11XP_004934559.1_Gallus_gallus                FDYWITDLLQ VAAHEFGLGL QHTTVSKSLM SPFYFRSLSE DDKQGIQYLY
+11NP_032632.1_Mus_musculus                    FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SPFYFRSLSP DDRRGIQHLY
+11NP_037112.2_Rattus_norvegicus               FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SPFYFRSLSP DDRRGIQHLY
+11XP_002694738.2_Bos_taurus                   FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SPFYFRSLSP DDRRGIQQLY
+11NP_001229661.1_Canis_lupus_familiaris       FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SPFYFRSLSP DDRRGIQHLY
+11XP_515022.2_Pan_troglodytes                 FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SAFYFRSLSP DDRRGVQHLY
+11XP_001083910.1_Macaca_mulatta               FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SAFYFRSLSP DDRRGIQHLY
+11NP_005931.2_Homo_sapiens                    FDYWITDLLQ VAAHEFGLGL QHTTAAKALM SAFYFRSLSP DDCRGVQHLY
+NP_995788.1_Drosophila_melanogaster           FDAWFTNFLN VALHELGLGL AHSAIPDAVM FPWYNENLPD DDRYGIQQLY
+NP_726473.2_Drosophila_melanogaster           FDDWITNLFQ VAAHEFGLGL SHSDQSSALM APFYFEKLDE DDKAAIQSLY
+XP_001688107.1_Anopheles_gambiae_str._PEST    FDDWITNLFQ VAAHEFGLGL SHSDVRSALM APFYYDRLDS DDIQGIQTLY
+XP_320653.4_Anopheles_gambiae_str._PEST       FDAWLTRLFD VAVHEFGLGL GHSSQQDAIM FPWHISTIPE DDRLGIQSIY
+XP_002664668.3_Danio_rerio                    FDDWVYNLFT VAAHELGLGL SHSKDPTALM YPKYFIKLPR DDTLGIQALY
+XP_002934967.2_Xenopus_Silurana_tropicalis    FDNWTFNLFT VAAHEFGLGL GHSSDPSALM YPTYYQQLPT DDVKGIQALY
+20XP_854639.1_Canis_lupus_familiaris          FDNWMFNLFT VAAHEFGLGL AHSTDPSALM YPTYYQHLPK DDVKGIQALY
+20NP_776816.1_Bos_taurus                      FDNWMFNLFT VAAHEFGLGL AHSTDPSALM FPTYYQRLPK DDVKGIQALY
+20XP_001097602.1_Macaca_mulatta               FDNWMFNLFT VAAHEFGLGL AHSTDPSALM YPTYYQHLPK DDVKGIQALY
+20NP_004762.2_Homo_sapiens                    FDNWMFNLFT VAAHEFGLGL AHSTDPSALM YPTYYKHLPK DDVKGIQALY
+20XP_001153208.1_Pan_troglodytes              FDNWMFNLFT VAAHEFGLGL AHSTDPSALM YPTYYKHLPK DDVKGIQALY
+20NP_038931.1_Mus_musculus                    FDNWMFNLFT VAAHEFGLGL GHSTDPSALM YPTYYQHLPK DDVKGIQALY
+20NP_001100270.1_Rattus_norvegicus            FDNWMFNLFT VAAHEFGLGL GHSTDPSALM YPTYYQHLPK DDVKGIQALY
+9NP_038627.1_Mus_musculus                     FDDWLYSLFL VAAHEFGLGL DHSSVPEALM YPLYYLPLNK DDIDGIQYLY
+9NP_112317.1_Rattus_norvegicus                FDDWLYSLFL VAAHEFGLGL DHSSVPEALM YPMYYHPLHE DDIKGIQHLY
+9XP_001104871.1_Macaca_mulatta                FDDWLYSLFL VAAHEFGLGL DHTSVPEALM YPMYFTPLHK DDVNGIQYLY
+9NP_004985.2_Homo_sapiens                     FDDWLYSLFL VAAHEFGLGL DHSSVPEALM YPMYFTPLHK DDVNGIRHLY
+9XP_003317021.1_Pan_troglodytes               FDDWLYSLFL VAAHEFGLGL DHSSVPEALM YPMYFTPLHK DDVNGIRHLY
+9NP_777169.1_Bos_taurus                       FDDWLYSLFL VAAHEFGLGL DHTSVPEALM YPMYFTPLHR DDVQGIQHLY
+9NP_001003219.1_Canis_lupus_familiaris        FDDWLYSLFL VAAHEFGLGL DHSSVPEALM YPMYFTPLHE DDVRGIQHLY
+9NP_998288.1_Danio_rerio                      FDDWLYSLFL VAAHEFGLGL DHSNIKDALM YPMYYVPLHR DDIDGIQYLY
+9NP_989998.1_Gallus_gallus                    FDDWLYSIFL VAAHEFGLGL DHSSVREALM YPMYYVQLHE DDVQGIQYLY
+9NP_001006843.1_Xenopus_tropicalis            FDEWLYSLFL VAAHEFGLGL EHSEVQDALM YPMYYVQLHE DDVRGIQYLY
+XP_002932554.1_Xenopus_tropicalis             FDDWLYSLFL VAAHEFGLGL EHSDVKDALM YPMYYVQLHE DDVRGIQYLY
+26XP_852601.1_Canis_lupus_familiaris          FDRWTFNLFL VAIHELGLGL LHSKSLNSIM YPRYNRHLDG DDIKRIQQLY
+26NP_068573.2_Homo_sapiens                    FDKWAYNLFL VATHEIGLGL QHSGNQSSIM YPTYWYQLSA DDIQRIQHLY
+26XP_508241.2_Pan_troglodytes                 FDKWAYNLFL VATHEIGLGL QHSGNRSSIM YPTYWYQLSA DDIQRIQHLY
+14NP_001025559.1_Xenopus_tropicalis           FDSWANDLFL VAVHELGLGL EHSNDPSAIM APFYWMQLPD DDRRGIQQLY
+14NP_032634.3_Mus_musculus                    FDSWVNDIFL VAVHELGLGL EHSNDPSAIM APFYWMVLPD DDRRGIQQLY
+14NP_112318.1_Rattus_norvegicus               FDSWVNDIFL VAVHELGLGL EHSNDPSAIM APFYWMVLPD DDRRGIQQLY
+14NP_776815.1_Bos_taurus                      FDSWVNDIFL VAVHELGLGL EHSNDPSAIM APFYWMVLPD DDRRGIQQLY
+14XP_856947.1_Canis_lupus_familiaris          FDSWVNDIFL VAVHELGLGL EHSNDPSAIM APFYWMVLPD DDRRGIQQLY
+14NP_004986.1_Homo_sapiens                    FDSWVNDIFL VAVHELGLGL EHSSDPSAIM APFYWMVLPD DDRRGIQQLY
+14XP_001157686.1_Pan_troglodytes              FDSWVNDIFL VAVHELGLGL EHSSDPSAIM APFYWMVLPD DDRRGIQQLY
+XP_001100232.1_Macaca_mulatta                 FDSWVNDIFL VAVHELGLGL EHSSDPSAIM APFYWMVLPD DDRRGIQQLY
+14NP_919397.1_Danio_rerio                     FDEWTNDVFL VAVHELGLGL EHSGDPSAIM APFYWMVLPE DDRRGIQQIY
+14NP_919395.1_Danio_rerio                     FDAWINDVFL VAVHELGLGM EHSNDPSAIM APFYWMVLPD DDRKGIQKLY
+24XP_699803.4_Danio_rerio                     FDSWLNDLFL VAVHELGLGL EHSSDPSAIM APFYYMKLPL DDLQGIQKIY
+24XP_002942325.2_Xenopus_tropicalis           FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24XP_417326.4_Gallus_gallus                   FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24NP_034938.3_Mus_musculus                    FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24NP_113945.1_Rattus_norvegicus               FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24NP_006681.1_Homo_sapiens                    FDSWLNDLFL VAVHELGLGL EHSSDPSAIM APFYYMKLPQ DDLQGIQKIY
+24XP_003316927.1_Pan_troglodytes              FDSWLNDLFL VAVHELGLGL EHSSDPSAIM APFYYMKLPQ DDLQGIQKIY
+24XP_001100890.2_Macaca_mulatta               FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24XP_002692352.2_Bos_taurus                   FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+24XP_005635025.1_Canis_lupus_familiaris       FDSWLNDLFL VAVHELGLGL EHSNDPSAIM APFYYMKLPQ DDLQGIQKIY
+16XP_700781.6_Danio_rerio                     FDSWLNDLFL VAVHELGLGL EHSSDPTAIM APFYYMKLPH DDLQGIQKIY
+16NP_001015992.1_Xenopus_tropicalis           FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPT DDLQGIQKIY
+NP_990528.1_Gallus_gallus                     FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+16NP_542954.1_Rattus_norvegicus               FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+16NP_062698.2_Mus_musculus                    FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+NP_001179551.1_Bos_taurus                     FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPS DDLQGIQKIY
+16NP_005932.2_Homo_sapiens                    FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+16XP_001136497.1_Pan_troglodytes              FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+XP_001084206.1_Macaca_mulatta                 FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+16XP_544165.3_Canis_lupus_familiaris          FDSWLNDLFL VAVHELGLGL EHSNDPTAIM APFYYMKLPN DDLQGIQKIY
+XP_002662954.2_Danio_rerio                    FDSWINDLFL VAVHELGLGL EHSNNPLAIM APFYWMELPE DDLRGVQQIY
+NP_001015921.1_Xenopus_tropicalis             FDSWVNHLFL VAVHELGLGL EHSNNPSAIM APFYWMQLPE DDRRGIQQLY
+XP_413995.3_Gallus_gallus                     FDSWLNNLFL VAVHELGLGL EHSSNPSAIM APFYWMQLPE DDLKGIQQLY
+15NP_032635.1_Mus_musculus                    FDAWFISLFL VAVHELGLGL EHSSNPSAIM APFYWMQLPE DDLRGIQQLY
+15NP_001099638.1_Rattus_norvegicus            FDAWFISLFL VAVHELGLGL EHSSNPSAIM APFYWMQLPE DDLRGIQQLY
+15XP_544383.3_Canis_lupus_familiaris          FDAWFNSLFL VAVHELGLGL EHSSNPSAIM APFYWMQLPE DDLRGIQQLY
+15NP_001178363.1_Bos_taurus                   FDAWFNSLFL VAVHELGLGL EHSSNPSAIM APFYWMQLPE DDLRGIQQLY
+15XP_001101050.1_Macaca_mulatta               FDAWFNNLFL VAVHELGLGL EHSSNPNAIM APFYWKKLPE DDLRGIQQLY
+15NP_002419.1_Homo_sapiens                    FDAWFNNLFL VAVHELGLGL EHSSNPNAIM APFYWKKLPE DDLRGIQQLY
+15XP_001150678.2_Pan_troglodytes              FDAWFNNLFL VAVHELGLGL EHSSNPNAIM APFYWKKLPE DDLRGIQQLY
+2NP_932333.1_Danio_rerio                      FDDWLYSLFL VAAHEFGLGL EHSDDPGALM APIYFTRLSD DDVKGIQELY
+2NP_001015789.1_Xenopus_tropicalis            FDDWLYSLFL VAAHEFGLGL EHSQDPGALM APIYFIRLSQ DDITGIQELY
+2NP_989751.1_Gallus_gallus                    FDDWLYSLFL VAAHEFGMGL EHSEDPGALM APIYYTRLSQ DDIKGIQELY
+2XP_535300.4_Canis_lupus_familiaris           FDDWLYSLFL VAAHEFGMGL EHSEDPGALM APIYYTRLSQ DDIKGIQELY
+2NP_777170.1_Bos_taurus                       FDDRLYSLFL VAAHEFGMGL EHSQDPGALM APIYYTRLSH DDIQGIQELY
+2NP_032636.1_Mus_musculus                     FDDWLYSLFL VAAHEFGMGL EHSQDPGALM APIYYTRLSH DDIKGIQELY
+2NP_112316.2_Rattus_norvegicus                FDDWLYSLFL VAAHEFGMGL EHSQDPGALM APIYYTRLSN DDIKGIQELY
+2NP_004521.1_Homo_sapiens                     FDDWLYSLFL VAAHEFGMGL EHSQDPGALM APIYYTRLSQ DDIKGIQELY
+2XP_001087939.1_Macaca_mulatta                FDDWLYSLFL VAAHEFGMGL EHSQDPGALM APIYYSRLSQ DDIKGIQELY
+2XP_001167520.2_Pan_troglodytes               FDDWLYSLFL VAAHEFGMGL EHSQDPGALM APIYYTRLSQ DDIKGIQELY
+13XP_005169256.1_Danio_rerio                  FDDFYYTLFS VAAHEFGLGL GHSRDPGALM YPTYYRILPR DDVNGIQSLY
+12NP_032631.3_Mus_musculus                    FDEWKTNLFL VAVHELGLGL QHSNNPKSIM YPTYYLRLSA DDIRNIQSLY
+12NP_446415.2_Rattus_norvegicus               FDEWKTNLFL VAVHELGLGL PHSNNPKSIM YPTYYLRLSA DDIHSIQSLY
+12NP_001193569.1_Bos_taurus                   FDEWKPNLFL VAVHEIGLGL DHSSDTRAIM FPSYDVRLST DDIRGIQSLY
+12XP_854594.2_Canis_lupus_familiaris          FDEWKTNLFL VAVHELGLGL GHSSDPKAIM FPTYYVHLSA DDIHGIQSLY
+12XP_001098589.1_Macaca_mulatta               FDDWTTNLFL VAVHELGLGL GHSSDPKAIM FPTYYVHLSA DDIRGIQSLY
+12NP_002417.2_Homo_sapiens                    FDEWTTNLFL TAVHEIGLGL GHSSDPKAVM FPTYYVRLSA DDIRGIQSLY
+12XP_508724.2_Pan_troglodytes                 FDEWTTNLFL TAVHEIGLGL GHSSDPKAVM FPTYYVRLSA DDIRGIQSLY
+7NP_001006278.1_Gallus_gallus                 FDDWKVNLFL VAAHEFGLGL AHSNVRGALM YPLYYVTLHW DDRRGIQKLY
+7NP_034940.2_Mus_musculus                     FDKWDVNFLF AATHEFGLGL SHSSVPGTVM YPTYRDSLTK DDIAGIQKLY
+7NP_036996.1_Rattus_norvegicus                FDKWDVNFLF VATHELGLGL GHSSVPSSVM YPTYGDSLTK DDIAGIQKLY
+7NP_001068598.1_Bos_taurus                    FDEWDVNFLY VATHELGLGL SHSSDPNAVM YPTYKEKLSQ DDINGIQLLY
+7NP_001229655.1_Canis_lupus_familiaris        FDEWDINFLI AATHELGLGL GHSSDPDAVM YPTYIRKLSQ DDIEGIQKLY
+7XP_001097508.2_Macaca_mulatta                FDEWDINFLY AATHELGLGM GHSSDPNAVM YPTYNGKLSQ DDIKGIQKLY
+7NP_002414.1_Homo_sapiens                     FDEWDINFLY AATHELGLGM GHSSDPNAVM YPTYNGKLSQ DDIKGIQKLY
+7XP_508721.2_Pan_troglodytes                  FDEWDINFLY AATHELGLGM GHSSDPNAVM YPTYNGKLSQ DDIKGIQKLY
+13XP_001345507.1_Danio_rerio                  FDEWEFNLFL VAAHEFGLGM AHSSDPGSLM YPVYYAPLSE DDIEGIQSLY
+13XP_002934971.1_Xenopus_tropicalis           FDDFTYNLFV VAAHEFGLGL DHSRDPGSLM FPVYYTLLPD DDVQGIQALY
+13XP_003640635.1_Gallus_gallus                FDDWDYNLFL VAAHEFGLGL EHSRDPGALM FPIYYTVLPD DDVQGIQELY
+13NP_032633.1_Mus_musculus                    FDDWSYNLFI VAAHELGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQFLY
+13NP_598214.1_Rattus_norvegicus               FDDWSYNLFI VAAHELGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+13NP_776814.1_Bos_taurus                      FDDWSYNLFL VAAHEFGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+13XP_536598.3_Canis_lupus_familiaris          FDDWSYNLFL VAAHEFGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+13XP_001098996.1_Macaca_mulatta               FDDWSYNLFL VAAHEFGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+13NP_002418.1_Homo_sapiens                    FDDWSYNLFL VAAHEFGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+13XP_001154361.1_Pan_troglodytes              FDDWSYNLFL VAAHEFGLGL DHSKDPGALM FPIYYTMLPD DDVQGIQSLY
+3XP_425644.4_Gallus_gallus                    FDEWKANLFY VAAHEFGLGL FHSKEPNALM YPIYFDPLHQ DDINGIQSLY
+3NP_001265018.1_Gallus_gallus                 FDEWTYNLFL VAAHELGLGL GHSNVFGALM YPIYAKRLHQ DDISGIQALY
+1NP_001025501.1_Xenopus_tropicalis            FDEWKYNLFL VAAHEFGLGL SHSTDPGALM YPSYSTQLPQ DDINAIQYLY
+XP_002934977.2_Xenopus_Silurana_tropicalis    FDNWNENLFN VATHEIGLGL YHSNDSNAVM YQFYEVQLSK DDIDGIQSLY
+XP_002934968.1_Xenopus_tropicalis             FDEWSFNLFL VAAHEFGLGL YHSNDPNALM YPTYYVQLPQ DDINGIQSLY
+XP_002934969.2_Xenopus_tropicalis             FDAWSTNLFL VAAHELGLGL DHSNDPSALM YPTYYIQLSE DDIKGIHSLY
+XP_002934976.2_Xenopus_tropicalis             FDEWSTNLFL VAAHELGLGL DHSNDPNALM YPTYYIQLPQ DDINGIHSLY
+XP_002944454.2_Xenopus_tropicalis             FDEWSTNLFL VAAHELGLGL DHSNDPNALM YPTYYIQLPQ DDINGIHSLY
+10NP_062344.1_Mus_musculus                    FDDWLTNLFL VAAHELGLGL FHSDKKESLM YPVYFSHLSQ DDIEGIQSLY
+10NP_598198.1_Rattus_norvegicus               FDDWLTNLFL VAAHELGLGL FHSNNKESLM YPVYFSRLSQ DDIEGIQSLY
+3NP_034939.1_Mus_musculus                     FDDWETNLFL VAAHELGLGL YHSAKAEALM YPVYSTHLSQ DDVDGIQSLY
+3NP_598207.2_Rattus_norvegicus                FDDWDTNLFL VAAHELGLGL FHSANAEALM YPVYSTHLSQ DDVDGIQSLY
+10XP_001086245.1_Macaca_mulatta               FDDWETNLFF VAAHELGLGL FHSANTEALM YPLYFTHLSQ DDVNGIQSLY
+10NP_002416.1_Homo_sapiens                    FDDWETNLFL VAAHELGLGL FHSANTEALM YPLYFTRLSQ DDVNGIQSLY
+10XP_001153881.1_Pan_troglodytes              FDDWETNLFL VAAHELGLGL FHSANTEALM YPLYFTRLSQ DDVNGIQSLY
+3NP_001002967.1_Canis_lupus_familiaris        FDDWSTNLFL VAAHELGLGL FHSADPSALM YPVYLAHLSQ DDVNGIQSLY
+3NP_001193566.1_Bos_taurus                    FDDWKINLFL VAAHELGLGL QHSTEREALM YPVYRTRLSQ DDVDGIQFLY
+3XP_001098400.1_Macaca_mulatta                FDDWKVNLFL VAAHELGLGL FHSANTEALM YPLYLTRLSQ DDINGIQSLY
+3NP_002413.1_Homo_sapiens                     FDDWKTNLFL VAAHEIGLGL FHSANTEALM YPLYLTRLSQ DDINGIQSLY
+3XP_508723.2_Pan_troglodytes                  FDDWKTNLFL VAAHEIGLGL FHSANTEALM YPLYLTRLSQ DDINGIQSLY
+27NP_990331.1_Gallus_gallus                   FDEWMFNLFL VAAHEVGLGL SHPNDQRAFM FPNYYIPLSP DDISGIQSIY
+NP_001025460.1_Mus_musculus                   FDEWAFNLFL VAAHEFGLGL SHSNDQTALM FPNYSLPLSQ DDIDGIQSIY
+27NP_001100269.1_Rattus_norvegicus            FDEWTFNLFL VAAHEFGLGL SHSSDQTALM FPNYSLPLSQ DDINGIQSIY
+27XP_001097715.1_Macaca_mulatta               FDEWKFNLFL VAAHEFGLGL SHSNDQTALM FPNYSLPLSQ DDINGIQSIY
+27NP_071405.2_Homo_sapiens                    FDEWKFNLFL VAAHEFGLGL SHSNDQTALM FPNYSLPLSQ DDINGIQSIY
+27XP_522163.1_Pan_troglodytes                 FDEWKFNLFL VAAHEFGLGL SHSNDQTALM FPNYSLPLSQ DDISGIQSIY
+27NP_001092477.1_Bos_taurus                   FDEWKFSLFL VAAHEFGLGL SHSSDQTALM FPNYSLPLSQ DDINGIQSIY
+27XP_546548.2_Canis_lupus_familiaris          FDEWKFNLFL VAAHEFGLGL SHSNDQTALM FPNYSLPLSQ DDINGIQSIY
+1NP_114395.1_Mus_musculus                     YDLWNFNLFY VTAHELGLGL THSSDIGALM FPSYWYVLNQ DDINRIQDLY
+NP_001128002.1_Rattus_norvegicus              YDLWDFNLFY VTAHELGLGL THSRDVGALM FPSYWYVLNQ EDINRIQALY
+1bNP_114396.3_Mus_musculus                    YDLWDFNLFY VTAHELGLGL SHSNDEEALM FPSYWSVLNQ DDINRIQALY
+1bXP_006242575.1_Rattus_norvegicus            YDLWNFNLFY VTAHELGLGL SHSKDEEALM FPSYWNVLNQ DDISKIQALY
+1bXP_006242548.1_Rattus_norvegicus            YDLWNFNLFY VTAHELGLGL SHSKDEEALM FPSYWNVLNQ DDISKIQALY
+8NP_032637.3_Mus_musculus                     FDSWQYNLFL VAAHEFGLGL SHSTDPGALM YPNYYRSLPQ DDINGIQTIY
+8NP_071557.1_Rattus_norvegicus                FDSWQYNLFL VAAHEFGLGL SHSTDPGALM YPNYYRSLPQ DDINGIQTIY
+8XP_002692980.2_Bos_taurus                    FDAWKYNLFP VAAHEFGLGL AHSSDPGALM YPNYFISLHQ DDINGIQAIY
+8XP_546547.3_Canis_lupus_familiaris           FDAWEYNLFL VAAHEVGLGL SHSTDPGALM YPNYFHTLPQ DDINGIQTIY
+8XP_001098000.2_Macaca_mulatta                FDAWKYNLFL VAAHEFGLGL AHSSDPGALM YPNYFRSLPQ DDINGIQAIY
+8NP_002415.1_Homo_sapiens                     FDAWNYNLFL VAAHEFGLGL AHSSDPGALM YPNYFRSLPQ DDIDGIQAIY
+8XP_003313323.1_Pan_troglodytes               FDAWDYNLFL VAAHEFGLGL AHSSDPGALM YPNYFRSLPQ DDIDGIQAIY
+1XP_417176.1_Gallus_gallus                    LDEWKYNLFI VVAHELGLGL SHSNDPGALM YPNYYTLLPQ DDIDGIQAIY
+1XP_546546.3_Canis_lupus_familiaris           FDEWNYNLYR VAAHELGLGL SHSTDIGALM YPNYYSQLSQ DDINGIQAIY
+1XP_003586977.1_Bos_taurus                    FDDWSYNLYR VAAHEFGLGL AHSTDIGALM YPSYFSQLSQ DDIDGIQAIY
+1NP_776537.1_Bos_taurus                       FDDWTYNLYR VAAHEFGLGL AHSTDIGALM YPSYFSQLSQ DDIDGIQAIY
+1XP_001098302.1_Macaca_mulatta                FDEWNYNLYR VAAHEFGLGL AHSTDIGALM YPSYFSQLAQ DDIDGIQAIY
+1NP_002412.1_Homo_sapiens                     FDEWNYNLHR VAAHELGLGL SHSTDIGALM YPSYFSQLAQ DDIDGIQAIY
+1XP_508722.2_Pan_troglodytes                  FDEWNYNLYR VAAHELGLGL SHSTDIGALM YPSYFSQLAQ DDIDGIQAIY
+
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              I
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              D
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              E
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
+                                              G
