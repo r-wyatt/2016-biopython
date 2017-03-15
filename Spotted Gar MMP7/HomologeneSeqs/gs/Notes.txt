@@ -5,7 +5,7 @@ MMP7 is cophyletic with MMP26, they are equally related to MMPs (8,1,27),(3/10,1
 MMP7 is cophyletic with MMP26, and they are equally related to MMPs (8,1,27),((3,10),12),(20,13), good outgroup are MMP2,9
 
 70% tree: 0.445000 hours
-MMP7 is equally related to MMPs (26,
+MMP7 is equally related to MMPs 26, (8,1,27)
 
 80% tree: 0.557222 hours
 
