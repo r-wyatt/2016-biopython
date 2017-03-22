@@ -1,0 +1,922 @@
+C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19>gapstrip.py refined.fas
+Alignment length: 497 for 40 percent
+Alignment length: 462 for 60 percent
+Alignment length: 447 for 70 percent
+Alignment length: 430 for 80 percent
+Alignment length: 362 for 90 percent
+Alignment length: 221 for 95 percent
+Alignment length: 117 for 99 percent
+Alignment length: 46 for 100 percent
+['strippedalign40.phy', 'strippedalign60.phy', 'strippedalign70.phy', 'strippedalign80.phy', 'strippedalign90.phy', 'strippedalign95.phy', 'strippedalign99.phy', 'strippedalign100.phy']
+strippedalign40.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign40.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 495 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.93%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 495
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign40.phy -n T40
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.069 0.058 0.034 0.067 0.011 0.037 0.049 0.079 0.030 0.041 0.084 0.053 0.021 0.065 0.073 0.057 0.051 0.025 0.044 0.052
+
+Inference[0]: Time 1275.000000 GAMMA-based likelihood -84799.399694, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -84799.399518 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T40
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -84799.399518 ....
+
+Final GAMMA-based Score of best tree -84799.399518
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T40
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T40
+
+Overall execution time: 3056.000000 secs or 0.848889 hours or 0.035370 days
+
+T40
+strippedalign60.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign60.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 460 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.81%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 460
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign60.phy -n T60
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.069 0.056 0.033 0.068 0.011 0.037 0.049 0.080 0.030 0.042 0.085 0.053 0.021 0.066 0.070 0.056 0.050 0.026 0.046 0.052
+
+Inference[0]: Time -3041.000000 GAMMA-based likelihood -78997.489945, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -78997.481656 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T60
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -78997.481656 ....
+
+Final GAMMA-based Score of best tree -78997.481656
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T60
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T60
+
+Overall execution time: -1449.000000 secs or -0.402500 hours or -0.016771 days
+
+T60
+strippedalign70.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign70.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 445 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.83%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 445
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign70.phy -n T70
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.069 0.056 0.033 0.068 0.011 0.036 0.048 0.082 0.031 0.042 0.085 0.053 0.020 0.068 0.067 0.055 0.050 0.026 0.046 0.053
+
+Inference[0]: Time -53.000000 GAMMA-based likelihood -76017.665537, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -76017.653309 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T70
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -76017.653309 ....
+
+Final GAMMA-based Score of best tree -76017.653309
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T70
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T70
+
+Overall execution time: -2120.000000 secs or -0.588889 hours or -0.024537 days
+
+T70
+strippedalign80.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign80.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 428 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.13%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 428
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign80.phy -n T80
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.070 0.056 0.033 0.068 0.011 0.036 0.048 0.079 0.030 0.043 0.086 0.053 0.020 0.069 0.064 0.055 0.050 0.027 0.048 0.053
+
+Inference[0]: Time 334.000000 GAMMA-based likelihood -72361.495215, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -72361.485242 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T80
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -72361.485242 ....
+
+Final GAMMA-based Score of best tree -72361.485242
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T80
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T80
+
+Overall execution time: 1809.000000 secs or 0.502500 hours or 0.020938 days
+
+T80
+strippedalign90.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign90.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 360 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.71%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 360
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign90.phy -n T90
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.056 0.033 0.072 0.013 0.037 0.048 0.074 0.033 0.044 0.092 0.047 0.021 0.066 0.059 0.056 0.051 0.026 0.047 0.052
+
+Inference[0]: Time -455.000000 GAMMA-based likelihood -60922.944790, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -60922.940290 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T90
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -60922.940290 ....
+
+Final GAMMA-based Score of best tree -60922.940290
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T90
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T90
+
+Overall execution time: 746.000000 secs or 0.207222 hours or 0.008634 days
+
+T90
+strippedalign95.phy
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9NP_004985.2_Homo_sapiens and 9XP_003317021.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_004986.1_Homo_sapiens and 14XP_001157686.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and 16XP_001136497.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and XP_001084206.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_005932.2_Homo_sapiens and 16XP_544165.3_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15XP_001101050.1_Macaca_mulatta and 15NP_002419.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 12NP_002417.2_Homo_sapiens and 12XP_508724.2_Pan_troglodytes are exactly identical
+
+IMPORTANT WARNING
+Found 10 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign95.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 219 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.54%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 219
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign95.phy -n T95
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.075 0.055 0.031 0.076 0.011 0.038 0.046 0.084 0.042 0.043 0.093 0.045 0.023 0.062 0.054 0.052 0.056 0.021 0.045 0.050
+
+Inference[0]: Time -2175.000000 GAMMA-based likelihood -34129.313478, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -34129.311644 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T95
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -34129.311644 ....
+
+Final GAMMA-based Score of best tree -34129.311644
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T95
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T95
+
+Overall execution time: -1503.000000 secs or -0.417500 hours or -0.017396 days
+
+T95
+strippedalign99.phy
+
+
+IMPORTANT WARNING: Sequences 23NP_008914.1_Homo_sapiens and 23XP_001095296.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 28NP_077278.1_Homo_sapiens and 28XP_001114445.2_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 25NP_071913.1_Homo_sapiens and 25XP_001165615.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9NP_004985.2_Homo_sapiens and 9XP_003317021.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_032634.3_Mus_musculus and 14NP_112318.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_776815.1_Bos_taurus and 14XP_856947.1_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_004986.1_Homo_sapiens and 14XP_001157686.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24XP_001100890.2_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24XP_002692352.2_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_034938.3_Mus_musculus and 24XP_005635025.1_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_062698.2_Mus_musculus and 16NP_005932.2_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_062698.2_Mus_musculus and 16XP_001136497.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_062698.2_Mus_musculus and XP_001084206.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 16NP_062698.2_Mus_musculus and 16XP_544165.3_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15XP_544383.3_Canis_lupus_familiaris and 15NP_001178363.1_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15XP_001101050.1_Macaca_mulatta and 15NP_002419.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 12NP_002417.2_Homo_sapiens and 12XP_508724.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 10NP_002416.1_Homo_sapiens and 10XP_001153881.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 3NP_002413.1_Homo_sapiens and 3XP_508723.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 27XP_001097715.1_Macaca_mulatta and 27NP_071405.2_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 1bXP_006242575.1_Rattus_norvegicus and 1bXP_006242548.1_Rattus_norvegicus are exactly identical
+
+IMPORTANT WARNING
+Found 24 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign99.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 115 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.45%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 115
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign99.phy -n T99
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.085 0.032 0.028 0.093 0.002 0.033 0.044 0.103 0.065 0.051 0.088 0.029 0.019 0.067 0.040 0.059 0.043 0.031 0.046 0.044
+
+Inference[0]: Time 819.000000 GAMMA-based likelihood -13530.659458, best rearrangement setting 10
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -13530.652204 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T99
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -13530.652204 ....
+
+Final GAMMA-based Score of best tree -13530.652204
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info.T99
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestTree.T99
+
+Overall execution time: 1141.000000 secs or 0.316944 hours or 0.013206 days
+
+T99
+strippedalign100.phy
+
+
+IMPORTANT WARNING: Sequences 21XP_001085506.1_Macaca_mulatta and 21NP_671724.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_036115.1_Mus_musculus and NP_446058.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 23XP_001155083.2_Pan_troglodytes and 23NP_008914.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 23XP_001155083.2_Pan_troglodytes and 23XP_001095296.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 23XP_001155083.2_Pan_troglodytes and NP_001033645.1_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 28NP_001073357.1_Rattus_norvegicus and XP_003750927.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 28NP_077278.1_Homo_sapiens and 28XP_001114445.2_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 17NP_057239.4_Homo_sapiens and 17XP_509485.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 25NP_071913.1_Homo_sapiens and 25XP_001165615.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 19NP_002420.1_Homo_sapiens and 19XP_001154045.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 11NP_032632.1_Mus_musculus and 11NP_037112.2_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 11NP_032632.1_Mus_musculus and 11NP_001229661.1_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 20XP_854639.1_Canis_lupus_familiaris and 20XP_001097602.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 20NP_004762.2_Homo_sapiens and 20XP_001153208.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 20NP_038931.1_Mus_musculus and 20NP_001100270.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 9NP_004985.2_Homo_sapiens and 9XP_003317021.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_032634.3_Mus_musculus and 14NP_112318.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_032634.3_Mus_musculus and 14NP_776815.1_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_032634.3_Mus_musculus and 14XP_856947.1_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_004986.1_Homo_sapiens and 14XP_001157686.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 14NP_004986.1_Homo_sapiens and XP_001100232.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24XP_417326.4_Gallus_gallus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24NP_034938.3_Mus_musculus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24NP_113945.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24XP_001100890.2_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24XP_002692352.2_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24XP_002942325.2_Xenopus_tropicalis and 24XP_005635025.1_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24NP_006681.1_Homo_sapiens and 24XP_003316927.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and 16NP_542954.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and 16NP_062698.2_Mus_musculus are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and 16NP_005932.2_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and 16XP_001136497.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and XP_001084206.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences NP_990528.1_Gallus_gallus and 16XP_544165.3_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15NP_032635.1_Mus_musculus and 15NP_001099638.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15NP_032635.1_Mus_musculus and 15XP_544383.3_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15NP_032635.1_Mus_musculus and 15NP_001178363.1_Bos_taurus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15XP_001101050.1_Macaca_mulatta and 15NP_002419.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 15XP_001101050.1_Macaca_mulatta and 15XP_001150678.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 2NP_004521.1_Homo_sapiens and 2XP_001167520.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 12NP_002417.2_Homo_sapiens and 12XP_508724.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 7XP_001097508.2_Macaca_mulatta and 7NP_002414.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 7XP_001097508.2_Macaca_mulatta and 7XP_508721.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 13NP_776814.1_Bos_taurus and 13XP_536598.3_Canis_lupus_familiaris are exactly identical
+
+
+IMPORTANT WARNING: Sequences 13NP_776814.1_Bos_taurus and 13XP_001098996.1_Macaca_mulatta are exactly identical
+
+
+IMPORTANT WARNING: Sequences 13NP_776814.1_Bos_taurus and 13NP_002418.1_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 13NP_776814.1_Bos_taurus and 13XP_001154361.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 10NP_002416.1_Homo_sapiens and 10XP_001153881.1_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 3NP_002413.1_Homo_sapiens and 3XP_508723.2_Pan_troglodytes are exactly identical
+
+
+IMPORTANT WARNING: Sequences 27XP_001097715.1_Macaca_mulatta and 27NP_071405.2_Homo_sapiens are exactly identical
+
+
+IMPORTANT WARNING: Sequences 1bXP_006242575.1_Rattus_norvegicus and 1bXP_006242548.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 8NP_032637.3_Mus_musculus and 8NP_071557.1_Rattus_norvegicus are exactly identical
+
+
+IMPORTANT WARNING: Sequences 1NP_002412.1_Homo_sapiens and 1XP_508722.2_Pan_troglodytes are exactly identical
+
+IMPORTANT WARNING
+Found 53 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with
+sequence duplicates removed is printed to file strippedalign100.phy.reduced
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 46 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 46
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC.exe -m PROTGAMMAJTTF -p 56845 -s strippedalign100.phy -n T100
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.063 0.026 0.022 0.108 0.001 0.047 0.068 0.093 0.076 0.042 0.090 0.023 0.030 0.048 0.053 0.063 0.025 0.028 0.067 0.028
+
+Inference[0]: Time 531.000000 GAMMA-based likelihood -4783.910359, best rearrangement setting 20
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -4783.910001 tree written to file C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_result.T100
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -4783.910001 ....
+
+Final GAMMA-based Score of best tree -4783.909966
+
+Program execution info written to C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_info
+.T100
+Best-scoring ML tree written to: C:\Users\Rachael\Python\2017-biopython\Spotted Gar MMP7\HomologeneSeqs\gs19\RAxML_bestT
+ree.T100
+
+Overall execution time: 658.000000 secs or 0.182778 hours or 0.007616 days
+
+T100
