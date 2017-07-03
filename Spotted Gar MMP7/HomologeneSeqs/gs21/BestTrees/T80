@@ -1,0 +1,324 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=222;
+	taxlabels
+	'10NP_002416.1_Homo_sapiens'
+	'10NP_062344.1_Mus_musculus'
+	'10NP_598198.1_Rattus_norvegicus'
+	'10XP_001086245.1_Macaca_mulatta'
+	'10XP_001153881.1_Pan_troglodytes'
+	'11NP_001229661.1_Canis_lupus_familiaris'
+	'11NP_005931.2_Homo_sapiens'
+	'11NP_032632.1_Mus_musculus'
+	'11NP_037112.2_Rattus_norvegicus'
+	'11XP_001083910.1_Macaca_mulatta'
+	'11XP_002694738.2_Bos_taurus'
+	'11XP_004910638.1_Xenopus_tropicalis'
+	'11XP_004934559.1_Gallus_gallus'
+	'11XP_515022.2_Pan_troglodytes'
+	'11XP_692205.6_Danio_rerio'
+	'11XP_694153.4_Danio_rerio'
+	'12NP_001193569.1_Bos_taurus'
+	'12NP_002417.2_Homo_sapiens'
+	'12NP_032631.3_Mus_musculus'
+	'12NP_446415.2_Rattus_norvegicus'
+	'12XP_001098589.1_Macaca_mulatta'
+	'12XP_508724.2_Pan_troglodytes'
+	'12XP_854594.2_Canis_lupus_familiaris'
+	'13NP_002418.1_Homo_sapiens'
+	'13NP_032633.1_Mus_musculus'
+	'13NP_598214.1_Rattus_norvegicus'
+	'13NP_776814.1_Bos_taurus'
+	'13XP_001098996.1_Macaca_mulatta'
+	'13XP_001154361.1_Pan_troglodytes'
+	'13XP_001345507.1_Danio_rerio'
+	'13XP_002934971.1_Xenopus_tropicalis'
+	'13XP_003640635.1_Gallus_gallus'
+	'13XP_005169256.1_Danio_rerio'
+	'13XP_536598.3_Canis_lupus_familiaris'
+	'14NP_001025559.1_Xenopus_tropicalis'
+	'14NP_004986.1_Homo_sapiens'
+	'14NP_032634.3_Mus_musculus'
+	'14NP_112318.1_Rattus_norvegicus'
+	'14NP_776815.1_Bos_taurus'
+	'14NP_919395.1_Danio_rerio'
+	'14NP_919397.1_Danio_rerio'
+	'14XP_001157686.1_Pan_troglodytes'
+	'14XP_856947.1_Canis_lupus_familiaris'
+	'15NP_001099638.1_Rattus_norvegicus'
+	'15NP_001178363.1_Bos_taurus'
+	'15NP_002419.1_Homo_sapiens'
+	'15NP_032635.1_Mus_musculus'
+	'15XP_001101050.1_Macaca_mulatta'
+	'15XP_001150678.2_Pan_troglodytes'
+	'15XP_544383.3_Canis_lupus_familiaris'
+	'16NP_001015992.1_Xenopus_tropicalis'
+	'16NP_005932.2_Homo_sapiens'
+	'16NP_062698.2_Mus_musculus'
+	'16NP_542954.1_Rattus_norvegicus'
+	'16XP_001136497.1_Pan_troglodytes'
+	'16XP_544165.3_Canis_lupus_familiaris'
+	'16XP_700781.6_Danio_rerio'
+	'17NP_001096469.1_Xenopus_tropicalis'
+	'17NP_001099395.1_Rattus_norvegicus'
+	'17NP_035976.3_Mus_musculus'
+	'17NP_057239.4_Homo_sapiens'
+	'17XP_002694502.1_Bos_taurus'
+	'17XP_415092.3_Gallus_gallus'
+	'17XP_509485.2_Pan_troglodytes'
+	'17XP_698601.6_Danio_rerio'
+	'17XP_852332.3_Canis_lupus_familiaris'
+	'19NP_001069451.1_Bos_taurus'
+	'19NP_001100629.1_Rattus_norvegicus'
+	'19NP_002420.1_Homo_sapiens'
+	'19NP_067387.1_Mus_musculus'
+	'19XP_001111542.1_Macaca_mulatta'
+	'19XP_001154045.2_Pan_troglodytes'
+	'19XP_002934557.2_Xenopus_Silurana_tropicalis'
+	'19XP_848410.2_Canis_lupus_familiaris'
+	'1NP_001025501.1_Xenopus_tropicalis'
+	'1NP_002412.1_Homo_sapiens'
+	'1NP_114395.1_Mus_musculus'
+	'1NP_776537.1_Bos_taurus'
+	'1XP_001098302.1_Macaca_mulatta'
+	'1XP_003586977.1_Bos_taurus'
+	'1XP_417176.1_Gallus_gallus'
+	'1XP_508722.2_Pan_troglodytes'
+	'1XP_546546.3_Canis_lupus_familiaris'
+	'1bNP_114396.3_Mus_musculus'
+	'1bXP_006242548.1_Rattus_norvegicus'
+	'1bXP_006242575.1_Rattus_norvegicus'
+	'20NP_001100270.1_Rattus_norvegicus'
+	'20NP_004762.2_Homo_sapiens'
+	'20NP_038931.1_Mus_musculus'
+	'20NP_776816.1_Bos_taurus'
+	'20XP_001097602.1_Macaca_mulatta'
+	'20XP_001153208.1_Pan_troglodytes'
+	'20XP_854639.1_Canis_lupus_familiaris'
+	'21NP_001099778.1_Rattus_norvegicus'
+	'21NP_671724.1_Homo_sapiens'
+	'21NP_694423.1_Mus_musculus'
+	'21XP_001085506.1_Macaca_mulatta'
+	'21XP_002932698.2_Xenopus_tropicalis'
+	'21XP_003312866.1_Pan_troglodytes'
+	'21XP_003640036.1_Canis_lupus_familiaris'
+	'23NP_008914.1_Homo_sapiens'
+	'23XP_001095296.1_Macaca_mulatta'
+	'23XP_001155083.2_Pan_troglodytes'
+	'23XP_004916207.1_Xenopus_tropicalis'
+	'23XP_417569.1_Gallus_gallus'
+	'23XP_848890.1_Canis_lupus_familiaris'
+	'24NP_006681.1_Homo_sapiens'
+	'24NP_034938.3_Mus_musculus'
+	'24NP_113945.1_Rattus_norvegicus'
+	'24XP_001100890.2_Macaca_mulatta'
+	'24XP_002692352.2_Bos_taurus'
+	'24XP_002942325.2_Xenopus_tropicalis'
+	'24XP_003316927.1_Pan_troglodytes'
+	'24XP_005635025.1_Canis_lupus_familiaris'
+	'24XP_417326.4_Gallus_gallus'
+	'24XP_699803.4_Danio_rerio'
+	'25NP_001028511.1_Mus_musculus'
+	'25NP_071913.1_Homo_sapiens'
+	'25XP_001165615.2_Pan_troglodytes'
+	'25XP_002943093.2_Xenopus_Silurana_tropicalis'
+	'25XP_005224698.1_Bos_taurus'
+	'25XP_547166.3_Canis_lupus_familiaris'
+	'26NP_068573.2_Homo_sapiens'
+	'26XP_508241.2_Pan_troglodytes'
+	'26XP_852601.1_Canis_lupus_familiaris'
+	'27NP_001092477.1_Bos_taurus'
+	'27NP_001100269.1_Rattus_norvegicus'
+	'27NP_071405.2_Homo_sapiens'
+	'27NP_990331.1_Gallus_gallus'
+	'27XP_001097715.1_Macaca_mulatta'
+	'27XP_522163.1_Pan_troglodytes'
+	'27XP_546548.2_Canis_lupus_familiaris'
+	'28NP_001073357.1_Rattus_norvegicus'
+	'28NP_077278.1_Homo_sapiens'
+	'28NP_536701.1_Mus_musculus'
+	'28XP_001114445.2_Macaca_mulatta'
+	'28XP_002695695.3_Bos_taurus'
+	'28XP_002933877.2_Xenopus_tropicalis'
+	'28XP_548256.2_Canis_lupus_familiaris'
+	'2NP_001015789.1_Xenopus_tropicalis'
+	'2NP_004521.1_Homo_sapiens'
+	'2NP_032636.1_Mus_musculus'
+	'2NP_112316.2_Rattus_norvegicus'
+	'2NP_777170.1_Bos_taurus'
+	'2NP_932333.1_Danio_rerio'
+	'2NP_989751.1_Gallus_gallus'
+	'2XP_001087939.1_Macaca_mulatta'
+	'2XP_001167520.2_Pan_troglodytes'
+	'2XP_535300.4_Canis_lupus_familiaris'
+	'3NP_001002967.1_Canis_lupus_familiaris'
+	'3NP_001193566.1_Bos_taurus'
+	'3NP_001265018.1_Gallus_gallus'
+	'3NP_002413.1_Homo_sapiens'
+	'3NP_034939.1_Mus_musculus'
+	'3NP_598207.2_Rattus_norvegicus'
+	'3XP_001098400.1_Macaca_mulatta'
+	'3XP_425644.4_Gallus_gallus'
+	'3XP_508723.2_Pan_troglodytes'
+	'7NP_001006278.1_Gallus_gallus'
+	'7NP_001068598.1_Bos_taurus'
+	'7NP_001229655.1_Canis_lupus_familiaris'
+	'7NP_002414.1_Homo_sapiens'
+	'7NP_034940.2_Mus_musculus'
+	'7NP_036996.1_Rattus_norvegicus'
+	'7XP_001097508.2_Macaca_mulatta'
+	'7XP_508721.2_Pan_troglodytes'
+	'8NP_002415.1_Homo_sapiens'
+	'8NP_032637.3_Mus_musculus'
+	'8NP_071557.1_Rattus_norvegicus'
+	'8XP_001098000.2_Macaca_mulatta'
+	'8XP_002692980.2_Bos_taurus'
+	'8XP_003313323.1_Pan_troglodytes'
+	'8XP_546547.3_Canis_lupus_familiaris'
+	'9NP_001003219.1_Canis_lupus_familiaris'
+	'9NP_001006843.1_Xenopus_tropicalis'
+	'9NP_004985.2_Homo_sapiens'
+	'9NP_038627.1_Mus_musculus'
+	'9NP_112317.1_Rattus_norvegicus'
+	'9NP_777169.1_Bos_taurus'
+	'9NP_989998.1_Gallus_gallus'
+	'9NP_998288.1_Danio_rerio'
+	'9XP_001104871.1_Macaca_mulatta'
+	'9XP_003317021.1_Pan_troglodytes'
+	'NP_001015921.1_Xenopus_tropicalis'
+	'NP_001025460.1_Mus_musculus'
+	'NP_001033645.1_Bos_taurus'
+	'NP_001065361.2_Oryza_sativa_Japonica_Group'
+	'NP_001128002.1_Rattus_norvegicus'
+	'NP_001179551.1_Bos_taurus'
+	'NP_036115.1_Mus_musculus'
+	'NP_182030.1_Arabidopsis_thaliana'
+	'NP_193397.1_Arabidopsis_thaliana'
+	'NP_446058.1_Rattus_norvegicus'
+	'NP_503790.1_Caenorhabditis_elegans'
+	'NP_510112.2_Caenorhabditis_elegans'
+	'NP_726473.2_Drosophila_melanogaster'
+	'NP_990528.1_Gallus_gallus'
+	'NP_995788.1_Drosophila_melanogaster'
+	'XP_001084206.1_Macaca_mulatta'
+	'XP_001100232.1_Macaca_mulatta'
+	'XP_001337581.3_Danio_rerio'
+	'XP_001341682.4_Danio_rerio'
+	'XP_001342721.4_Danio_rerio'
+	'XP_001688107.1_Anopheles_gambiae_str._PEST'
+	'XP_002662954.2_Danio_rerio'
+	'XP_002663942.1_Danio_rerio'
+	'XP_002664668.3_Danio_rerio'
+	'XP_002798895.1_Macaca_mulatta'
+	'XP_002932554.1_Xenopus_tropicalis'
+	'XP_002934967.2_Xenopus_Silurana_tropicalis'
+	'XP_002934968.1_Xenopus_tropicalis'
+	'XP_002934969.2_Xenopus_tropicalis'
+	'XP_002934976.2_Xenopus_tropicalis'
+	'XP_002934977.2_Xenopus_Silurana_tropicalis'
+	'XP_002944454.2_Xenopus_tropicalis'
+	'XP_003199461.2_Danio_rerio'
+	'XP_003750927.1_Rattus_norvegicus'
+	'XP_005172554.1_Danio_rerio'
+	'XP_320653.4_Anopheles_gambiae_str._PEST'
+	'XP_413995.3_Gallus_gallus'
+	'XP_415771.4_Gallus_gallus'
+	'XP_554330.4_Anopheles_gambiae_str._PEST'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('21XP_002932698.2_Xenopus_tropicalis':0.282588,((('NP_726473.2_Drosophila_melanogaster':0.200117,'XP_001688107.1_Anopheles_gambiae_str._PEST':0.243348):0.630521,(('NP_510112.2_Caenorhabditis_elegans':1.807256,((('7NP_001006278.1_Gallus_gallus':0.615131,((((('3NP_001265018.1_Gallus_gallus':0.551315,('12NP_001193569.1_Bos_taurus':0.326753,((('12NP_446415.2_Rattus_norvegicus':0.037296,'12NP_032631.3_Mus_musculus':0.087395):0.400275,(('12NP_002417.2_Homo_sapiens':1.0E-6,'12XP_508724.2_Pan_troglodytes':0.012285):0.043934,'12XP_001098589.1_Macaca_mulatta':0.077636):0.215899):0.02759,'12XP_854594.2_Canis_lupus_familiaris':0.263538):0.070073)[&!name="mmp12",!collapse={"collapsed",2.5268663177887776}]:0.545604):0.071599,((('3NP_034939.1_Mus_musculus':0.030439,'3NP_598207.2_Rattus_norvegicus':0.138627):0.15683,(('3XP_001098400.1_Macaca_mulatta':0.034285,('3NP_002413.1_Homo_sapiens':0.005325,'3XP_508723.2_Pan_troglodytes':0.006544):0.027854):0.061945,('3NP_001193566.1_Bos_taurus':0.153658,((('10NP_062344.1_Mus_musculus':0.065528,'10NP_598198.1_Rattus_norvegicus':0.076189):0.192236,('10XP_001086245.1_Macaca_mulatta':0.069625,('10NP_002416.1_Homo_sapiens':0.004904,'10XP_001153881.1_Pan_troglodytes':0.011157):0.017238):0.069018):0.124942,'3NP_001002967.1_Canis_lupus_familiaris':0.147106):0.014013):0.016639):0.025834)[&!name="mmp3/10",!collapse={"collapsed",2.817004289048982}]:0.382355,'3XP_425644.4_Gallus_gallus':0.712222):0.08019):0.026764,(('1XP_417176.1_Gallus_gallus':0.38754,('27NP_990331.1_Gallus_gallus':0.331256,('27NP_001092477.1_Bos_taurus':0.071762,('27XP_546548.2_Canis_lupus_familiaris':0.078096,(('NP_001025460.1_Mus_musculus':0.072099,'27NP_001100269.1_Rattus_norvegicus':0.058109):0.235939,(('27NP_071405.2_Homo_sapiens':0.003968,'27XP_001097715.1_Macaca_mulatta':0.020252):0.034095,'27XP_522163.1_Pan_troglodytes':0.004574):0.085459):0.030423):0.048317):0.31563)[&!name="mmp27",!collapse={"collapsed",2.591024911298512}]:0.255683):0.091729,((('1XP_546546.3_Canis_lupus_familiaris':0.118145,(('1XP_001098302.1_Macaca_mulatta':0.024772,('1XP_508722.2_Pan_troglodytes':0.003922,'1NP_002412.1_Homo_sapiens':0.007826):0.015199):0.054748,('1NP_776537.1_Bos_taurus':0.024386,'1XP_003586977.1_Bos_taurus':1.0E-6):0.081176):0.074192):0.126478,(('1bNP_114396.3_Mus_musculus':0.128127,('1bXP_006242575.1_Rattus_norvegicus':0.005075,'1bXP_006242548.1_Rattus_norvegicus':1.0E-6):0.150054):0.108262,('NP_001128002.1_Rattus_norvegicus':0.123015,'1NP_114395.1_Mus_musculus':0.067994):0.064921):0.533072)[&!name="mmp1",!collapse={"collapsed",2.524605834805489}]:0.236422,(('8XP_546547.3_Canis_lupus_familiaris':0.163014,('8XP_002692980.2_Bos_taurus':0.237605,(('8NP_002415.1_Homo_sapiens':0.008258,'8XP_003313323.1_Pan_troglodytes':0.01137):0.072126,'8XP_001098000.2_Macaca_mulatta':0.041736):0.105664):0.035402):0.043767,('8NP_071557.1_Rattus_norvegicus':0.048314,'8NP_032637.3_Mus_musculus':0.041162):0.177071)[&!name="mmp8",!collapse={"collapsed",2.860516239513559}]:0.380201):0.083354):0.115321):0.057631,(((('XP_002934967.2_Xenopus_Silurana_tropicalis':0.244562,((('20XP_854639.1_Canis_lupus_familiaris':0.026219,'20NP_776816.1_Bos_taurus':0.051025):0.038488,('20XP_001097602.1_Macaca_mulatta':0.022572,('20XP_001153208.1_Pan_troglodytes':0.007902,'20NP_004762.2_Homo_sapiens':0.003719):0.008641):0.014266):0.023999,('20NP_038931.1_Mus_musculus':0.012049,'20NP_001100270.1_Rattus_norvegicus':0.031359):0.042898):0.136218):0.476042,'XP_002664668.3_Danio_rerio':0.883618)[&!name="mmp20",!collapse={"collapsed",2.4520745161167037}]:0.342259,(('13XP_001345507.1_Danio_rerio':0.622797,(('13XP_003640635.1_Gallus_gallus':0.215148,(('13NP_032633.1_Mus_musculus':0.02833,'13NP_598214.1_Rattus_norvegicus':0.03383):0.05821,('13NP_776814.1_Bos_taurus':0.064915,('13XP_536598.3_Canis_lupus_familiaris':0.018197,(('13NP_002418.1_Homo_sapiens':1.0E-6,'13XP_001154361.1_Pan_troglodytes':0.011922):0.007903,'13XP_001098996.1_Macaca_mulatta':1.0E-6):0.025905):0.016235):0.013214):0.164601):0.077206,'13XP_002934971.1_Xenopus_tropicalis':0.274796):0.108054):0.221165,'13XP_005169256.1_Danio_rerio':0.6946)[&!name="mmp13",!collapse={"collapsed",2.747906412693043}]:0.086083):0.062581,(('XP_002934977.2_Xenopus_Silurana_tropicalis':0.531719,('XP_002934968.1_Xenopus_tropicalis':0.197303,('XP_002934969.2_Xenopus_tropicalis':0.154667,('XP_002944454.2_Xenopus_tropicalis':0.006889,'XP_002934976.2_Xenopus_tropicalis':0.004596):0.047446):0.232317):0.086919):0.192047,'1NP_001025501.1_Xenopus_tropicalis':0.483205):0.063321):0.073265):0.224364,(('26XP_852601.1_Canis_lupus_familiaris':0.508636,('26XP_508241.2_Pan_troglodytes':1.0E-6,'26NP_068573.2_Homo_sapiens':0.045148):0.153466)[&!name="mmp26"]:1.12563,((((('NP_001033645.1_Bos_taurus':0.030616,((('23XP_001155083.2_Pan_troglodytes':0.10524,('23XP_001095296.1_Macaca_mulatta':0.007004,'23NP_008914.1_Homo_sapiens':0.009283):1.0E-6):0.051438,('NP_446058.1_Rattus_norvegicus':0.032248,'NP_036115.1_Mus_musculus':0.040207):0.193542):0.017528,'23XP_848890.1_Canis_lupus_familiaris':0.026631):0.023853):0.238333,('23XP_004916207.1_Xenopus_tropicalis':0.476042,'23XP_417569.1_Gallus_gallus':0.078915):0.118181):0.180647,'XP_005172554.1_Danio_rerio':0.174681)[&!name="mmp23",!collapse={"collapsed",0.0}]:1.900577,(('NP_001065361.2_Oryza_sativa_Japonica_Group':0.695116,'NP_182030.1_Arabidopsis_thaliana':0.600857):0.244205,'NP_193397.1_Arabidopsis_thaliana':0.306292):0.90514):0.927716,(('7NP_001229655.1_Canis_lupus_familiaris':0.25378,(('7NP_036996.1_Rattus_norvegicus':0.107098,'7NP_034940.2_Mus_musculus':0.080129):0.452059,('7XP_001097508.2_Macaca_mulatta':0.018259,('7NP_002414.1_Homo_sapiens':1.0E-6,'7XP_508721.2_Pan_troglodytes':0.017799):1.0E-6):0.141103):0.039586):0.110573,'7NP_001068598.1_Bos_taurus':0.121456)[&!name="mmp7",!collapse={"collapsed",2.552014465138887}]:0.341834):0.325967):0.109032):0.135025):0.092781,((('9NP_989998.1_Gallus_gallus':0.311814,('9NP_998288.1_Danio_rerio':0.44359,('XP_002932554.1_Xenopus_tropicalis':0.006483,'9NP_001006843.1_Xenopus_tropicalis':0.232231):0.244565):0.073223):0.122323,(('9NP_038627.1_Mus_musculus':0.18098,'9NP_112317.1_Rattus_norvegicus':0.108404):0.148759,(('9NP_777169.1_Bos_taurus':0.120237,'9NP_001003219.1_Canis_lupus_familiaris':0.133421):0.04836,(('9NP_004985.2_Homo_sapiens':0.004629,'9XP_003317021.1_Pan_troglodytes':0.016098):0.040642,'9XP_001104871.1_Macaca_mulatta':0.03589):0.122258):0.088739):0.270083)[&!name="mmp9",!collapse={"collapsed",2.603705583480176}]:0.761144,('2NP_932333.1_Danio_rerio':0.251934,('2NP_001015789.1_Xenopus_tropicalis':0.122297,('2NP_989751.1_Gallus_gallus':0.153936,(('2NP_032636.1_Mus_musculus':1.0E-6,'2NP_112316.2_Rattus_norvegicus':0.008142):0.015939,(('2NP_777170.1_Bos_taurus':0.03701,'2XP_535300.4_Canis_lupus_familiaris':0.008077):0.008238,('2XP_001167520.2_Pan_troglodytes':0.008261,('2NP_004521.1_Homo_sapiens':0.004047,'2XP_001087939.1_Macaca_mulatta':0.004041):1.0E-6):0.004124):0.012617):0.072379):0.053823):0.094827)[&!name="mmp2",!collapse={"collapsed",3.396581505736099}]:0.338026):0.228775):0.337959,(((('11XP_004934559.1_Gallus_gallus':0.182449,(('11NP_037112.2_Rattus_norvegicus':0.041261,'11NP_032632.1_Mus_musculus':0.011488):0.052865,(((('11NP_005931.2_Homo_sapiens':0.00823,'11XP_515022.2_Pan_troglodytes':0.004173):0.013013,'11XP_001083910.1_Macaca_mulatta':0.00822):0.063179,'11NP_001229661.1_Canis_lupus_familiaris':0.048615):0.018301,'11XP_002694738.2_Bos_taurus':0.073294):0.010283):0.24414):0.088575,'11XP_004910638.1_Xenopus_tropicalis':0.258896):0.071235,('11XP_694153.4_Danio_rerio':0.426827,'11XP_692205.6_Danio_rerio':0.381168):0.139769)[&!name="mmp11",!collapse={"collapsed",3.1394287873679003}]:0.809962,(((('XP_320653.4_Anopheles_gambiae_str._PEST':0.476804,'NP_995788.1_Drosophila_melanogaster':0.558624):0.382728,'XP_554330.4_Anopheles_gambiae_str._PEST':1.502023):0.337818,(('17XP_698601.6_Danio_rerio':0.200989,(('17NP_001096469.1_Xenopus_tropicalis':0.170969,'17XP_415092.3_Gallus_gallus':0.047218):0.040118,((('17NP_035976.3_Mus_musculus':0.025839,'17NP_001099395.1_Rattus_norvegicus':0.008933):0.044048,('XP_002798895.1_Macaca_mulatta':0.009162,('17NP_057239.4_Homo_sapiens':0.00404,'17XP_509485.2_Pan_troglodytes':0.004117):0.015402):0.010787):0.013672,('17XP_852332.3_Canis_lupus_familiaris':0.089352,'17XP_002694502.1_Bos_taurus':0.027808):0.030576):0.153074):0.061874):0.517663,(('XP_002663942.1_Danio_rerio':0.48115,'XP_001341682.4_Danio_rerio':0.639832):0.362657,(('25NP_001028511.1_Mus_musculus':0.225133,(('25XP_001165615.2_Pan_troglodytes':0.004164,'25NP_071913.1_Homo_sapiens':1.0E-6):0.08371,('25XP_005224698.1_Bos_taurus':0.084971,'25XP_547166.3_Canis_lupus_familiaris':0.163645):0.050016):0.042442):0.545025,'25XP_002943093.2_Xenopus_Silurana_tropicalis':0.498379):0.098429):0.089258):0.351026):0.152805,((('XP_002662954.2_Danio_rerio':0.176113,('NP_001015921.1_Xenopus_tropicalis':0.237954,('XP_413995.3_Gallus_gallus':0.10873,(('15NP_032635.1_Mus_musculus':1.0E-6,'15NP_001099638.1_Rattus_norvegicus':0.016305):0.082994,(('15NP_001178363.1_Bos_taurus':1.0E-6,'15XP_544383.3_Canis_lupus_familiaris':0.020947):0.006403,('15XP_001101050.1_Macaca_mulatta':0.009214,('15XP_001150678.2_Pan_troglodytes':1.0E-6,'15NP_002419.1_Homo_sapiens':1.0E-6):0.003143):0.015334):0.03161):0.110542):0.073492):0.086665):0.145151,(('14NP_919397.1_Danio_rerio':0.247175,'14NP_919395.1_Danio_rerio':0.204264):0.111079,('14NP_001025559.1_Xenopus_tropicalis':0.128428,(('XP_001100232.1_Macaca_mulatta':0.008105,('14XP_001157686.1_Pan_troglodytes':1.0E-6,'14NP_004986.1_Homo_sapiens':1.0E-6):0.004049):0.008271,(('14NP_112318.1_Rattus_norvegicus':0.008201,'14NP_032634.3_Mus_musculus':1.0E-6):0.012063,('14XP_856947.1_Canis_lupus_familiaris':0.004015,'14NP_776815.1_Bos_taurus':0.016312):1.0E-6):0.008126):0.117107):0.058743):0.20834):0.111351,(('16XP_700781.6_Danio_rerio':0.192982,('16NP_001015992.1_Xenopus_tropicalis':0.077148,('NP_990528.1_Gallus_gallus':0.086897,('16XP_001136497.1_Pan_troglodytes':1.0E-6,(('16NP_542954.1_Rattus_norvegicus':0.004122,'16NP_062698.2_Mus_musculus':1.0E-6):0.012358,((('XP_001084206.1_Macaca_mulatta':1.0E-6,'16XP_544165.3_Canis_lupus_familiaris':1.0E-6):1.0E-6,'16NP_005932.2_Homo_sapiens':1.0E-6):1.0E-6,'NP_001179551.1_Bos_taurus':0.008237):1.0E-6):0.012503):0.017917):0.027932):0.022808):0.179057,('24XP_002942325.2_Xenopus_tropicalis':0.039192,(('24XP_417326.4_Gallus_gallus':0.033059,('24XP_002692352.2_Bos_taurus':0.004142,(('24NP_006681.1_Homo_sapiens':1.0E-6,'24XP_003316927.1_Pan_troglodytes':1.0E-6):0.004126,(('24XP_001100890.2_Macaca_mulatta':1.0E-6,'24NP_034938.3_Mus_musculus':1.0E-6):1.0E-6,('24XP_005635025.1_Canis_lupus_familiaris':1.0E-6,'24NP_113945.1_Rattus_norvegicus':1.0E-6):1.0E-6):1.0E-6):1.0E-6):0.061589):0.023904,'24XP_699803.4_Danio_rerio':0.141032):0.009976):0.128527):0.136064):0.552821):0.099623):0.08794):0.146375):0.128178,(('XP_003199461.2_Danio_rerio':0.468198,((((('19XP_001154045.2_Pan_troglodytes':0.004153,'19NP_002420.1_Homo_sapiens':0.008611):0.01765,'19XP_001111542.1_Macaca_mulatta':0.081391):0.045347,('19NP_001069451.1_Bos_taurus':0.061293,'19XP_848410.2_Canis_lupus_familiaris':0.096641):0.034661):0.057394,('19NP_067387.1_Mus_musculus':0.080072,'19NP_001100629.1_Rattus_norvegicus':0.025427):0.090585):0.401979,'19XP_002934557.2_Xenopus_Silurana_tropicalis':0.424779):0.126138):0.666982,('NP_503790.1_Caenorhabditis_elegans':2.129415,('XP_001337581.3_Danio_rerio':0.514548,('28XP_002933877.2_Xenopus_tropicalis':0.392525,('XP_415771.4_Gallus_gallus':0.312986,((('28XP_002695695.3_Bos_taurus':0.376694,'28XP_548256.2_Canis_lupus_familiaris':0.068694):0.03633,('28NP_077278.1_Homo_sapiens':0.013473,'28XP_001114445.2_Macaca_mulatta':0.020863):0.03231):0.031626,(('XP_003750927.1_Rattus_norvegicus':1.0E-6,'28NP_001073357.1_Rattus_norvegicus':1.0E-6):0.027592,'28NP_536701.1_Mus_musculus':0.021673):0.073741):0.43698):0.122505):0.255489):0.736391):0.240174):0.176757):0.179635):1.750992,(((('21NP_671724.1_Homo_sapiens':0.008514,'21XP_003312866.1_Pan_troglodytes':0.025557):0.018441,'21XP_001085506.1_Macaca_mulatta':0.025963):0.083187,'21XP_003640036.1_Canis_lupus_familiaris':0.165334):0.059867,('21NP_694423.1_Mus_musculus':0.034477,'21NP_001099778.1_Rattus_norvegicus':0.059584):0.100156):0.148472):0.150982,'XP_001342721.4_Danio_rerio':0.570863);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=228;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=8641;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

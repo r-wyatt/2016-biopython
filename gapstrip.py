@@ -1,5 +1,6 @@
 import subprocess,datetime,time,sys,os,re
 from Bio import AlignIO
+from Bio import Phylo
 #-----------------------------------------------------------------------------
 # Presets
 #-----------------------------------------------------------------------------
@@ -7,7 +8,7 @@ input = sys.argv[1] # first argument is the input alignment
 
 base = 'strippedalign'
 
-rates = [0.6,0.8,0.9,0.92,0.94,0.96,0.98]
+rates = [0.8,0.9,0.92,0.94,0.96,0.98]
 alignments = []
 
 #-----------------------------------------------------------------------------
@@ -19,8 +20,8 @@ print "\nStarted: ",datetime.datetime.now().time(),"\n"
 for each in rates:
 	outname = base+re.sub(r'\..*','',str(each*100))+".fas"
 	cmd = ['trimal','-in',input,'-out',outname,'-fasta','-gt',str(each)]
-	process = subprocess.Popen(cmd)
-	process.wait()
+	#process = subprocess.Popen(cmd)
+	#process.wait()
 
 	alignment=AlignIO.read(open(outname),"fasta")	
 	print ("Alignment length: %i for %i percent" % (alignment.get_alignment_length(),each*100))
@@ -40,8 +41,10 @@ for each in alignments:
 	print "\n***** Building tree for ",each," *****"
 	name = "T"+re.match(r'.*?([0-9]*)\..*',each).group(1)
 	raxMLcmd = ['raxmlHPC.exe', '-m', 'PROTGAMMAJTTF', '-p', '56845', '-s', each, '-n', name,">","stdout."+name]
-	process = subprocess.Popen(raxMLcmd,shell=True)
-	process.wait()
+	#process = subprocess.Popen(raxMLcmd,shell=True)
+	#process.wait()
+	tree = Phylo.parse("RaxML_bestTree."+name,"newick")
+	Phylo.write(tree,"RaxML_bestTree"+name+".nex","nexus")
 	time2 = time.time()-time1
 	div = divmod(time2,86400)
 	days = div[0]
