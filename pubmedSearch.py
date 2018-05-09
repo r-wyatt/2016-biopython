@@ -10,11 +10,11 @@ Arguments:
 		1: Input filename
 		2: Output format
 '''
-
+print intro
 jobName = raw_input("Job name: ")
 Entrez.email = raw_input("Enter email: ")
 
-years = [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016]
+years = [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018]
 
 def searchHitNum(query,sdate,edate):
 	
@@ -45,12 +45,12 @@ for mmp in names:
 		queries.append(query)
 
 
-with open("output.csv","w") as f:
+with open("output2.csv","w") as f:
 	writer = csv.writer(f)
 	writer.writerows(counts)
 
 stdout_bk = sys.stdout
-sys.stdout = open("queries.txt","w")
+sys.stdout = open("queries2.txt","w")
 print queries
 sys.stdout = stdout_bk
 

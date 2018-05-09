@@ -2,7 +2,10 @@ import sys, os, re
 
 intro = '''\nThis script will put all of the sequence names from
 a fasta file specified by the first argument into the new file 
-specified by the second argument.\n'''
+specified by the second argument. It will create several different
+iterations of names for different purposes (ex: no special charac-
+ters/spaces for tree building or full accession for fact checking
+or species codes for display).\n'''
 
 print intro
 
@@ -18,9 +21,11 @@ with open(os.path.join(sys.argv[1]),"r") as f:
 	for line in f:
 		sys.stdout
 		if re.search(r'>',line):
-			accm = re.match(r'\>([A-Z|a-z]{2,3}_[0-9]*.[0-9]*) .*',line)
+			line = line.replace(",","")
+			accm = re.match(r'\>([0-9]*)_([A-Z|a-z]{2,3}_[0-9]*.[0-9]*) .*',line)
 			if accm is not None:
-				acc = accm.group(1)
+				acc = accm.group(2)
+				gID = accm.group(1)
 			else:
 				acc = ""
 			specmatch = re.match(r'.*\[([A-Z|a-z]* [A-Z|a-z]*)\].*',line)
@@ -48,14 +53,16 @@ with open(os.path.join(sys.argv[1]),"r") as f:
 				for nick in nicknames:
 					if re.search(nick[0],line):
 						code = nick[1]
+			nospace = line.strip(">").split(" ")
 			figName = species+"_MMP"+code
 			raxmlName = scode+code+acc
 			phyName = scode+acc.replace("_","")[:-2]
 			shortName = scode[0:1]+phyName[-9:]
-			firstName = line.replace("\n","")[1:]
+			firstName = line.replace("\n","")[1:].replace("\r","")
 			longName = figName+"_"+acc
-			
-			sys.stdout.write(firstName+","+raxmlName+","+figName+","+phyName+","+shortName+","+longName+"\n")
+			geneIDname = scode+gID[-8:]
+			sys.stdout.write((firstName+","+raxmlName+","+figName+","+geneIDname+"," +
+			                 phyName+","+shortName+","+longName+","+nospace[0]+","+species+"\n"))
 sys.stdout = stdout_bk			
 			
 
